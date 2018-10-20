@@ -1,0 +1,3 @@
+[submodule "bestiary"]
+	path = bestiary
+	url = https://github.com/sukritsingh/bestiary
