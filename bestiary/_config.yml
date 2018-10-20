@@ -1,11 +1,11 @@
 # Site settings
 title: "Bestiary"
-author: "chisaipete"
+author: "sukritsingh"
 description:
   "A searchable D&D 5e creature list."
 baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
-url: "http://chisaipete.github.io" # the base hostname & protocol for your site
-source-url: "https://github.com/chisaipete/bestiary/"
+url: "http://sukritsingh.github.io" # the base hostname & protocol for your site
+#source-url: "https://github.com/sukritsingh/bestiary/"
 permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
