@@ -1,9 +1,10 @@
 theme: jekyll-theme-cayman
 
-title: "bestiary"
+title: "Bestiary"
 author: "sukritsingh"
 description:
-  "A searchable D&D 5e creature list. Under construction"
+  "A searchable D&D 5e creature list."
 baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
 url: "http://sukritsingh.github.io" # the base hostname & protocol for your site
 source-url: "https://github.com/sukritsingh/bestiary/"
+permalink: "/:categories/:title"

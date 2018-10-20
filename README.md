@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to My Github Pages page!
+
+I'm still pretty new to the whole "web development and deployment thing" so 
+please bear with me for any ugliness/confusion that may appear on this github
+repository. 
+
+This repository is run using Jekyll. 
 
 You can use the [editor on GitHub](https://github.com/sukritsingh/sukritsingh.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
