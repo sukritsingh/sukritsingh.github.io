@@ -1,10 +1,25 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 
+# Site settings
 title: "Bestiary"
 author: "sukritsingh"
 description:
   "A searchable D&D 5e creature list."
-baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
+#baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
 url: "http://sukritsingh.github.io" # the base hostname & protocol for your site
-source-url: "https://github.com/sukritsingh/bestiary/"
+#source-url: "https://github.com/sukritsingh/bestiary/"
 permalink: "/:categories/:title"
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+# # Build settings
+# markdown: kramdown
+# highlighter: pygments
+
+# Site defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: "creatures"
