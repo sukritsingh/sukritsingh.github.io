@@ -1,8 +1,8 @@
 theme: jekyll-theme-cayman
 
 
-# baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
-# author: "sukritsingh"
-# description:
-#   "A searchable D&D 5e creature list. Under construction"
-# url: "http://sukritsingh.github.io" # the base hostname & protocol for your site
+baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
+author: "sukritsingh"
+description:
+  "A searchable D&D 5e creature list. Under construction"
+url: "http://sukritsingh.github.io" # the base hostname & protocol for your site
