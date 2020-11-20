@@ -1,0 +1,922 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version='2005-1' xmlns='http://www.daisy.org/z3986/2005/ncx/'>
+  <head>
+    <meta name='dtb:uid' content='http://example.com/main' />
+    <meta name='dtb:depth' content='3' />
+    <meta name='dtb:totalPageCount' content='0' />
+    <meta name='dtb:maxPageNumber' content='0' />
+  </head>
+  <docTitle>
+    <text>Unnamed</text>
+  </docTitle>
+  <navMap>
+    <navPoint playOrder='1' id='navPoint-1'>
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src='mainli1.html#x2-1000'></content>
+    </navPoint>
+    <navPoint playOrder='2' id='navPoint-2'>
+      <navLabel>
+        <text>List of Figures</text>
+      </navLabel>
+      <content src='mainli2.html#x3-2000'></content>
+    </navPoint>
+    <navPoint playOrder='3' id='navPoint-3'>
+      <navLabel>
+        <text>List of Figures</text>
+      </navLabel>
+      <content src='mainli2.html#Q1-3-3'></content>
+    </navPoint>
+    <navPoint playOrder='4' id='navPoint-4'>
+      <navLabel>
+        <text>List of Tables</text>
+      </navLabel>
+      <content src='mainli3.html#x4-3000'></content>
+    </navPoint>
+    <navPoint playOrder='5' id='navPoint-5'>
+      <navLabel>
+        <text>List of Tables</text>
+      </navLabel>
+      <content src='mainli3.html#Q1-4-5'></content>
+    </navPoint>
+    <navPoint playOrder='6' id='navPoint-6'>
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src='mainli4.html#x5-4000'></content>
+    </navPoint>
+    <navPoint playOrder='7' id='navPoint-7'>
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src='mainli4.html#Q1-5-7'></content>
+    </navPoint>
+    <navPoint playOrder='8' id='navPoint-8'>
+      <navLabel>
+        <text>Abstract</text>
+      </navLabel>
+      <content src='mainli4.html#Q1-5-8'></content>
+    </navPoint>
+    <navPoint playOrder='9' id='navPoint-9'>
+      <navLabel>
+        <text>1 Introduction</text>
+      </navLabel>
+      <content src='mainch1.html#x6-50001'></content>
+      <navPoint playOrder='10' id='navPoint-10'>
+        <navLabel>
+          <text>1.1 Protein conformational landscapes encode
+          functional information.</text>
+        </navLabel>
+        <content src='mainch1.html#x6-60001.1'></content>
+      </navPoint>
+      <navPoint playOrder='11' id='navPoint-11'>
+        <navLabel>
+          <text>1.2 The Folding@home platform allows access to
+          protein motions at biologically relevant
+          timescales.</text>
+        </navLabel>
+        <content src='mainch1.html#x6-70001.2'></content>
+        <navPoint playOrder='12' id='navPoint-12'>
+          <navLabel>
+            <text>1.2.1 Folding@home distributes simulations across
+            thousands of computers at once.</text>
+          </navLabel>
+          <content src='mainch1.html#x6-80001.2.1'></content>
+        </navPoint>
+        <navPoint playOrder='13' id='navPoint-13'>
+          <navLabel>
+            <text>1.2.2 Markov State Models allow for the
+            construction of unified models from large simulation
+            datasets.</text>
+          </navLabel>
+          <content src='mainch1.html#x6-90001.2.2'></content>
+        </navPoint>
+        <navPoint playOrder='14' id='navPoint-14'>
+          <navLabel>
+            <text>1.2.3 The scalable power of Folding@home has
+            generated insights into protein behaviors.</text>
+          </navLabel>
+          <content src='mainch1.html#x6-100001.2.3'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='15' id='navPoint-15'>
+        <navLabel>
+          <text>1.3 Allosteric communication is critical for
+          protein function, but difficult to infer.</text>
+        </navLabel>
+        <content src='mainch1.html#x6-110001.3'></content>
+        <navPoint playOrder='16' id='navPoint-16'>
+          <navLabel>
+            <text>1.3.1 Allosteric communication is universal and
+            critical for biological function.</text>
+          </navLabel>
+          <content src='mainch1.html#x6-120001.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='17' id='navPoint-17'>
+          <navLabel>
+            <text>1.3.2 Inferring allosteric communication in
+            proteins remains a non-trivial task.</text>
+          </navLabel>
+          <content src='mainch1.html#x6-130001.3.2'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='18' id='navPoint-18'>
+        <navLabel>
+          <text>1.4 Scope of thesis.</text>
+        </navLabel>
+        <content src='mainch1.html#x6-140001.4'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='19' id='navPoint-19'>
+      <navLabel>
+        <text>2 Quantifying allosteric communication via both
+        concerted structural changes and conformational
+        disorder</text>
+      </navLabel>
+      <content src='mainch2.html#x7-150002'></content>
+      <navPoint playOrder='20' id='navPoint-20'>
+        <navLabel>
+          <text>2.1 Abstract</text>
+        </navLabel>
+        <content src='mainch2.html#x7-160002.1'></content>
+      </navPoint>
+      <navPoint playOrder='21' id='navPoint-21'>
+        <navLabel>
+          <text>2.2 Introduction</text>
+        </navLabel>
+        <content src='mainch2.html#x7-170002.2'></content>
+      </navPoint>
+      <navPoint playOrder='22' id='navPoint-22'>
+        <navLabel>
+          <text>2.3 Theory and methods</text>
+        </navLabel>
+        <content src='mainch2.html#x7-180002.3'></content>
+        <navPoint playOrder='23' id='navPoint-23'>
+          <navLabel>
+            <text>2.3.1 Molecular Dynamics simulations</text>
+          </navLabel>
+          <content src='mainch2.html#x7-190002.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='24' id='navPoint-24'>
+          <navLabel>
+            <text>2.3.2 Assignment of dihedrals to rotameric
+            states</text>
+          </navLabel>
+          <content src='mainch2.html#x7-200002.3.2'></content>
+        </navPoint>
+        <navPoint playOrder='25' id='navPoint-25'>
+          <navLabel>
+            <text>2.3.3 Assignment of snapshots to dynamical
+            states</text>
+          </navLabel>
+          <content src='mainch2.html#x7-210002.3.3'></content>
+        </navPoint>
+        <navPoint playOrder='26' id='navPoint-26'>
+          <navLabel>
+            <text>2.3.4 Calculation of structural,
+            disorder-mediated, and holistic correlations</text>
+          </navLabel>
+          <content src='mainch2.html#x7-220002.3.4'></content>
+        </navPoint>
+        <navPoint playOrder='27' id='navPoint-27'>
+          <navLabel>
+            <text>2.3.5 Calculation of net communication to a
+            target site</text>
+          </navLabel>
+          <content src='mainch2.html#x7-230002.3.5'></content>
+        </navPoint>
+        <navPoint playOrder='28' id='navPoint-28'>
+          <navLabel>
+            <text>2.3.6 Calculation of global communication</text>
+          </navLabel>
+          <content src='mainch2.html#x7-240002.3.6'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='29' id='navPoint-29'>
+        <navLabel>
+          <text>2.4 Results and discussion</text>
+        </navLabel>
+        <content src='mainch2.html#x7-250002.4'></content>
+        <navPoint playOrder='30' id='navPoint-30'>
+          <navLabel>
+            <text>2.4.1 Many dihedrals have the potential for
+            disorder-mediated communication</text>
+          </navLabel>
+          <content src='mainch2.html#x7-260002.4.1'></content>
+        </navPoint>
+        <navPoint playOrder='31' id='navPoint-31'>
+          <navLabel>
+            <text>2.4.2 Disorder-mediated correlations dominate
+            communication between the CBDs</text>
+          </navLabel>
+          <content src='mainch2.html#x7-270002.4.2'></content>
+        </navPoint>
+        <navPoint playOrder='32' id='navPoint-32'>
+          <navLabel>
+            <text>2.4.3 Disorder-mediated communication is enhanced
+            in the S62F variant</text>
+          </navLabel>
+          <content src='mainch2.html#x7-280002.4.3'></content>
+        </navPoint>
+        <navPoint playOrder='33' id='navPoint-33'>
+          <navLabel>
+            <text>2.4.4 Side-chain-side-chain and
+            backbone-side-chain correlations dominate allosteric
+            communication in CAP</text>
+          </navLabel>
+          <content src='mainch2.html#x7-290002.4.4'></content>
+        </navPoint>
+        <navPoint playOrder='34' id='navPoint-34'>
+          <navLabel>
+            <text>2.4.5 Locating communication hotspots identifies
+            key functional sites</text>
+          </navLabel>
+          <content src='mainch2.html#x7-300002.4.5'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='35' id='navPoint-35'>
+        <navLabel>
+          <text>2.5 Conclusion</text>
+        </navLabel>
+        <content src='mainch2.html#x7-310002.5'></content>
+      </navPoint>
+      <navPoint playOrder='36' id='navPoint-36'>
+        <navLabel>
+          <text>2.6 Acknowledgements</text>
+        </navLabel>
+        <content src='mainch2.html#x7-320002.6'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='37' id='navPoint-37'>
+      <navLabel>
+        <text>3 Simulation of spontaneous G protein activation
+        reveals a new intermediate driving GDP unbinding</text>
+      </navLabel>
+      <content src='mainch3.html#x8-330003'></content>
+      <navPoint playOrder='38' id='navPoint-38'>
+        <navLabel>
+          <text>3.1 Abstract</text>
+        </navLabel>
+        <content src='mainch3.html#x8-340003.1'></content>
+      </navPoint>
+      <navPoint playOrder='39' id='navPoint-39'>
+        <navLabel>
+          <text>3.2 Introduction</text>
+        </navLabel>
+        <content src='mainch3.html#x8-350003.2'></content>
+      </navPoint>
+      <navPoint playOrder='40' id='navPoint-40'>
+        <navLabel>
+          <text>3.3 Results and Discussion</text>
+        </navLabel>
+        <content src='mainch3.html#x8-360003.3'></content>
+        <navPoint playOrder='41' id='navPoint-41'>
+          <navLabel>
+            <text>3.3.1 Capturing G-protein activation and GDP
+            release in atomic detail</text>
+          </navLabel>
+          <content src='mainch3.html#x8-370003.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='42' id='navPoint-42'>
+          <navLabel>
+            <text>3.3.2 Tilting of H5 helps induce GDP
+            release</text>
+          </navLabel>
+          <content src='mainch3.html#x8-380003.3.2'></content>
+        </navPoint>
+        <navPoint playOrder='43' id='navPoint-43'>
+          <navLabel>
+            <text>3.3.3 Identification of the allosteric network
+            that triggers GDP release</text>
+          </navLabel>
+          <content src='mainch3.html#x8-390003.3.3'></content>
+        </navPoint>
+        <navPoint playOrder='44' id='navPoint-44'>
+          <navLabel>
+            <text>3.3.4 H1 and β-sheets are communication
+            hubs</text>
+          </navLabel>
+          <content src='mainch3.html#x8-400003.3.4'></content>
+        </navPoint>
+        <navPoint playOrder='45' id='navPoint-45'>
+          <navLabel>
+            <text>3.3.5 GDP release alters the structure and
+            dynamics of the Gβ-binding site</text>
+          </navLabel>
+          <content src='mainch3.html#x8-410003.3.5'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='46' id='navPoint-46'>
+        <navLabel>
+          <text>3.4 Conclusion</text>
+        </navLabel>
+        <content src='mainch3.html#x8-420003.4'></content>
+      </navPoint>
+      <navPoint playOrder='47' id='navPoint-47'>
+        <navLabel>
+          <text>3.5 Materials and Methods</text>
+        </navLabel>
+        <content src='mainch3.html#x8-430003.5'></content>
+        <navPoint playOrder='48' id='navPoint-48'>
+          <navLabel>
+            <text>3.5.1 Molecular dynamics simulations of GDP
+            unbinding</text>
+          </navLabel>
+          <content src='mainch3.html#x8-440003.5.1'></content>
+        </navPoint>
+        <navPoint playOrder='49' id='navPoint-49'>
+          <navLabel>
+            <text>3.5.2 Identifying the allosteric network with
+            CARDS</text>
+          </navLabel>
+          <content src='mainch3.html#x8-490003.5.2'></content>
+        </navPoint>
+        <navPoint playOrder='50' id='navPoint-50'>
+          <navLabel>
+            <text>3.5.3 Markov state model construction</text>
+          </navLabel>
+          <content src='mainch3.html#x8-500003.5.3'></content>
+        </navPoint>
+        <navPoint playOrder='51' id='navPoint-51'>
+          <navLabel>
+            <text>3.5.4 Quantifying conformational disorder</text>
+          </navLabel>
+          <content src='mainch3.html#x8-510003.5.4'></content>
+        </navPoint>
+        <navPoint playOrder='52' id='navPoint-52'>
+          <navLabel>
+            <text>3.5.5 Identification of the rate-limiting step
+            for GDP release</text>
+          </navLabel>
+          <content src='mainch3.html#x8-520003.5.5'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='53' id='navPoint-53'>
+        <navLabel>
+          <text>3.6 Acknowledgements</text>
+        </navLabel>
+        <content src='mainch3.html#x8-530003.6'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='54' id='navPoint-54'>
+      <navLabel>
+        <text>4 Discovery of a cryptic allosteric site in Ebola’s
+        ‘undruggable’ VP35 protein using simulations and
+        experiments</text>
+      </navLabel>
+      <content src='mainch4.html#x9-540004'></content>
+      <navPoint playOrder='55' id='navPoint-55'>
+        <navLabel>
+          <text>4.1 Abstract</text>
+        </navLabel>
+        <content src='mainch4.html#x9-550004.1'></content>
+      </navPoint>
+      <navPoint playOrder='56' id='navPoint-56'>
+        <navLabel>
+          <text>4.2 Introduction</text>
+        </navLabel>
+        <content src='mainch4.html#x9-560004.2'></content>
+      </navPoint>
+      <navPoint playOrder='57' id='navPoint-57'>
+        <navLabel>
+          <text>4.3 Results</text>
+        </navLabel>
+        <content src='mainch4.html#x9-570004.3'></content>
+        <navPoint playOrder='58' id='navPoint-58'>
+          <navLabel>
+            <text>4.3.1 Computer simulations reveal a potentially
+            druggable cryptic pocket.</text>
+          </navLabel>
+          <content src='mainch4.html#x9-580004.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='59' id='navPoint-59'>
+          <navLabel>
+            <text>4.3.2 The cryptic pocket is allosterically
+            coupled to the blunt end-binding interface.</text>
+          </navLabel>
+          <content src='mainch4.html#x9-590004.3.2'></content>
+        </navPoint>
+        <navPoint playOrder='60' id='navPoint-60'>
+          <navLabel>
+            <text>4.3.3 Thiol labeling experiments corroborate the
+            predicted cryptic pocket.</text>
+          </navLabel>
+          <content src='mainch4.html#x9-600004.3.3'></content>
+        </navPoint>
+        <navPoint playOrder='61' id='navPoint-61'>
+          <navLabel>
+            <text>4.3.4 Stabilizing the open cryptic pocket
+            allosterically disrupts binding to dsRNA blunt
+            ends.</text>
+          </navLabel>
+          <content src='mainch4.html#x9-610004.3.4'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='62' id='navPoint-62'>
+        <navLabel>
+          <text>4.4 Discussion.</text>
+        </navLabel>
+        <content src='mainch4.html#x9-620004.4'></content>
+      </navPoint>
+      <navPoint playOrder='63' id='navPoint-63'>
+        <navLabel>
+          <text>4.5 Methods</text>
+        </navLabel>
+        <content src='mainch4.html#x9-630004.5'></content>
+        <navPoint playOrder='64' id='navPoint-64'>
+          <navLabel>
+            <text>4.5.1 Molecular dynamics simulations and
+            analysis</text>
+          </navLabel>
+          <content src='mainch4.html#x9-640004.5.1'></content>
+        </navPoint>
+        <navPoint playOrder='65' id='navPoint-65'>
+          <navLabel>
+            <text>4.5.2 Protein expression and purification</text>
+          </navLabel>
+          <content src='mainch4.html#x9-650004.5.2'></content>
+        </navPoint>
+        <navPoint playOrder='66' id='navPoint-66'>
+          <navLabel>
+            <text>4.5.3 Thiol labeling</text>
+          </navLabel>
+          <content src='mainch4.html#x9-660004.5.3'></content>
+        </navPoint>
+        <navPoint playOrder='67' id='navPoint-67'>
+          <navLabel>
+            <text>4.5.4 Fluorescence polarization binding
+            assay</text>
+          </navLabel>
+          <content src='mainch4.html#x9-670004.5.4'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='68' id='navPoint-68'>
+        <navLabel>
+          <text>4.6 Acknowledgements</text>
+        </navLabel>
+        <content src='mainch4.html#x9-680004.6'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='69' id='navPoint-69'>
+      <navLabel>
+        <text>5 The SARS-CoV-2 nucleocapsid protein is dynamic,
+        disordered, and phase separates with RNA.</text>
+      </navLabel>
+      <content src='mainch5.html#x10-690005'></content>
+      <navPoint playOrder='70' id='navPoint-70'>
+        <navLabel>
+          <text>5.1 Abstract</text>
+        </navLabel>
+        <content src='mainch5.html#x10-700005.1'></content>
+      </navPoint>
+      <navPoint playOrder='71' id='navPoint-71'>
+        <navLabel>
+          <text>5.2 Introduction</text>
+        </navLabel>
+        <content src='mainch5.html#x10-710005.2'></content>
+      </navPoint>
+      <navPoint playOrder='72' id='navPoint-72'>
+        <navLabel>
+          <text>5.3 Results</text>
+        </navLabel>
+        <content src='mainch5.html#x10-720005.3'></content>
+        <navPoint playOrder='73' id='navPoint-73'>
+          <navLabel>
+            <text>5.3.1 The NTD is disordered, flexible, and
+            transiently interacts with the RBD.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-730005.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='74' id='navPoint-74'>
+          <navLabel>
+            <text>5.3.2 The linker is highly dynamic and there is
+            minimal interaction between the RBD and the
+            dimerization domain.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-740005.3.2'></content>
+        </navPoint>
+        <navPoint playOrder='75' id='navPoint-75'>
+          <navLabel>
+            <text>5.3.3 The CTD engages in transient but
+            non-negligible interactions with the dimerization
+            domain.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-750005.3.3'></content>
+        </navPoint>
+        <navPoint playOrder='76' id='navPoint-76'>
+          <navLabel>
+            <text>5.3.4 N protein undergoes phase separation with
+            RNA.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-760005.3.4'></content>
+        </navPoint>
+        <navPoint playOrder='77' id='navPoint-77'>
+          <navLabel>
+            <text>5.3.5 A simple polymer model shows
+            symmetry-breaking can facilitate multiple metastable
+            single-polymer condensates instead of a single
+            multi-polymer condensate.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-770005.3.5'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='78' id='navPoint-78'>
+        <navLabel>
+          <text>5.4 Discussion</text>
+        </navLabel>
+        <content src='mainch5.html#x10-780005.4'></content>
+        <navPoint playOrder='79' id='navPoint-79'>
+          <navLabel>
+            <text>5.4.1 All three IDRs are highly dynamic</text>
+          </navLabel>
+          <content src='mainch5.html#x10-790005.4.1'></content>
+        </navPoint>
+        <navPoint playOrder='80' id='navPoint-80'>
+          <navLabel>
+            <text>5.4.2 Simulations identify multiple transient
+            helices</text>
+          </navLabel>
+          <content src='mainch5.html#x10-800005.4.2'></content>
+        </navPoint>
+        <navPoint playOrder='81' id='navPoint-81'>
+          <navLabel>
+            <text>5.4.3 The physiological relevance of nucleocapsid
+            protein phase separation in SARS-CoV-2
+            physiology</text>
+          </navLabel>
+          <content src='mainch5.html#x10-810005.4.3'></content>
+        </navPoint>
+        <navPoint playOrder='82' id='navPoint-82'>
+          <navLabel>
+            <text>5.4.4 The physics of single polymer
+            condensates</text>
+          </navLabel>
+          <content src='mainch5.html#x10-820005.4.4'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='83' id='navPoint-83'>
+        <navLabel>
+          <text>5.5 Methods</text>
+        </navLabel>
+        <content src='mainch5.html#x10-830005.5'></content>
+        <navPoint playOrder='84' id='navPoint-84'>
+          <navLabel>
+            <text>5.5.1 All atom simulations</text>
+          </navLabel>
+          <content src='mainch5.html#x10-840005.5.1'></content>
+        </navPoint>
+        <navPoint playOrder='85' id='navPoint-85'>
+          <navLabel>
+            <text>5.5.2 Coarse-grained Polymer Simulations</text>
+          </navLabel>
+          <content src='mainch5.html#x10-850005.5.2'></content>
+        </navPoint>
+        <navPoint playOrder='86' id='navPoint-86'>
+          <navLabel>
+            <text>5.5.3 Protein Expression, purification, and
+            labeling.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-860005.5.3'></content>
+        </navPoint>
+        <navPoint playOrder='87' id='navPoint-87'>
+          <navLabel>
+            <text>5.5.4 Single-molecule fluorescence
+            spectroscopy.</text>
+          </navLabel>
+          <content src='mainch5.html#x10-870005.5.4'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='88' id='navPoint-88'>
+        <navLabel>
+          <text>5.6 Acknowledgements</text>
+        </navLabel>
+        <content src='mainch5.html#x10-880005.6'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='89' id='navPoint-89'>
+      <navLabel>
+        <text>6 Citizen Scientists Create an Exascale Computer to
+        Combat COVID-19</text>
+      </navLabel>
+      <content src='mainch6.html#x11-890006'></content>
+      <navPoint playOrder='90' id='navPoint-90'>
+        <navLabel>
+          <text>6.1 Abstract</text>
+        </navLabel>
+        <content src='mainch6.html#x11-900006.1'></content>
+      </navPoint>
+      <navPoint playOrder='91' id='navPoint-91'>
+        <navLabel>
+          <text>6.2 Introduction</text>
+        </navLabel>
+        <content src='mainch6.html#x11-910006.2'></content>
+      </navPoint>
+      <navPoint playOrder='92' id='navPoint-92'>
+        <navLabel>
+          <text>6.3 Results and discussion</text>
+        </navLabel>
+        <content src='mainch6.html#x11-920006.3'></content>
+        <navPoint playOrder='93' id='navPoint-93'>
+          <navLabel>
+            <text>6.3.1 To the Exascale and beyond!</text>
+          </navLabel>
+          <content src='mainch6.html#x11-930006.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='94' id='navPoint-94'>
+          <navLabel>
+            <text>6.3.2 Unmasking the spike complex</text>
+          </navLabel>
+          <content src='mainch6.html#x11-940006.3.2'></content>
+        </navPoint>
+        <navPoint playOrder='95' id='navPoint-95'>
+          <navLabel>
+            <text>6.3.3 Cryptic pockets and functional
+            dynamics</text>
+          </navLabel>
+          <content src='mainch6.html#x11-950006.3.3'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='96' id='navPoint-96'>
+        <navLabel>
+          <text>6.4 Discussion</text>
+        </navLabel>
+        <content src='mainch6.html#x11-960006.4'></content>
+      </navPoint>
+      <navPoint playOrder='97' id='navPoint-97'>
+        <navLabel>
+          <text>6.5 Methods</text>
+        </navLabel>
+        <content src='mainch6.html#x11-970006.5'></content>
+        <navPoint playOrder='98' id='navPoint-98'>
+          <navLabel>
+            <text>6.5.1 System preparations</text>
+          </navLabel>
+          <content src='mainch6.html#x11-980006.5.1'></content>
+        </navPoint>
+        <navPoint playOrder='99' id='navPoint-99'>
+          <navLabel>
+            <text>6.5.2 Adaptive sampling simulations</text>
+          </navLabel>
+          <content src='mainch6.html#x11-990006.5.2'></content>
+        </navPoint>
+        <navPoint playOrder='100' id='navPoint-100'>
+          <navLabel>
+            <text>6.5.3 Folding@home simulations</text>
+          </navLabel>
+          <content src='mainch6.html#x11-1000006.5.3'></content>
+        </navPoint>
+        <navPoint playOrder='101' id='navPoint-101'>
+          <navLabel>
+            <text>6.5.4 Markov state models</text>
+          </navLabel>
+          <content src='mainch6.html#x11-1010006.5.4'></content>
+        </navPoint>
+        <navPoint playOrder='102' id='navPoint-102'>
+          <navLabel>
+            <text>6.5.5 Spike/ACE2 binding competency</text>
+          </navLabel>
+          <content src='mainch6.html#x11-1020006.5.5'></content>
+        </navPoint>
+        <navPoint playOrder='103' id='navPoint-103'>
+          <navLabel>
+            <text>6.5.6 Cryptic pockets and solvent accessible
+            surface area</text>
+          </navLabel>
+          <content src='mainch6.html#x11-1030006.5.6'></content>
+        </navPoint>
+        <navPoint playOrder='104' id='navPoint-104'>
+          <navLabel>
+            <text>6.5.7 Sequence conservation</text>
+          </navLabel>
+          <content src='mainch6.html#x11-1040006.5.7'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='105' id='navPoint-105'>
+        <navLabel>
+          <text>6.6 Acknowledgements</text>
+        </navLabel>
+        <content src='mainch6.html#x11-1050006.6'></content>
+      </navPoint>
+      <navPoint playOrder='106' id='navPoint-106'>
+        <navLabel>
+          <text>6.7 Disclosures</text>
+        </navLabel>
+        <content src='mainch6.html#x11-1060006.7'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='107' id='navPoint-107'>
+      <navLabel>
+        <text>7 Antagonism between substitutions in β-lactamase
+        explains a path not taken in the evolution of bacterial
+        drug resistance</text>
+      </navLabel>
+      <content src='mainch7.html#x12-1070007'></content>
+      <navPoint playOrder='108' id='navPoint-108'>
+        <navLabel>
+          <text>7.1 Abstract</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1080007.1'></content>
+      </navPoint>
+      <navPoint playOrder='109' id='navPoint-109'>
+        <navLabel>
+          <text>7.2 Introduction</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1090007.2'></content>
+      </navPoint>
+      <navPoint playOrder='110' id='navPoint-110'>
+        <navLabel>
+          <text>7.3 Results</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1100007.3'></content>
+        <navPoint playOrder='111' id='navPoint-111'>
+          <navLabel>
+            <text>7.3.1 Ceftazidime resistance levels of
+            P167S/D240G double mutant are reduced compared with
+            single mutants.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1110007.3.1'></content>
+        </navPoint>
+        <navPoint playOrder='112' id='navPoint-112'>
+          <navLabel>
+            <text>7.3.2 Antibiotic hydrolysis by the P167S/D240G
+            double mutant is reduced compared with single
+            mutants.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1120007.3.2'></content>
+        </navPoint>
+        <navPoint playOrder='113' id='navPoint-113'>
+          <navLabel>
+            <text>7.3.3 P167S/D240G double mutant exhibits reduced
+            stability compared with single mutants</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1130007.3.3'></content>
+        </navPoint>
+        <navPoint playOrder='114' id='navPoint-114'>
+          <navLabel>
+            <text>7.3.4 Steady-state levels of the P167S/D240G
+            enzyme in E. coli are reduced compared with single
+            mutants.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1140007.3.4'></content>
+        </navPoint>
+        <navPoint playOrder='115' id='navPoint-115'>
+          <navLabel>
+            <text>7.3.5 X-ray structures of P167S/D240G apo,
+            E166A/D240G/CAZ, and E166A/P167S/D240G/CAZ acyl-enzyme
+            complexes reveal alternate conformations of the
+            Ω-loop.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1150007.3.5'></content>
+        </navPoint>
+        <navPoint playOrder='116' id='navPoint-116'>
+          <navLabel>
+            <text>7.3.6 Molecular dynamics simulations reveal that
+            conformational heterogeneity of the Ω-loop is greater
+            in the single mutants than in the WT or double
+            mutant.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1160007.3.6'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='117' id='navPoint-117'>
+        <navLabel>
+          <text>7.4 Discussion</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1170007.4'></content>
+      </navPoint>
+      <navPoint playOrder='118' id='navPoint-118'>
+        <navLabel>
+          <text>7.5 Methods</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1180007.5'></content>
+        <navPoint playOrder='119' id='navPoint-119'>
+          <navLabel>
+            <text>7.5.1 Bacterial strains and plasmids.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1190007.5.1'></content>
+        </navPoint>
+        <navPoint playOrder='120' id='navPoint-120'>
+          <navLabel>
+            <text>7.5.2 Site-directed mutagenesis.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1200007.5.2'></content>
+        </navPoint>
+        <navPoint playOrder='121' id='navPoint-121'>
+          <navLabel>
+            <text>7.5.3 Minimum inhibitory concentration
+            determinations.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1210007.5.3'></content>
+        </navPoint>
+        <navPoint playOrder='122' id='navPoint-122'>
+          <navLabel>
+            <text>7.5.4 Immunoblotting.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1220007.5.4'></content>
+        </navPoint>
+        <navPoint playOrder='123' id='navPoint-123'>
+          <navLabel>
+            <text>7.5.5 Protein purification.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1230007.5.5'></content>
+        </navPoint>
+        <navPoint playOrder='124' id='navPoint-124'>
+          <navLabel>
+            <text>7.5.6 Determination of thermal
+            stabilities.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1240007.5.6'></content>
+        </navPoint>
+        <navPoint playOrder='125' id='navPoint-125'>
+          <navLabel>
+            <text>7.5.7 Steady-state enzyme kinetic
+            parameters.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1250007.5.7'></content>
+        </navPoint>
+        <navPoint playOrder='126' id='navPoint-126'>
+          <navLabel>
+            <text>7.5.8 Protein crystallization and structure
+            determination.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1260007.5.8'></content>
+        </navPoint>
+        <navPoint playOrder='127' id='navPoint-127'>
+          <navLabel>
+            <text>7.5.9 Molecular dynamics simulations.</text>
+          </navLabel>
+          <content src='mainch7.html#x12-1270007.5.9'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='128' id='navPoint-128'>
+        <navLabel>
+          <text>7.6 Author contributions</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1280007.6'></content>
+      </navPoint>
+      <navPoint playOrder='129' id='navPoint-129'>
+        <navLabel>
+          <text>7.7 Acknowledgments</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1290007.7'></content>
+      </navPoint>
+      <navPoint playOrder='130' id='navPoint-130'>
+        <navLabel>
+          <text>7.8 Additional information.</text>
+        </navLabel>
+        <content src='mainch7.html#x12-1300007.8'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='131' id='navPoint-131'>
+      <navLabel>
+        <text>8 Conclusions</text>
+      </navLabel>
+      <content src='mainch8.html#x13-1310008'></content>
+      <navPoint playOrder='132' id='navPoint-132'>
+        <navLabel>
+          <text>8.1 Main findings</text>
+        </navLabel>
+        <content src='mainch8.html#x13-1320008.1'></content>
+      </navPoint>
+      <navPoint playOrder='133' id='navPoint-133'>
+        <navLabel>
+          <text>8.2 Future directions</text>
+        </navLabel>
+        <content src='mainch8.html#x13-1330008.2'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint playOrder='134' id='navPoint-134'>
+      <navLabel>
+        <text>A Supplementary Material on the CARDS method</text>
+      </navLabel>
+      <content src='mainap1.html#x14-134000A'></content>
+      <navPoint playOrder='135' id='navPoint-135'>
+        <navLabel>
+          <text>A.1 Supplementary Methods</text>
+        </navLabel>
+        <content src='mainap1.html#x14-135000A.1'></content>
+        <navPoint playOrder='136' id='navPoint-136'>
+          <navLabel>
+            <text>A.1.1 Molecular dynamics simulations</text>
+          </navLabel>
+          <content src='mainap1.html#x14-136000A.1.1'></content>
+        </navPoint>
+        <navPoint playOrder='137' id='navPoint-137'>
+          <navLabel>
+            <text>A.1.2 Sensitivity analysis</text>
+          </navLabel>
+          <content src='mainap1.html#x14-137000A.1.2'></content>
+        </navPoint>
+      </navPoint>
+      <navPoint playOrder='138' id='navPoint-138'>
+        <navLabel>
+          <text>A.2 Supplementary Figures</text>
+        </navLabel>
+        <content src='mainap1.html#x14-138000A.2'></content>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

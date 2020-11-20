@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='utf-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns='http://www.w3.org/1999/xhtml'> 
+<head><title>5 The SARS-CoV-2 nucleocapsid protein is dynamic, disordered, and phase separates with
+RNA.</title> 
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='originator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<!--  xhtml,charset=utf-8,epub,uni-html4,html  --> 
+<meta name='src' content='main.tex' /> 
+<link type='text/css' href='main.css' rel='stylesheet' /> 
+</head><body>
+<!-- l. 3 --><div class='crosslinks'><p class='noindent'></p></div>
+<h2 class='chapterHead'><span class='titlemark'>Chapter 5</span><br /><a id='x10-690005'></a>The SARS-CoV-2 nucleocapsid protein is dynamic, disordered, and phase separates with
+RNA.</h2>
+<!-- l. 8 --><p class='noindent'><span class='ptmri7t-x-x-120'>This chapter is adapted from the following publication:</span>
+</p><!-- l. 10 --><p class='noindent'><span class='ptmri7t-x-x-120'>Cubuk, J., Alston, J.J., Incicco, J.J., Singh, S., Stuchell-Brereton, M.D., Ward, M.D., Zimmerman, M.I.,
+</span><span class='ptmri7t-x-x-120'>Vithani, N., Griffith, D., Wagoner, J.A., Bowman, G.R., Hall, K.B., Soranno, A., Holehouse, A.S., The
+</span><span class='ptmri7t-x-x-120'>SARS-CoV-2 nucleocapsid protein is dynamic, disordered, and phase separates with RNA, Available
+</span><span class='ptmri7t-x-x-120'>on Biorxiv: https://doi.org/10.1101/2020.06.17.158121</span><span class='cite'> [<a href='mainli5.html#Xcubuk_sars-cov-2_2020'>2</a>]</span>
+</p><!-- l. 12 --><p class='noindent'><span class='ptmri7t-x-x-120'>In this work, my work in setting up, simulating, and generating seed conformations of
+</span><span class='ptmri7t-x-x-120'>the folded domains (and populations) led to the data presented in figures </span><a href='#x10-72001r1'><span class='ptmri7t-x-x-120'>5.1</span><!-- tex4ht:ref: fig:ch6-fig1  --></a><span class='ptmri7t-x-x-120'>, </span><a href='#x10-73001r2'><span class='ptmri7t-x-x-120'>5.2</span><!-- tex4ht:ref: fig:ch6-fig2  --></a><span class='ptmri7t-x-x-120'>, and</span>
+<a href='#x10-75001r4'><span class='ptmri7t-x-x-120'>5.4</span><!-- tex4ht:ref: fig:ch6-fig4  --></a><span class='ptmri7t-x-x-120'>.</span>
+</p>
+<h3 class='sectionHead'><span class='titlemark'>5.1    </span> <a id='x10-700005.1'></a>Abstract</h3>
+<!-- l. 16 --><p class='noindent'>The SARS-CoV-2 nucleocapsid (N) protein is an abundant RNA binding protein critical for viral
+genome packaging, yet the molecular details that underlie this process are poorly understood. Here we
+combine single-molecule spectroscopy with all-atom simulations to uncover the molecular details that
+contribute to N protein function. N protein contains three dynamic disordered regions that house
+putative transiently-helical binding motifs. The two folded domains interact minimally such
+that full-length N protein is a flexible and multivalent RNA binding protein. N protein
+also undergoes liquid-liquid phase separation when mixed with RNA, and polymer theory
+                                                                                      
+                                                                                      
+predicts that the same multivalent interactions that drive phase separation also engender RNA
+compaction. We offer a simple symmetry-breaking model that provides a plausible route
+through which single-genome condensation preferentially occurs over phase separation,
+suggesting that phase separation offers a convenient macroscopic readout of a key nanoscopic
+interaction.
+</p><!-- l. 18 --><p class='noindent'>
+</p>
+<h3 class='sectionHead'><span class='titlemark'>5.2    </span> <a id='x10-710005.2'></a>Introduction</h3>
+<!-- l. 19 --><p class='noindent'>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is an enveloped, positive-strand RNA
+virus that causes the disease COVID-19 (Coronavirus Disease-2019)<span class='cite'> [<a href='mainli5.html#XZhu2020-do'>279</a>]</span>. While coronaviruses
+typically cause relatively mild respiratory diseases, COVID-19 is on course to kill half a million
+people in the first six months since its emergence in late 2019<span class='cite'> [<a href='mainli5.html#XZhu2020-do'>279</a>, <a href='mainli5.html#XCorman2018-my'>280</a>, <a href='mainli5.html#XRoser2020-yb'>281</a>]</span>. Given the timeframe
+for vaccine development is on the order of months to years, alternative therapeutic approaches are
+sought to ameliorate viral morbidity and mortality<span class='cite'> [<a href='mainli5.html#XLurie2020-vk'>282</a>]</span>.
+</p><!-- l. 21 --><p class='noindent'>A challenge in identifying candidate drugs is our relatively sparse understanding of the molecular
+details that underlie the function of SARS-CoV-2 proteins. As a result, there is a surge of biochemical
+and biophysical exploration of these proteins, with the ultimate goal of identifying proteins that are
+suitable targets for disruption, ideally with insight into the molecular details of how disruption could
+be achieved<span class='cite'> [<a href='mainli5.html#XGordon2020-sg'>283</a>, <a href='mainli5.html#XSanders2020-ea'>284</a>]</span>.
+</p><!-- l. 23 --><p class='noindent'>While much attention has been focused on the Spike (S) protein, many other SARS-CoV-2 proteins
+play equally critical roles in viral physiology, yet we know relatively little about their structural or
+biophysical properties<span class='cite'> [<a href='mainli5.html#XWalls2020-of'>285</a>, <a href='mainli5.html#XHoffmann2020-nt'>286</a>, <a href='mainli5.html#XShang2020-er'>287</a>, <a href='mainli5.html#XLan2020-wh'>288</a>]</span>. Here we performed a high-resolution structural and
+biophysical characterization of the SARS-CoV-2 nucleocapsid (N) protein, the protein responsible for
+                                                                                      
+                                                                                      
+genome packaging<span class='cite'> [<a href='mainli5.html#Xmasters_coronavirus_2019'>289</a>, <a href='mainli5.html#XVan_der_Lee2014-vc'>290</a>, <a href='mainli5.html#XLaude1995-bx'>291</a>]</span>. A large fraction of N protein is predicted to be intrinsically
+disordered, which constitutes a major barrier to conventional structural characterization<span class='cite'> [<a href='mainli5.html#XVan_der_Lee2014-vc'>290</a>]</span>. To
+overcome these limitations, we combined single-molecule spectroscopy with all-atom simulations
+to build a residue-by-residue description of all three disordered regions in the context of
+their folded domains The combination of single-molecule spectroscopy and simulations to
+reconstruct structural ensembles has been applied extensively to uncover key molecular
+details underlying disordered protein regions<span class='cite'> [<a href='mainli5.html#XHolmstrom2019-ns'>292</a>, <a href='mainli5.html#XBorgia2018-yo'>293</a>, <a href='mainli5.html#XDimura2016-kt'>294</a>, <a href='mainli5.html#XFuertes2017-au'>295</a>, <a href='mainli5.html#XWarner2017-zh'>296</a>, <a href='mainli5.html#XChung2015-uh'>297</a>]</span>. Our goal
+here is to provide biophysical and structural insights into the physical basis of N protein
+function.
+</p><!-- l. 25 --><p class='noindent'>In exploring the molecular properties of N protein, we discovered it undergoes phase separation with
+RNA, as was also reported recently<span class='cite'> [<a href='mainli5.html#XIserman2020-xm'>298</a>, <a href='mainli5.html#XPerdikari2020-cx'>299</a>, <a href='mainli5.html#XSavastano2020-zf'>300</a>]</span>. Given N protein underlies viral packaging,
+we reasoned phase separation may in fact be an unavoidable epiphenomenon that reflects
+physical properties necessary to drive compaction of long RNA molecules. To explore
+this principle further, we developed a simple physical model, which suggested symmetry
+breaking through a small number of high-affinity binding sites can organize anisotropic
+multivalent interactions to drive single-polymer compaction, as opposed to multi-polymer phase
+separation. Irrespective of its physiological role, our results suggest that phase separation
+provides a macroscopic readout (visible droplets) of a nanoscopic process (protein:RNA and
+protein:protein interaction). In the context of SARS-CoV-2, those interactions are expected to be key
+for viral packaging, such that assays which monitor phase separation of N protein with
+RNA may offer a convenient route to identify compounds that will also attenuate viral
+assembly.
+</p><!-- l. 27 --><p class='noindent'>
+</p>
+                                                                                      
+                                                                                      
+<h3 class='sectionHead'><span class='titlemark'>5.3    </span> <a id='x10-720005.3'></a>Results</h3>
+<!-- l. 28 --><p class='noindent'>Coronavirus nucleocapsid proteins are multi-domain RNA binding proteins that play a critical role in
+many aspects of the viral life cycle<span class='cite'> [<a href='mainli5.html#XLaude1995-bx'>291</a>, <a href='mainli5.html#Xmcbride_coronavirus_2014'>301</a>]</span>. The SARS-CoV-2 N protein shares a number of
+sequence features with other nucleocapsid proteins from coronaviruses (Fig. <a href='mainap4.html#x17-168009r1'>D.1<!-- tex4ht:ref: fig:appendix-e-fig1  --></a>-<a href='mainap4.html#x17-168017r5'>D.5<!-- tex4ht:ref: fig:appendix-e-fig5  --></a>). Work on N
+protein from a range of model coronaviruses has shown that N protein undergoes both
+self-association, interaction with other proteins, and interaction with RNA, all in a highly multivalent
+manner.
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-72001r1'></a>
+                                                                                      
+                                                                                      
+<!-- l. 32 --><p class='noindent'><img width='397' height='397' src='Chapter6/ch6-fig1.png' alt='PIC' />
+<a id='x10-72002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.1:  </span><span class='content'>Sequence  and  structural  summary  of  N  protein  .  <span class='ptmb7t-x-x-120'>A.  </span>Domain  architecture  of
+the  SARS-CoV-2  N  protein.  Dye  positions  used  in  this  study  are  annotated  across  the  top,
+disorder  prediction  calculated  across  the  bottom.  The  specific  positions  were  selected  such
+that fluorophores are sufficiently close to be in the dynamic range of FRET measurements.
+Labeling was achieved using cysteine mutations and thiol-maleimide chemistry. <span class='ptmb7t-x-x-120'>B. </span>Structure
+of the SARS-CoV-2 RNA binding domain (RBD) (PDB: 6yi3). Center and left: coloured based
+on surface potential calculated with the Adaptive Poisson Boltzmann Method<span class='cite'> [<a href='mainli5.html#XBaker2001-ma'>302</a>]</span>, revealing
+the highly basic surface of the RBD. Right: ribbon structure with N- and C-termini highlighted.
+<span class='ptmb7t-x-x-120'>C. </span>Dimer structure of the SARS-CoV-2 dimerization domain (PDB: 6yun). Center and left:
+coloured based on surface potential, revealing the highly basic surface. Right: ribbon structure
+with N- and C-termini highlighted.</span></div><!-- tex4ht:label?: x10-72001r5.3  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<!-- l. 38 --><p class='noindent'>The SARS-CoV-2 N protein can be divided into five domains; a predicted intrinsically disordered
+N-terminal domain (NTD), an RNA binding domain (RBD), a predicted disordered central linker
+(LINK), a dimerization domain, and a predicted disordered C-terminal domain (CTD) (Fig. <a href='#x10-72001r1'>5.1<!-- tex4ht:ref: fig:ch6-fig1  --></a>).
+While SARS-CoV-2 is a novel coronavirus, decades of work on model coronaviruses (including SARS
+coronavirus) have revealed a number of features expected to hold true in the SARS-CoV-2 N protein.
+Notably, all five domains are predicted to bind RNA<span class='cite'> [<a href='mainli5.html#XChang2009-vd'>303</a>, <a href='mainli5.html#XGrossoehme2009-px'>304</a>, <a href='mainli5.html#XCui2015-bu'>305</a>, <a href='mainli5.html#XTakeda2008-wl'>306</a>, <a href='mainli5.html#XJayaram2006-rd'>307</a>, <a href='mainli5.html#XYu2005-ar'>308</a>, <a href='mainli5.html#XLuo2006-et'>309</a>]</span>, and
+while the dimerization domain facilitates the formation of well-defined stoichiometric dimers,
+RNA-independent higher-order oligomerization is also expected to occur<span class='cite'> [<a href='mainli5.html#XYu2005-ar'>308</a>, <a href='mainli5.html#XChang2013-th'>310</a>, <a href='mainli5.html#XRobbins1986-lh'>311</a>, <a href='mainli5.html#XHe2004-xy'>312</a>]</span>.
+Importantly, protein-protein and protein-RNA interaction sites have been mapped to all three
+disordered regions.
+</p><!-- l. 40 --><p class='noindent'>Despite recent structures of the RBD and dimerization domains from SARS-CoV-2, the solution-state
+conformational behavior of the full-length protein remains elusive<span class='cite'> [<a href='mainli5.html#XKang2020-tb'>313</a>, <a href='mainli5.html#XZinzula2020-mi'>314</a>, <a href='mainli5.html#XYe2020-fz'>315</a>]</span>. Understanding N
+protein function necessitates a mechanistic understanding of the flexible predicted disordered
+regions and their interplay with the folded domains. A recent small-angle X-ray study
+shows good agreement with previous work on SARS, suggesting the LINK is relatively
+extended, but neither the structural basis for this extension nor the underlying dynamics are
+known<span class='cite'> [<a href='mainli5.html#XChang2009-vd'>303</a>, <a href='mainli5.html#XZeng2020-cw'>316</a>]</span>.
+</p><!-- l. 42 --><p class='noindent'>Here, we address these questions by probing three three full-length constructs of the N protein
+with fluorescent labels (Alexa 488 and 594) flanking the NTD, the LINK, and the CTD
+(see Fig. <a href='#x10-72001r1'>5.1<!-- tex4ht:ref: fig:ch6-fig1  --></a>A). These constructs allow us to probe conformations and dynamics of the
+disordered regions in the context of the full-length protein using single-molecule Förster
+Resonance Energy Transfer (FRET) and Fluorescence Correlation Spectroscopy (FCS)
+(see SI for details). In parallel to the experiments, we performed all-atom Monte Carlo
+simulations of each of the three IDRs in isolation and in context with their adjacent folded
+domains.
+                                                                                      
+                                                                                      
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.3.1    </span> <a id='x10-730005.3.1'></a>The NTD is disordered, flexible, and transiently interacts with the RBD.</h4>
+<!-- l. 45 --><p class='noindent'>We started our analysis by investigating the NTD conformations. Under native conditions,
+single-molecule FRET measurements revealed the occurrence of a single population with a mean
+transfer efficiency of 0.61 <span class='cmsy-10x-x-120'>± </span>0.03 (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>A and Fig. <a href='mainap4.html#x17-168019r6'>D.6<!-- tex4ht:ref: fig:appendix-e-fig6  --></a>). To assess whether this transfer efficiency
+reports about a rigid distance (e.g. structure formation or persistent interaction with the RBD) or is a
+dynamic average across multiple conformations, we first compare the lifetime of the fluorophores
+with transfer efficiency. Under native conditions, the donor and acceptor lifetimes for the
+NTD construct lie on the line that represents fast conformational dynamics (Fig. <a href='mainap4.html#x17-168023r8'>D.8<!-- tex4ht:ref: fig:appendix-e-fig8  --></a>A).
+To properly quantify the timescale associated with these fast structural rearrangements,
+we leveraged nanoseconds FCS. As expected for a dynamic population<span class='cite'> [<a href='mainli5.html#XNettels2009-uq'>317</a>, <a href='mainli5.html#XSoranno2012-jn'>318</a>]</span>, the
+cross-correlation of acceptor-donor photons for the NTD is anticorrelated (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>B and <a href='mainap4.html#x17-168029r11'>D.11<!-- tex4ht:ref: fig:appendix-e-fig11  --></a>). A
+global fit of the donor-donor, acceptor-acceptor, and acceptor-donor correlations yields a
+reconfiguration time <span class='cmmi-12'>τ</span><sub><span class='cmmi-8'>r</span></sub> = 170 <span class='cmsy-10x-x-120'>± </span>30 ns. This is longer than reconfiguration times observed for
+other proteins with a similar persistence length and charge content<span class='cite'> [<a href='mainli5.html#XSoranno2012-jn'>318</a>, <a href='mainli5.html#XBorgia2012-tz'>319</a>, <a href='mainli5.html#XSchuler2016-wh'>320</a>, <a href='mainli5.html#XSoranno2018-iw'>321</a>]</span>,
+hinting at a large contribution from internal friction due to rapid intramolecular contacts
+(formed either within the NTD or with the RBD) or transient formation of short structural
+motifs<span class='cite'> [<a href='mainli5.html#XSoranno2017-bi'>322</a>]</span>.
+</p><!-- l. 47 --><p class='noindent'>As a next step, we assessed the stability of the folded RBD and its influence on the conformations of
+the NTD by studying the effect of a chemical denaturant on the protein. The titration with
+guanidinium chloride (GdmCl) reveals a decrease of transfer efficiencies when moving from native
+buffer conditions to 1 M GdmCl, followed by a plateau of the transfer efficiencies at concentrations
+between 1 M and 2 M and a subsequent further decrease at higher concentrations (Fig. <a href='mainap4.html#x17-168019r6'>D.6<!-- tex4ht:ref: fig:appendix-e-fig6  --></a> and <a href='mainap4.html#x17-168023r8'>D.8<!-- tex4ht:ref: fig:appendix-e-fig8  --></a>).
+This behavior can be understood assuming that the plateau between 1 M and 2 M GdmCl
+represents the average of transfer efficiencies between two populations in equilibrium that
+                                                                                      
+                                                                                      
+have very close transfer efficiency and are not resolved because of shot noise. Indeed, this
+interpretation is supported by a broadening in the transfer efficiency peak between 1 M
+and 2 M GdmCl, which is expected if two overlapping populations react differently to
+denaturant. Besides the effect of the unfolding of the RBD, the dimensions of the NTD
+are also modulated by change in the solvent quality when adding denaturant (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>C,
+<a href='mainap4.html#x17-168019r6'>D.6<!-- tex4ht:ref: fig:appendix-e-fig6  --></a>, <a href='mainap4.html#x17-168023r8'>D.8<!-- tex4ht:ref: fig:appendix-e-fig8  --></a>) and this contribution to the expansion of the chain can be described using an
+empirical binding model<span class='cite'> [<a href='mainli5.html#XSchellman1987-tp'>323</a>, <a href='mainli5.html#XHofmann2012-pz'>324</a>, <a href='mainli5.html#XBorgia2016-oq'>325</a>, <a href='mainli5.html#XZheng2016-ds'>326</a>, <a href='mainli5.html#XAznauryan2016-bp'>327</a>]</span>. A fit of the interdye root-mean-square
+distances to this model and the extracted stability of RBD (midpoint: 1.25 <span class='cmsy-10x-x-120'>± </span>0.2 M; <span class='cmr-12'>Δ</span><span class='cmmi-12'>G</span><sub><span class='cmr-8'>0</span></sub>
+= (3 <span class='cmsy-10x-x-120'>± </span>0.6) RT) is presented in Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>C A comparative fit of the histograms with two
+populations yields an identical result in terms of RBD stability and protein conformations (Fig.
+<a href='mainap4.html#x17-168025r9'>D.9<!-- tex4ht:ref: fig:appendix-e-fig9  --></a>).
+</p><!-- l. 49 --><p class='noindent'>These observations provide two important insights. Firstly, the RBD is completely folded under native
+conditions (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>C). Secondly, the RBD contributes significantly to the conformations of the
+measured NTD construct, mainly by reducing the accessible space of the disordered tail and favoring
+expanded configurations, as shown by the shift in transfer efficiency when the RBD is
+unfolded.
+</p><!-- l. 51 --><p class='noindent'>To better understand the sequence-dependent conformational behavior of the NTD we
+turned to all-atom simulations of an NTD-RBD construct. We used a novel sequential
+sampling approach that integrates long timescale MD simulations performed using the
+Folding@home distributed computing platform with all-atom Monte Carlo simulation
+performed with the ABSINTH forcefield to generate an ensemble of almost 400,000 distinct
+conformations (see methods<span class='cite'> [<a href='mainli5.html#XShirts:2000du'>37</a>, <a href='mainli5.html#XTompa2008-tn'>328</a>]</span>. We also performed simulations of the NTD in
+isolation.
+</p><!-- l. 53 --><p class='noindent'>We observed excellent agreement between simulation and experiment for the equivalent inter-residue
+distance (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>D). The peaks on the left side of the histogram reflect specific simulations where the
+NTD engages more extensively with the RBD through a fuzzy interaction, leading to local kinetic
+                                                                                      
+                                                                                      
+traps<span class='cite'> [<a href='mainli5.html#XTompa2008-tn'>328</a>]</span>. We also identified several regions in the NTD where transient helices form,
+and using normalized distance maps found regions of transient attractive and repulsive
+interaction between the NTD and the RBD. In particular, the basic beta-strand extension
+from the RBD (Fig. <a href='#x10-72001r1'>5.1<!-- tex4ht:ref: fig:ch6-fig1  --></a>B) repels the arginine-rich C-terminal region of the NTD, while a
+phenylalanine residue (F17) in the NTD engages with a hydrophobic face on the RBD (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>G).
+Finally, we noticed the arginine-rich C-terminal residues (residues 31 - 41) form a transient
+alpha helix projecting three of the four arginines in the same direction (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>H). These
+features provide molecular insight into previously reported functional observations (see
+Discussion).
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-73001r2'></a>
+                                                                                      
+                                                                                      
+<!-- l. 57 --><p class='noindent'><img width='397' height='397' src='Chapter6/ch6-fig2.png' alt='PIC' />
+<a id='x10-73002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.2:  </span><span class='content'>The  N-terminal  domain  (NTD)  is  disordered  with  residual  helical  motifs.  <span class='ptmb7t-x-x-120'>A.</span>
+Histogram  of  the  transfer  efficiency  distribution  measured  across  the  labeling  positions  1
+and  68  in  the  context  of  the  full-length  protein,  under  native  conditions  (50  mM  Tris
+buffer).  <span class='ptmb7t-x-x-120'>B.  </span>Donor-acceptor  cross-correlation  measured  by  ns-FCS  (see  Appendix  E).  The
+observed anticorrelated rise is the characteristic signature of FRET dynamics and the timescale
+associated is directly related to the reconfiguration time of the probed segment. <span class='ptmb7t-x-x-120'>C. </span>Interdye
+distance as extracted from single-molecule FRET experiments across different concentrations
+using  a  Gaussian  chain  distribution,  examining  residues  1-68  in  the  context  of  the  full
+length  protein.  The  full  line  represents  a  fit  to  the  model  in  Eq.  <a href='mainap4.html#x17-162002r19'>D.19<!-- tex4ht:ref: appendix-e-eq19  --></a>,  which  accounts
+for  denaturant  binding  (see  Table  <a href='mainap4.html#x17-168001r1'>D.1<!-- tex4ht:ref: tab:appendix-e-tab1  --></a>)  and  unfolding  of  the  folded  RBD.  The  dashed  line
+represents  the  estimate  of  folded  RBD  across  different  denaturant  concentrations  based  on
+Eq. <a href='mainap4.html#x17-162003r20'>D.20<!-- tex4ht:ref: appendix-e-eq20  --></a> <span class='ptmb7t-x-x-120'>D. </span>All-atom simulations of the NTD in the context of RBD reveal good agreement
+with  smFRET-derived  average  distances.  The  peaks  on  the  left  shoulder  of  the  histogram
+are  due  to  persistent  NTD-RBD  interactions  in  a  small  subset  of  simulations.  <span class='ptmb7t-x-x-120'>E.  </span>Transient
+helicity  in  the  NTD  in  isolation  or  in  the  context  of  the  RBD.  Perfect  profile  overlap
+suggests  interaction  between  the  NTD  and  the  RBD  does  not  lead  to  a  loss  of  helicity.  <span class='ptmb7t-x-x-120'>F.</span>
+Normalized distance maps (scaling maps) quantify heterogeneous interaction between every
+pair of residues in terms of average distance normalized by distance expected for the same
+system  if  the  IDR  had  no  attractive  interactions  (the  “excluded  volume”  limit<span class='cite'> [<a href='mainli5.html#XHolehouse2015-rg'>329</a>]</span>).  Both
+repulsive  (yellow)  and  attractive  (blue)  regions  are  observed  for  NTD-RBD  interactions.
+<span class='ptmb7t-x-x-120'>G.  </span>Projection  of  normalized  distances  onto  the  folded  domain  reveals  repulsion  is  through
+electrostatic interaction (positively charged NTD is repelled by the positive face of the RBD,
+which is proposed to engage in RNA binding) while attractive interactions are between positive,
+aromatic, and polar residues in the NTD and a slightly negative and hydrophobic surface on
+the RBD (see Fig. <a href='#x10-72001r1'>5.1<!-- tex4ht:ref: fig:ch6-fig1  --></a>B, center). <span class='ptmb7t-x-x-120'>H. </span>The C-terminal half of transient helicity in H2 encodes an
+arginine-rich surface.</span></div><!-- tex4ht:label?: x10-73001r5.3  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<h4 class='subsectionHead'><span class='titlemark'>5.3.2    </span> <a id='x10-740005.3.2'></a>The linker is highly dynamic and there is minimal interaction between the RBD and the
+dimerization domain.</h4>
+<!-- l. 65 --><p class='noindent'>We next turned to the linker (LINK) construct to investigate how the disordered region modulates the
+interaction and dynamics between the two folded domains. Under native conditions (50 mM Tris
+buffer), single-molecule FRET reveals a narrow population with mean transfer efficiency of 0.52 <span class='cmsy-10x-x-120'>±</span>
+0.03. Comparison of the fluorescence lifetime and transfer efficiency indicates that, like the NTD, the
+transfer efficiency represents a dynamic conformational ensemble sampled by the LINK (Fig. <a href='mainap4.html#x17-168021r7'>D.7<!-- tex4ht:ref: fig:appendix-e-fig7  --></a>B).
+ns-FCS confirms fast dynamics with a characteristic reconfiguration time <span class='cmmi-12'>τ</span><sub><span class='cmmi-8'>r</span></sub> of 120 <span class='cmsy-10x-x-120'>±</span>
+20 ns (Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>B and <a href='mainap4.html#x17-168029r11'>D.11<!-- tex4ht:ref: fig:appendix-e-fig11  --></a>). This reconfiguration time is compatible with high internal
+friction effects, as observed for other unstructured proteins<span class='cite'> [<a href='mainli5.html#XSoranno2012-jn'>318</a>, <a href='mainli5.html#XBorgia2012-tz'>319</a>]</span>, but may also account
+for the drag of the surrounding domains. The root-mean-square interdye distance for the
+LINK <span class='cmmi-12'>r</span><sub><span class='cmr-8'>172</span><span class='cmsy-8'>−</span><span class='cmr-8'>245</span></sub> is equal to 57 <span class='cmsy-10x-x-120'>± </span>2 Å (<span class='cmmi-12'>l</span><sub><span class='cmmi-8'>p</span></sub>= 5.8 <span class='cmsy-10x-x-120'>± </span>0.4 Å) when assuming a Gaussian Chain
+distribution and 55 <span class='cmsy-10x-x-120'>± </span>2 Å (<span class='cmmi-12'>l</span><sub><span class='cmmi-8'>p</span></sub>= 5.4 <span class='cmsy-10x-x-120'>± </span>0.4 Å) when using a SAW model (see appendix
+E).
+</p><!-- l. 67 --><p class='noindent'>Next, we addressed whether the LINK segment populates elements of persistent secondary structure
+or forms stable interaction with the RBD or dimerization domains. Addition of the denaturant shows a
+continuous shift of the transfer efficiency toward lower values (Fig. <a href='mainap4.html#x17-168019r6'>D.6<!-- tex4ht:ref: fig:appendix-e-fig6  --></a>,<a href='mainap4.html#x17-168023r8'>D.8<!-- tex4ht:ref: fig:appendix-e-fig8  --></a>), that corresponds to an
+almost linear expansion of the chain (see Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>C). These observations support a model in which
+LINK is unstructured and flexible and do not reveal a significant fraction of folding or persistent
+interactions with or between folded domains. Overall, our single-molecule observations report a
+relatively extended average inter-domain distance, suggesting a low number of interactions
+between folded domains. To further explore this conclusion, we turned again to Monte Carlo
+simulations.
+                                                                                      
+                                                                                      
+</p><!-- l. 69 --><p class='noindent'>As with the NTD, all-atom Monte Carlo simulations provide atomistic insight that can be
+compared with our spectroscopic results. Given the size of the system an alternative sampling
+strategy to the NTD-RBD construct was pursued here that did not include MD simulations of
+the folded domains, but we instead ran simulations of a construct that included the RBD,
+LINK and dimerization domain. In addition, we also performed simulations of the LINK in
+isolation.
+</p><!-- l. 71 --><p class='noindent'>We again found good agreement between simulations and experiment (Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>D). The root mean
+square inter-residue distance between simulated positions 172 and 245 is 59.1 Å, which is within the
+experimental error of the single-molecule observations. Normalized distance map shows a number of
+regions of repulsion, notably that the RBD repels the N-terminal part of the LINK and the
+dimerization domain repels the C-terminal part of the LINK (Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>E). We tentatively suggest this
+may reflect sequence properties chosen to prevent aberrant interactions between the LINK and the two
+folded domains. In the LINK-only simulations we identified two regions that form transient helices
+at low populations (20-25%), although these are much less prominent in the context of
+the full length protein (Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>F). Those helices encompass a serine-arginine (SR) rich
+region known to mediate both protein-protein and protein-RNA interaction, and leads to the
+alignment of three arginine residues along one face of a helix. The second helix (H4) is a
+leucine/alanine-rich hydrophobic helix which may contribute to oligomerization, or act as a helical
+recognition motif for other protein interactions (notably as a nuclear export signal for Crm1, see
+Discussion).
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-74001r3'></a>
+                                                                                      
+                                                                                      
+<!-- l. 75 --><p class='noindent'><img width='361' height='361' src='Chapter6/ch6-fig3.png' alt='PIC' />
+<a id='x10-74002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.3: </span><span class='content'>The RNA binding domain (RBD) and dimerization domains do not significantly
+interact and are connected by a disordered linker (LINK) <span class='ptmb7t-x-x-120'>A. </span>Histogram of the transfer efficiency
+distribution measured across the labeling positions 172 and 245 in the context of the full-length
+protein,  under  native  conditions  (50  mM  Tris  buffer).  <span class='ptmb7t-x-x-120'>B.  </span>Donor-acceptor  cross-correlation
+measured by ns-FCS (see SI). The observed anticorrelated rise is the characteristic signature of
+FRET dynamics and the timescale associated is directly related to the reconfiguration time of
+the probed segment. <span class='ptmb7t-x-x-120'>C. </span>Interdye distance as extracted from single-molecule FRET experiments
+across different denaturant concentrations. The full line represents a fit to the model in Eq. <a href='mainap4.html#x17-162001r18'>D.18<!-- tex4ht:ref: appendix-e-eq18  --></a>,
+which accounts for denaturant binding. <span class='ptmb7t-x-x-120'>D </span>Inter-residue distance distributions calculated from
+simulations (histogram) show good agreement with distances inferred from single-molecule
+FRET measurements (green bar). <span class='ptmb7t-x-x-120'>E. </span>Scaling maps reveal repulsive interactions between the
+N- and C-terminal regions of the LINK with the adjacent folded domains. We also observe
+relatively extensive intra-LINK interactions around helix H4 (see Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>F). <span class='ptmb7t-x-x-120'>F. </span>Two transient
+helices are observed in the linker. The N-terminal helix H3 overlaps with part of the SR-region
+and orientates three arginine residues in the same direction, analogous to behavior observed for
+H2 in the NTD. The C-terminal helix H4 overlaps with a Leu/Ala rich motif which we believe
+is a conserved nuclear export signal (see Discussion).</span></div><!-- tex4ht:label?: x10-74001r5.3  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<h4 class='subsectionHead'><span class='titlemark'>5.3.3    </span> <a id='x10-750005.3.3'></a>The CTD engages in transient but non-negligible interactions with the dimerization
+domain.</h4>
+<!-- l. 82 --><p class='noindent'>Finally, we turned to the CTD. Single-molecule FRET experiments again reveal a single population
+with a mean transfer efficiency of 0.59 <span class='cmsy-10x-x-120'>± </span>0.03 (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>A) and the denaturant dependence follows the
+expected trend for a disordered region, with a shift of the transfer efficiency toward lower values (Fig.
+<a href='mainap4.html#x17-168019r6'>D.6<!-- tex4ht:ref: fig:appendix-e-fig6  --></a>,<a href='mainap4.html#x17-168023r8'>D.8<!-- tex4ht:ref: fig:appendix-e-fig8  --></a>), from 0.59 to 0.35. Interestingly, when studying the denaturant dependence of
+the protein, we noticed that the width of the distribution increases while moving toward
+native conditions. This suggests that the protein may form transient contacts or adopt local
+structure. To investigate this aspect, we turned to the investigation of the dynamics. Though the
+comparison of the fluorophore lifetimes against transfer efficiency (Fig. <a href='mainap4.html#x17-168021r7'>D.7<!-- tex4ht:ref: fig:appendix-e-fig7  --></a>c) appears
+to support a dynamic nature underlying this population, nanosecond FCS reveals a flat
+acceptor-donor cross-correlation on the ns timescale (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>B). However, inspection of
+the donor-donor and acceptor-acceptor autocorrelations reveal a correlated decay with a
+characteristic time of 240 <span class='cmsy-10x-x-120'>± </span>50 ns. This is different from that expected for a completely
+static system such as polyprolines<span class='cite'> [<a href='mainli5.html#XNettels2007-lf'>330</a>]</span>, where the donor-donor and acceptor-acceptor
+autocorrelation are also flat. An increase in the autocorrelations can be observed for static
+quenching of the dyes with aromatic residues.Interestingly, donor dye quenching can also
+contribute to a positive amplitude in the donor-acceptor correlation<span class='cite'> [<a href='mainli5.html#XSauer2014-ux'>331</a>, <a href='mainli5.html#XHaenni2013-xz'>332</a>]</span>. Therefore,
+a plausible interpretation of the flat cross-correlation data is that we are observing two
+populations in equilibrium whose correlations (one anticorrelated, reflecting conformational
+dynamics, and one correlated, reflecting quenching due contact formation) compensate each
+other.
+</p><!-- l. 84 --><p class='noindent'>To further investigate the possible coexistence of these different species, we performed ns-FCS at 0.2
+                                                                                      
+                                                                                      
+M GdmCl, where the width of the FRET population starts decreasing and the mean transfer efficiency
+is slightly shifted to larger values, under the assumption that the decreased width of the population
+reflects reduced interactions. Indeed, the cross-correlation of ns-FCS reveals a dynamic behavior with
+a reconfiguration time <span class='cmmi-12'>τ</span><sub><span class='cmmi-8'>r</span></sub>= 70 <span class='cmsy-10x-x-120'>± </span>15 ns (Fig. <a href='mainap4.html#x17-168029r11'>D.11<!-- tex4ht:ref: fig:appendix-e-fig11  --></a>). Based on these observations, we suggest that a very
+similar disordered population to the one observed at 0.2 M is also present under native
+conditions, but in equilibrium with a quenched species that forms long-lived contacts.
+Under the assumption that the mean transfer efficiency still originates (at least partially)
+from a dynamic distribution, the estimate of the inter-residue root-mean-square distance is
+<span class='cmmi-12'>r</span><sub><span class='cmr-8'>363</span><span class='cmsy-8'>−</span><span class='cmr-8'>419</span></sub> = 51 <span class='cmsy-10x-x-120'>± </span>2 Å (<span class='cmmi-12'>l</span><sub><span class='cmmi-8'>p</span></sub>= 6.1 <span class='cmsy-10x-x-120'>± </span>0.4 Å) for a Gaussian chain distribution and <span class='cmmi-12'>r</span><sub><span class='cmr-8'>363</span><span class='cmsy-8'>−</span><span class='cmr-8'>419</span></sub> = 49
+<span class='cmsy-10x-x-120'>± </span>2 Å (<span class='cmmi-12'>l</span><sub><span class='cmmi-8'>p</span></sub>= 5.6 <span class='cmsy-10x-x-120'>± </span>0.4 Å) for the SAW model (see SI). However, some caution should
+be used when interpreting these numbers since we know there is some contribution from
+fluorophore quenching, which may in turn contribute to an underestimate of the effective transfer
+efficiency<span class='cite'> [<a href='mainli5.html#XZosel2017-ao'>333</a>]</span>.
+</p><!-- l. 86 --><p class='noindent'>We again obtained good agreement between all-atom Monte Carlo simulations and experiment (Fig.
+<a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>D). We identified two transient helices, one (H5) is minimally populated but the second (H6) is
+more highly populated in the IDR-only simulation and still present at <span class='cmsy-10x-x-120'>∼</span>20% in the folded state
+simulations (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>E). The difference reflects the fact that several of the helix-forming residues
+interact with the dimerization domain, leading to a competition between helix formation and
+intramolecular interaction. Scaling maps reveal extensive intramolecular interaction by the residues
+that make up H6, both in terms of local intra-IDR interactions and interaction with the
+dimerization domain (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>F). Mapping normalized distances onto the folded structure
+reveals that interactions occur primarily with the N-terminal portion of the dimerization
+domain (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>G). As with the LINK and the NTD, a positively charged set of residues
+immediately adjacent to the folded domain in the CTD drive repulsion between this region and the
+dimerization domain. H6 is the most robust helix observed across all three IDRs, and is
+a perfect amphipathic helix with a hydrophobic surface on one side and charged/polar
+residues on the other (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>H). The cluster of hydrophobic residues in H6 engage in
+                                                                                      
+                                                                                      
+intramolecular contacts and offer a likely physical explanation for the complex lifetime
+data.
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-75001r4'></a>
+                                                                                      
+                                                                                      
+<!-- l. 90 --><p class='noindent'><img width='397' height='397' src='Chapter6/ch6-fig4.png' alt='PIC' />
+<a id='x10-75002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.4:  </span><span class='content'>The  C-terminal  domain  (CTD)  is  disordered,  engages  in  transient  interaction
+with  the  dimerization  domain,  and  contains  a  putative  helical  binding  motif.  <span class='ptmb7t-x-x-120'>A.  </span>Histogram
+of  the  transfer  efficiency  distribution  measured  across  the  labeling  positions  363  and  419
+in  the  context  of  the  full-length  protein,  under  native  conditions  (50  mM  Tris  buffer).  <span class='ptmb7t-x-x-120'>B.</span>
+Donor-acceptor cross-correlation measured by ns-FCS (see Appendix E). The flat correlation
+indicates a lack of dynamics in the studied timescale or the coexistence of two populations
+in  equilibrium  whose  correlations  (one  correlated  and  the  other  anticorrelated)  compensate
+each other. <span class='ptmb7t-x-x-120'>C. </span>Interdye distance as extracted from single-molecule FRET experiments across
+different  denaturant  concentrations.  The  full  line  represents  a  fit  to  the  model  in  Eq.  <a href='mainap4.html#x17-162001r18'>D.18<!-- tex4ht:ref: appendix-e-eq18  --></a>,
+which accounts for denaturant binding. <span class='ptmb7t-x-x-120'>D. </span>Inter-residue distance distributions calculated from
+simulations (histogram) show good agreement with distances inferred from single-molecule
+FRET  measurements  (purple  bar).  <span class='ptmb7t-x-x-120'>E.  </span>Two  transient  helices  (H5  and  H6)  are  observed  in
+the  CTD.  Both  show  a  reduction  in  population  in  the  presence  of  the  dimerization  domain
+at  least  in  part  because  the  same  sets  of  residues  engage  in  transient  interactions  with  the
+dimerization domain. <span class='ptmb7t-x-x-120'>F. </span>Normalized contacts maps describe the average inter-residue distance
+between each pair of residues, normalized by the distance expected if the CTD behaved as a
+self-avoiding random coil. H6 engages in extensive intra-CTD interactions and also interacts
+with the dimerization domain. We observe repulsion between the dimerization domain and the
+N-terminal  region  of  the  CTD.  <span class='ptmb7t-x-x-120'>G.  </span>The  normalized  distances  are  projected  onto  the  surface
+to  map  CTD-dimerization  interaction.  The  helical  region  drives  intra-molecular  interaction,
+predominantly  with  the  N-terminal  side  of  the  dimerization  domain.  <span class='ptmb7t-x-x-120'>H.  </span>Helix  H6  is  an
+amphipathic helix with a polar/charged surface (left) and a hydrophobic surface (right).</span></div><!-- tex4ht:label?: x10-75001r5.3  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<h4 class='subsectionHead'><span class='titlemark'>5.3.4    </span> <a id='x10-760005.3.4'></a>N protein undergoes phase separation with RNA.</h4>
+<!-- l. 97 --><p class='noindent'>Over the last decade, biomolecular condensates formed through phase separation have
+emerged as a new mode of cellular organization<span class='cite'> [<a href='mainli5.html#XBanani2017-iu'>334</a>, <a href='mainli5.html#XShin2017-as'>335</a>, <a href='mainli5.html#XBrangwynne2009-xn'>336</a>, <a href='mainli5.html#XLi2012-dd'>337</a>]</span>. Given the high
+interaction valency and the presence of molecular features similar to other proteins we had
+previously studied, we anticipated that N protein would undergo phase separation with
+RNA<span class='cite'> [<a href='mainli5.html#XMartin2020-yc'>338</a>, <a href='mainli5.html#XGuillen-Boixet2020-sn'>339</a>, <a href='mainli5.html#XWang:2018dl'>340</a>]</span>.
+</p><!-- l. 99 --><p class='noindent'>In line with this expectation, we observed robust droplet formation with homopolymeric RNA (Fig.
+<a href='#x10-76001r5'>5.5<!-- tex4ht:ref: fig:ch6-fig5  --></a>A-B) under native buffer conditions (50 mM Tris) and at higher salt concentration (50 mM NaCl).
+Turbidity assays at different concentrations of protein and poly(rU) (200-250 nucleotides) demonstrate
+the classical reentrant phase behavior expected for a system undergoing heterotypic interaction (Fig.
+<a href='#x10-76001r5'>5.5<!-- tex4ht:ref: fig:ch6-fig5  --></a>C-D). It is to be noted that turbidity experiments do not exhaustively cover all the conditions for
+phase separation and are only indicative of the low-boundary concentration regime explored in the
+current experiments. In particular, turbidity experiments do not provide a measurement of tie-lines,
+though they are inherently a reflection of the free energy and chemical potential of the solution
+mixture<span class='cite'> [<a href='mainli5.html#XStockmayer1950-ad'>341</a>]</span>. Interestingly, phase separation occurs at relatively low concentrations, in the low <span class='cmmi-12'>μ</span>M
+range, which are compatible with physiological concentration of the protein and nucleic acids.
+Though increasing salt concentration results in an upshift of the phase boundaries, one has
+to consider that in a cellular environment this effect might be counteracted by cellular
+crowding.
+</p><!-- l. 101 --><p class='noindent'>One peculiar characteristic of our measured phase-diagram is the narrow regime of conditions in
+which we observe phase separation of nonspecific RNA at a fixed concentration of protein. This leads
+us to hypothesize that the protein may have evolved to maintain a tight control of concentrations at
+which phase separation can (or cannot) occur. Interestingly, when rescaling the turbidity curves as a
+                                                                                      
+                                                                                      
+ratio between protein and RNA, we find all the curve maxima aligning at a similar stoichiometry,
+approximately 20 nucleotides per protein in absence of added salt and 30 nucleotides when adding 50
+mM NaCl (Fig. <a href='mainap4.html#x17-168031r12'>D.12<!-- tex4ht:ref: fig:appendix-e-fig12  --></a>). These ratios are in line with the charge neutralization criterion proposed
+by Banerjee et al., since the estimated net charge of the protein at pH 7.4 is +24 <span class='cite'> [<a href='mainli5.html#XBanerjee2017-jv'>342</a>]</span>.
+Finally, given we observed phase separation with poly(rU), the behavior we are observing is
+likely driven by relatively nonspecific protein:RNA interactions. In agreement, work from
+the Gladfelter<span class='cite'> [<a href='mainli5.html#XIserman2020-xm'>298</a>]</span>, Fawzi<span class='cite'> [<a href='mainli5.html#XPerdikari2020-cx'>299</a>]</span>, Zweckstetter<span class='cite'> [<a href='mainli5.html#XSavastano2020-zf'>300</a>]</span>, and Yildiz (unpublished) labs
+have also established this phenomenon across a range of solution conditions and RNA
+types.
+</p><!-- l. 103 --><p class='noindent'>Having established phase separation through a number of assays, we wondered what -if any-
+physiological relevance this may have for the normal biology of SARS-CoV-2.
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-76001r5'></a>
+                                                                                      
+                                                                                      
+<!-- l. 107 --><p class='noindent'><img width='397' height='397' src='Chapter6/ch6-fig5.png' alt='PIC' />
+<a id='x10-76002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.5: </span><span class='content'>Nucleocapsid protein undergoes phase separation with RNA. <span class='ptmb7t-x-x-120'>A-B. </span>Appearance
+of  solution  turbidity  upon  mixing  was  monitored  to  determine  the  concentration  regime  in
+which N protein and poly(rU) undergo phase separation. Representative turbidity titrations with
+poly(rU) in 50 mM Tris, pH 7.5 (HCl) at room temperature, in absence of added salt (A) and
+in presence of 50 mM NaCl (B), at the indicated concentrations of N protein. Points and error
+bars represent the mean and standard deviation of 2-4 consecutive measurements from the same
+sample. Solid lines are simulations of an empirical equation fitted individually to each titration
+curve (see SI). An inset is provided for the titration at 3.1 <span class='cmmi-12'>μ</span>M N protein in 50 mM NaCl to
+show the small yet detectable change in turbidity on a different scale. <span class='ptmb7t-x-x-120'>C-D. </span>Projection of phase
+boundaries for poly(rU) and N protein mixtures highlights a re-entrant behavior, as expected
+for phase-separations induced by heterotypic interactions. Turbidity contour lines are computed
+from a global fit of all titrations curves (see Appendix E)</span></div><!-- tex4ht:label?: x10-76001r5.3  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<h4 class='subsectionHead'><span class='titlemark'>5.3.5    </span> <a id='x10-770005.3.5'></a>A simple polymer model shows symmetry-breaking can facilitate multiple metastable
+single-polymer condensates instead of a single multi-polymer condensate.</h4>
+<!-- l. 114 --><p class='noindent'>Why might phase separation of N protein with RNA be advantageous to SARS-CoV-2? One possible
+model is that large, micron-sized cytoplasmic condensates of N protein with RNA form
+through phase separation and play a role in genome packaging. These condensates may act as
+molecular factories that help concentrate the components for pre-capsid assembly (where we
+define a pre-capsid here simply as a species that contains a single copy of the genome
+with multiple copies of the associated N protein), a model that has been proposed in other
+viruses<span class='cite'> [<a href='mainli5.html#XGuseva2020-nt'>343</a>]</span>.
+</p><!-- l. 116 --><p class='noindent'>However, given that phase separation is unavoidable when high concentrations of multivalent species
+are combined, we propose that an alternative interpretation of our data is that in this context, phase
+separation is simply an inevitable epiphenomenon that reflects the inherent multi-valency of the N
+protein for itself and for RNA. This poses questions about the origin of specificity for viral genomic
+RNA (gRNA), and, of focus in our study, how phase separation might relate to a single genome
+packaging through RNA compaction.
+</p><!-- l. 118 --><p class='noindent'>Given the expectation of a single genome per virion, we reasoned SARS-CoV-2 may have evolved a
+mechanism to limit phase separation with gRNA (i.e. to avoid multi-genome condensates), with a
+preference instead for single-genome packaging (single-genome condensates). This mechanism may
+exist in competition with the intrinsic phase separation of the N protein with other nonspecific RNAs
+(nsRNA).
+</p><!-- l. 120 --><p class='noindent'>One possible way to limit phase separation between two components (e.g. gRNA/nsRNA and
+N protein) is to ensure the levels of these components are held at a sufficiently low total
+                                                                                      
+                                                                                      
+concentration such that the phase boundary is never crossed. While possible, suc,h a regulatory
+mechanism is at the mercy of extrinsic factors that may substantially modulate the saturation
+concentration<span class='cite'> [<span class='ptmb7t-x-x-120'>?</span>, <a href='mainli5.html#XPosey2018-dv'>344</a>, <a href='mainli5.html#XSanders2020-tl'>345</a>, <a href='mainli5.html#XRiback2020-tw'>346</a>]</span>. Furthermore, not only must phase separation be prevented,
+but gRNA compaction should also be promoted through the binding of N protein. In this
+scenario, the affinity between gRNA and N protein plays a central role in determining the
+required concentration for condensation of the macromolecule (gRNA) by the ligand (N
+protein).
+</p><!-- l. 122 --><p class='noindent'>Given a defined valence of the system components, phase boundaries are encoded by the strength of
+interaction between the interacting domains in the components. Considering a long polymer (e.g.
+gRNA) with proteins adsorbed onto that polymer as adhesive points (“stickers”), the physics of
+associative polymers predicts that the same interactions that cause phase separation will also control
+the condensation of individual long polymers<span class='cite'> [<a href='mainli5.html#XMartin2020-yc'>338</a>, <a href='mainli5.html#XSemenov1998-rp'>347</a>, <a href='mainli5.html#XRubinstein2003-fa'>348</a>, <a href='mainli5.html#XChoi2020-nv'>349</a>, <a href='mainli5.html#XChoi2019-wg'>350</a>, <a href='mainli5.html#XPost1979-lv'>351</a>]</span>. With this in mind,
+we hypothesized that phase separation is reporting on the physical interactions that underlie genome
+compaction.
+</p><!-- l. 124 --><p class='noindent'>To explore this hypothesis, we developed a simple computational model where the interplay between
+compaction and phase separation could be explored. Our setup consists of two types of species: long
+multivalent polymers and short multivalent binders (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>A). All interactions are isotropic and each
+bead is inherently multivalent as a result. In the simplest instantiation of this model, favourable
+polymer:binder and binder:binder interactions are encoded, mimicking the scenario in which a binder
+(e.g. a protein) can engage in nonspecific polymer (RNA) interaction as well as binder-binder
+(protein-protein) interaction.
+</p><!-- l. 126 --><p class='noindent'>Simulations of binder and polymer undergo phase separation in a concentration-dependent manner, as
+expected (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>B,C). Phase separation gives rise to a single large spherical cluster with multiple
+polymers and binders (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>D, <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>H). For a homopolymer, the balance of chain-compaction and
+phase separation is determined in part through chain length and binder <span class='cmmi-12'>K</span><sub><span class='cmmi-8'>d</span></sub>. In our system
+the polymer is largely unbound in the one-phase regime (suggesting the concentration of
+                                                                                      
+                                                                                      
+ligand in the one-phase space is below the <span class='cmmi-12'>K</span><sub><span class='cmmi-8'>d</span></sub>) but entirely coated in the two-phase regime,
+consistent with highly-cooperative binding behavior. In the limit of long, multivalent polymers
+with multivalent binders, the sharpness of the coil-to-globule transition is such that an
+effective two-state description of the chain emerges, in which the chain is either expanded
+(non-phase separation-competent) OR compact (coated with binders, phase separation
+competent).
+</p><!-- l. 128 --><p class='noindent'>In light of these observations, we wondered if a break in the symmetry between intra- and
+inter-molecular interactions would be enough to promote single-polymer condensation in
+the same concentration regime over which we had previously observed phase separation.
+Symmetry breaking in our model is achieved through a single high-affinity binding site (Fig.
+<a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>A). We choose this particular mode of symmetry-breaking to mimic the presence of a
+packaging signal -a region of the genome that is essential for efficient viral packaging-
+an established feature in many viruses (including coronaviruses) although we emphasize
+this is a general model, as opposed to trying to directly model gRNA with a packaging
+signal<span class='cite'> [<a href='mainli5.html#XHsieh2005-sp'>352</a>, <a href='mainli5.html#XWoo1997-lo'>353</a>, <a href='mainli5.html#XCologna2000-ex'>354</a>]</span>.
+</p><!-- l. 130 --><p class='noindent'>We performed identical simulations to those in Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>C-D using the same system with polymers that
+now possess a single high affinity binding site (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>E). Under these conditions we did not observe
+large phase separated droplets (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>F). Instead, each individual polymer undergoes collapse to
+form a single-polymer condensate (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>E). Collapse is driven by the recruitment of binders to the
+high-affinity site, where they “coat” the chain, forming a local cluster of binders on the polymer. This
+cluster is then able to interact with the remaining regions of the polymer through weak
+“nonspecific” interactions, the same interactions that drove phase separation in Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>B,C,D.
+Symmetry breaking is achieved because the local concentration of binder around the site is
+high, such that intramolecular interactions are favoured over intermolecular interaction.
+This high local concentration also drives compaction at low binder concentrations. As a
+result, instead of a single multi-polymer condensate, we observe multiple single-polymers
+condensates, where the absolute number matches the number of polymers in the system (Fig.
+                                                                                      
+                                                                                      
+<a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>G).
+</p><!-- l. 132 --><p class='noindent'>Our results can also be cast in terms of two distinct concentration (phase) boundaries -
+one for binder:high affinity site interaction (<span class='cmmi-12'>c</span><sub><span class='cmr-8'>1</span></sub>), and a second boundary for “nonspecific”
+binder:polymer interactions (<span class='cmmi-12'>c</span><sub><span class='cmr-8'>2</span></sub>) at a higher concentration. <span class='cmmi-12'>c</span><sub><span class='cmr-8'>2</span></sub> reflects the boundary observed in
+Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>C that delineated the one and two-phase regimes. At global concentrations below
+<span class='cmmi-12'>c</span><sub><span class='cmr-8'>2</span></sub>, (but above <span class='cmmi-12'>c</span><sub><span class='cmr-8'>1</span></sub>) the clustering of binders at a high affinity site raises the apparent local
+concentration of binders above <span class='cmmi-12'>c</span><sub><span class='cmr-8'>2</span></sub>, from the perspective of other beads on the chain. In
+this way, a local high affinity binding site can drive “local” phase separation of a single
+polymer.
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-77001r6'></a>
+                                                                                      
+                                                                                      
+<!-- l. 136 --><p class='noindent'><img width='325' height='325' src='Chapter6/ch6-fig6.png' alt='PIC' />
+<a id='x10-77002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.6:  </span><span class='content'>A  simple  polymer  suggests  symmetry  breaking  can  promote  single-polymer
+condensates over multi-polymer assemblies. <span class='ptmb7t-x-x-120'>A. </span>Summary of our model setup, which involves
+long  ‘polymers’  (61  beads)  or  short  ‘binders’  (2  beads).  Each  bead  is  multivalent  and
+can  interact  with  every  adjacent  lattice  site.  The  interaction  matrix  to  the  right  defines
+the  pairwise  interaction  energies  associated  with  each  of  the  bead  times.  <span class='ptmb7t-x-x-120'>B.  </span>Concentration
+dependent  assembly  behavior  for  polymers  lacking  a  high-affinity  binding  site.  <span class='ptmb7t-x-x-120'>C.  </span>Phase
+diagram  showing  the  concentration-dependent  phase  regime  -  dashed  line  represents  the
+binodal (phase boundary) and is provided to guide the eye. <span class='ptmb7t-x-x-120'>D. </span>Analysis in the same 2D space
+as C assessing the number of droplets at a given concentration. When phase separation occurs
+a single droplet appears in almost all cases. <span class='ptmb7t-x-x-120'>E. </span>TConcentration dependent assembly behavior
+for  polymers  with  a  high-affinity  binding  site.  <span class='ptmb7t-x-x-120'>F.  </span>No  large  droplets  are  formed  in  any  of
+the  systems,  although  multiple  polymer:binder  complexes  form.  <span class='ptmb7t-x-x-120'>G.  </span>The  number  of  clusters
+observed matches the number of polymers in the system - i.e. each polymer forms an individual
+cluster. <span class='ptmb7t-x-x-120'>H. </span>Simulation snapshots from equivalent simulations for polymers with (top) or without
+(bottom)  a  single  high-affinity  binding  site.  <span class='ptmb7t-x-x-120'>I.  </span>Polymer  dimensions  in  the  dense  and  dilute
+phase (for the parameters in our model) for polymers with no high-affinity binding site. Note
+that compaction in the dense phase reflects finite-size effects, as addressed in panel K, and
+is  an  artefact  of  the  relatively  small  droplets  formed  in  our  systems  (relative  to  the  size  of
+the polymer). The droplets act as a bounding cage for the polymer, driving their compaction
+indirectly.  <span class='ptmb7t-x-x-120'>J.  </span>Polymer  dimensions  across  the  same  concentration  space  for  polymers  with  a
+single high-affinity binding site. Across all concentrations, each individual polymer is highly
+compact. <span class='ptmb7t-x-x-120'>K. </span>Compaction in the dense phase (panel I) is due to small droplets. When droplets
+are  sufficiently  large  we  observe  chain  expansion,  as  expected  from  standard  theoretical
+descriptions.  <span class='ptmb7t-x-x-120'>L.  </span>Simulations  performed  under  conditions  in  which  nonspecific  interactions
+between binder and polymer are reduced (interaction strength = 0 kT). Under these conditions
+phase separation is suppressed. Equivalent simulations for polymers with a high-affinity site
+reveal these chains are no longer compact. As such, phase separation offers a readout that - in
+our model - maps to single-polymer compaction.</span></div><!-- tex4ht:label?: x10-77001r5.3  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<!-- l. 142 --><p class='noindent'>The high affinity binding site polarizes the single-polymer condensate, such that they are organized,
+recalcitrant to fusion, and kinetically stable. A convenient physical analogy is that of a micelle, which
+are non-stoichiometric stable assemblies. Even for micelles that are far from their optimal size, fusion
+is slow because it requires substantial molecular reorganization and the breaking of stable
+interactions<span class='cite'> [<a href='mainli5.html#XPool2007-jj'>355</a>, <a href='mainli5.html#XDenkova2010-ax'>356</a>]</span>.
+</p><!-- l. 144 --><p class='noindent'>Finally, we ran simulations under conditions in which binder:polymer interactions were reduced,
+mimicking the scenario in which non-specific protein:RNA interactions are inhibited (Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>L).
+Under these conditions no phase separation occurs for polymers that lack a high-affinity binding site,
+while for polymers with a high-affinity binding site no chain compaction occurs (in contrast to when
+binder:polymer interactions are present, see Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>J). This result illustrates how phase separation
+offers a convenient readout for molecular interactions that might otherwise be challenging to
+measure.
+</p><!-- l. 146 --><p class='noindent'>We emphasize that our conclusions from simulations are subject to the parameters in our model. We
+present these results to demonstrate an example of “how this single-genome packaging could be
+achieved”, as opposed to the much stronger statement of proposing “this is how it is” achieved. Recent
+elegant work by Ranganathan and Shakhnovich identified kinetically arrested microclusters, where
+slow kinetics result from the saturation of stickers within those clusters<span class='cite'> [<a href='mainli5.html#XRanganathan2020-oo'>357</a>]</span>. This is completely
+analogous to our results (albeit with homotypic interactions, rather than heterotypic interactions),
+giving us confidence that the physical principles uncovered are robust and, we tentatively
+suggest, quite general. Future simulations are required to systematically explore the details of
+the relevant parameter space in our system. However, regardless of those parameters, our
+model does establish that if weak multivalent interactions underlie the formation of large
+multi-polymer droplets, those same interactions cannot also drive polymer compaction inside the
+droplet
+                                                                                      
+                                                                                      
+</p>
+<h3 class='sectionHead'><span class='titlemark'>5.4    </span> <a id='x10-780005.4'></a>Discussion</h3>
+<!-- l. 151 --><p class='noindent'>The nucleocapsid (N) protein from SARS-CoV-2 is a multivalent RNA binding protein critical for
+viral replication and genome packaging<span class='cite'> [<a href='mainli5.html#Xmasters_coronavirus_2019'>289</a>, <a href='mainli5.html#XLaude1995-bx'>291</a>]</span>. To better understand how the various folded and
+disordered domains interact with one another, we applied single-molecule spectroscopy and all-atom
+simulations to perform a detailed biophysical dissection of the protein, uncovering several putative
+interaction motifs. Furthermore, based on both sequence analysis and our single-molecule
+experiments, we anticipated that N protein would undergo phase separation with RNA. In agreement
+with this prediction, and in line with work from the Gladfelter and Yildiz groups working
+independently from us, we find that N protein robustly undergoes phase separation in vitro
+with model RNA under a range of different salt conditions. Using simple polymer models,
+we propose that the same interactions that drive phase separation may also drive genome
+packaging into a dynamic, single-genome condensate. The formation of single-genome
+condensates (as opposed to multi-genome droplets) is influenced by the presence of one (or more)
+symmetry-breaking interaction sites, which we tentatively suggest could reflect packaging signals in
+viral genomes.
+</p><!-- l. 153 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.4.1    </span> <a id='x10-790005.4.1'></a>All three IDRs are highly dynamic</h4>
+<!-- l. 154 --><p class='noindent'>Our single-molecule experiments and all-atom simulations are in good agreement with one another,
+and reveal that all three IDRs are extended and highly dynamic. Simulations suggest the NTD may
+interact transiently with the RBD, which offers an explanation for the slightly slowed reconfiguration
+                                                                                      
+                                                                                      
+time measured by nanosecond FCS. The LINK shows rapid rearrangement, demonstrating the RBD
+and dimerization domain are not interacting. Finally, we see more pronounced interaction
+between the CTD and the dimerization domain, although these interactions are still highly
+transient.
+</p><!-- l. 156 --><p class='noindent'>Single-molecule experiments and all-atom simulations were performed on monomeric versions of the
+protein, yet N protein has previously been shown to undergo dimerization and form higher-order
+oligomers in the absence of RNA<span class='cite'> [<a href='mainli5.html#XChang2013-th'>310</a>]</span>. To assess the formation of oligomeric species, we use a
+combination of nativePAGE, crosslinking and FCS experiments (see Fig. <a href='mainap4.html#x17-168033r13'>D.13<!-- tex4ht:ref: fig:appendix-e-fig13  --></a>). These experiments
+also verified that under the conditions used for single-molecule experiments the protein exists only as
+a monomer.
+</p><!-- l. 158 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.4.2    </span> <a id='x10-800005.4.2'></a>Simulations identify multiple transient helices</h4>
+<!-- l. 159 --><p class='noindent'>We identified a number of transient helical motifs which provide structural insight into
+previously characterized molecular interactions. Transient helices are ubiquitous in viral
+disordered regions and have been shown to underlie molecular interactions in a range of
+systems<span class='cite'> [<a href='mainli5.html#XGuseva2020-nt'>343</a>, <a href='mainli5.html#XLeyrat2011-di'>358</a>, <a href='mainli5.html#XFeuerstein2012-jk'>359</a>, <a href='mainli5.html#XJensen2008-zu'>360</a>]</span>.
+</p><!-- l. 161 --><p class='noindent'>Transient helix H2 (in the NTD) and H3 (in the LINK) flank the RBD and organize a set of arginine
+residues to face the same direction (Fig. <a href='#x10-73001r2'>5.2<!-- tex4ht:ref: fig:ch6-fig2  --></a>E). Both the NTD and LINK have been shown to drive
+RNA binding, such that we propose these helical arginine-rich motifs (ARMs) may engage in both
+both nonspecific binding and may also contribute to RNA specificity, as has been proposed
+previously<span class='cite'> [<a href='mainli5.html#XChang2009-vd'>303</a>, <a href='mainli5.html#XBayer2005-tp'>361</a>, <a href='mainli5.html#XBattiste1996-pc'>362</a>]</span>. The serine-arginine SR-region (which includes H3) has been previously
+identified as engaging in interaction with a structured acidic helix in Nsp3 in the model coronavirus
+                                                                                      
+                                                                                      
+MHV, consistent with an electrostatic helical interaction<span class='cite'> [<a href='mainli5.html#XHurst2013-iv'>363</a>, <a href='mainli5.html#XHurst2010-xi'>364</a>]</span>. Recent NMR data also shows
+excellent agreement with our results, identifying a transient helix that shows 1:1 overlap with
+H3<span class='cite'> [<a href='mainli5.html#XSavastano2020-zf'>300</a>]</span>.The SR-region is necessary for recruitment to replication-transcription centers (RTCs) in
+MHV, and also undergoes phosphorylation, setting the stage for a complex regulatory system awaiting
+exploration<span class='cite'> [<a href='mainli5.html#XVerheije2010-se'>365</a>, <a href='mainli5.html#XSurjit2005-qa'>366</a>]</span>.
+</p><!-- l. 163 --><p class='noindent'>Transient helix H4 (Fig. <a href='#x10-74001r3'>5.3<!-- tex4ht:ref: fig:ch6-fig3  --></a>H), was previously predicted bioinformatically and identified as a
+conserved feature across different coronaviruses<span class='cite'> [<a href='mainli5.html#XChang2009-vd'>303</a>]</span>. Furthermore, the equivalent region was
+identified in SARS coronavirus as a nuclear export signal (NES), such that we suspect this too is a
+classical Crm1-binding leucine-rich NES<span class='cite'> [<a href='mainli5.html#XTimani2005-xr'>367</a>]</span>.
+</p><!-- l. 165 --><p class='noindent'>Transient helix H6 is an amphipathic helix with a highly hydrophobic face (Fig. <a href='#x10-75001r4'>5.4<!-- tex4ht:ref: fig:ch6-fig4  --></a>H). Recent
+hydrogen-deuterium exchange mass spectrometry also identified H6<span class='cite'> [<a href='mainli5.html#XYe2020-fz'>315</a>]</span>. Residues in this region
+have previously been identified as mediating M-protein binding in other coronaviruses, such that we
+propose H6 underlies that interaction<span class='cite'> [<a href='mainli5.html#XKuo2002-me'>368</a>, <a href='mainli5.html#XHurst2005-fx'>369</a>, <a href='mainli5.html#XVerma2006-cw'>370</a>]</span>. Recent work has also identified amphipathic
+transient helices in disordered proteins as interacting directly with membranes, such that an additional
+(albeit entirely speculative) role could involve direct membrane interaction, as has been observed in
+other viral phosphoproteins<span class='cite'> [<a href='mainli5.html#XBrass2002-on'>371</a>, <a href='mainli5.html#XBraun2017-wi'>372</a>]</span>.
+</p><!-- l. 167 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.4.3    </span> <a id='x10-810005.4.3'></a>The physiological relevance of nucleocapsid protein phase separation in SARS-CoV-2
+physiology</h4>
+<!-- l. 169 --><p class='noindent'>Our work has revealed that SARS-CoV-2 N protein undergoes phase separation with RNA when
+reconstituted in vitro. The solution environment and types of RNA used in our experiments are very
+different from the cytoplasm and viral RNA. However, similar results have been obtained in published
+                                                                                      
+                                                                                      
+and unpublished work by several other groups under a variety of conditions, including via in cell
+experiments (Yildiz group, unpublished)<span class='cite'> [<a href='mainli5.html#XIserman2020-xm'>298</a>, <a href='mainli5.html#XPerdikari2020-cx'>299</a>, <a href='mainli5.html#XSavastano2020-zf'>300</a>]</span>. Taken together, these results demonstrate
+that N protein can undergo bona fide phase separation, and that N protein condensates can form in
+cells. Nevertheless, the complexity introduced by multidimensional linkage effects in vivo could
+substantially influence the phase behavior and composition of condensates observed in the
+cell<span class='cite'> [<a href='mainli5.html#XRiback2020-tw'>346</a>, <a href='mainli5.html#XChoi2019-wg'>350</a>, <a href='mainli5.html#XWyman1990-qn'>373</a>]</span>. Of note, the regime we have identified in which phase separation occurs (Fig.
+<a href='#x10-76001r5'>5.5<!-- tex4ht:ref: fig:ch6-fig5  --></a>) is remarkably relatively narrow, a prerequisite for the assembly of virion particles containing a
+single viral genome.
+</p><!-- l. 171 --><p class='noindent'>Does phase separation play a physiological role in SARS-CoV-2 biology? Phase separation has been
+invoked or suggested in many different viral contexts to date<span class='cite'> [<a href='mainli5.html#XNikolic2017-qx'>374</a>, <a href='mainli5.html#XMetrick2020-na'>375</a>, <a href='mainli5.html#XHeinrich2018-bu'>376</a>, <a href='mainli5.html#XZhou2019-uv'>377</a>, <a href='mainli5.html#XMonette2020-do'>378</a>]</span>. In
+SARS-CoV-2, one possible model suggests phase separation may drive recruitment of components to
+viral replication sites, although how this dovetails with the fact that replication occurs in
+double-membrane bound vesicles (DMVs) remains to be explored <span class='cite'> [<a href='mainli5.html#XSavastano2020-zf'>300</a>, <a href='mainli5.html#XKlein2020-vw'>379</a>]</span>. An alternative (and
+non-mutually exclusive) model is one in which phase separation catalyzes nucleocapsid
+polymerization, as has been proposed in elegant work on measles virus<span class='cite'> [<a href='mainli5.html#XGuseva2020-nt'>343</a>]</span>. Here, the process
+of phase separation is decoupled from genome packaging, where gRNA condensation
+occurs through association with a helical nucleocapsid. If applied to SARS-CoV-2, such a
+model would suggest that (1) initially N protein and RNA phase separate in the cytosol, (2)
+some discrete pre-capsid state forms within condensates and, (3) upon maturation, the
+pre-capsid is released from the condensate and undergoes subsequent virion assembly
+by interacting with the membrane-bound M, E, and S structural proteins at the ER-Golgi
+intermediate compartment (ERGIC). While this model is attractive it places a number of
+constraints on the physical properties of this pre-capsid, not least that the ability to escape the
+“parent” condensate dictates that the assembled pre-capsid must interact less strongly with the
+condensate components than in the unassembled state. This requirement introduces some
+thermodynamic complexities: how is a pre-capsid state driven to assemble if it is necessarily
+less stable than the unassembled pre-capsid, and how is incomplete or abortive pre-capsid
+                                                                                      
+                                                                                      
+formation avoided if – as assembly occurs – the pre-capsid becomes progressively less
+stable?
+</p><!-- l. 173 --><p class='noindent'>A phase separation and assembly model raises additional questions, such as the origins of specificity
+for recruitment of viral proteins and viral RNA, the kinetics of pre-capsid-assembly within a large
+condensate, and preferential packaging of gRNA over sub-genomic RNA. None of these questions are
+unanswerable, nor do they invalidate this model, but they should be addressed if the physiological
+relevance of large cytoplasmic condensates is to be further explored in the context of virion
+assembly.
+</p><!-- l. 175 --><p class='noindent'>Our preferred interpretation is that N protein has evolved to drive genome compaction for
+packaging (Fig. <a href='#x10-82001r7'>5.7<!-- tex4ht:ref: fig:ch6-fig7  --></a>). In this model, a single-genome condensate forms through N protein gRNA
+interaction, driven by a small number of high-affinity sites. This (meta)-stable single-genome
+condensate undergoes subsequent maturation, leading to virion assembly. In this model,
+condensate-associated N proteins are in exchange with a bulk pool of soluble N protein, such that the
+interactions that drive compaction are heterogeneous and dynamic. Our model provides a
+physical mechanism in good empirical agreement with data for N protein oligomerization and
+assembly<span class='cite'> [<a href='mainli5.html#XCong2017-hw'>380</a>, <a href='mainli5.html#XChang2014-fy'>381</a>, <a href='mainli5.html#XBorodavka2013-xr'>382</a>]</span>. Furthermore, the resulting condensate is then in effect a multivalent
+binder for M protein, which interacts with N directly, and may drive membrane curvature and budding
+in a manner similar to that proposed by Bergeron-Sandoval and Michnick (though with a different
+directionality of the force) and in line with recent observations from cryo electron tomography
+(cryoET)<span class='cite'> [<a href='mainli5.html#XKlein2020-vw'>379</a>, <a href='mainli5.html#XHe2004-xw'>383</a>, <a href='mainli5.html#XBergeron-Sandoval2018-oo'>384</a>, <a href='mainli5.html#XBergeron-Sandoval2018-mb'>385</a>]</span>.
+</p><!-- l. 177 --><p class='noindent'>An open question pertains to specificity of packaging gRNA while excluding other RNAs. One
+possibility is for two high-affinity N-protein binding sites to flank the 5’ and 3’ ends of the genome,
+whereby only RNA molecules with both sites are competent for compaction A recent map of N
+protein binding to gRNA has revealed high-affinity binding regions at the 5’ and 3’ ends of the
+gRNA, in good agreement with this qualitative prediction<span class='cite'> [<a href='mainli5.html#XIserman2020-xm'>298</a>]</span>. Alternatively only gRNA
+condensates may possess the requisite valency to drive virion budding through interaction
+                                                                                      
+                                                                                      
+with M at the cytoplasmic side of the ERGIC, offering a physical selection mechanism for
+budding.
+</p><!-- l. 179 --><p class='noindent'>Genome compaction through dynamic multivalent interactions would be especially relevant for
+coronaviruses, which have extremely large single-stranded RNA genomes. This is evolutionarily
+appealing, in that as the genome grows larger, compaction becomes increasingly efficient, as
+the effective valence of the genome is increased<span class='cite'> [<a href='mainli5.html#XRubinstein2003-fa'>348</a>, <a href='mainli5.html#XChoi2020-nv'>349</a>]</span>. The ability of multivalent
+disordered proteins to drive RNA compaction has been observed previously in various
+contexts <span class='cite'> [<a href='mainli5.html#XHolmstrom2019-ns'>292</a>, <a href='mainli5.html#XHolmstrom2018-yk'>386</a>]</span>. Furthermore, genome compaction by RNA binding protein has been
+proposed and observed in other viruses<span class='cite'> [<a href='mainli5.html#XBorodavka2013-xr'>382</a>, <a href='mainli5.html#XRodriguez2004-dx'>387</a>, <a href='mainli5.html#XLinger2004-lk'>388</a>]</span>, and the SARS coronavirus N
+protein has previously been shown to act as an RNA chaperone, an expected consequence of
+compaction to a dynamic single-RNA condensate that accommodates multiple N proteins with a
+single RNA<span class='cite'> [<a href='mainli5.html#XHolmstrom2019-ns'>292</a>, <a href='mainli5.html#XZuniga2007-zc'>389</a>]</span>. Furthermore, previous work exploring the ultrastructure of phase
+separated condensates of G3BP1 and RNA through simulations and cryoET revealed a
+beads-on-a-string type architecture, mirroring recent results for obtained from cryoET of
+SARS-CoV-2 virions<span class='cite'> [<a href='mainli5.html#XGuillen-Boixet2020-sn'>339</a>, <a href='mainli5.html#XKlein2020-vw'>379</a>]</span>.
+</p><!-- l. 181 --><p class='noindent'>N protein has been shown to interact directly with a number of proteins studied in the context of
+biological phase separation which may influence assembly in vivo<span class='cite'> [<a href='mainli5.html#XGordon2020-sg'>283</a>, <a href='mainli5.html#XIserman2020-xm'>298</a>, <a href='mainli5.html#XMartin2020-yc'>338</a>, <a href='mainli5.html#XSanders2020-tl'>345</a>, <a href='mainli5.html#XLuo2005-qs'>390</a>]</span>. In
+particular, G3BP1-an essential stress-granule protein that undergoes phase separation-was recently
+shown to co-localize with overexpressed N protein <span class='cite'> [<a href='mainli5.html#XSavastano2020-zf'>300</a>, <a href='mainli5.html#XGuillen-Boixet2020-sn'>339</a>, <a href='mainli5.html#XSanders2020-tl'>345</a>, <a href='mainli5.html#XYang2020-iq'>391</a>]</span>. G3BP1 interaction may be
+part of the innate immune response, leading to stress-granule formation, or alternatively N protein may
+attenuates the stress response by sequestering G3BP1, depleting the cytosolic pool, and preventing
+stress granule formation, as has been shown for HIV-1<span class='cite'> [<a href='mainli5.html#XMonette2020-do'>378</a>]</span>.
+</p><!-- l. 183 --><p class='noindent'>Our model is also in good empirical agreement with recent observations made for other viruses<span class='cite'> [<a href='mainli5.html#XVan_Rosmalen2020-kk'>392</a>]</span>.
+Taken together, we speculate that viral packaging may -in general- involve an initial genome
+compaction through multivalent protein:RNA and protein:protein interactions, followed by a
+liquid-to-solid transition in cases where well-defined crystalline capsid structures emerge.
+                                                                                      
+                                                                                      
+Liquid-to-solid transitions are well established in the context of neurodegeneration with respect to
+disease progression<span class='cite'> [<a href='mainli5.html#XPatel2015-hh'>393</a>, <a href='mainli5.html#XAlberti2019-zm'>394</a>, <a href='mainli5.html#XWeber2012-ga'>395</a>]</span>. Here we suggest nature is leveraging those same principles as
+an evolved mechanism for monodisperse particle assembly.
+</p><!-- l. 185 --><p class='noindent'>Regardless of if phase separated condensates form inside cells, all available evidence suggests phase
+separation is reporting on a physiologically important interaction that underlies genome compaction
+(Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>L). With this in mind, from a biotechnology standpoint, phase separation may be a convenient
+readout for in vitro assays to interrogate protein:RNA interaction. Regardless of which
+model is correct, N protein:RNA interaction is key for viral replication. As such, phase
+separation provides a macroscopic reporter on a nanoscopic phenomenon, in line with previous
+work<span class='cite'> [<a href='mainli5.html#XMartin2020-yc'>338</a>, <a href='mainli5.html#XRubinstein2003-fa'>348</a>, <a href='mainli5.html#XZeng2020-ko'>396</a>, <a href='mainli5.html#XDignon2018-jf'>397</a>]</span>. In this sense, we believe the therapeutic implications of understanding
+and modulating phase separation here (and elsewhere in biology) are conveniently decoupled
+from the physiological relevance of actual, large phase separated “liquid droplets”, but
+instead offer a window into the underlying physical interactions that lead to condensate
+formation.
+</p><!-- l. 187 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.4.4    </span> <a id='x10-820005.4.4'></a>The physics of single polymer condensates</h4>
+<!-- l. 188 --><p class='noindent'>Depending on the molecular details, single-polymer condensates may be kinetically stable (but
+thermodynamically unstable, as in our model simulations) or thermodynamically stable. Delineation
+between these two scenarios will depend on the nature, strength, valency and anisotropy of the
+interactions. It is worth noting that from the perspective of functional biology, kinetic stability may be
+essentially indistinguishable from thermodynamic stability, depending on the lifetime of a metastable
+species.
+                                                                                      
+                                                                                      
+</p><!-- l. 190 --><p class='noindent'>It is also important to emphasize that at higher concentrations of N protein and/or after a
+sufficiently long time period we expect robust phase separation with viral RNA, regardless
+of the presence of a symmetry-breaking site. Symmetry breaking is achieved when the
+apparent local concentration of N protein (from the “perspective” of gRNA) is substantially
+higher than the actual global concentration. As effective local and global concentrations
+approach one another, the entropic cost of intra-molecular interaction is outweighed by the
+availability of inter-molecular partners. On a practical note, if the readout in question is
+the presence/absence of liquid droplets, a high-affinity site may be observed as a shift in
+the saturation concentration which, confusingly, could either suppress or enhance phase
+separation. Further, if single-genome condensates are kinetically stable and driven through
+electrostatic interactions, we would expect a complex temperature dependence, in which
+larger droplets are observed at higher temperature (up to some threshold). Recent work is
+showing a strong temperature-dependence of phase separation is consistent with these
+predictions<span class='cite'> [<a href='mainli5.html#XIserman2020-xm'>298</a>]</span>.
+</p><!-- l. 192 --><p class='noindent'>Finally, we note no reason to assume single-RNA condensates should be exclusively the purview of
+viruses. RNAs in eukaryotic cells may also be processed in these types of assemblies, as opposed to in
+large multi-RNA RNPs. The role of RNA:RNA interactions both here and in other systems is also of
+particular interest and not an aspect explored in our current work, but we anticipate may play a key
+role in the relevant biology.
+</p>
+<hr class='figure' /><div class='figure'>
+                                                                                      
+                                                                                      
+<a id='x10-82001r7'></a>
+                                                                                      
+                                                                                      
+<!-- l. 196 --><p class='noindent'><img width='325' height='325' src='Chapter6/ch6-fig7.png' alt='PIC' />
+<a id='x10-82002'></a>
+<br /> </p><div class='caption'><span class='id'>Figure 5.7:  </span><span class='content'>Summary  and  proposed  model  for  N  protein  behavior.  <span class='ptmb7t-x-x-120'>A.  </span>Summary  of  results
+from single-molecule spectroscopy experiments and all-atom simulations. All three predicted
+IDRs are disordered, highly flexible, and house a number of putative helical binding regions
+which overlap with subregions identified previously to drive N protein function. <span class='ptmb7t-x-x-120'>B. </span>Overview of
+general symmetry breaking model. For homopolymers, local collapse leads to single-polymer
+condensates  with  a  small  barrier  to  fusion,  rapidly  assembling  into  large  multi-polymer
+condensates. When one (or a small number of) high-affinity sites are present, local clustering
+of binders at a lower concentration organize the polymer such that single-polymer condensates
+are kinetically stable. <span class='ptmb7t-x-x-120'>C. </span>Proposed model for SARS-CoV-2 genome packaging. <span class='ptmb7t-x-x-120'>(1) </span>Simplified
+model of SARS-CoV-2 genome with a pair of packaging region at the 5’ and 3’ end of the
+genome <span class='ptmb7t-x-x-120'>(2) </span>N protein preferentially binds to packaging signal regions in the genome, leading
+to a local cluster of N protein at the packaging signal RNA. <span class='ptmb7t-x-x-120'>(3) </span>The high local concentration of
+N protein drives condensation of distal regions of the genome, forming a stable single-genome
+condensate.  <span class='ptmb7t-x-x-120'>(4)  </span>Single-genome  condensates  may  undergo  subsequent  maturation  through  a
+liquid-to-solid (crystallization) transition to form an ordered crystalline capsid, or solidify into
+an amorphous ribonuclear particle (RNP), or some combination of the two.  While in some
+viruses an ordered capsid clearly forms, we favour a model in which the SARS-CoV-2 capsid
+is an amorphous RNP. Compact single-genome condensates ultimately interact with E, S and
+M proteins at the membrane, whose concerted action leads to envelope formation around the
+viral RNA and final virion packaging.</span></div><!-- tex4ht:label?: x10-82001r5.4  -->
+                                                                                      
+                                                                                      
+</div><hr class='endfigure' />
+<h3 class='sectionHead'><span class='titlemark'>5.5    </span> <a id='x10-830005.5'></a>Methods</h3>
+<!-- l. 203 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.5.1    </span> <a id='x10-840005.5.1'></a>All atom simulations</h4>
+<!-- l. 204 --><p class='noindent'>All-atom Monte Carlo simulations were performed with the ABSINTH implicit solvent model and
+CAMPARI simulation engine (http://campari.sourceforge.net/)<span class='cite'> [<a href='mainli5.html#XVitalis2009-gh'>398</a>, <a href='mainli5.html#XMittal2015-sl'>399</a>]</span> with the solution ion
+parameters of Mao et al.<span class='cite'> [<a href='mainli5.html#XMao2012-hr'>400</a>]</span>. Simulations were performed using movesets and Hamiltonian
+parameters as reported previously <span class='cite'> [<a href='mainli5.html#XMartin2020-yc'>338</a>, <a href='mainli5.html#XSherry2017-sr'>401</a>]</span>. All simulations were performed in sufficiently large
+box sizes to prevent finite size effects (where box size varies from system to system). For
+simulations with IDRs in isolation all degrees of freedom available in CAMPARI are sampled.
+For simulations with folded domains with IDRs, the backbone dihedral angles in folded
+domains are not sampled, such that folded domains remain structurally fixed (although
+sidechains are fully sampled). The IDR has backbone and sidechain degrees of freedom
+sampled.
+</p><!-- l. 206 --><p class='noindent'>All-atom molecular dynamics simulations were performed using GROMACS, using the FAST
+algorithm in conjunction with the Folding@home platform <span class='cite'> [<a href='mainli5.html#XShirts:2000du'>37</a>, <a href='mainli5.html#XAbraham:2015gj'>222</a>, <a href='mainli5.html#Xzimmerman_fast_2015'>35</a>]</span>. Post-simulation analysis
+was performed with Enspara<span class='cite'> [<a href='mainli5.html#Xporter2018enspara'>39</a>]</span>. For additional simulation details see the supplementary
+information.
+                                                                                      
+                                                                                      
+</p><!-- l. 208 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.5.2    </span> <a id='x10-850005.5.2'></a>Coarse-grained Polymer Simulations</h4>
+<!-- l. 209 --><p class='noindent'>Coarse-grained Monte Carlo simulations were performed using the PIMMS simulation engine<span class='cite'> [<a href='mainli5.html#XHolehouse2019-cj'>402</a>]</span>.
+All simulations were performed in a 70 x 70 x 70 lattice-site box. The results averaged over the final
+20% of the simulation to give average values at equivalent states. The “polymer” is represented as a
+61-residue polymer with either a central high-affinity binding site or not. The binder is a 2-bead
+species. Every simulation was run for 20 x 109 Monte Carlo steps, with four independent replicas.
+Bead interaction strengths were defined as shown in Fig. <a href='#x10-77001r6'>5.6<!-- tex4ht:ref: fig:ch6-fig6  --></a>A. For additional simulation details see
+the supplementary information.
+</p><!-- l. 211 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.5.3    </span> <a id='x10-860005.5.3'></a>Protein Expression, purification, and labeling.</h4>
+<!-- l. 212 --><p class='noindent'>SARS-CoV-2 Nucleocapsid protein (NCBI Reference Sequence: YP_009724397.2) including an N
+term extension containing His9-HRV 3C protease site was cloned into the BamHI EcoRI sites in the
+MCS of pGEX-6P-1 vector (GE Healthcare). Site-directed mutagenesis was performed on the
+His9-SARS-CoV-2 Nucleocapsid pGEX vector to create M1C R68C, Y172C T245C, and F363C
+A419C variant N protein constructs and sequences were verified using Sanger sequencing. All variants
+were expressed recombinantly in BL21 Codon-plus pRIL cells (Agilent) or Gold BL21(DE3) cells
+(Agilent) and purified using a FF HisTrap column. The GST-His9-N tag was then cleaved using HRV
+3C protease and further purified to remove the cleaved tag. Finally, purified N protein variants were
+analyzed using SDS-PAGE and verified by electrospray ionization mass spectrometry (LC-MS).
+Activity of the protein was assessed by testing whether the protein is able to bind and condense
+                                                                                      
+                                                                                      
+nucleic acids (see phase-separation experiments) as well as to form dimers (see oligomerization in
+SI).
+</p><!-- l. 214 --><p class='noindent'>All Nucleocapsid variants were labeled with Alexa Fluor 488 maleimide and Alexa Fluor 594
+maleimide (Molecular Probes) under denaturing conditions following a two-step sequential labeling
+procedure (see SI).
+</p><!-- l. 216 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead'><span class='titlemark'>5.5.4    </span> <a id='x10-870005.5.4'></a>Single-molecule fluorescence spectroscopy.</h4>
+<!-- l. 217 --><p class='noindent'>Single-molecule fluorescence measurements were performed with a Picoquant MT200 instrument
+(Picoquant, Germany). FRET experiments were performed by exciting the donor dye with a laser
+power of 100 <span class='cmmi-12'>μ</span>W (measured at the back aperture of the objective). For pulsed interleaved excitation of
+donor and acceptor, the power used for exciting the acceptor dye was adjusted to match the acceptor
+emission intensity to that of the donor (between 50 and 70 mW). Single-molecule FRET efficiency
+histograms were acquired from samples with protein concentrations between 50 pM and 100 pM and
+the population with stoichiometry corresponding to 1:1 donor:acceptor labeling was selected. Trigger
+times for excitation pulses (repetition rate 20 MHz) and photon detection events were stored with 16
+ps resolution. For FRET-FCS, samples of double-labeled protein with a concentration of 100 pM
+were excited by either the diode laser or the supercontinuum laser at the powers indicated
+above.
+</p><!-- l. 219 --><p class='noindent'>All samples were prepared in 50 mM Tris pH 7.32, 143 mM <span class='cmmi-12'>β</span>-mercaptoethanol (for photoprotection),
+0.001% Tween 20 (for limiting surface adhesion) and GdmCl at the reported concentrations. All
+measurements were performed in uncoated polymer coverslip cuvettes (Ibidi, Wisconsin, USA),
+which significantly decrease the fraction of protein adhering to the surface (compared to normal glass
+                                                                                      
+                                                                                      
+cuvettes) under native conditions. For comparison, experiments have been performed also in glass
+cuvette coated with PEG, which provided analogous results to the polymeric cuvette. Each
+sample was measured for at least 30 min at room temperature (295 <span class='cmsy-10x-x-120'>± </span>0.5 K) (see appendix
+E).
+</p><!-- l. 221 --><p class='noindent'>
+</p>
+<h3 class='sectionHead'><span class='titlemark'>5.6    </span> <a id='x10-880005.6'></a>Acknowledgements</h3>
+<!-- l. 222 --><p class='noindent'>We thank Amy Gladfelter, Christiane Iserman, Christine Roden, Ahmet Yildiz, Amanda Jack,
+Luke Ferro, Steve Michnick, Pascale Legault, and Jim Omichinski for sharing data and
+extensive discussion. We also thank Rohit Pappu for placing our groups in contact with one
+another.
+</p><!-- l. 224 --><p class='noindent'>We thank the labs of John Cooper, Carl Frieden, and Silvia Jansen for providing some of the
+reagents we have used in this work. We thank Ben Schuler and Daniel Nettels for developing,
+maintaining, and sharing with us the software package used to analyze the single-molecule
+data.
+</p><!-- l. 226 --><p class='noindent'>J.C. and J.J.A are supported by NIGMS R25 IMSD Training Grant GM103757. We are grateful to the
+citizen-scientists of Folding@home for donating their computing resources. G.R.B holds an NSF
+CAREER Award MCB-1552471, NIH R01GM12400701, a Career Award at the Scientific Interface
+from the Burroughs Wellcome Fund, and a Packard Fellowship for Science and Engineering from The
+David and Lucile Packard Foundation. <span class='cite'> []</span>
+</p><!-- l. 228 --><p class='noindent'>A.S.H. is a scientific consultant with Dewpoint Therapeutics.
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+</p>
+<!-- l. 3 --><div class='crosslinks'><p class='noindent'></p></div>
+ 
+</body></html>
