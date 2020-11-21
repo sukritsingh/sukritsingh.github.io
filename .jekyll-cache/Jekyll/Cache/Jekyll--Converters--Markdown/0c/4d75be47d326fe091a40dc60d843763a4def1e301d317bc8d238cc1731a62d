@@ -1,0 +1,48 @@
+I" <p><strong>Medium monstrosity, neutral</strong></p>
+
+<p><strong>Armor Class</strong> 14 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 27 (6d8)</p>
+
+<p><strong>Speed</strong> 30 ft., climb 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">5 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing damage from nonmagical weapons</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Stone Camouflage.</em></strong> The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target.</p>
+
+<p><strong><em>Tentacles.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</p>
+
+<p><strong><em>Beak.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</p>
+
+:ET

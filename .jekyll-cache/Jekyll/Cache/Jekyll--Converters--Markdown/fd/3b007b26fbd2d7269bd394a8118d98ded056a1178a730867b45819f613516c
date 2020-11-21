@@ -1,0 +1,54 @@
+I"¨<p><strong>Medium aberration, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 55 (10d8+10)</p>
+
+<p><strong>Speed</strong> 10 ft., fly 30 ft. (hover)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">9 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +4, Stealth +6</p>
+
+<p><strong>Damage Immunities</strong> lightning</p>
+
+<p><strong>Condition Immunities</strong> blinded, prone</p>
+
+<p><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius)</p>
+
+<p><strong>Languages</strong> Grell</p>
+
+<p><strong>Challenge</strong> 3 (700 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The grell makes two attacks: one with its tentacles and one with its beak.</p>
+
+<p><strong><em>Tentacles.</em></strong> Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The poisoned target is paralyzed, and it can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>
+
+<p>The target is also grappled (escape DC 15). If the target is Medium or smaller, it is also restrained until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can â€˜t use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.</p>
+
+<p><strong><em>Beak.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) piercing damage.</p>
+
+:ET

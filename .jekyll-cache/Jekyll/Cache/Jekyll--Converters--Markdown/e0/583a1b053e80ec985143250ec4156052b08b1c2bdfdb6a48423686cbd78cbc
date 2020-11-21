@@ -1,0 +1,62 @@
+I"@<p><strong>Medium humanoid (orc), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 16 (ring mail, shield)</p>
+
+<p><strong>Hit Points</strong> 45 (6d8+18)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">12 (+1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Intimidation +3, Religion +1</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Orc</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Aggressive.</em></strong> As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</p>
+
+<p><strong><em>Gruumsh’s Fury.</em></strong> The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks).</p>
+
+<p><strong><em>Spellcasting.</em></strong> The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared:</p>
+
+<ul>
+  <li>
+    <p>Cantrips (at will): guidance, resistance, thaumaturgy</p>
+  </li>
+  <li>
+    <p>1st level (4 slots): bless, command</p>
+  </li>
+  <li>
+    <p>2nd level (2 slots): augury, spiritual weapon (spear)</p>
+  </li>
+</ul>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Spear.</em></strong> Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8 + 3) piercing damage if used with two hands to make a melee attack.</p>
+
+:ET

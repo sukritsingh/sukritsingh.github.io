@@ -1,0 +1,50 @@
+I"<p><strong>Large beast, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 10</p>
+
+<p><strong>Hit Points</strong> 22 (3d10+6)</p>
+
+<p><strong>Speed</strong> 10 ft., fly 60 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">7 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +3</p>
+
+<p><strong>Languages</strong> understands Common but can’t speak</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong><em>Keen Sight and Smell.</em></strong> The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.</p>
+
+<p><strong><em>Pack Tactics.</em></strong> The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The vulture makes two attacks: one with its beak and one with its talons.</p>
+
+<p><strong><em>Beak.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.</p>
+
+<p><strong><em>Talons.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</p>
+
+:ET

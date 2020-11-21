@@ -1,0 +1,48 @@
+I"É<p><strong>Gargantuan monstrosity, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 15 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 248 (16d20+80)</p>
+
+<p><strong>Speed</strong> 20 ft., fly 120 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">28 (+9)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">9 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Dex +4, Con +9, Wis +4, Cha +3</p>
+
+<p><strong>Skills</strong> Perception +4</p>
+
+<p><strong>Challenge</strong> 11 (7,200 XP)</p>
+
+<p><strong><em>Keen Sight.</em></strong> The roc has advantage on Wisdom (Perception) checks that rely on sight.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The roc makes two attacks: one with its beak and one with its talons.</p>
+
+<p><strong><em>Beak.</em></strong> Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) piercing damage.</p>
+
+<p><strong><em>Talons.</em></strong> Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc canâ€™t use its talons on another target.</p>
+
+:ET

@@ -1,0 +1,48 @@
+I"¨<p><strong>Medium beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 13</p>
+
+<p><strong>Hit Points</strong> 11 (2d8+2)</p>
+
+<p><strong>Speed</strong> 40 ft., climb 40 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">4 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +3, Stealth +7</p>
+
+<p><strong>Senses</strong> blindsight 10 ft., darkvision 60 ft.</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>Spider Climb.</em></strong> The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+
+<p><strong><em>Web Sense.</em></strong> While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</p>
+
+<p><strong><em>Web Walker.</em></strong> The spider ignores movement restrictions caused by webbing.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</p>
+
+:ET

@@ -1,0 +1,63 @@
+I"Ø<p><strong>Small humanoid (gnome), neutral</strong></p>
+
+<p><strong>Armor Class</strong> 15 (leather armor)</p>
+
+<p><strong>Hit Points</strong> 22 (4d6+8)</p>
+
+<p><strong>Speed</strong> 25 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">12 (+1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Dex +5, Int +4</p>
+
+<p><strong>Skills</strong> Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Gnomish, Goblin, Sylvan</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong><em>Cunning Action.</em></strong> Jamna can take a bonus action to take the Dash, Disengage, or Hide action.</p>
+
+<p><strong><em>Gnome Cunning.</em></strong> Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic.</p>
+
+<p><strong><em>Spellcasting.</em></strong> Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.</p>
+
+<ul>
+  <li>
+    <p>Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost</p>
+  </li>
+  <li>
+    <p>1st level (3 slots): charm person, color spray, disguise self, longstrider</p>
+  </li>
+</ul>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> Jamna attacks twice with her shortswords.</p>
+
+<p><strong><em>Shortsword.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.</p>
+
+:ET

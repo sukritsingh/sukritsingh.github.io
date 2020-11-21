@@ -1,0 +1,54 @@
+I"H<p><strong>Medium humanoid (human), lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 14</p>
+
+<p><strong>Hit Points</strong> 22 (4d8+4)</p>
+
+<p><strong>Speed</strong> 40 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">9 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Acrobatics +4, Athletics +3, Perception +4</p>
+
+<p><strong>Senses</strong> tremorsense 10 ft.</p>
+
+<p><strong>Languages</strong> Common</p>
+
+<p><strong>Challenge</strong> 1/2 (100 XP)</p>
+
+<p><strong><em>Unarmored Defense.</em></strong> While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</p>
+
+<p><strong><em>Unarmored Movement.</em></strong> While the monk is wearing no armor and wielding no shield, its walking speed increases by 10 feet (included in its speed).</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The monk makes two melee attacks.</p>
+
+<p><strong><em>Unarmed Strike.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</p>
+
+<p><strong>Reactions</strong></p>
+
+<p><strong><em>Parry.</em></strong> The monk adds 2 to its AC against one melee or ranged weapon attack that would hit it. To do so, the monk must see the attacker.</p>
+
+:ET

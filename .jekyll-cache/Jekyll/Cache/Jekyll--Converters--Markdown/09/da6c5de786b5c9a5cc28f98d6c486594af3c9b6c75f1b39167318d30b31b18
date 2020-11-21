@@ -1,0 +1,64 @@
+I"#<p><strong>Medium humanoid (human), neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 14 (hide)</p>
+
+<p><strong>Hit Points</strong> 71 (11d8+22)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">10 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Arcana +3, Deception +3</p>
+
+<p><strong>Languages</strong> Common, Druidic</p>
+
+<p><strong>Challenge</strong> 5 (1,800 XP)</p>
+
+<p><strong><em>Spellcasting.</em></strong> Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared:</p>
+
+<ul>
+  <li>
+    <p>Cantrips (at will): druidcraft, guidance, poison spray, produce flame</p>
+  </li>
+  <li>
+    <p>1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave</p>
+  </li>
+  <li>
+    <p>2nd level (3 slots): flame blade, spike growth</p>
+  </li>
+  <li>
+    <p>3rd level (3 slots): dispel magic, stinking cloud</p>
+  </li>
+  <li>
+    <p>4th level (2 slots): blight, wall of fire</p>
+  </li>
+</ul>
+
+<p><strong><em>Summon Mephits (Recharges after a Long Rest).</em></strong> By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Dagger +1.</em></strong> Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</p>
+
+:ET

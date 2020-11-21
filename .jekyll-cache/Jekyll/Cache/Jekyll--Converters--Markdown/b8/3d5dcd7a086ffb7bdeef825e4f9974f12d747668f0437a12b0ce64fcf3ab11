@@ -1,0 +1,57 @@
+I"§<p><strong>Medium humanoid (human), lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 16 (scale)</p>
+
+<p><strong>Hit Points</strong> 33 (6d8+6)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Animal Handling +2, History +2</p>
+
+<p><strong>Languages</strong> Auran, Common</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong><em>Spellcasting.</em></strong> The knight is a 1st-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spell:</p>
+
+<ul>
+  <li>
+    <p>Cantrips (at will): gust, light, message, ray of frost</p>
+  </li>
+  <li>
+    <p>1st level (2 slots): expeditious retreat, feather fall</p>
+  </li>
+</ul>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The knight makes two melee attacks.</p>
+
+<p><strong><em>Longsword.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.</p>
+
+<p><strong><em>Spear.</em></strong> Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>
+
+:ET

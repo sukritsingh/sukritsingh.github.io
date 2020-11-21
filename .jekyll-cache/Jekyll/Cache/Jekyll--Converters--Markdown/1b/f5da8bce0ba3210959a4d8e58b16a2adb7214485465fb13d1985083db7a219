@@ -1,0 +1,44 @@
+I"K<p><strong>Medium swarm, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 24 (7d8-7)</p>
+
+<p><strong>Speed</strong> 10 ft., fly 50 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">6 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, slashing</p>
+
+<p><strong>Condition Immunities</strong> charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>Swarm.</em></strong> The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain hit points or gain temporary hit points.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Beaks.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm’s space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer.</p>
+
+:ET

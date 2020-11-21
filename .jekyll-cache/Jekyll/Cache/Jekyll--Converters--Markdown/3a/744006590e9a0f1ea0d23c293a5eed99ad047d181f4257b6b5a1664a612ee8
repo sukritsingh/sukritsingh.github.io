@@ -1,0 +1,56 @@
+I"y<p><strong>Large elemental, neutral</strong></p>
+
+<p><strong>Armor Class</strong> 17 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 126 (12d10+60)</p>
+
+<p><strong>Speed</strong> 30 ft., burrow 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">5 (-3)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">5 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Vulnerabilities</strong> thunder</p>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing from nonmagical weapons</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> exhaustion, paralyzed, petrified, poisoned, unconscious</p>
+
+<p><strong>Senses</strong> darkvision 60 ft., tremorsense 60 ft.</p>
+
+<p><strong>Languages</strong> Terran</p>
+
+<p><strong>Challenge</strong> 5 (1,800 XP)</p>
+
+<p><strong><em>Earth Glide.</em></strong> The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn’t disturb the material it moves through.</p>
+
+<p><strong><em>Siege Monster.</em></strong> The elemental deals double damage to objects and structures.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The elemental makes two slam attacks.</p>
+
+<p><strong><em>Slam.</em></strong> Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</p>
+
+:ET

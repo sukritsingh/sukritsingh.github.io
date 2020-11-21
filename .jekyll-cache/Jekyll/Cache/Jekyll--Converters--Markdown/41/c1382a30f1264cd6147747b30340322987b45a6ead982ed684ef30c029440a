@@ -1,0 +1,64 @@
+I"�<p><strong>Medium undead, chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 13</p>
+
+<p><strong>Hit Points</strong> 45 (6d8+18)</p>
+
+<p><strong>Speed</strong> 0 ft., fly 30 ft. (hover)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">7 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Wis +3</p>
+
+<p><strong>Damage Resistances</strong> acid, cold, lightning, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Challenge</strong> 3 (700 XP)</p>
+
+<p><strong><em>Source.</em></strong> tales from the yawning portal,  page 247</p>
+
+<p><strong><em>Undead Nature.</em></strong> A vampiric mist doesn’t require air or sleep.</p>
+
+<p><strong><em>Blood Sense.</em></strong> The vampiric mist can sense living creatures that have blood or similar vital fluids in a radius of 60 feet .</p>
+
+<p><strong><em>Forbiddance.</em></strong> The vampiric mist can ‘t enter a residence without an invitation from one of the occupants.</p>
+
+<p><strong><em>Misty Form.</em></strong> The vampiric mist can occupy another creature’s space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than l extra foot. The mist can ‘t manipulate objects in any way that requires hands; it can apply simple force only.</p>
+
+<p><strong><em>Sunlight Hypersensitivity.</em></strong> The vampiric mist takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Blood Drain.</em></strong> One creature in the vampiric mist’s space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.</p>
+
+<blockquote>
+  <p>This reduction to the target’s hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0.</p>
+</blockquote>
+
+:ET

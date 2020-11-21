@@ -1,0 +1,46 @@
+I"v<p><strong>Medium plant, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 13 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 45 (6d8+18)</p>
+
+<p><strong>Speed</strong> 20 ft., climb 20 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">1 (-5)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> blinded, charmed, frightened, paralyzed, poisoned</p>
+
+<p><strong>Senses</strong> blindsight 30 ft. (blind beyond this radius)</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The spore servant makes two claw attacks.</p>
+
+<p><strong><em>Claw.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</p>
+
+:ET

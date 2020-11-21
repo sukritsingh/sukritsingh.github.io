@@ -1,0 +1,80 @@
+I")	<p><strong>Medium humanoid (fire genasi), neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 12 (15 with mage armor)</p>
+
+<p><strong>Hit Points</strong> 78 (12d8+24)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">18 (+4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Arcana +3, Deception +7</p>
+
+<p><strong>Damage Resistances</strong> fire</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Ignan</p>
+
+<p><strong>Challenge</strong> 8 (3,900 XP)</p>
+
+<p><strong><em>Innate Spellcasting.</em></strong> Bastian’s innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells:</p>
+
+<ul>
+  <li>
+    <p>At will: produce flame</p>
+  </li>
+  <li>
+    <p>1/day: burning hands</p>
+  </li>
+</ul>
+
+<p><strong><em>Spellcasting.</em></strong> Bastian is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Bastian knows the following sorcerer spells:</p>
+
+<ul>
+  <li>
+    <p>Cantrips (at will): fire bolt, mage hand, message, prestidigitation, shocking grasp</p>
+  </li>
+  <li>
+    <p>1st level (4 slots): mage armor, magic missile, shield</p>
+  </li>
+  <li>
+    <p>2nd level (3 slots): misty step, scorching ray</p>
+  </li>
+  <li>
+    <p>3rd level (3 slots): counterspell, fireball</p>
+  </li>
+  <li>
+    <p>4th level (3 slots): dimension door, wall of fire</p>
+  </li>
+  <li>
+    <p>5th level (1 slot): hold monster</p>
+  </li>
+</ul>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>
+
+:ET

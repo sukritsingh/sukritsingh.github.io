@@ -1,0 +1,58 @@
+I"D	<p><strong>Medium humanoid (kuo-toa), neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 13 (natural armor, unarmored defense)</p>
+
+<p><strong>Hit Points</strong> 65 (10d8+20)</p>
+
+<p><strong>Speed</strong> 33 ft., swim 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +6, Religion +4</p>
+
+<p><strong>Senses</strong> darkvision 120 ft.</p>
+
+<p><strong>Languages</strong> Undercommon</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Amphibious.</em></strong> The kuo-toa can breathe air and water.</p>
+
+<p><strong><em>Otherwordly Perception.</em></strong> The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving.</p>
+
+<p><strong><em>Slippery.</em></strong> The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.</p>
+
+<p><strong><em>Sunlight Sensitivity.</em></strong> While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>
+
+<p><strong><em>Unarmored Defense.</em></strong> The kuo-toa adds its Wisdom modifier to its armor class.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The kuo-toa makes one bite attack and two unarmed strikes.</p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>
+
+<p><strong><em>Unarmed Strike.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) lightning damage, and the target can’t take reactions until the end of the kuo-toa’s next turn.</p>
+
+:ET

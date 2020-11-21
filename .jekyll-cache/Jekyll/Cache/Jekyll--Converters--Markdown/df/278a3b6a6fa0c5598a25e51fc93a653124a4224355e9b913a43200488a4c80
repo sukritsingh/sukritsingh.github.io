@@ -1,0 +1,52 @@
+I"Ò<p><strong>Medium humanoid (any race), any alignment</strong></p>
+
+<p><strong>Armor Class</strong> 18 (plate)</p>
+
+<p><strong>Hit Points</strong> 143 (22d8+44)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Str +9, Con +6</p>
+
+<p><strong>Skills</strong> Athletics +9, Intimidation +5, Perception +6</p>
+
+<p><strong>Languages</strong> any one language (usually Common)</p>
+
+<p><strong>Challenge</strong> 9 (5,000 XP)</p>
+
+<p><strong><em>Indomitable (2/Day).</em></strong> The champion rerolls a failed saving throw.</p>
+
+<p><strong><em>Second Wind (Recharges after a Short or Long Rest).</em></strong> As a bonus action, the champion can regain 20 hit points.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The champion makes three attacks with its greatsword or its light crossbow.</p>
+
+<p><strong><em>Greatsword.</em></strong> Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining.</p>
+
+<p><strong><em>Light Crossbow.</em></strong> Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d8+2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half of its total hit points remaining.</p>
+
+:ET

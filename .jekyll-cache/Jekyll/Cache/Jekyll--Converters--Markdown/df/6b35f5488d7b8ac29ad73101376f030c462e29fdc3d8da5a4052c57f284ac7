@@ -1,0 +1,48 @@
+I"4<p><strong>Medium undead, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 8</p>
+
+<p><strong>Hit Points</strong> 22 (3d8+9)</p>
+
+<p><strong>Speed</strong> 20 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">5 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Wis +0</p>
+
+<p><strong>Condition Immunities</strong> poisoned</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> understands all languages it spoke in life but can’t speak</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>Undead Fortitude.</em></strong> If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Slam.</em></strong> Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</p>
+
+:ET

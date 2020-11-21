@@ -1,0 +1,53 @@
+I"B
+<p><strong>Tiny fiend, chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 13 (3d4+6)</p>
+
+<p><strong>Speed</strong> 5 ft., fly 40 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">4 (-3)</td>
+      <td style="text-align: center">7 (-2)</td>
+      <td style="text-align: center">2 (-4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> cold, fire, lightning</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> poisoned</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> understands Abyssal, Infernal, and any languages it knew before becoming a vargouille but can’t speak</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage plus 10 (3d6) poison damage.</p>
+
+<p><strong><em>Kiss .</em></strong> The vargouille kisses one incapacitated humanoid within 5 feet of it. The target must succeed on a DC 12 Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn’t advance while the target is in sunlight or the area of a daylight spell; don’t count that time. When the cursed target’s Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse.</p>
+
+<p><strong><em>Stunning Shriek.</em></strong> The vargouille shrieks. Each humanoid and beast within 30 feet of the vargouille and able to hear it must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the vargouille’s next turn. While frightened in this way, a target is stunned. If a target’s saving throw is successful or the effect ends for ft., the target is immune to the Stunning Shriek of all vargouilles for 1 hour.</p>
+
+:ET

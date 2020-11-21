@@ -1,0 +1,55 @@
+I"�
+<p><strong>Medium humanoid (human, shapechanger), neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 10 (in humanoid form, 11 in boar and hybrid forms )</p>
+
+<p><strong>Hit Points</strong> 78 (12d8+24)</p>
+
+<p><strong>Speed</strong> 30 ft. (40 ft. in boar form)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">8 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +2</p>
+
+<p><strong>Damage Immunities</strong> bludgeoning, piercing, and slashing damage from nonmagical weapons that aren’t silvered</p>
+
+<p><strong>Languages</strong> Common (can’t speak in boar form)</p>
+
+<p><strong>Challenge</strong> 4 (1,100 XP)</p>
+
+<p><strong><em>Shapechanger.</em></strong> The wereboar can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.</p>
+
+<p><strong><em>Charge (Boar or Hybrid Form Only).</em></strong> If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</p>
+
+<p><strong><em>Relentless (Recharges after a Short or Long Rest).</em></strong> If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack (Humanoid or Hybrid Form Only).</em></strong> The wereboar makes two attacks, only one of which can be with its tusks.</p>
+
+<p><strong><em>Maul (Humanoid or Hybrid Form Only).</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</p>
+
+<p><strong><em>Tusks (Boar or Hybrid Form Only).</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.</p>
+
+:ET

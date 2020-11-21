@@ -1,0 +1,60 @@
+I".<p><strong>Large construct, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 14 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 133 (14d10+56)</p>
+
+<p><strong>Speed</strong> 20 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">1 (-5)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Immunities</strong> acid, poison, psychic, bludgeoning, piercing, and slashing from nonmagical weapons that aren’t adamantine</p>
+
+<p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> understands the languages of its creator but can’t speak</p>
+
+<p><strong>Challenge</strong> 9 (5,000 XP)</p>
+
+<p><strong><em>Acid Absorption.</em></strong> Whenever the golem is subjected to acid damage, it takes no damage and instead regains a number of hit points equal to the acid damage dealt.</p>
+
+<p><strong><em>Berserk.</em></strong> Whenever the golem starts its turn with 60 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.</p>
+
+<p><strong><em>Immutable Form.</em></strong> The golem is immune to any spell or effect that would alter its form.</p>
+
+<p><strong><em>Magic Resistance.</em></strong> The golem has advantage on saving throws against spells and other magical effects.</p>
+
+<p><strong><em>Magic Weapons.</em></strong> The golem’s weapon attacks are magical.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The golem makes two slam attacks.</p>
+
+<p><strong><em>Slam.</em></strong> Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell or other magic.</p>
+
+<p><strong><em>Haste (Recharge 5-6).</em></strong> Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action.</p>
+
+:ET

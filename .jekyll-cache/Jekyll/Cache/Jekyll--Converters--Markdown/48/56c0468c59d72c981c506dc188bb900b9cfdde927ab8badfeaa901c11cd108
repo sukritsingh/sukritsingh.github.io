@@ -1,0 +1,44 @@
+I"�<p><strong>Medium beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 10</p>
+
+<p><strong>Hit Points</strong> 5 (1d8+1)</p>
+
+<p><strong>Speed</strong> 10 ft., fly 50 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">7 (-2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">4 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +3</p>
+
+<p><strong>Challenge</strong> 0 (10 XP)</p>
+
+<p><strong><em>Keen Sight and Smell.</em></strong> The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.</p>
+
+<p><strong><em>Pack Tactics.</em></strong> The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Beak.</em></strong> Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</p>
+
+:ET

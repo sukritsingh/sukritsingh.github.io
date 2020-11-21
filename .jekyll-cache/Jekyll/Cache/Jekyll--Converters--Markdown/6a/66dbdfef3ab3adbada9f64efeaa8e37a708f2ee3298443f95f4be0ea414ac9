@@ -1,0 +1,78 @@
+I"<p><strong>Tiny dragon, chaotic good</strong></p>
+
+<p><strong>Armor Class</strong> 15</p>
+
+<p><strong>Hit Points</strong> 14 (4d4+4)</p>
+
+<p><strong>Speed</strong> 10 ft., fly 60 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">16 (+3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Arcana +4, Perception +3, Stealth +7</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Draconic, Sylvan</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>The Colors of Age.</em></strong> A faerie dragon’s scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</p>
+
+<p>Red - 5 years or less</p>
+
+<p>Orange - 6-10 years</p>
+
+<p>Yellow - 11-20 years</p>
+
+<p>Green - 21-30 years</p>
+
+<p>Blue - 31-40 years</p>
+
+<p>Indigo - 41-50 years</p>
+
+<p>Violet - 51 years or more</p>
+
+<p>A green or older faerie dragon’s CR increases to 2.</p>
+
+<p><strong><em>Superior Invisibility.</em></strong> As a bonus action, the dragon can magically turn invisible until its concentration ends (as if concentrating on a spell). Any equipment the dragon wears or carries is invisible with it.</p>
+
+<p><strong><em>Limited Telepathy.</em></strong> Using telepathy, the dragon can magically communicate with any other faerie dragon within 60 feet of it.</p>
+
+<p><strong><em>Magic Resistance.</em></strong> The faerie dragon has advantage on saving throws against spells and other magical effects.</p>
+
+<p><strong><em>Innate Spellcasting.</em></strong> The dragon’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</p>
+
+<p>1/day each: color spray, dancing lights, hallucinatory terrain, mage hand, major image, minor illusion, mirror image, suggestion</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>
+
+<p><strong><em>Euphoria Breath (Recharge 5-6).</em></strong> The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute, the target can’t take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn:</p>
+
+<p>1-4. The target takes no action or bonus action and uses all of its movement to move in a random direction.</p>
+
+<p>5-6. The target doesn’t move, and the only thing it can do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself on a success.</p>
+
+:ET

@@ -1,0 +1,44 @@
+I"­<p><strong>Huge beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 60 (8d12+8)</p>
+
+<p><strong>Speed</strong> 30 ft., swim 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">19 (+4)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">1 (-5)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">3 (-4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +2</p>
+
+<p><strong>Senses</strong> blindsight 10 ft.</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.</p>
+
+<p><strong><em>Constrict.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake canâ€™t constrict another target.</p>
+
+:ET

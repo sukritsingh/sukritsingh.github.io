@@ -1,0 +1,48 @@
+I"´<p><strong>Small fey, chaotic neutral</strong></p>
+
+<p><strong>Armor Class</strong> 14 (leather armor)</p>
+
+<p><strong>Hit Points</strong> 13 (3d6+3)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">112 (+51)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">10 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Acrobatics +5, Deception +2, Perception +5, Stealth +7</p>
+
+<p><strong>Senses</strong> blindsight 30 ft., darkvision 120 ft.</p>
+
+<p><strong>Languages</strong> Elvish, Sylvan</p>
+
+<p><strong>Challenge</strong> 1/2 (100 XP)</p>
+
+<p><strong><em>Death Flash.</em></strong> When the darkling dies, nonmagical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area and able to see the bright light must succeed on a DC 10 Constitution saving throw or be blinded until the end of the creatureâ€™s next turn.</p>
+
+<p><strong><em>Light Sensitivity.</em></strong> While in bright light, the darkling has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage. If the darkling has advantage on the attack roll, the attack deals an extra 7 (2d6) piercing damage.</p>
+
+:ET

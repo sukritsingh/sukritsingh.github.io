@@ -1,0 +1,48 @@
+I"R<p><strong>Medium beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 11</p>
+
+<p><strong>Hit Points</strong> 18 (4d8)</p>
+
+<p><strong>Speed</strong> 30 ft., swim 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">3 (-4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +2, Stealth +3</p>
+
+<p><strong>Senses</strong> darkvision 30 ft.</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>Amphibious.</em></strong> The frog can breathe air and water</p>
+
+<p><strong><em>Standing Leap.</em></strong> The frog’s long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can’t bite another target.</p>
+
+<p><strong><em>Swallow.</em></strong> The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.</p>
+
+:ET

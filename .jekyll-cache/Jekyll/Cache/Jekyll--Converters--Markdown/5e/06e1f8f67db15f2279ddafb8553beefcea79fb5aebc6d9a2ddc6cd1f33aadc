@@ -1,0 +1,52 @@
+I"<p><strong>Medium humanoid (grimlock), neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 11</p>
+
+<p><strong>Hit Points</strong> 11 (2d8+2)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">6 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Athletics +5, Perception +3, Stealth +3</p>
+
+<p><strong>Damage Immunities</strong> blinded</p>
+
+<p><strong>Senses</strong> blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius)</p>
+
+<p><strong>Languages</strong> Undercommon</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>Blind Senses.</em></strong> The grimlock can’t use its blindsight while deafened and unable to smell.</p>
+
+<p><strong><em>Keen Hearing and Smell.</em></strong> The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+
+<p><strong><em>Stone Camouflage.</em></strong> The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Spiked Bone Club.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.</p>
+
+:ET

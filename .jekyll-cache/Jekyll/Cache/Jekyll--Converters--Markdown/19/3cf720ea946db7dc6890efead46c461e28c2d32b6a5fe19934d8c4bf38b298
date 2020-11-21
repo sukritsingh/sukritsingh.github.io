@@ -1,0 +1,42 @@
+I"�<p><strong>Tiny beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 14</p>
+
+<p><strong>Hit Points</strong> 5 (2d4)</p>
+
+<p><strong>Speed</strong> 30 ft., fly 60 ft., swim 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">4 (-3)</td>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">5 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Senses</strong> blindsight 10 ft.</p>
+
+<p><strong>Challenge</strong> 1/8 (25 XP)</p>
+
+<p><strong><em>Flyby.</em></strong> The snake doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</p>
+
+:ET

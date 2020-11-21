@@ -1,0 +1,46 @@
+I"¦<p><strong>Medium plant, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 5</p>
+
+<p><strong>Hit Points</strong> 18 (4d8)</p>
+
+<p><strong>Speed</strong> 5 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">1 (-5)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">1 (-5)</td>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">1 (-5)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Condition Immunities</strong> blinded, deafened, frightened</p>
+
+<p><strong>Senses</strong> blindsight 30 ft. (blind beyond this radius)</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>False Appearance.</em></strong> While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The fungus makes 1d4 Rotting Touch attacks.</p>
+
+<p><strong><em>Rotting Touch.</em></strong> Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage.</p>
+
+:ET

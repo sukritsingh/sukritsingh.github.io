@@ -1,0 +1,46 @@
+I"<p><strong>Large undead, lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 13 (barding scraps)</p>
+
+<p><strong>Hit Points</strong> 22 (3d10+6)</p>
+
+<p><strong>Speed</strong> 60 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">5 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Vulnerabilities</strong> bludgeoning</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> exhaustion, poisoned</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Challenge</strong> 1/2 (100 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Hooves.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</p>
+
+:ET

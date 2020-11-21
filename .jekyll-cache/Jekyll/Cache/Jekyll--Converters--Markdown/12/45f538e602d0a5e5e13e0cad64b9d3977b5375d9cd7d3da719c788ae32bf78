@@ -1,0 +1,57 @@
+I"�
+<p><strong>Medium monstrosity (shapechanger), unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 14</p>
+
+<p><strong>Hit Points</strong> 52 (8d8+16)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Deception +6, Insight +3</p>
+
+<p><strong>Damage Immunities</strong> charmed</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common</p>
+
+<p><strong>Challenge</strong> 3 (700 XP)</p>
+
+<p><strong><em>Shapechanger.</em></strong> The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.</p>
+
+<p><strong><em>Ambusher.</em></strong> In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised</p>
+
+<p><strong><em>Surprise Attack.</em></strong> If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The doppelganger makes two melee attacks.</p>
+
+<p><strong><em>Slam.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.</p>
+
+<p><strong><em>Read Thoughts.</em></strong> The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger’s concentration isn’t broken (as if concentrating on a spell). While reading the target’s mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.</p>
+
+:ET

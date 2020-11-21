@@ -1,0 +1,60 @@
+I"�	<p><strong>Medium humanoid (elf), neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 17</p>
+
+<p><strong>Hit Points</strong> 117 (18d8+36)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">18 (+4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Con +6, Wis +5</p>
+
+<p><strong>Skills</strong> Arcana +7, Perception +5</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> charmed, frightened, poisoned</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Draconic, Elvish, Infernal</p>
+
+<p><strong>Challenge</strong> 9 (5,000 XP)</p>
+
+<p><strong><em>Draconic Majesty.</em></strong> Neronvain adds his Charisma bonus to his AC (included).</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Fey Ancestry.</em></strong> Magic can’t put Neronvain to sleep.</p>
+
+<p><strong><em>Multiattack.</em></strong> Neronvain makes two attacks, either with his shortsword or Eldritch Arrow.</p>
+
+<p><strong><em>Shortsword.</em></strong> Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage.</p>
+
+<p><strong><em>Eldritch Arrow.</em></strong> Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d10) force damage plus 9 (2d8) poison damage.</p>
+
+<p><strong><em>Poisonous Cloud (2/Day).</em></strong> Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain’s next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. »&gt;</p>
+
+:ET

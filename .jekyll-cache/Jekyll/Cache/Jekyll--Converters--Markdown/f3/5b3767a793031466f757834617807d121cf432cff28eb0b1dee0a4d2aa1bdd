@@ -1,0 +1,58 @@
+I"<p><strong>Medium humanoid (goblinoid), lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 20 (plate, shield)</p>
+
+<p><strong>Hit Points</strong> 97 (13d8+39)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">15 (+2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Int +5, Wis +3, Cha +5</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Goblin</p>
+
+<p><strong>Challenge</strong> 6 (2,300 XP)</p>
+
+<p><strong><em>Martial Advantage.</em></strong> Once per turn, the hobgoblin can deal an extra 14 (4d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn’t incapacitated.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The hobgoblin makes three melee attacks. Alternatively, it can make two ranged attacks with its javelins.</p>
+
+<p><strong><em>Longsword.</em></strong> Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</p>
+
+<p><strong><em>Shield Bash.</em></strong> Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) bludgeoning damage. If the target is Large or smaller, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>
+
+<p><strong><em>Javelin.</em></strong> Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</p>
+
+<p><strong><em>Leadership (Recharges after a Short or Long Rest).</em></strong> For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is incapacitated.</p>
+
+<p><strong>Reactions</strong></p>
+
+<p><strong><em>Parry.</em></strong> The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon.</p>
+
+:ET

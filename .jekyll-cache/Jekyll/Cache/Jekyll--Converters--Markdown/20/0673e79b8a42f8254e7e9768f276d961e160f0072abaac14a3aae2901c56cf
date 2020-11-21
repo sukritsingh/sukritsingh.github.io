@@ -1,0 +1,63 @@
+I"|
+<p><strong>Medium humanoid (elf), lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 18 (studded leather)</p>
+
+<p><strong>Hit Points</strong> 135 (18d8+54)</p>
+
+<p><strong>Speed</strong> 35 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">22 (+6)</td>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">18 (+4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Con +7, Wis +7</p>
+
+<p><strong>Skills</strong> Deception +8, Insight +7, Intimidation +12, Perception +11, Stealth +14</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Elvish</p>
+
+<p><strong>Challenge</strong> 10 (5,900 XP)</p>
+
+<p><strong><em>Deathly Choir.</em></strong> Any creature within 10 feet of Rahadin that isn’t protected by a mind blank spell hears in its mind the screams of the thousands of people Rahadin has killed. As a bonus action, Rahadin can force all creatures that can hear the screams to make a DC 16 Wisdom saving throw. Each creature takes 16 (3d10) psychic damage on a failed save, or half as much damage on a successful one.</p>
+
+<p><strong><em>Fey Ancestry.</em></strong> Rahadin has advantage on saving throws against being charmed, and magic can’t put him to sleep.</p>
+
+<p><strong><em>Innate Spellcasting.</em></strong> Rahadin’s innate spellcasting ability is Intelligence. He can innately cast the following spells, requiring no components:</p>
+
+<p>3/day: misty step, phantom steed</p>
+
+<p>1/day: magic weapon, nondetection</p>
+
+<p><strong><em>Mask of the Wild.</em></strong> Rahadin can attempt to hide even when he is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> Rahadin attacks three times with his scimitar, or twice with his poisoned darts.</p>
+
+<p><strong><em>Scimitar.</em></strong> Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 9 (1d6+6) slashing damage.</p>
+
+<p><strong><em>Poisoned Dart.</em></strong> Ranged Weapon Attack: +10 to hit, range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage plus 5 (2d4) poison damage.</p>
+
+:ET

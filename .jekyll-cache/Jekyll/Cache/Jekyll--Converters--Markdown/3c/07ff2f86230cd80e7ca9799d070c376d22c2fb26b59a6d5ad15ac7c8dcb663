@@ -1,0 +1,76 @@
+I"�<p><strong>Medium humanoid (any race), any alignment</strong></p>
+
+<p><strong>Armor Class</strong> 16 (hide armor, shield)</p>
+
+<p><strong>Hit Points</strong> 132 (24d8+24)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">11 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Int +5, Wis +9</p>
+
+<p><strong>Skills</strong> Medicine +9, Nature +5, Perception +9</p>
+
+<p><strong>Languages</strong> Druidic plus any two languages</p>
+
+<p><strong>Challenge</strong> 12 (8,400 XP)</p>
+
+<p><strong><em>Spellcasting.</em></strong> The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:</p>
+
+<p>Cantrips (at will): druidcraft, mending, poison spray, produce flame</p>
+
+<p>1st level (4 slots): cure wounds, entangle, faerie fire, speak with animals</p>
+
+<p>2nd level (3 slots): animal messenger, beast sense, hold person</p>
+
+<p>3rd level (3 slots): conjure animals, meld into stone, water breathing</p>
+
+<p>4th level (3 slots): dominate beast, locate creature, stoneskin, wall of fire</p>
+
+<p>5th level (3 slots): commune with nature, mass cure wounds, tree stride</p>
+
+<p>6th level (1 slot): heal, heroes’ feast, sunbeam</p>
+
+<p>7th level (1 slot): fire storm</p>
+
+<p>8th level (1 slot): animal shapes</p>
+
+<p>9th level (1 slot): foresight</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Scimitar.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</p>
+
+<p><strong><em>Change Shape (2/Day).</em></strong> The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.</p>
+
+<blockquote>
+  <p>While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.</p>
+</blockquote>
+
+<blockquote>
+  <p>The new form’s attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.</p>
+</blockquote>
+
+:ET

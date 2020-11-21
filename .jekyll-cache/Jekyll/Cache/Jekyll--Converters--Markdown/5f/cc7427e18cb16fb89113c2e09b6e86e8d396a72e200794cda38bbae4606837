@@ -1,0 +1,82 @@
+I"<p><strong>Medium undead, chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 20 (plate, shield)</p>
+
+<p><strong>Hit Points</strong> 180 (19d8+95)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">18 (+4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Dex +6, Wis +9, Cha +10</p>
+
+<p><strong>Damage Immunities</strong> necrotic, poison</p>
+
+<p><strong>Condition Immunities</strong> exhaustion, frightened, poisoned</p>
+
+<p><strong>Senses</strong> darkvision 120 ft.</p>
+
+<p><strong>Languages</strong> Abyssal, Common</p>
+
+<p><strong>Challenge</strong> 17 (18,000 XP)</p>
+
+<p><strong><em>Undead Nature.</em></strong> A death knight doesn’t require air, food, drink, or sleep.</p>
+
+<p><strong><em>Magic Resistance.</em></strong> The death knight has advantage on saving throws against spells and other magical effects.</p>
+
+<p><strong><em>Marshal Undead.</em></strong> Unless the death knight is incapacitated, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead.</p>
+
+<p><strong><em>Spellcasting.</em></strong> The death knight is a 19th-level spell caster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the following paladin spells prepared:</p>
+
+<ul>
+  <li>
+    <p>1st level (4 slots): command, compelled duel, searing smite</p>
+  </li>
+  <li>
+    <p>2nd level (3 slots): hold person, magic weapon</p>
+  </li>
+  <li>
+    <p>3rd level (3 slots): dispel magic, elemental weapon</p>
+  </li>
+  <li>
+    <p>4th level (3 slots): banishment, staggering smite</p>
+  </li>
+  <li>
+    <p>5th level (2 slots): destructive wave (necrotic)</p>
+  </li>
+</ul>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The death knight makes three longsword attacks.</p>
+
+<p><strong><em>Longsword.</em></strong> Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands, plus 18 (4d8) necrotic damage.</p>
+
+<p><strong><em>Hellfire Orb (1/day).</em></strong> The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a DC 18 Dexterity saving throw. The sphere spreads around corners. A creature takes 35 (10d6) fire damage and 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one.</p>
+
+<p><strong>Reactions</strong></p>
+
+<p><strong><em>Parry.</em></strong> The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon.</p>
+
+:ET

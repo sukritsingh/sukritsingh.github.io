@@ -1,0 +1,62 @@
+I"�<p><strong>Large aberration, lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 15 (breastplate)</p>
+
+<p><strong>Hit Points</strong> 127 (17d10+14)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">21 (+5)</td>
+      <td style="text-align: center">19 (+4)</td>
+      <td style="text-align: center">21 (+5)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Int +9, Wis +8, Cha +9</p>
+
+<p><strong>Skills</strong> Arcana +9, Insight +8, Perception +8, Stealth +5</p>
+
+<p><strong>Senses</strong> darkvision 120 ft.</p>
+
+<p><strong>Languages</strong> Deep Speech, Undercommon, telepathy 2 miles</p>
+
+<p><strong>Challenge</strong> 9 (5,000 XP)</p>
+
+<p><strong><em>Creature Sense.</em></strong> The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can’t be perceived in this manner.</p>
+
+<p><strong><em>Magic Resistance.</em></strong> The ulitharid has advantage on saving throws against spells and other magical effects.</p>
+
+<p><strong><em>Psionic Hub.</em></strong> If an elder brain establishes a psychic link with the ulitharid, the elder brain can form a psychic link with any other creature the ulitharid can detect using its Creature Sense. Any such link ends if the creature falls outside the telepathy ranges of both the ulitharid and the elder brain. The ulitharid can maintain its psychic link with the elder brain regardless of the distance between them, so long as they are both on the same plane of existence. lithe ulitharid is more than 5 miles away from the elder brain, it can end the psychic link at any time (no action required).</p>
+
+<p><strong><em>Innate Spellcasting (Psionics).</em></strong> The ulitharid’s innate spellcasting ability is Intelligence (spell save DC 17). It can innately cast the following spells, requiring no components:</p>
+
+<p>At will: detect thoughts, levitate</p>
+
+<p>1/day each: confusion, dominate monster, eyebite, feeblemind, mass suggestion, plane shift (self only), project image, scrying, telekinesis</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Tentacles.</em></strong> Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 27 (4d10+5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 14) and must succeed on a DC 17 Intelligence saving throw or be stunned until this grapple ends.</p>
+
+<p><strong><em>Extract Brain.</em></strong> Melee Weapon Attack: +9 to hit, reach 5 ft., one incapacitated humanoid grappled by the ulitharid. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain.</p>
+
+<p><strong><em>Mind Blast (Recharge 5-6).</em></strong> The ulitharid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 17 Intelligence saving throw or take 31 (4d12+5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+
+:ET

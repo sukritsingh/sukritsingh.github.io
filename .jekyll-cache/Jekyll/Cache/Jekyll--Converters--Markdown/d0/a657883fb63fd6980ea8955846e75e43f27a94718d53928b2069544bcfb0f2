@@ -1,0 +1,44 @@
+I"�<p><strong>Small beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 7 (2d6)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">7 (-2)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">4 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Challenge</strong> 1/8 (25 XP)</p>
+
+<p><strong><em>Keen Smell.</em></strong> The rat has advantage on Wisdom (Perception) checks that rely on smell.</p>
+
+<p><strong><em>Pack Tactics.</em></strong> The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>
+
+:ET

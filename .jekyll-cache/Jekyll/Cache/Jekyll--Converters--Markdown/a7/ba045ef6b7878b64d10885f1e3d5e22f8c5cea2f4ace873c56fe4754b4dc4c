@@ -1,0 +1,56 @@
+I"0	<p><strong>Medium monstrosity (shapechanger), neutral</strong></p>
+
+<p><strong>Armor Class</strong> 12 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 58 (9d8+18)</p>
+
+<p><strong>Speed</strong> 15 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">5 (-3)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">8 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Stealth +5</p>
+
+<p><strong>Damage Immunities</strong> acid</p>
+
+<p><strong>Condition Immunities</strong> prone</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Shapechanger.</em></strong> The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn ‘t transformed. It reverts to its true form if it dies.</p>
+
+<p><strong><em>Adhesive (Object Form Only).</em></strong> The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</p>
+
+<p><strong><em>False Appearance (Object Form Only).</em></strong> While the mimic remains motionless, it is indistinguishable from an ordinary object.</p>
+
+<p><strong><em>Grappler.</em></strong> The mimic has advantage on attack rolls against any creature grappled by it.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Pseudopod.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</p>
+
+:ET

@@ -1,0 +1,46 @@
+I"5<p><strong>Medium plant, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 16 (scale armor, shield)</p>
+
+<p><strong>Hit Points</strong> 26 (4d8+8)</p>
+
+<p><strong>Speed</strong> 15 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">6 (-2)</td>
+      <td style="text-align: center">1 (-5)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> blinded, charmed, frightened, paralyzed</p>
+
+<p><strong>Senses</strong> blindsight 30 ft. (blind beyond this radius)</p>
+
+<p><strong>Languages</strong> -</p>
+
+<p><strong>Challenge</strong> 1/2 (100 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>War Pick.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</p>
+
+:ET

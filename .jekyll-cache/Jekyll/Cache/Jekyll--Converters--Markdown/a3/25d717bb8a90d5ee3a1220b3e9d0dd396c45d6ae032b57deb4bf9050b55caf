@@ -1,0 +1,46 @@
+I"Ì<p><strong>Tiny beast, lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 2 (1d4)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">4 (-3)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">8 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Senses</strong> darkvision 30 ft.</p>
+
+<p><strong>Languages</strong> telepathy 30 ft.</p>
+
+<p><strong>Challenge</strong> 0 (10 XP)</p>
+
+<p><strong><em>Illumination.</em></strong> As a bonus action, the cranium rat can shed dim light from its brain in a 5-foot radius or extinguish the light.</p>
+
+<p><strong><em>Telepathic Shroud.</em></strong> The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
+
+:ET

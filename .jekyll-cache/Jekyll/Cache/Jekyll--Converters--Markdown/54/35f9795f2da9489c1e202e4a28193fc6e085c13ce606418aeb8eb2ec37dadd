@@ -1,0 +1,56 @@
+I"A<p><strong>Medium construct, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 20 (plate, shield)</p>
+
+<p><strong>Hit Points</strong> 60 (8d8+24)</p>
+
+<p><strong>Speed</strong> 30 ft., fly 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">10 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +4</p>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing from nonmagical weapons that aren’t adamantine</p>
+
+<p><strong>Damage Immunities</strong> force, necrotic, poison</p>
+
+<p><strong>Condition Immunities</strong> blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned</p>
+
+<p><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius)</p>
+
+<p><strong>Languages</strong> understands the languages of its creator but can’t speak</p>
+
+<p><strong>Challenge</strong> 4 (1,100 XP)</p>
+
+<p><strong><em>Magic Resistance.</em></strong> The helmed horror has advantage on saving throws against spells and other magical effects.</p>
+
+<p><strong><em>Spell Immunity.</em></strong> The helmed horror is immune to three spells chosen by its creator. Typical immunities include fireball, heat metal, and lightning bolt.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The helmed horror makes two longsword attacks.</p>
+
+<p><strong><em>Longsword.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.</p>
+
+:ET

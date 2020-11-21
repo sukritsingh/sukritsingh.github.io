@@ -1,0 +1,51 @@
+I"�
+<p><strong>Large monstrosity, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 11 (leather)</p>
+
+<p><strong>Hit Points</strong> 60 (8d10+16)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Deception +4, Survival +4</p>
+
+<p><strong>Languages</strong> Common, Yikaria</p>
+
+<p><strong>Challenge</strong> 3 (700 XP)</p>
+
+<p><strong><em>Possession (Recharges after a rest.</em></strong> The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest or the attempt fails. At the end of the rest, the target must succeed a DC 12 Con saving throw or be possessed by the yakfolk, which disappears with everything its carrying and wearing. Until the possession ends, the target is incapacitated, loses control of its body, and it unaware of its surroundings. The yakfolk now controls the body and cannot be targeted by any attack, spell, or other effect, and it retains its alignment, its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target’s statistics, except the target’s knowledge, class features, feats, and proficiencies.</p>
+
+<p>The possession lats until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as dispel evil and good spell. When the possession ends, the yakfolk appears in an unoccupied space within 5 feet of the body and is stunned until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well and its body does not reappear.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The yakfolk makes two attacks, either with it’s greatsword or its longbow</p>
+
+<p><strong><em>Greatsword.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</p>
+
+<p><strong><em>Longbow.</em></strong> Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit: 9 (2d8) piercing damage.</p>
+
+:ET

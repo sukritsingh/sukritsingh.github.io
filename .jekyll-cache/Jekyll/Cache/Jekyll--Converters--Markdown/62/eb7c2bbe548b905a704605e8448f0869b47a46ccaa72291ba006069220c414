@@ -1,0 +1,50 @@
+I"�<p><strong>Medium dragon, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 13 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 22 (4d6+8)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">4 (-3)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">6 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +4, Stealth +4</p>
+
+<p><strong>Damage Resistances</strong> poison</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> understands Draconic but can’t speak it</p>
+
+<p><strong>Challenge</strong> 1/2 (100 XP)</p>
+
+<p><strong><em>Pack Tactics.</em></strong> The drake has advantage on an attack roll against a creature if at least one of the drake’s allies is within 5 feet of the creature and the ally isn’t incapacitated.</p>
+
+<p><strong><em>Surprise Attack.</em></strong> If the drake surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</p>
+
+:ET

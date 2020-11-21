@@ -1,0 +1,66 @@
+I"�<p><strong>Medium ooze, chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 14</p>
+
+<p><strong>Hit Points</strong> 32 (5d8+10)</p>
+
+<p><strong>Speed</strong> 30 ft., climb 30 ft., swim 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">19 (+4)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Stealth +8</p>
+
+<p><strong>Damage Vulnerabilities</strong> cold, fire</p>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing from nonmagical attacks</p>
+
+<p><strong>Condition Immunities</strong> blinded, deafened, exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious</p>
+
+<p><strong>Senses</strong> blindsight 120 ft.</p>
+
+<p><strong>Languages</strong> understands languages it knew in its previous form but can’t speak</p>
+
+<p><strong>Challenge</strong> 3 (700 XP)</p>
+
+<p><strong><em>Ambusher.</em></strong> In the first round of a combat, the slithering tracker has advantage on attack rolls against any creature it surprised.</p>
+
+<p><strong><em>Damage Transfer.</em></strong> While grappling a creature, the slithering tracker takes only haIf the damage dealt to it, and the creature it is grappling takes the other half.</p>
+
+<p><strong><em>False Appearance.</em></strong> While the slithering tracker remains motionless, it is indistinguishable from a puddle, unless an observer succeeds on a DC 18 Intelligence (Investigation) check.</p>
+
+<p><strong><em>Keen Tracker.</em></strong> The slithering tracker has advantage on Wisdom checks to track prey.</p>
+
+<p><strong><em>Liquid Form.</em></strong> The slithering tracker can enter an enemy’s space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing.</p>
+
+<p><strong><em>Spider Climb.</em></strong> The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+
+<p><strong><em>Watery Stealth.</em></strong> While underwater, the slithering tracker has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Slam.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) bludgeoning damage.</p>
+
+<p><strong><em>Life Leech.</em></strong> One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a DC 13 Dexterity saving throw or be grappled (escape DC 13). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. In addition, the grappled target takes 16 (3d10) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time.</p>
+
+:ET

@@ -1,0 +1,48 @@
+I"�<p><strong>Tiny undead, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 2 (1d4)</p>
+
+<p><strong>Speed</strong> 20 ft., climb 20 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">5 (-3)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">4 (-3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> poisoned</p>
+
+<p><strong>Senses</strong> blindsight 30 ft. (blind beyond this radius)</p>
+
+<p><strong>Languages</strong> understands Common but can’t speak</p>
+
+<p><strong>Challenge</strong> 0 (10 XP)</p>
+
+<p><strong><em>Turn Immunity.</em></strong> The claw is immune to effects that turn undead.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Claw.</em></strong> Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw’s choice) .</p>
+
+:ET

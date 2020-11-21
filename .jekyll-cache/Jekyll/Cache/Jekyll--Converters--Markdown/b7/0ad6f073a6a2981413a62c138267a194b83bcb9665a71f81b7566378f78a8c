@@ -1,0 +1,80 @@
+I"~<p><strong>Large fiend (demon), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 18 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 350 (28d10+196)</p>
+
+<p><strong>Speed</strong> 40 ft., fly 40 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">29 (+9)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">25 (+7)</td>
+      <td style="text-align: center">26 (+8)</td>
+      <td style="text-align: center">24 (+7)</td>
+      <td style="text-align: center">26 (+8)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Dex +8, Con +15, Int +15, Wis +14</p>
+
+<p><strong>Skills</strong> Deception +15, Perception +14, Stealth +8</p>
+
+<p><strong>Damage Resistances</strong> cold, fire, lightning</p>
+
+<p><strong>Damage Immunities</strong> poison; bludgeoning, piercing, and slashing that is nonmagical</p>
+
+<p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, poisoned</p>
+
+<p><strong>Senses</strong> truesight 120 ft.</p>
+
+<p><strong>Languages</strong> all, telepathy 120 ft.</p>
+
+<p><strong>Challenge</strong> 23 (50,000 XP)</p>
+
+<p><strong><em>Innate Spellcasting.</em></strong> Fraz-Urb’luu’s spellcasting ability is Charisma (spell save DC 23). Fraz-Urb’luu can innately cast the following spells, requiring no material components:</p>
+
+<p>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force</p>
+
+<p>3/day each: confusion, dream, mislead, programmed illusion, seeming</p>
+
+<p>1/day each: mirage arcane, modify memory, project image</p>
+
+<p><strong><em>Legendary Resistance (3/Day).</em></strong> If Fraz-Urb’luu fails a saving throw, he can choose to succeed instead.</p>
+
+<p><strong><em>Magic Resistance.</em></strong> Fraz-Urb’luu has advantage on saving throws against spell and other magic effects.</p>
+
+<p><strong><em>Magic Weapon.</em></strong> Fraz-Urb’luu’s weapon attacks are magical.</p>
+
+<p><strong><em>Undetectable.</em></strong> Fraz-Urb’luu can’t be targeted by divination magic, perceived through magical scrying sensors, or detected by abilities that sense demons or fiends.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> Fraz-Urb’luu makes three attacks: one with his bite and two with his fists.</p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) piercing damage.</p>
+
+<p><strong><em>Fist.</em></strong> Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) bludgeoning damage.</p>
+
+<p><strong>Legendary Actions</strong></p>
+
+<p>Fraz-Urb’luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre’s turn. Fraz-Urb’luu regains spent legendary actions at the start of his turn.</p>
+
+<p><strong><em>Tail.</em></strong> Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb’luu can grapple only one creature with his tail at a time.</p>
+
+<p><strong><em>Phantasmal Killer (Costs 2 Actions).</em></strong> Fraz-Urb’luu casts phantasmal killer, no concentration required.</p>
+
+:ET

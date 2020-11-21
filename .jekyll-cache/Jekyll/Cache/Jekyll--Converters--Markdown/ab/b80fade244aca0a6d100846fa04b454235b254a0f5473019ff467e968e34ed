@@ -1,0 +1,44 @@
+I"P<p><strong>Huge beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 157 (15d12+60)</p>
+
+<p><strong>Speed</strong> 40 ft., climb 40 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">23 (+6)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">7 (-2)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">7 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Athletics +9, Perception +4</p>
+
+<p><strong>Challenge</strong> 7 (2,900 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The ape makes two fist attacks.</p>
+
+<p><strong><em>Fist.</em></strong> Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage.</p>
+
+<p><strong><em>Rock.</em></strong> Ranged Weapon Attack: +9 to hit, range 50/100 ft., one target. Hit: 30 (7d6 + 6) bludgeoning damage.</p>
+
+:ET

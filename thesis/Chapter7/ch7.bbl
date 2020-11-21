@@ -1,0 +1,415 @@
+\begin{thebibliography}{10}
+
+\bibitem{Zimmerman2020covid-pocket}
+Maxwell~I. Zimmerman, Justin~R. Porter, Michael~D. Ward, Sukrit Singh, Neha
+  Vithani, Artur Meller, Upasana~L. Mallimadugula, Catherine~E. Kuhn,
+  Jonathan~H. Borowsky, Rafal~P. Wiewiora, Matthew F.~D. Hurley, Aoife~M
+  Harbison, Carl~A Fogarty, Joseph~E. Coffland, Elisa Fadda, Vincent~A. Voelz,
+  John~D. Chodera, and Gregory~R. Bowman.
+\newblock Citizen scientists create an exascale computer to combat covid-19.
+\newblock {\em bioRxiv}, 2020.
+
+\bibitem{zhou_pneumonia_2020}
+Peng Zhou, Xing-Lou Yang, Xian-Guang Wang, Ben Hu, Lei Zhang, Wei Zhang,
+  Hao-Rui Si, Yan Zhu, Bei Li, Chao-Lin Huang, Hui-Dong Chen, Jing Chen, Yun
+  Luo, Hua Guo, Ren-Di Jiang, Mei-Qin Liu, Ying Chen, Xu-Rui Shen, Xi~Wang,
+  Xiao-Shuang Zheng, Kai Zhao, Quan-Jiao Chen, Fei Deng, Lin-Lin Liu, Bing Yan,
+  Fa-Xian Zhan, Yan-Yi Wang, Geng-Fu Xiao, and Zheng-Li Shi.
+\newblock A pneumonia outbreak associated with a new coronavirus of probable
+  bat origin.
+\newblock {\em Nature}, 579(7798):270--273, March 2020.
+
+\bibitem{liu_reproductive_2020}
+Ying Liu, Albert~A Gayle, Annelies Wilder-Smith, and Joacim Rocklöv.
+\newblock The reproductive number of {COVID}-19 is higher compared to {SARS}
+  coronavirus.
+\newblock {\em Journal of Travel Medicine}, 27(2):taaa021, March 2020.
+
+\bibitem{sorci_why_2020}
+Gabriele Sorci, Bruno Faivre, and Serge Morand.
+\newblock Why does {COVID}-19 case fatality rate vary among countries?
+\newblock preprint, Infectious Diseases (except HIV/AIDS), April 2020.
+
+\bibitem{khafaie_cross-country_2020}
+Morteza~Abdullatif Khafaie and Fakher Rahim.
+\newblock Cross-country comparison of case fatality rates of
+  covid-19/sars-cov-2.
+\newblock {\em Osong Public Health and Research Perspectives}, 11(2):74--80,
+  April 2020.
+
+\bibitem{mahase_coronavirus:_2020}
+Elisabeth Mahase.
+\newblock Coronavirus: covid-19 has killed more people than {SARS} and {MERS}
+  combined, despite lower case fatality rate.
+\newblock {\em BMJ}, page m641, February 2020.
+
+\bibitem{onder_case-fatality_2020}
+Graziano Onder, Giovanni Rezza, and Silvio Brusaferro.
+\newblock Case-fatality rate and characteristics of patients dying in relation
+  to covid-19 in italy.
+\newblock {\em JAMA}, March 2020.
+
+\bibitem{ferreira_molecular_2015}
+Leonardo Ferreira, Ricardo dos Santos, Glaucius Oliva, and Adriano Andricopulo.
+\newblock Molecular docking and structure-based drug design strategies.
+\newblock {\em Molecules}, 20(7):13384--13421, July 2015.
+
+\bibitem{Kohlhoff:2014bo}
+Kai~J Kohlhoff, Diwakar Shukla, Morgan Lawrenz, Gregory~R Bowman, David~E
+  Konerding, Dan Belov, Russ~B Altman, and Vijay~S Pande.
+\newblock {Cloud-based simulations on Google Exacycle reveal ligand modulation
+  of GPCR activation pathways.}
+\newblock {\em Nature chemistry}, 6(1):15--21, January 2014.
+
+\bibitem{Shukla:2014jp}
+Diwakar Shukla, Yilin Meng, Beno{\^\i}t Roux, and Vijay~S Pande.
+\newblock {Activation pathway of Src kinase reveals intermediate states as
+  targets for drug design.}
+\newblock {\em Nature communications}, 5(1):3397, March 2014.
+
+\bibitem{Sun:2018kx}
+Xianqiang Sun, Sukrit Singh, Kendall Blumer, and Gregory~R Bowman.
+\newblock {Simulation of spontaneous G protein activation reveals a new
+  intermediate driving GDP unbinding}.
+\newblock {\em eLife}, 7, October 2018.
+
+\bibitem{Hart:2016kb}
+Kathryn~M Hart, Chris M~W Ho, Supratik Dutta, Michael~L Gross, and Gregory~R
+  Bowman.
+\newblock {Modelling proteins' hidden conformations to predict antibiotic
+  resistance.}
+\newblock {\em Nature communications}, 7:12965, October 2016.
+
+\bibitem{chen_dynamic_2019}
+Shi Chen, Rafal~P Wiewiora, Fanwang Meng, Nicolas Babault, Anqi Ma, Wenyu Yu,
+  Kun Qian, Hao Hu, Hua Zou, Junyi Wang, Shijie Fan, Gil Blum, Fabio
+  Pittella-Silva, Kyle~A Beauchamp, Wolfram Tempel, Hualiang Jiang, Kaixian
+  Chen, Robert~J Skene, Yujun~George Zheng, Peter~J Brown, Jian Jin, Cheng Luo,
+  John~D Chodera, and Minkui Luo.
+\newblock The dynamic conformational landscape of the protein methyltransferase
+  {SETD8}.
+\newblock {\em eLife}, 8:e45403, May 2019.
+
+\bibitem{porter_conformational_2020}
+Justin~R Porter, Artur Meller, Maxwell~I Zimmerman, Michael~J Greenberg, and
+  Gregory~R Bowman.
+\newblock Conformational distributions of isolated myosin motor domains encode
+  their mechanochemical properties.
+\newblock {\em eLife}, 9:e55132, May 2020.
+
+\bibitem{Porter:2019hv}
+Justin~R Porter, Katelyn~E Moeder, Carrie~A Sibbald, Maxwell~I Zimmerman,
+  Kathryn~M Hart, Michael~J Greenberg, and Gregory~R Bowman.
+\newblock {Cooperative Changes in Solvent Exposure Identify Cryptic Pockets,
+  Switches, and Allosteric Coupling.}
+\newblock {\em Biophysical Journal}, 116(5):818--830, March 2019.
+
+\bibitem{hart_designing_2017}
+Kathryn~M. Hart, Katelyn~E. Moeder, Chris M.~W. Ho, Maxwell~I. Zimmerman,
+  Thomas~E. Frederick, and Gregory~R. Bowman.
+\newblock Designing small molecules to target cryptic pockets yields both
+  positive and negative allosteric modulators.
+\newblock {\em PLOS ONE}, 12(6):e0178678, June 2017.
+
+\bibitem{Cruz2020vp35}
+Matthew~A. Cruz, Thomas~E. Frederick, Sukrit Singh, Neha Vithani, Maxwell~I.
+  Zimmerman, Justin~R. Porter, Katelyn~E. Moeder, Gaya~K. Amarasinghe, and
+  Gregory~R. Bowman.
+\newblock Discovery of a cryptic allosteric site in ebola{\textquoteright}s
+  {\textquoteleft}undruggable{\textquoteright} vp35 protein using simulations
+  and experiments.
+\newblock {\em bioRxiv}, 2020.
+
+\bibitem{wang_cap-snatching_2020}
+Wenjie Wang, Woo-Jin Shin, Bojie Zhang, Younho Choi, Ji-Seung Yoo, Maxwell~I.
+  Zimmerman, Thomas~E. Frederick, Gregory~R. Bowman, Michael~L. Gross, Daisy~W.
+  Leung, Jae~U. Jung, and Gaya~K. Amarasinghe.
+\newblock The cap-snatching sftsv endonuclease domain is an antiviral target.
+\newblock {\em Cell Reports}, 30(1):153--163.e5, January 2020.
+
+\bibitem{kirchdoerfer_stabilized_2018}
+Robert~N. Kirchdoerfer, Nianshuang Wang, Jesper Pallesen, Daniel Wrapp,
+  Hannah~L. Turner, Christopher~A. Cottrell, Kizzmekia~S. Corbett, Barney~S.
+  Graham, Jason~S. McLellan, and Andrew~B. Ward.
+\newblock Stabilized coronavirus spikes are resistant to conformational changes
+  induced by receptor recognition or proteolysis.
+\newblock {\em Scientific Reports}, 8(1):15701, December 2018.
+
+\bibitem{walls_structure_2020}
+Alexandra~C. Walls, Young-Jun Park, M.~Alejandra Tortorici, Abigail Wall,
+  Andrew~T. McGuire, and David Veesler.
+\newblock Structure, function, and antigenicity of the sars-cov-2 spike
+  glycoprotein.
+\newblock {\em Cell}, 181(2):281--292.e6, April 2020.
+
+\bibitem{wrapp_cryo-em_2020}
+Daniel Wrapp, Nianshuang Wang, Kizzmekia~S. Corbett, Jory~A. Goldsmith,
+  Ching-Lin Hsieh, Olubukola Abiona, Barney~S. Graham, and Jason~S. McLellan.
+\newblock Cryo-{EM} structure of the 2019-{nCoV} spike in the prefusion
+  conformation.
+\newblock {\em Science}, 367(6483):1260--1263, March 2020.
+
+\bibitem{zhang_angiotensin-converting_2020}
+Haibo Zhang, Josef~M. Penninger, Yimin Li, Nanshan Zhong, and Arthur~S.
+  Slutsky.
+\newblock Angiotensin-converting enzyme 2 ({Ace2}) as a {SARS}-{CoV}-2
+  receptor: molecular mechanisms and potential therapeutic target.
+\newblock {\em Intensive Care Medicine}, 46(4):586--590, April 2020.
+
+\bibitem{hoffmann_sars-cov-2_2020}
+Markus Hoffmann, Hannah Kleine-Weber, Simon Schroeder, Nadine Krüger, Tanja
+  Herrler, Sandra Erichsen, Tobias~S. Schiergens, Georg Herrler, Nai-Huei Wu,
+  Andreas Nitsche, Marcel~A. Müller, Christian Drosten, and Stefan Pöhlmann.
+\newblock Sars-cov-2 cell entry depends on ace2 and tmprss2 and is blocked by a
+  clinically proven protease inhibitor.
+\newblock {\em Cell}, 181(2):271--280.e8, April 2020.
+
+\bibitem{watanabe_vulnerabilities_2020}
+Yasunori Watanabe, Zachary~T. Berndsen, Jayna Raghwani, Gemma~E. Seabright,
+  Joel~D. Allen, Oliver~G. Pybus, Jason~S. McLellan, Ian~A. Wilson, Thomas~A.
+  Bowden, Andrew~B. Ward, and Max Crispin.
+\newblock Vulnerabilities in coronavirus glycan shields despite extensive
+  glycosylation.
+\newblock {\em Nature Communications}, 11(1):2688, December 2020.
+
+\bibitem{zimmerman_fast_2015}
+Maxwell~I. Zimmerman and Gregory~R. Bowman.
+\newblock Fast conformational searches by balancing exploration/exploitation
+  trade-offs.
+\newblock {\em Journal of Chemical Theory and Computation}, 11(12):5747--5757,
+  December 2015.
+
+\bibitem{zimmerman_how_2016}
+M.I. Zimmerman and G.R. Bowman.
+\newblock How to run fast simulations.
+\newblock In {\em Methods in {Enzymology}}, volume 578, pages 213--225.
+  Elsevier, 2016.
+
+\bibitem{yuan_cryo-em_2017}
+Yuan Yuan, Duanfang Cao, Yanfang Zhang, Jun Ma, Jianxun Qi, Qihui Wang,
+  Guangwen Lu, Ying Wu, Jinghua Yan, Yi~Shi, Xinzheng Zhang, and George~F. Gao.
+\newblock Cryo-{EM} structures of {MERS}-{CoV} and {SARS}-{CoV} spike
+  glycoproteins reveal the dynamic receptor binding domains.
+\newblock {\em Nature Communications}, 8(1):15092, April 2017.
+
+\bibitem{huo_neutralization_2020}
+Jiandong Huo, Yuguang Zhao, Jingshan Ren, Daming Zhou, Helen~M.E. Duyvesteyn,
+  Helen~M. Ginn, Loic Carrique, Tomas Malinauskas, Reinis~R. Ruza, Pranav~N.M.
+  Shah, Tiong~Kit Tan, Pramila Rijal, Naomi Coombes, Kevin~R. Bewley, Julia~A.
+  Tree, Julika Radecke, Neil~G. Paterson, Piyada Supasa, Juthathip
+  Mongkolsapaya, Gavin~R. Screaton, Miles Carroll, Alain Townsend, Elizabeth~E.
+  Fry, Raymond~J. Owens, and David~I. Stuart.
+\newblock Neutralization of sars-cov-2 by destruction of the prefusion spike.
+\newblock {\em Cell Host \& Microbe}, page S1931312820303516, June 2020.
+
+\bibitem{zhong_epidemiology_2003}
+Ns~Zhong, Bj~Zheng, Ym~Li, Llm Poon, Zh~Xie, Kh~Chan, Ph~Li, Sy~Tan, Q~Chang,
+  Jp~Xie, Xq~Liu, J~Xu, Dx~Li, Ky~Yuen, Jsm Peiris, and Y~Guan.
+\newblock Epidemiology and cause of severe acute respiratory syndrome ({Sars})
+  in {Guangdong}, {People}'s {Republic} of {China}, in {February}, 2003.
+\newblock {\em The Lancet}, 362(9393):1353--1358, October 2003.
+
+\bibitem{van_der_hoek_identification_2004}
+Lia van~der Hoek, Krzysztof Pyrc, Maarten~F Jebbink, Wilma Vermeulen-Oost, Ron
+  J~M Berkhout, Katja~C Wolthers, Pauline M~E Wertheim-van Dillen, Jos
+  Kaandorp, Joke Spaargaren, and Ben Berkhout.
+\newblock Identification of a new human coronavirus.
+\newblock {\em Nature Medicine}, 10(4):368--373, April 2004.
+
+\bibitem{wu_crystal_2009}
+K.~Wu, W.~Li, G.~Peng, and F.~Li.
+\newblock Crystal structure of {NL63} respiratory coronavirus receptor-binding
+  domain complexed with its human receptor.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(47):19970--19974, November 2009.
+
+\bibitem{shang_structural_2020}
+Jian Shang, Gang Ye, Ke~Shi, Yushun Wan, Chuming Luo, Hideki Aihara, Qibin
+  Geng, Ashley Auerbach, and Fang Li.
+\newblock Structural basis of receptor recognition by {SARS}-{CoV}-2.
+\newblock {\em Nature}, 581(7807):221--224, May 2020.
+
+\bibitem{graham_structure-based_2019}
+Barney~S. Graham, Morgan~S.A. Gilman, and Jason~S. McLellan.
+\newblock Structure-based vaccine antigen design.
+\newblock {\em Annual Review of Medicine}, 70(1):91--104, January 2019.
+
+\bibitem{zhang_crystal_2020}
+Linlin Zhang, Daizong Lin, Xinyuanyuan Sun, Ute Curth, Christian Drosten, Lucie
+  Sauerhering, Stephan Becker, Katharina Rox, and Rolf Hilgenfeld.
+\newblock Crystal structure of {SARS}-{CoV}-2 main protease provides a basis
+  for design of improved α-ketoamide inhibitors.
+\newblock {\em Science}, page eabb3405, March 2020.
+
+\bibitem{graziano_sars_2006}
+Vito Graziano, William~J. McGrath, Lin Yang, and Walter~F. Mangel.
+\newblock Sars cov main proteinase: the monomer−dimer equilibrium
+  dissociation constant.
+\newblock {\em Biochemistry}, 45(49):14632--14641, December 2006.
+
+\bibitem{goyal_targeting_2020}
+Bhupesh Goyal and Deepti Goyal.
+\newblock Targeting the dimerization of the main protease of coronaviruses: a
+  potential broad-spectrum therapeutic strategy.
+\newblock {\em ACS Combinatorial Science}, 22(6):297--305, June 2020.
+
+\bibitem{mcbride_coronavirus_2014}
+Ruth McBride, Marjorie van Zyl, and Burtram Fielding.
+\newblock The coronavirus nucleocapsid is a multifunctional protein.
+\newblock {\em Viruses}, 6(8):2991--3018, August 2014.
+
+\bibitem{masters_coronavirus_2019}
+Paul~S. Masters.
+\newblock Coronavirus genomic {RNA} packaging.
+\newblock {\em Virology}, 537:198--207, November 2019.
+
+\bibitem{cubuk_sars-cov-2_2020}
+Jasmine Cubuk, Jhullian~J. Alston, J.~Jeremías Incicco, Sukrit Singh,
+  Melissa~D. Stuchell-Brereton, Michael~D. Ward, Maxwell~I. Zimmerman, Neha
+  Vithani, Daniel Griffith, Jason~A. Wagoner, Gregory~R. Bowman, Kathleen~B.
+  Hall, Andrea Soranno, and Alex~S. Holehouse.
+\newblock The {SARS}-{CoV}-2 nucleocapsid protein is dynamic, disordered, and
+  phase separates with {RNA}.
+\newblock preprint, Biophysics, June 2020.
+
+\bibitem{su_electron_2018}
+Zhaoming Su, Chao Wu, Liuqing Shi, Priya Luthra, Grigore~D. Pintilie, Britney
+  Johnson, Justin~R. Porter, Peng Ge, Muyuan Chen, Gai Liu, Thomas~E.
+  Frederick, Jennifer~M. Binning, Gregory~R. Bowman, Z.~Hong Zhou,
+  Christopher~F. Basler, Michael~L. Gross, Daisy~W. Leung, Wah Chiu, and
+  Gaya~K. Amarasinghe.
+\newblock Electron cryo-microscopy structure of ebola virus nucleoprotein
+  reveals a mechanism for nucleocapsid-like assembly.
+\newblock {\em Cell}, 172(5):966--978.e12, February 2018.
+
+\bibitem{dinesh_structural_2020}
+Dhurvas~Chandrasekaran Dinesh, Dominika Chalupska, Jan Silhan, Vaclav Veverka,
+  and Evzen Boura.
+\newblock Structural basis of {RNA} recognition by the {SARS}-{CoV}-2
+  nucleocapsid phosphoprotein.
+\newblock preprint, Biochemistry, April 2020.
+
+\bibitem{waterhouse_swiss-model:_2018}
+Andrew Waterhouse, Martino Bertoni, Stefan Bienert, Gabriel Studer, Gerardo
+  Tauriello, Rafal Gumienny, Florian~T Heer, Tjaart~A P de Beer, Christine
+  Rempfer, Lorenza Bordoli, Rosalba Lepore, and Torsten Schwede.
+\newblock {SWISS}-{MODEL}: homology modelling of protein structures and
+  complexes.
+\newblock {\em Nucleic Acids Research}, 46(W1):W296--W303, July 2018.
+
+\bibitem{Abraham:2015gj}
+Mark~James Abraham, Teemu Murtola, Roland Schulz, Szil{\'a}rd P{\'a}ll,
+  Jeremy~C Smith, Berk Hess, and Erik Lindahl.
+\newblock {GROMACS: High performance molecular simulations through multi-level
+  parallelism from laptops to supercomputers}.
+\newblock {\em SoftwareX}, 1-2:19--25, September 2015.
+
+\bibitem{Duan:2003gt}
+Yong Duan, Chun Wu, Shibasish Chowdhury, Mathew~C Lee, Guoming Xiong, Wei
+  Zhang, Rong Yang, Piotr Cieplak, Ray Luo, Taisung Lee, James Caldwell, Junmei
+  Wang, and Peter Kollman.
+\newblock {A point-charge force field for molecular mechanics simulations of
+  proteins based on condensed-phase quantum mechanical calculations.}
+\newblock {\em Journal of computational chemistry}, 24(16):1999--2012, December
+  2003.
+
+\bibitem{huang_charmm36_2013}
+Jing Huang and Alexander~D. MacKerell.
+\newblock {CHARMM36} all-atom additive protein force field: {Validation} based
+  on comparison to {NMR} data.
+\newblock {\em Journal of Computational Chemistry}, 34(25):2135--2145,
+  September 2013.
+
+\bibitem{Jorgensen:1983fl}
+William~L Jorgensen, Jayaraman Chandrasekhar, Jeffry~D Madura, Roger~W Impey,
+  and Michael~L Klein.
+\newblock {Comparison of simple potential functions for simulating liquid
+  water}.
+\newblock {\em The Journal of Chemical Physics}, 79(2):926--935, July 1983.
+
+\bibitem{Feenstra:1999ue}
+K~A Feenstra, B~Hess, and HJC Berendsen.
+\newblock {Improving e_ciency of large timescale molecular dynamics simulations
+  of hydrogen-rich systems}.
+\newblock {\em J Comput Chem}, 20(8):786--798, June 1999.
+
+\bibitem{Hess:2008fl}
+Berk Hess.
+\newblock {P-LINCS:  A Parallel Linear Constraint Solver for Molecular
+  Simulation.}
+\newblock {\em Journal of Chemical Theory and Computation}, 4(1):116--122,
+  January 2008.
+
+\bibitem{Bussi:2007cs}
+Giovanni Bussi, Davide Donadio, and Michele Parrinello.
+\newblock {Canonical sampling through velocity rescaling}.
+\newblock {\em The Journal of Chemical Physics}, 126(1):014101, January 2007.
+
+\bibitem{zimmerman_prediction_2017}
+Maxwell~I. Zimmerman, Kathryn~M. Hart, Carrie~A. Sibbald, Thomas~E. Frederick,
+  John~R. Jimah, Catherine~R. Knoverek, Niraj~H. Tolia, and Gregory~R. Bowman.
+\newblock Prediction of new stabilizing mutations based on mechanistic insights
+  from markov state models.
+\newblock {\em ACS Central Science}, 3(12):1311--1321, December 2017.
+
+\bibitem{hendlich_ligsite:_1997}
+Manfred Hendlich, Friedrich Rippmann, and Gerhard Barnickel.
+\newblock {LIGSITE}: automatic and efficient detection of potential small
+  molecule-binding sites in proteins.
+\newblock {\em Journal of Molecular Graphics and Modelling}, 15(6):359--363,
+  December 1997.
+
+\bibitem{eastman_openmm_2017}
+Peter Eastman, Jason Swails, John~D. Chodera, Robert~T. McGibbon, Yutong Zhao,
+  Kyle~A. Beauchamp, Lee-Ping Wang, Andrew~C. Simmonett, Matthew~P. Harrigan,
+  Chaya~D. Stern, Rafal~P. Wiewiora, Bernard~R. Brooks, and Vijay~S. Pande.
+\newblock {OpenMM} 7: {Rapid} development of high performance algorithms for
+  molecular dynamics.
+\newblock {\em PLOS Computational Biology}, 13(7):e1005659, July 2017.
+
+\bibitem{Husic:2018iz}
+Brooke~E Husic and Vijay~S Pande.
+\newblock {Markov State Models: From an Art to a Science.}
+\newblock {\em Journal of the American Chemical Society}, page jacs.7b12191,
+  January 2018.
+
+\bibitem{porter2018enspara}
+J.~R. Porter, M.~I. Zimmerman, and G.~R. Bowman.
+\newblock Enspara: Modeling molecular ensembles with scalable data structures
+  and parallel computing.
+\newblock {\em The Journal of Chemical Physics}, 150(4):044108, 2019.
+
+\bibitem{Zimmerman:2018jn}
+Maxwell~I Zimmerman, Justin~R Porter, Xianqiang Sun, Roseane~R Silva, and
+  Gregory~R Bowman.
+\newblock {Choice of Adaptive Sampling Strategy Impacts State Discovery,
+  Transition Probabilities, and the Apparent Mechanism of Conformational
+  Changes.}
+\newblock {\em Journal of Chemical Theory and Computation},
+  q-bio.BM:acs.jctc.8b00500, October 2018.
+
+\bibitem{McGibbon:2015fv}
+Robert~T McGibbon, Kyle~A Beauchamp, Matthew~P Harrigan, Christoph Klein,
+  Jason~M Swails, Carlos~X Hern{\'a}ndez, Christian~R Schwantes, Lee-Ping Wang,
+  Thomas~J Lane, and Vijay~S Pande.
+\newblock {MDTraj: A Modern Open Library for the Analysis of Molecular Dynamics
+  Trajectories.}
+\newblock {\em Biophysical Journal}, 109(8):1528--1532, October 2015.
+
+\bibitem{the_uniprot_consortium_uniprot:_2019}
+{The UniProt Consortium}.
+\newblock {UniProt}: a worldwide hub of protein knowledge.
+\newblock {\em Nucleic Acids Research}, 47(D1):D506--D515, January 2019.
+
+\bibitem{edgar_muscle:_2004}
+R.~C. Edgar.
+\newblock {MUSCLE}: multiple sequence alignment with high accuracy and high
+  throughput.
+\newblock {\em Nucleic Acids Research}, 32(5):1792--1797, March 2004.
+
+\bibitem{Shannon:1948iy}
+C~E Shannon.
+\newblock {A Mathematical Theory of Communication}.
+\newblock {\em Bell Labs Technical Journal}, 27(3):379--423, July 1948.
+
+\end{thebibliography}

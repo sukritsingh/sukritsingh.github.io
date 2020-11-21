@@ -1,0 +1,58 @@
+I"/	<p><strong>Medium humanoid (orc), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 15 (studded leather armor)</p>
+
+<p><strong>Hit Points</strong> 52 (8d8+16)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">9 (-1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Intimidation +1, Perception +2, Stealth +5</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Orc</p>
+
+<p><strong>Challenge</strong> 3 (700 XP)</p>
+
+<p><strong><em>Cunning Action.</em></strong> On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.</p>
+
+<p><strong><em>Hand of Shargaas.</em></strong> The orc deals an 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks).</p>
+
+<p><strong><em>Shargaas’s Sight.</em></strong> Magical darkness doesn’t impede the orc’s darkvision.</p>
+
+<p><strong><em>Slayer.</em></strong> In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn’t taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The orc makes two scimitar or dart attacks.</p>
+
+<p><strong><em>Scimitar.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage.</p>
+
+<p><strong><em>Dart.</em></strong> Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.</p>
+
+<p><strong><em>Veil of Shargaas (Recharges after a Short or Long Rest).</em></strong> The orc casts darkness without any components. Wisdom is its spellcasting ability.</p>
+
+:ET

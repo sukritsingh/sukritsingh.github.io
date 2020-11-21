@@ -1,0 +1,42 @@
+I"Ü<p><strong>Tiny beast, unaligned</strong></p>
+
+<p><strong>Armor Class</strong> 13</p>
+
+<p><strong>Hit Points</strong> 1 (1d4-1)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">3 (-4)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">2 (-4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">3 (-4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Perception +3, Stealth +5</p>
+
+<p><strong>Challenge</strong> 0 (10 XP)</p>
+
+<p><strong><em>Keen Hearing and Smell.</em></strong> The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>
+
+:ET

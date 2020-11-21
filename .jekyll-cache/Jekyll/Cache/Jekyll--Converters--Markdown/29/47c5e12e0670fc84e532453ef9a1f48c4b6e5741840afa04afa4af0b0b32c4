@@ -1,0 +1,64 @@
+I"C<p><strong>Medium humanoid (dwarf), lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 15 (studded leather)</p>
+
+<p><strong>Hit Points</strong> 33 (6d8+6)</p>
+
+<p><strong>Speed</strong> 25 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">13 (+1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Deception +5, Insight +2, Investigation +5, Perception +4, Persuasion +3, Sleight of Hand +5, Stealth +7</p>
+
+<p><strong>Damage Resistances</strong> poison</p>
+
+<p><strong>Senses</strong> darkvision 120 ft.</p>
+
+<p><strong>Languages</strong> Dwarvish, Undercommon</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Source.</em></strong> tales from the yawning portal,  page 234</p>
+
+<p><strong><em>Cunning Action.</em></strong> On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.</p>
+
+<p><strong><em>Duergar Resilience.</em></strong> The spy has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</p>
+
+<p><strong><em>Sneak Attack.</em></strong> Once per turn, the spy can deal an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn’t incapacitated and the spy doesn’t have disadvantage on the attack roll.</p>
+
+<p><strong><em>Sunlight Sensitivity.</em></strong> While in sunlight, the spy has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The spy makes two shortsword attacks.</p>
+
+<p><strong><em>Eniarge (Recharges after a Short or Long Rest).</em></strong> For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available.</p>
+
+<p><strong><em>Shortsword.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 10 (2d6 + 3) piercing damage while enlarged.</p>
+
+<p><strong><em>Hand Crossbow.</em></strong> Ranged Weapon Attack: +5 to hit, range 30/120 ft ., one target. Hit: 6 (1d6 + 3) piercing damage.</p>
+
+<p><strong><em>Invisibility (Recharges after a Short or Long Rest).</em></strong> The spy magically turns invisible until it attacks, deals damage, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the spy wears or carries is invisible with it.</p>
+
+:ET

@@ -1,0 +1,80 @@
+I"�<p><strong>Gargantuan elemental, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 20 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 526 (27d20+243)</p>
+
+<p><strong>Speed</strong> 50 ft., burrow 50 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">26 (+8)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">28 (+9)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">22 (+6)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Str +14, Con +15, Wis +8</p>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing from nonmagical weapons</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> charmed, frightened, paralyzed, petrified, poisoned, prone</p>
+
+<p><strong>Senses</strong> blindsight 120 ft., tremorsense 120 ft.</p>
+
+<p><strong>Languages</strong> Common, Terran</p>
+
+<p><strong>Challenge</strong> 20 (25,000 XP)</p>
+
+<p><strong><em>Empowered Attacks.</em></strong> Ogremoch’s slam attacks are treated as magical and adamantine for the purpose of bypassing resistance and immunity to nonmagical weapons.</p>
+
+<p><strong><em>Innate Spellcasting.</em></strong> Ogremoch’s innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</p>
+
+<ul>
+  <li>At will: meld into stone, move earth, wall of stone</li>
+</ul>
+
+<p><strong><em>Legendary Resistance (3/Day).</em></strong> If Ogremoch fails a saving throw, he can choose to succeed instead.</p>
+
+<p><strong><em>Magic Resistance.</em></strong> Ogremoch has advantage on saving throws against spells and other magical effects.</p>
+
+<p><strong><em>Siege Monster.</em></strong> Ogremoch deals double damage to objects and structures with his melee and ranged weapon attacks.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> Ogremoch makes two slam attacks.</p>
+
+<p><strong><em>Slam.</em></strong> Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.</p>
+
+<p><strong><em>Boulder.</em></strong> Ranged Weapon Attack: +6 to hit, range 500 ft., one target. Hit: 46 (7d10 + 8) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone.</p>
+
+<p><strong><em>Summon Elementals (1/Day).</em></strong> Ogremoch summons up to three earth elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Ogremoch, and disappear if Ogremoch is reduced to 0 hit points.</p>
+
+<p><strong>Legendary Actions</strong></p>
+
+<p>The ogremoch can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature’s turn. The ogremoch regains spent legendary actions at the start of its turn.</p>
+
+<p><strong><em>Illuminating Crystals.</em></strong> Ogremoch’s crystalline protrusions flare. Each creature within 30 feet of Ogremoch becomes outlined in orange light, shedding dim light in a 10-foot radius. Any attack roll against an affected creature has advantage if the attacker can see it, and the affected creature can’t benefit from being invisible.</p>
+
+<p><strong><em>Stomp (Costs 2 Actions).</em></strong> Ogremoch stomps the ground, creating an earth tremor that extends in a 30-foot radius. Other creatures standing on the ground in that radius must succeed on a DC 23 Dexterity saving throw or fall prone.</p>
+
+<p><strong><em>Create Gargoyle (Costs 3 Actions).</em></strong> Ogremoch’s hit points are reduced by 50 as he breaks off a chunk of his body and places it on the ground in an unoccupied space within 15 feet of him. The chunk of rock instantly transforms into a gargoyle and acts on the same initiative count as Ogremoch. Ogremoch can’t use this action if he has 50 hit points or fewer. The gargoyle obeys Ogremoch’s commands and fights until destroyed.</p>
+
+:ET

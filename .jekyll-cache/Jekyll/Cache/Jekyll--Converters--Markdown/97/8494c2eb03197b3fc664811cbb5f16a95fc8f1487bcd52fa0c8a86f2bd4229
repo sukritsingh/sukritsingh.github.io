@@ -1,0 +1,54 @@
+I"‹<p><strong>Small fiend (demon), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 11 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 18 (4d6+4)</p>
+
+<p><strong>Speed</strong> 20 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">5 (-3)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">3 (-4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> cold, fire, lightning</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> poisoned</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The dretch makes two attacks: one with its bite and one with its claws.</p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</p>
+
+<p><strong><em>Claws.</em></strong> Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.</p>
+
+<p><strong><em>Fetid Cloud (1/Day).</em></strong> A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and canâ€™t take reactions.</p>
+
+:ET

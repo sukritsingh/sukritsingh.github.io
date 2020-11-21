@@ -1,0 +1,66 @@
+I"�<p><strong>Small humanoid (grung), lawful evil</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 11 (2d6+4)</p>
+
+<p><strong>Speed</strong> 25 ft., climb 25 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">7 (-2)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">10 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Dex +4</p>
+
+<p><strong>Skills</strong> Athletics +2, Perception +2, Stealth +4, Survival +2</p>
+
+<p><strong>Damage Immunities</strong> poison</p>
+
+<p><strong>Condition Immunities</strong> poisoned</p>
+
+<p><strong>Languages</strong> Grung</p>
+
+<p><strong>Challenge</strong> 1/4 (50 XP)</p>
+
+<p><strong><em>Amphibious.</em></strong> The grung can breathe air and water.</p>
+
+<p><strong><em>Poisonous Skin.</em></strong> Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+
+<p><strong><em>Standing Leap.</em></strong> The grung’s long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</p>
+
+<p><strong><em>Variant: Grung Poison.</em></strong> Grung poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.</p>
+
+<blockquote>
+  <p>A creature poisoned by a grung can suffer an additional effect that varies depending on the grung’s skin color. This effect lasts until the creature is no longer poisoned by the grung.</p>
+</blockquote>
+
+<p>Green. The poisoned creature can’t move except to climb or make standing jumps. If the creature is flying, it can’t take any actions or reactions unless it lands.</p>
+
+<p>Blue. The poisoned creature must shout loudly or otherwise make a loud noise at the start and end of its turn.</p>
+
+<p>Purple. The poisoned creature feels a desperate need to soak itself in liquid or mud. It can’t take actions or move except to do so or to reach a body of liquid or mud.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft, one target. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</p>
+
+:ET

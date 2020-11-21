@@ -1,0 +1,50 @@
+I"õ<p><strong>Tiny fey, chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 16</p>
+
+<p><strong>Hit Points</strong> 10 (3d4+3)</p>
+
+<p><strong>Speed</strong> 120 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">4 (-3)</td>
+      <td style="text-align: center">23 (+6)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">7 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> Common, Sylvan</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong><em>Blurred Movement.</em></strong> Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.</p>
+
+<p><strong><em>Evasion.</em></strong> If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The quickling makes three dagger attacks.</p>
+
+<p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.</p>
+
+:ET

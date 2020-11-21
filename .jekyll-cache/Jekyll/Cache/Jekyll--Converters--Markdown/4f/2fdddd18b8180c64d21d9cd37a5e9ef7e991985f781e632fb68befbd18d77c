@@ -1,0 +1,60 @@
+I"ì<p><strong>Medium fiend (demon), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 13</p>
+
+<p><strong>Hit Points</strong> 66 (12d8+12)</p>
+
+<p><strong>Speed</strong> 30 ft., fly 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1 (-5)</td>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Dex +5, Cha +4</p>
+
+<p><strong>Skills</strong> Stealth +7</p>
+
+<p><strong>Damage Vulnerabilities</strong> radiant</p>
+
+<p><strong>Damage Resistances</strong> acid, fire, necrotic, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</p>
+
+<p><strong>Damage Immunities</strong> cold, lightning, poison</p>
+
+<p><strong>Condition Immunities</strong> exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</p>
+
+<p><strong>Senses</strong> darkvision 120 ft.</p>
+
+<p><strong>Languages</strong> Abyssal, telepathy 120 ft.</p>
+
+<p><strong>Challenge</strong> 4 (1,100 XP)</p>
+
+<p><strong><em>Incorporeal Movement.</em></strong> The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>
+
+<p><strong><em>Light Sensitivity.</em></strong> While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>
+
+<p><strong><em>Shadow Stealth.</em></strong> While in dim light or darkness, the demon can take the Hide action as a bonus action.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Claws.</em></strong> Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage.</p>
+
+:ET

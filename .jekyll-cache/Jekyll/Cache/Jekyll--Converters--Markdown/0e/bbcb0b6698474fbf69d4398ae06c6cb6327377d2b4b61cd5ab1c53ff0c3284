@@ -1,0 +1,54 @@
+I"�<p><strong>Large fey, neutral evil</strong></p>
+
+<p><strong>Armor Class</strong> 14 (natural armor)</p>
+
+<p><strong>Hit Points</strong> 51 (6d10+18)</p>
+
+<p><strong>Speed</strong> 40 ft., fly 40 ft. (hover)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">17 (+3)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">5 (-3)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">7 (-2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons</p>
+
+<p><strong>Condition Immunities</strong> charmed, exhaustion, frightened</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> understands Common, Elvish, and Sylvan but can’t speak</p>
+
+<p><strong>Challenge</strong> 4 (1,100 XP)</p>
+
+<p><strong><em>Keen Hearing and Smell.</em></strong> The yeth hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+
+<p><strong><em>Sunlight Banishment.</em></strong> If the yeth hound starts its turn in sunlight, it is transported to the Ethereal Plane. While sunlight shines on the spot from which it vanished, the hound must remain in the Deep Ethereal. After sunset, it returns to the Border Ethereal at the same spot, whereupon it typically sets out to find its pack or its master. The hound is visible on the Material Plane while it is in the Border Ethereal, and vice versa, but it can’t affect or be affected by anything on the other plane. Once it is adjacent to its master or a pack mate that is on the Material Plane, a yeth hound in the Border Ethereal can return to the Material Plane as an action.</p>
+
+<p><strong><em>Telepathic Bond.</em></strong> While the yeth hound is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically with each other.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Bite.</em></strong> Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) piercing damage, plus 14 (4d6) psychic damage if the target is frightened.</p>
+
+<p><strong><em>Baleful Baying.</em></strong> The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened until the end of the hound’s next turn or until the hound is incapacitated. A frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours.</p>
+
+:ET

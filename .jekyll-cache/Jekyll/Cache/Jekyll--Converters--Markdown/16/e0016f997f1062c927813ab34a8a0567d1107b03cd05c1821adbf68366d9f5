@@ -1,0 +1,50 @@
+I"<<p><strong>Medium humanoid (human), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 17 (breastplate, shield; 15 while using a crossbow)</p>
+
+<p><strong>Hit Points</strong> 45 (7d8+14)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">15 (+2)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">13 (+1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Skills</strong> Intimidation +3, Perception +2</p>
+
+<p><strong>Damage Resistances</strong> fire</p>
+
+<p><strong>Languages</strong> Common</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Flaming Weapon (Recharges after a Short or Long Rest).</em></strong> As a bonus action, the guard can wreath one melee weapon it is wielding in flame. The guard is unharmed by this fire, which lasts until the end of the guard’s next turn. While wreathed in flame, the weapon deals an extra 3 (1d6) fire damage on a hit.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The guard makes two melee attacks.</p>
+
+<p><strong><em>Longsword.</em></strong> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</p>
+
+<p><strong><em>Heavy Crossbow.</em></strong> Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</p>
+
+:ET

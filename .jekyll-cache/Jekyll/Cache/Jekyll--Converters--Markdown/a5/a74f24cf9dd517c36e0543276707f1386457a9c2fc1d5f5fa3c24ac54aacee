@@ -1,0 +1,52 @@
+I"¶<p><strong>Medium undead, chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 12</p>
+
+<p><strong>Hit Points</strong> 22 (5d8)</p>
+
+<p><strong>Speed</strong> 0 ft., fly 50 ft. (hover)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1 (-5)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">11 (0)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">10 (0)</td>
+      <td style="text-align: center">11 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Damage Resistances</strong> acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</p>
+
+<p><strong>Damage Immunities</strong> necrotic, poison</p>
+
+<p><strong>Condition Immunities</strong> charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</p>
+
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+
+<p><strong>Languages</strong> understands all languages it knew in life but canâ€™t speak</p>
+
+<p><strong>Challenge</strong> 1 (200 XP)</p>
+
+<p><strong><em>Incorporeal Movement.</em></strong> The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>
+
+<p><strong><em>Sunlight Sensitivity.</em></strong> While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Life Drain.</em></strong> Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>
+
+:ET

@@ -1,0 +1,63 @@
+I"�
+<p><strong>Medium humanoid (any race), any alignment</strong></p>
+
+<p><strong>Armor Class</strong> 18 (plate)</p>
+
+<p><strong>Hit Points</strong> 229 (27d8+108)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">20 (+5)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">18 (+4)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">12 (+1)</td>
+      <td style="text-align: center">18 (+4)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Str +9, Dex +7, Con +8</p>
+
+<p><strong>Skills</strong> Athletics +9, Intimidation +8, Perception +5, Persuasion +8</p>
+
+<p><strong>Languages</strong> any two languages</p>
+
+<p><strong>Challenge</strong> 12 (8,400 XP)</p>
+
+<p><strong><em>Indomitable (3/Day).</em></strong> The warlord can reroll a saving throw it fails. It must use the new roll.</p>
+
+<p><strong><em>Survivor.</em></strong> The warlord regains 10 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Multiattack.</em></strong> The warlord makes two weapon attacks.</p>
+
+<p><strong><em>Greatsword.</em></strong> Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.</p>
+
+<p><strong><em>Shortbow.</em></strong> Ranged Weapon Attack: +7 to hit, range 80/320 it, one target. Hit: 6 (1d6+3) piercing damage.</p>
+
+<p><strong>Legendary Actions</strong></p>
+
+<p>The warlord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The warlord regains spent legendary actions at the start of its turn.</p>
+
+<p><strong><em>Weapon Attack.</em></strong> The warlord makes a weapon attack.</p>
+
+<p><strong><em>Command Ally.</em></strong> The warlord targets one ally it can see within 30 feet of it. if the target can see and hear the warlord, the target can make one weapon attack as a reaction and gains advantage on the attack roll.</p>
+
+<p><strong><em>Frighten Foe (Costs 2 Actions).</em></strong> The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be frightened until the end of warlord’s next turn.</p>
+
+:ET

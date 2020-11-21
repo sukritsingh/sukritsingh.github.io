@@ -1,0 +1,65 @@
+I"+	<p><strong>Medium humanoid (human), chaotic evil</strong></p>
+
+<p><strong>Armor Class</strong> 11 (14 with mage armor)</p>
+
+<p><strong>Hit Points</strong> 39 (6d8+12)</p>
+
+<p><strong>Speed</strong> 30 ft.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">STR</th>
+      <th style="text-align: center">DEX</th>
+      <th style="text-align: center">CON</th>
+      <th style="text-align: center">INT</th>
+      <th style="text-align: center">WIS</th>
+      <th style="text-align: center">CHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">8 (-1)</td>
+      <td style="text-align: center">13 (+1)</td>
+      <td style="text-align: center">14 (+2)</td>
+      <td style="text-align: center">16 (+3)</td>
+      <td style="text-align: center">9 (-1)</td>
+      <td style="text-align: center">11 (0)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Saving Throws</strong> Wis +1</p>
+
+<p><strong>Skills</strong> Arcana +5, Investigation +5, Medicine +1</p>
+
+<p><strong>Languages</strong> Abyssal, Common</p>
+
+<p><strong>Challenge</strong> 2 (450 XP)</p>
+
+<p><strong><em>Grim Harvest.</em></strong> Once per turn when Oreioth kills one or more creatures with a spell of 1st level or higher, he regains hit points equal to twice the spell’s level.</p>
+
+<p><strong><em>Spellcasting.</em></strong> Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:</p>
+
+<ul>
+  <li>
+    <p>Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp</p>
+  </li>
+  <li>
+    <p>1st level (4 slots): false life, mage armor, magic missile, ray of sickness</p>
+  </li>
+  <li>
+    <p>2nd level (3 slots): crown of madness, misty step</p>
+  </li>
+  <li>
+    <p>3rd level (3 slots): animate dead, vampiric touch</p>
+  </li>
+</ul>
+
+<p><strong><em>Swift Animation (Recharges after a Long Rest).</em></strong> When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid’s corpse, instead of using the spell’s normal casting time.</p>
+
+<p><strong>Actions</strong></p>
+
+<p><strong><em>Dagger.</em></strong> Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</p>
+
+:ET
