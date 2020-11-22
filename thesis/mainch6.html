@@ -29,14 +29,48 @@ href="main.html#mainch6.html" >up</a>] </p></div>
 <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;6</span><br /><a 
  id="x10-880006"></a>Citizen Scientists Create an Exascale Computer to Combat COVID-19</h2>
 <div class="chapterTOCS">
-&#x00A0;&#x00A0;<span class="subsectionToc" >4.5.2 <a 
-href="mainch4.html#x8-640004.5.2" id="QQ2-8-68">Protein expression and purification</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsectionToc" >4.5.3 <a 
-href="mainch4.html#x8-650004.5.3" id="QQ2-8-69">Thiol labeling</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsectionToc" >4.5.4 <a 
-href="mainch4.html#x8-660004.5.4" id="QQ2-8-70">Fluorescence polarization binding assay</a></span>
-<br />&#x00A0;<span class="sectionToc" >4.6 <a 
-href="mainch4.html#x8-670004.6">Acknowledgements</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.1<a 
+href="mainch6.html#x10-890006.1">Abstract</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.2<a 
+href="mainch6.html#x10-900006.2">Introduction</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.3<a 
+href="mainch6.html#x10-910006.3">Results and discussion</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.3.1<a 
+href="mainch6.html#x10-920006.3.1" id="QQ2-8-68">To the Exascale and beyond!</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.3.2<a 
+href="mainch6.html#x10-930006.3.2" id="QQ2-8-68">Unmasking the spike complex</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.3.3<a 
+href="mainch6.html#x10-940006.3.3" id="QQ2-8-68">Cryptic pockets and functional dynamics</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.4<a 
+href="mainch6.html#x10-950006.4">Discussion</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.5<a 
+href="mainch6.html#x10-960006.5">Methods</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.1 <a 
+href="mainch6.html#x10-970006.5.1" id="QQ2-8-68">System preparations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.2 <a 
+href="mainch6.html#x10-980006.5.2" id="QQ2-8-68">Adaptive sampling simulations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.3 <a 
+href="mainch6.html#x10-990006.5.3" id="QQ2-8-68">Folding@home simulations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.4 <a 
+href="mainch6.html#x10-1000006.5.4" id="QQ2-8-68">Markov state models</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.5 <a 
+href="mainch6.html#x10-1010006.5.5" id="QQ2-8-68">Spike/ACE2 binding competency</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.6 <a 
+href="mainch6.html#x10-1020006.5.6" id="QQ2-8-68">Cryptic pockets and solvent accessible surface area</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.7 <a 
+href="mainch6.html#x10-1030006.5.7" id="QQ2-8-68">Sequence conservation
+</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.6<a 
+href="mainch6.html#x10-1040006.6">Acknowledgements</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.7<a 
+href="mainch6.html#x10-1050006.7">Disclosures</a></span>
 </div>
 <!--l. 8--><p class="noindent" ><span 
 class="ptmri7t-x-x-120">This chapter is adapted from the following publication:</span>
@@ -574,13 +608,13 @@ class="td11"> <!--l. 169--><p class="noindent" ></p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-4-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-1"  
-class="td11"> NSP3 (Macrodomain ÒXÓ)                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-2"  
+class="td11"> NSP3 (Macrodomain "X")                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-2"  
 class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-4-3"  
 class="td11"> <!--l. 169--><p class="noindent" >6W02                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-4"  
 class="td11"> 167          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-5"  
 class="td11"> 23907                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-6"  
-class="td11"> 10,531                                         </td><td  style="text-align:left;" id="TBL-3-4-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 10,906                                        </td><td  style="text-align:left;" id="TBL-3-4-7"  
+class="td11"> <!--l. 169--><p class="noindent" > -                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-5-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-1"  
@@ -589,8 +623,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-5-
 class="td11"> <!--l. 169--><p class="noindent" >3E9S**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-4"  
 class="td11"> 306          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-5"  
 class="td11"> 97285                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-6"  
-class="td11"> 621                                              </td><td  style="text-align:left;" id="TBL-3-5-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 731                                              </td><td  style="text-align:left;" id="TBL-3-5-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-6-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-1"  
@@ -599,8 +633,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-6-
 class="td11"> <!--l. 169--><p class="noindent" >6Y2E                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-4"  
 class="td11"> 306          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-5"  
 class="td11"> 64791                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-6"  
-class="td11"> 6,050                                           </td><td  style="text-align:left;" id="TBL-3-6-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 6,405                                           </td><td  style="text-align:left;" id="TBL-3-6-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-7-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-1"  
@@ -609,8 +643,8 @@ class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >6Y2E                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-4"  
 class="td11"> 612          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-5"  
 class="td11"> 77331                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-6"  
-class="td11"> 2,189                                           </td><td  style="text-align:left;" id="TBL-3-7-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 2,902                                           </td><td  style="text-align:left;" id="TBL-3-7-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-8-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-1"  
@@ -619,8 +653,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-8-
 class="td11"> <!--l. 169--><p class="noindent" >5F22**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-4"  
 class="td11"> 79            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-5"  
 class="td11"> 20094                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-6"  
-class="td11"> 7,622                                           </td><td  style="text-align:left;" id="TBL-3-8-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 3,722                                          </td><td  style="text-align:left;" id="TBL-3-8-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-9-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-1"  
@@ -629,8 +663,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-9-
 class="td11"> <!--l. 169--><p class="noindent" >2AHM**          </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-4"  
 class="td11"> 191          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-5"  
 class="td11"> 156282                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-6"  
-class="td11"> 1,259                                           </td><td  style="text-align:left;" id="TBL-3-9-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,776                                           </td><td  style="text-align:left;" id="TBL-3-9-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-10-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-1"  
@@ -639,8 +673,8 @@ class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >6W4B*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-4"  
 class="td11"> 226          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-5"  
 class="td11"> 49885                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-6"  
-class="td11"> 7,503                                           </td><td  style="text-align:left;" id="TBL-3-10-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 8,939                                           </td><td  style="text-align:left;" id="TBL-3-10-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-11-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-1"  
@@ -649,8 +683,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-11
 class="td11"> <!--l. 169--><p class="noindent" >6W4H*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-4"  
 class="td11"> 131          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-5"  
 class="td11"> 29560                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-6"  
-class="td11"> 3,050                                           </td><td  style="text-align:left;" id="TBL-3-11-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 6,141                                           </td><td  style="text-align:left;" id="TBL-3-11-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-12-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-1"  
@@ -659,8 +693,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-12
 class="td11"> <!--l. 169--><p class="noindent" >6NUR**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-4"  
 class="td11"> 891          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-5"  
 class="td11"> 186622                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-6"  
-class="td11"> 1,114                                           </td><td  style="text-align:left;" id="TBL-3-12-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 3,330                                           </td><td  style="text-align:left;" id="TBL-3-12-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-13-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-1"  
@@ -669,8 +703,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-13
 class="td11"> <!--l. 169--><p class="noindent" >6JYT**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-4"  
 class="td11"> 596          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-5"  
 class="td11"> 129368                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-6"  
-class="td11"> 939                                              </td><td  style="text-align:left;" id="TBL-3-13-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 3,407                                              </td><td  style="text-align:left;" id="TBL-3-13-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-14-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-1"  
@@ -679,8 +713,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-14
 class="td11"> <!--l. 169--><p class="noindent" >5C8S**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-4"  
 class="td11"> 527          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-5"  
 class="td11"> 216380                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-6"  
-class="td11"> 359                                              </td><td  style="text-align:left;" id="TBL-3-14-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td></tr><tr 
+class="td11"> 2,384                                              </td><td  style="text-align:left;" id="TBL-3-14-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td></tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-15-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-1"  
 class="td11"> NSP15 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-2"  
@@ -688,8 +722,8 @@ class="td11"> Monomer </td><td  style="text-align:left;" id="TBL-3-15-3"
 class="td11"> <!--l. 169--><p class="noindent" >6VWW </p> </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-4"  
 class="td11"> 347 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-5"  
 class="td11"> 67345 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-6"  
-class="td11"> 3,618 </td><td  style="text-align:left;" id="TBL-3-15-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD</p></td>
+class="td11"> 3,674 </td><td  style="text-align:left;" id="TBL-3-15-7"  
+class="td11"> <!--l. 169--><p class="noindent" >4</p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-16-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-1"  
@@ -698,8 +732,8 @@ class="td11"> Hexamer              </td><td  style="text-align:left;" id="TBL-3-
 class="td11"> <!--l. 169--><p class="noindent" >6VWW             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-4"  
 class="td11"> 2082        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-5"  
 class="td11"> 230339                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-6"  
-class="td11"> 1,461                                           </td><td  style="text-align:left;" id="TBL-3-16-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 4,270                                           </td><td  style="text-align:left;" id="TBL-3-16-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-17-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-1"  
@@ -708,8 +742,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-17
 class="td11"> <!--l. 169--><p class="noindent" >6W4H*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-4"  
 class="td11"> 298          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-5"  
 class="td11"> 45672                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-6"  
-class="td11"> 2,684                                           </td><td  style="text-align:left;" id="TBL-3-17-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 2,382                                           </td><td  style="text-align:left;" id="TBL-3-17-7"  
+class="td11"> <!--l. 169--><p class="noindent" >5                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-18-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-1"  
@@ -718,8 +752,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-18
 class="td11"> <!--l. 169--><p class="noindent" >6VYO               </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-4"  
 class="td11"> 173          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-5"  
 class="td11"> 29125                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-6"  
-class="td11"> 8,742                                           </td><td  style="text-align:left;" id="TBL-3-18-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 9,493                                           </td><td  style="text-align:left;" id="TBL-3-18-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-19-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-1"  
@@ -728,8 +762,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-19
 class="td11"> <!--l. 169--><p class="noindent" >6YUN*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-4"  
 class="td11"> 118          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-5"  
 class="td11"> 34905                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-6"  
-class="td11"> 2,420                                           </td><td  style="text-align:left;" id="TBL-3-19-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 6,782                                           </td><td  style="text-align:left;" id="TBL-3-19-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-20-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-1"  
@@ -738,8 +772,8 @@ class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >6YUN*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-4"  
 class="td11"> 236          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-5"  
 class="td11"> 72733                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-6"  
-class="td11"> 1,251                                           </td><td  style="text-align:left;" id="TBL-3-20-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,458                                           </td><td  style="text-align:left;" id="TBL-3-20-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-21-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-1"  
@@ -748,8 +782,8 @@ class="td11"> Trimer                 </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >6VXX***         </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-4"  
 class="td11"> 3363        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-5"  
 class="td11"> 442881                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-6"  
-class="td11"> 949                                              </td><td  style="text-align:left;" id="TBL-3-21-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,109                                              </td><td  style="text-align:left;" id="TBL-3-21-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-22-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-1"  
@@ -758,8 +792,8 @@ class="td11"> Trimer complex   </td><td  style="text-align:left;" id="TBL-3-22-3
 class="td11"> <!--l. 169--><p class="noindent" >6NUR**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-4"  
 class="td11"> 1184        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-5"  
 class="td11"> 215694                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-6"  
-class="td11"> 291                                              </td><td  style="text-align:left;" id="TBL-3-22-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,686                                              </td><td  style="text-align:left;" id="TBL-3-22-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-23-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-1"  
@@ -768,8 +802,8 @@ class="td11"> Dimer complex   </td><td  style="text-align:left;" id="TBL-3-23-3"
 class="td11"> <!--l. 169--><p class="noindent" >5C8S**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-4"  
 class="td11"> 688          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-5"  
 class="td11"> 226672                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-6"  
-class="td11"> 469                                              </td><td  style="text-align:left;" id="TBL-3-23-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 689                                              </td><td  style="text-align:left;" id="TBL-3-23-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-24-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-1"  
@@ -778,8 +812,8 @@ class="td11"> Dimer complex   </td><td  style="text-align:left;" id="TBL-3-24-3"
 class="td11"> <!--l. 169--><p class="noindent" >6W4H*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-4"  
 class="td11"> 429          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-5"  
 class="td11"> 63752                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-6"  
-class="td11"> 2,415                                           </td><td  style="text-align:left;" id="TBL-3-24-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 3.463                                           </td><td  style="text-align:left;" id="TBL-3-24-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-25-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-25-1"  
@@ -804,13 +838,13 @@ class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-27-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-1"  
-class="td11"> NSP3 (Macrodomain ÒXÓ)                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-2"  
+class="td11"> NSP3 (Macrodomain "X")                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-2"  
 class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-27-3"  
 class="td11"> <!--l. 169--><p class="noindent" >2FAV                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-4"  
 class="td11"> 172          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-5"  
 class="td11"> 33117                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-6"  
-class="td11"> 507                                              </td><td  style="text-align:left;" id="TBL-3-27-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 659                                              </td><td  style="text-align:left;" id="TBL-3-27-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-28-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-1"  
@@ -819,8 +853,8 @@ class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >1QZ8*              </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-4"  
 class="td11"> 226          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-5"  
 class="td11"> 49599                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-6"  
-class="td11"> 6,736                                           </td><td  style="text-align:left;" id="TBL-3-28-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 7,763                                           </td><td  style="text-align:left;" id="TBL-3-28-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-29-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-1"  
@@ -829,8 +863,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-29
 class="td11"> <!--l. 169--><p class="noindent" >2H85                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-4"  
 class="td11"> 345          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-5"  
 class="td11"> 67345                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-6"  
-class="td11"> 2,663                                           </td><td  style="text-align:left;" id="TBL-3-29-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 4,734                                           </td><td  style="text-align:left;" id="TBL-3-29-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-30-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-1"  
@@ -839,8 +873,8 @@ class="td11"> Hexamer              </td><td  style="text-align:left;" id="TBL-3-
 class="td11"> <!--l. 169--><p class="noindent" >2H85                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-4"  
 class="td11"> 2070        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-5"  
 class="td11"> 230339                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-6"  
-class="td11"> 829                                              </td><td  style="text-align:left;" id="TBL-3-30-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,130                                              </td><td  style="text-align:left;" id="TBL-3-30-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-31-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-1"  
@@ -849,8 +883,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-31
 class="td11"> <!--l. 169--><p class="noindent" >2OFZ                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-4"  
 class="td11"> 174          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-5"  
 class="td11"> 29125                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-6"  
-class="td11"> 4,124                                           </td><td  style="text-align:left;" id="TBL-3-31-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 4,088                                           </td><td  style="text-align:left;" id="TBL-3-31-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-32-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-1"  
@@ -859,8 +893,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-32
 class="td11"> <!--l. 169--><p class="noindent" >2GIB                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-4"  
 class="td11"> 370          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-5"  
 class="td11"> 34905                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-6"  
-class="td11"> 874                                              </td><td  style="text-align:left;" id="TBL-3-32-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,626                                              </td><td  style="text-align:left;" id="TBL-3-32-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-33-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-1"  
@@ -869,8 +903,8 @@ class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >2GIB                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-4"  
 class="td11"> 740          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-5"  
 class="td11"> 72733                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-6"  
-class="td11"> 427                                              </td><td  style="text-align:left;" id="TBL-3-33-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 4,221                                              </td><td  style="text-align:left;" id="TBL-3-33-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-34-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-1"  
@@ -879,8 +913,8 @@ class="td11"> Trimer                 </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >5X58***           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-4"  
 class="td11"> 3261        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-5"  
 class="td11"> 375851                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-6"  
-class="td11"> 784                                              </td><td  style="text-align:left;" id="TBL-3-34-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 741                                              </td><td  style="text-align:left;" id="TBL-3-34-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-35-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-1"  
@@ -889,8 +923,8 @@ class="td11"> Dimer complex   </td><td  style="text-align:left;" id="TBL-3-35-3"
 class="td11"> <!--l. 169--><p class="noindent" >6W4H**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-4"  
 class="td11"> 425          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-5"  
 class="td11"> 69589                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-6"  
-class="td11"> 175                                              </td><td  style="text-align:left;" id="TBL-3-35-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 518                                              </td><td  style="text-align:left;" id="TBL-3-35-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-36-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-36-1"  
@@ -920,8 +954,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-38
 class="td11"> <!--l. 169--><p class="noindent" >1ALU               </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-4"  
 class="td11"> 166          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-5"  
 class="td11"> 26855                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-6"  
-class="td11"> 1,263                                           </td><td  style="text-align:left;" id="TBL-3-38-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 1,593                                           </td><td  style="text-align:left;" id="TBL-3-38-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-39-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-1"  
@@ -930,8 +964,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-39
 class="td11"> <!--l. 169--><p class="noindent" >1N26                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-4"  
 class="td11"> 299          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-5"  
 class="td11"> 149764                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-6"  
-class="td11"> 132                                              </td><td  style="text-align:left;" id="TBL-3-39-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 196                                              </td><td  style="text-align:left;" id="TBL-3-39-7"  
+class="td11"> <!--l. 169--><p class="noindent" >5                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-40-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-1"  
@@ -940,8 +974,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-40
 class="td11"> <!--l. 169--><p class="noindent" >6LZG                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-4"  
 class="td11"> 596          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-5"  
 class="td11"> 75787                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-6"  
-class="td11"> 244                                              </td><td  style="text-align:left;" id="TBL-3-40-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 664                                              </td><td  style="text-align:left;" id="TBL-3-40-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-41-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-41-1"  
@@ -971,8 +1005,8 @@ class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-43
 class="td11"> <!--l. 169--><p class="noindent" >5WWP              </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-4"  
 class="td11"> 596          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-5"  
 class="td11"> 121134                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-6"  
-class="td11"> 288                                              </td><td  style="text-align:left;" id="TBL-3-43-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 719                                              </td><td  style="text-align:left;" id="TBL-3-43-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-44-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-1"  
@@ -981,8 +1015,8 @@ class="td11"> Dimer Complex  </td><td  style="text-align:left;" id="TBL-3-44-3"
 class="td11"> <!--l. 169--><p class="noindent" >6W4H**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-4"  
 class="td11"> 424          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-5"  
 class="td11"> 69127                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-6"  
-class="td11"> 174                                              </td><td  style="text-align:left;" id="TBL-3-44-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 518                                              </td><td  style="text-align:left;" id="TBL-3-44-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-45-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-45-1"  
@@ -1012,8 +1046,8 @@ class="td11"> Trimer                 </td><td  style="text-align:left;" id="TBL-
 class="td11"> <!--l. 169--><p class="noindent" >5SZS***           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-4"  
 class="td11"> 3606        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-5"  
 class="td11"> 453348                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-6"  
-class="td11"> 618                                              </td><td  style="text-align:left;" id="TBL-3-47-7"  
-class="td11"> <!--l. 169--><p class="noindent" >TBD                  </p></td>
+class="td11"> 651                                              </td><td  style="text-align:left;" id="TBL-3-47-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-3-48-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-48-1"  
