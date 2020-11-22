@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head><title>1 Introduction</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<!-- html,xhtml,2,mathml --> 
+<meta name="src" content="main.tex" /> 
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+ 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML" 
+></script> 
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+ 
+<script async defer src="http://hypothes.is/embed.js"></script><link rel="stylesheet" type="text/css" href="css/scale.css" /> 
+<script type="text/javascript" src="js/fw.js"></script> 
+<script type="text/javascript" src="js/sidebar.js"></script> 
+<script type="text/javascript" src="js/bib.js"></script></head><body 
+>
+<!--l. 3--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch2.html" >next</a>] [<a 
+href="mainli3.html" >prev</a>] [<a 
+href="mainli3.html#tailmainli3.html" >prev-tail</a>] [<a 
+href="#tailmainch1.html">tail</a>] [<a 
+href="main.html#mainch1.html" >up</a>] </p></div>
+<h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;1</span><br /><a 
+ id="x5-40001"></a>Introduction</h2>
+<div class="chapterTOCS">
+&#x00A0;<span class="sectionToc" >1.1 <a 
+href="#x5-50001.1">Protein conformational landscapes encode functional information.</a></span>
+<br />&#x00A0;<span class="sectionToc" >1.2 <a 
+href="#x5-60001.2">The Folding@home platform allows access to protein motions at
+biologically relevant timescales.</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >1.2.1 <a 
+href="#x5-70001.2.1" id="QQ2-5-11">Folding@home distributes simulations across thousands of
+computers at once.</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >1.2.2 <a 
+href="#x5-80001.2.2" id="QQ2-5-12">Markov State Models allow for the construction of unified models
+from large simulation datasets.</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >1.2.3 <a 
+href="#x5-90001.2.3" id="QQ2-5-13">The scalable power of Folding@home has generated insights
+into protein behaviors.</a></span>
+<br />&#x00A0;<span class="sectionToc" >1.3 <a 
+href="#x5-100001.3">Allosteric communication is critical for protein function, but difficult to infer.</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >1.3.1 <a 
+href="#x5-110001.3.1" id="QQ2-5-15">Allosteric communication is universal and critical for biological function.</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >1.3.2 <a 
+href="#x5-120001.3.2" id="QQ2-5-16">Inferring allosteric communication in proteins remains a non-trivial task.</a></span>
+<br />&#x00A0;<span class="sectionToc" >1.4 <a 
+href="#x5-130001.4">Scope of thesis.</a></span>
+</div>
+<h3 class="sectionHead"><span class="titlemark">1.1    </span> <a 
+ id="x5-50001.1"></a>Protein conformational landscapes encode functional information.</h3>
+<!--l. 19--><p class="noindent" >Proteins are the machines that power cellular function and life. They allow us to see, smell, think, and
+carry out many of the basic functions required for us to live. However, when they malfunction or
+misbehave (usually through mutation), they can also result in diseases like cancer or heart disease
+among others. Proteins are also utilized by viruses and bacteria to infect host cells, replicate, or even
+break down the drugs we use to stop them.
+</p><!--l. 21--><p class="noindent" >Understanding protein behaviors relevant to health and disease depends on being able to model them
+in atomic detail. Atomistic scale motions allows us to infer things like mechanisms, thermodynamic
+profiles, and kinetic rates. This level of detail can provide predictive models and explanations
+for why certain mutations may cause disease, which can be useful for targeting proteins
+using drug design methods. Furthermore, knowledge of chemical interactions allows us
+to design chemical groups against pockets that would jam them open<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRoth:2017gk">4</a>]</span>. Atomic-scale
+knowledge may even provide guiding principles upon which proteins can be designed
+to perform novel functions, which has implications for therapeutic design and industrial
+applications<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xweitzner_computational_2019">5</a>]</span>.
+</p><!--l. 23--><p class="noindent" >Structural biology methods have been transformative in allowing us to learn about the
+structure of proteins and their behaviors. The first view of protein structures was done using
+X-Ray crystallography<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xkendrew_three-dimensional_1958">6</a>]</span>. However, static structures do not provide a complete picture of
+protein function. These static structures may not be able to provide information about a
+proteins stability <span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xkhan_performance_2010">7</a>]</span>, ligand affinities or specificities<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xyin_overview_2017">8</a>]</span>, or how different mutations could
+impact function<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHart:2016kb">9</a>]</span>. Indeed, it has been often observed that crystal structures of the same
+protein families are too similar to explain the difference in their measured physiological
+parameters<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xporter_conformational_2020">10</a>]</span>.
+                                                                                      
+                                                                                      
+</p><!--l. 25--><p class="noindent" >As the atoms of a protein move around relative to one another, a protein is able to
+shift between an enormous number of different structures. Even small proteins of
+<!--l. 25--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003C;</mo></math>100 amino acids
+have &#x00A0;<!--l. 25--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">~</mo></math>200
+rotatable bonds along their backbone, granting access to more than
+<!--l. 25--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mn>6</mn><mn>0</mn></mrow></msup 
+></math>
+backbone conformations <span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xlevinthal_how_1969">11</a>]</span>. Many of these structures however are never accessed by the protein in
+physiologically relevant timescales. Of the fraction that are accessed however, some of them may have
+relevance to a protein&#8217;s mechanism and biophysical behavior. Each of these structures that a protein
+may shape-shift into has an associated energy that characterizes intra-protein and protein-environment
+interactions. Given that the probability of a protein adopting any one structure is proportional to the
+exponential of that structures energy, we are able to characterize how likely a protein is to adopt
+some states over others. The phase space of a protein&#8217;s energies (or probabilities) and their
+corresponding structures are often referred to as an &#8220;energy landscape&#8221;, with most likely states
+(such as those observed by crystallography) are named &#8220;ground&#8221; states due to being energy
+minima.
+</p><!--l. 27--><p class="noindent" >From these ground states, a protein can also transition into less likely &#8220;excited&#8221; states, some of which
+may contain key functional information. These states can be characterized using a plethora of
+methods. Nuclear Magnetic Resonance (NMR) and Hydrogen-Deuterium Exchange (HDX) have
+provided unique functional insight into the conformational heterogeneity a protein can have<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xbaldwin_early_2011">12</a>,&#x00A0;<a 
+href="mainli4.html#XHenzlerWildman:2007cz">13</a>]</span>.
+Work on DHFR has been critical in understanding the complete catalytic cycle and the
+residue level configurations (and dynamics)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBoehr:2006jd">14</a>]</span>. NMR experiments on DHFR that was
+arrested in one stage of its catalytic cycle provided evidence that DHFR was also adopting
+stages in the latter part of its cycle<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBoehr:2006jd">14</a>]</span>. Mutational experiments also put forth a correlation
+between dynamics and catalytic ability<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBoehr:2006jd">14</a>,&#x00A0;<a 
+href="mainli4.html#XBoehr:2009ju">15</a>,&#x00A0;<a 
+href="mainli4.html#XHenzlerWildman:2007cz">13</a>]</span>. Powerful combinations of NMR,
+crystallography, and computer simulations have rationalized cofactor- and mutational-effects on
+kinases<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzorba_molecular_2014">16</a>,&#x00A0;<a 
+href="mainli4.html#Xkerns_energy_2015">17</a>]</span>. With advances in structural methods, it is even possible to resolve structural
+                                                                                      
+                                                                                      
+information about excited states<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBoehr:2006jd">14</a>,&#x00A0;<a 
+href="mainli4.html#XBoehr:2009ju">15</a>]</span>. Other electron paramagnetic resonance (EPR)
+experiments have granted unique insight into the conformational distributions of proteins<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVanEps:2010by">18</a>]</span>.
+NMR also has the additional power to measure the degree of conformational entropy of
+residues<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XWand:2013dz">19</a>]</span>. Recently, Cryo-EM structures of even large complexes have revealed the degree of
+conformational heterogeneity in physiologically relevant systems<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKoehl:2018fv">20</a>,&#x00A0;<a 
+href="mainli4.html#XDraperJoyce:2018il">21</a>,&#x00A0;<a 
+href="mainli4.html#XGarciaNafria:2018hu">22</a>,&#x00A0;<a 
+href="mainli4.html#XKang:2018kq">23</a>]</span>. However, it
+is important to note that each of these methods have tradeoffs due to resolution&#x00A0;limits,
+labelling strategies that may perturb the system, or technical limitations (system size, material
+requirements, etc.). Altogether, this large body of work studying excited states of folded proteins
+suggests that the equilibrium motions of a protein may encode all of its functionally relevant
+states.
+</p><!--l. 29--><p class="noindent" >Molecular dynamics (MD) simulations have the potential to provide atomistic detail to
+explain complex biological processes. These simulations compute the movements of atoms
+over time by integrating Newton&#8217;s laws of motion over each atom. Thus, MD acts as a
+&#8220;computational microscope&#8221;, allowing us to observe the different conformations a
+protein adopts<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDror:2012cs">24</a>,&#x00A0;<a 
+href="mainli4.html#Xlee_discovery_2009">25</a>]</span>. A perfect simulation would completely describe a protein&#8217;s
+thermodynamic and kinetic behaviors at equilibrium. However, there are major limitations:
+(<!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>)
+The accuracy of atomic parameters (aka &#8221;force fields&#8221;) that are used to describe
+atomic interaction (A topic that is discussed extensively elsewhere<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xkukol_current_2015">26</a>]</span>).
+(<!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>i</mi></math>) Simulations take
+femtosecond-sized timesteps, making it expensive to gather data at biologically relevant timescales (microsecond
+to milliseconds). (<!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>i</mi><mi 
+>i</mi></math>)
+Interpreting large datasets with thousands of unique structures to generate biologically meaningful
+predictions remains a daunting task.
+                                                                                      
+                                                                                      
+</p><!--l. 31--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">1.2    </span> <a 
+ id="x5-60001.2"></a>The Folding@home platform allows access to protein motions at biologically relevant
+timescales.</h3>
+<!--l. 32--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.2.1    </span> <a 
+ id="x5-70001.2.1"></a>Folding@home distributes simulations across thousands of computers at once.</h4>
+<!--l. 33--><p class="noindent" >A myriad of methods have been developed to improve sampling of protein motions out to biologically
+relevant timescales<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XE:2010hs">27</a>,&#x00A0;<a 
+href="mainli4.html#Xhamelberg_accelerated_2004">28</a>,&#x00A0;<a 
+href="mainli4.html#Xpaschek_replica_2007">29</a>,&#x00A0;<a 
+href="mainli4.html#Xpiana_bias-exchange_2007">30</a>]</span>. However, many perturb the thermodynamics or kinetics of a
+system, in turn biasing the predictions these simulations make. The advent of GPUs provided access to
+longer timescales, but they are bounded by an upper limit of parallelism in computing
+architectures<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xstone_accelerating_2007">31</a>,&#x00A0;<a 
+href="mainli4.html#Xfriedrichs_accelerating_2009">32</a>,&#x00A0;<a 
+href="mainli4.html#Xeastman_openmm:_2010">33</a>,&#x00A0;<a 
+href="mainli4.html#Xeastman_openmm_2017">34</a>]</span>. Recently, novel adaptive sampling techniques have allowed for the
+mapping of slower motions<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzimmerman_fast_2015">35</a>]</span> but may require system-specific knowledge or an order parameter of
+relevance. Specialized hardware has also been developed<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xshaw_anton_2008">36</a>]</span> that allowed computational
+biophysicsts to study processes at unprecedented timescales. However, utilizing and maintaining this
+kind of specialized hardware can be a costly endeavor.
+</p><!--l. 35--><p class="noindent" >To sample unbiased simulations at biologically relevant timescales using commodity hardware, the
+Folding@home platform was developed in 2000<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XShirts:2000du">37</a>]</span>. Folding@home, headquartered at the Bowman
+lab at WUSTL, is a distributed computing network that runs MD simulations on donated computing
+power thanks to thousands of citizen-scientists who download the app onto their hardware.
+Folding@home runs trajectories as small &#8220;work units&#8221; that are smaller simulations on the order of
+nanoseconds. The starting file for a work-unit is generated server-side, which is sent to a client
+computer somewhere in the world (Fig. <a 
+href="#x5-7001r1">1.1<!--tex4ht:ref: fig:ch1-fig1 --></a>). The client then runs the work-unit and returns it. This is
+                                                                                      
+                                                                                      
+used to generate the subsequent work-unit (representing the next chunk of time in a simulation).
+Afterwards, work units are stitched together to generate a single trajectory. Folding@home allows for
+the generation of a datasets containing hundreds of trajectories that, in aggregate, capture a large
+amount of a protein&#8217;s energy landscape. These datasets are so large that interpreting them
+presents a unique &#8220;big data&#8221; challenge, and requires the development of new methods and
+software<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHusic:2018iz">38</a>,&#x00A0;<a 
+href="mainli4.html#Xporter2018enspara">39</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x5-7001r1"></a>
+                                                                                      
+                                                                                      
+<!--l. 39--><p class="noindent" ><img 
+src="Chapter1/ch1-fig1.png" alt="PIC"  
+width="361" height="361"  />
+<a 
+ id="x5-7002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;1.1: </span><span  
+class="content">Folding@home distributes work units worldwide to run simulations <span 
+class="ptmb7t-x-x-120">A. </span>Workflow
+schematic detailing the steps a citizen-scientist&#8217;s computer (&#8221;client&#8221;, green) takes to receive,
+run, and return a work-unit successfully by communicating with the Assignment Server (blue)
+and the Work server (yellow). <span 
+class="ptmb7t-x-x-120">B. </span>Heatmap of completed work-units returned from each country
+in the world in a representative 48-hour period. The number of returned work units is indicated
+by the color scale (right).</span></div><!--tex4ht:label?: x5-7001r1.2 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h4 class="subsectionHead"><span class="titlemark">1.2.2    </span> <a 
+ id="x5-80001.2.2"></a>Markov State Models allow for the construction of unified models from large simulation
+datasets.</h4>
+<!--l. 47--><p class="noindent" >Markov state models (MSMs) are network representations of a protein&#8217;s free-energy landscape,
+providing map representations of protein conformational space with thermodynamic and kinetic
+properties taken from equilibrium simulations (Fig. <a 
+href="#x5-8001r2">1.2<!--tex4ht:ref: fig:ch1-fig2 --></a>). Rather than depending on a single long
+simulation that explores multiple states sequentially, MSMs are capable of stitching together multiple
+short trajectories into a single unified landscape. Thus MSMs capture slow events, and their
+intermediates, far beyond the reach of any individual simulation. Thanks to distributed networks like
+Folding@home, gathering large numbers of short trajectories is tractable in a reasonable time-frame.
+Many reviews have been dedicated to providing accessible and in-depth explanations of MSM
+technology<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XChodera:2014gk">40</a>,&#x00A0;<a 
+href="mainli4.html#XHusic:2018iz">38</a>,&#x00A0;<a 
+href="mainli4.html#XKnoverek:2018kk">41</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x5-8001r2"></a>
+                                                                                      
+                                                                                      
+<!--l. 51--><p class="noindent" ><img 
+src="Chapter1/ch1-fig2.jpeg" alt="PIC"  
+width="452" height="453"  />
+<a 
+ id="x5-8002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;1.2: </span><span  
+class="content">Diagram highlighting the conversion of a simulation dataset into a Markov State
+Model (MSM). Simulation trajectories (left) are parsed into discrete states on a per-frame basis
+(red, blue, green, yellow), and estimation methods are used to convert the trajectories into a
+MSM  (right).  The  spheres  radii  is  proportional  to  the  population  of  that  state,  while  arrow
+thickness denotes transition probability.</span></div><!--tex4ht:label?: x5-8001r1.2 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 57--><p class="noindent" >MSMs require two components to describe the dynamics of a biomolecular system:
+(<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>): A discretization of a high
+dimensional state space into <!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>n</mi></math>
+conformational states, and (<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>i</mi></math>)
+A model of the stochastic transitions between each states, represented as a Transition Matrix
+<!--l. 57-->
+<math xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > </mtext>
+<mtext class="textbf" mathvariant="bold" >P</mtext>
+</mstyle></math>. The probability of
+transitioning from state <!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>
+to state <!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math>
+(<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+></math>)
+is:
+</p>
+<table class="equation"><tr><td> <a 
+ id="x5-8003r1"></a>
+<!--l. 59--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                           <msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C4;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mi 
+>P</mi><mi 
+>r</mi><mi 
+>o</mi><mi 
+>b</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><msub><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mi 
+>t</mi><mo 
+class="MathClass-bin">+</mo><mi 
+>&#x03C4;</mi></mrow></msub 
+> <mo 
+class="MathClass-rel">&#x2208;</mo> <msub><mrow 
+><mi 
+>S</mi></mrow><mrow 
+><mi 
+>j</mi></mrow></msub 
+><mo 
+class="MathClass-rel">|</mo><msub><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mi 
+>t</mi></mrow></msub 
+> <mo 
+class="MathClass-rel">&#x2208;</mo> <msub><mrow 
+><mi 
+>S</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math></td><td class="eq-no">(1.1)</td></tr></table>
+<!--l. 64--><p class="noindent" >where <!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C4;</mi></math>
+is a lag-time parameter across which transitions between states are observed, and
+<!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>S</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+></math> is state
+<!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math> and
+<!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>S</mi></mrow><mrow 
+><mi 
+>j</mi></mrow></msub 
+></math> refers to state
+<!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math>. These transition
+                                                                                      
+                                                                                      
+matrices <!--l. 64--><math xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > </mtext>
+<mtext class="textbf" mathvariant="bold" >P</mtext>
+</mstyle></math> give rise to a
+stationary distribution <!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+> &#x03C0;</mi></math>
+as a result of the eigenvalue equation: </p> <table class="equation"><tr><td> <a 
+ id="x5-8004r2"></a>
+<!--l. 65--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                      <msup> <mrow 
+><mi 
+>&#x03C0;</mi></mrow><mrow 
+><mi 
+>T</mi> </mrow></msup 
+></mtext><math xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > </mtext>
+<mtext class="textbf" mathvariant="bold" >P</mtext>
+</mstyle></math> </mstyle> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+> &#x03C0; </mi></mrow><mrow 
+><mi 
+>T</mi> </mrow></msup 
+>
+</math></td><td class="eq-no"> (1.2) </td></tr></table>
+<!--l. 68--><p class="noindent" >where <!--l. 68--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>T</mi></math>
+represents a single time-step. In an MSM, the stationary distribution
+<!--l. 68--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C0;</mi></math>
+represents the equilibrium probabilities for each state. Therefore, assuming sufficient statistics are
+collected to observe transitions between states, MSMs are able to appropriately capture the
+equilibrium thermodynamic and kinetic behaviors of a system. It is important to note that
+the underlying assumption behind MSM construction is that the discretized dynamics of
+biomolecules is memoryless (aka Markovian). That is, the probability of a transition from state
+<!--l. 68--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math> to state
+<!--l. 68--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math> at time
+<!--l. 68--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>t</mi></math> is only
+dependent on state <!--l. 68--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>
+and not any of the previously visited states.
+</p><!--l. 70--><p class="noindent" >For any constructed MSM, the Markovian assumption is tested by looking at implied timescales plots of a Markov
+State Model. That is, for a given state decomposition, the molecular relaxation timescales for eigenvalues
+<!--l. 70--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BB;</mi></math> and eigenvectors
+                                                                                      
+                                                                                      
+<!--l. 70--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>r</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+></math> are computed for a
+series of lag-times <!--l. 70--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C4;</mi></math>:
+</p><table class="equation"><tr><td> <a 
+ id="x5-8005r3"></a>
+<!--l. 71--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                   <msub><mrow 
+><mi 
+>t</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">-</mo>  <mfrac><mrow 
+><mi 
+>&#x03C4;</mi></mrow>
+<mrow 
+><mi class="qopname"> ln</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo><!--nolimits--> <mo 
+class="MathClass-rel">|</mo><msub><mrow 
+><mi 
+>&#x03BB;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C4;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mo 
+class="MathClass-rel">|</mo></mrow></mfrac>
+</math></td><td class="eq-no">(1.3)</td></tr></table>
+<!--l. 74--><p class="noindent" >These timescales <!--l. 74--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>t</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+></math> are plotted
+for a series of lag-times <!--l. 74--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C4;</mi></math>
+(<a 
+href="mainap3.html#x15-141019r8">C.8<!--tex4ht:ref: fig:ch5-suppfig8 --></a>). If the timescales remain relatively unchanged for a series of
+<!--l. 74--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C4;</mi></math>
+values and higher, then the models constructed for those values of
+<!--l. 74--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C4;</mi></math> can be considered
+Markovian. The values of <!--l. 74--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+></math>
+can then be estimated using a variety of estimation methods<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XZimmerman:2018jn">42</a>,&#x00A0;<a 
+href="mainli4.html#XChodera:2014gk">40</a>]</span>.
+</p><!--l. 76--><p class="noindent" >A critical component of high-quality MSM construction is the features selected in the discretization of
+state space. It is important to balance statistical error against systematic bias when choosing, as narrow
+features ranges may result in poor statistics, while broadly-ranged features may have large systematic
+errors due to convolution of multiple motions into a single state. Choice of appropriate feature can
+challenging due to the sheer size of simulation datasets and the system-specific knowledge often need
+to identify appropriate features.
+</p><!--l. 78--><p class="noindent" >While methods such as PCA might provide some degree of feature-reduction, a major
+breakthrough in simulation featurization was the use of time-lagged independent component
+                                                                                      
+                                                                                      
+analysis (tICA)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMolgedey:1994ew">43</a>]</span>, which transforms input coordinates to identify the rarest (which
+are assumed to be the slowest) motions. For protein folding simulations, this provides
+excellent dimensionality reduction, since the slowest coordinate is often the rarest and
+most valuable <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMSultan:2017du">44</a>,&#x00A0;<a 
+href="mainli4.html#XPerezHernandez:2013ih">45</a>]</span>. However, in simulations of folded proteins the rarest motions
+observed may be less interesting or artifacts of sampling due to the simulation size. Much
+success has previously been seen using geometric features, such as cartesian coordinates
+or dihedral angles<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVoelz:2010hs">46</a>,&#x00A0;<a 
+href="mainli4.html#XBowman:2012jd">47</a>,&#x00A0;<a 
+href="mainli4.html#XSun:2018kx">48</a>]</span>. Other features such as solvent accessible surface area
+(SASA) or ligand-residence-time have also been useful for construction of predictive MSMs
+<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>,&#x00A0;<a 
+href="mainli4.html#XSun:2018kx">48</a>]</span>.
+</p><!--l. 80--><p class="noindent" >Once appropriate features are selected, there are a myriad of approaches to cluster them into discrete states.
+One major method is a hybrid k-centers/k-medoids approach<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xgonzalez_clustering_1985">50</a>,&#x00A0;<a 
+href="mainli4.html#Xpark_simple_2009">51</a>]</span>. In brief, for every pair of features a
+distance metric, such as the Root Mean Square Deviation (RMSD) is computed. The k-centers algorithm then
+(<!--l. 80--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>) chooses an
+initial cluster center either as a predetermined point or randomly, and then all points are assigned to this initial
+cluster. (<!--l. 80--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>i</mi></math>)
+The distance between every point and its assigned cluster center is then computed.
+(<!--l. 80--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>i</mi><mi 
+>i</mi></math>) The
+point with the largest distance to the assigned cluster center is then labelled as a new cluster center.
+(<!--l. 80--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>v</mi></math>)
+The distances between all points and all cluster centers are recalculated, and points
+are reassigned to their closest cluster center based on these new labels. Steps
+(<!--l. 80--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi><mi 
+>i</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>i</mi><mi 
+>v</mi></math>) are
+repeated until the maximum distance from any point to its assigned cluster center goes below a
+specified threshold, or a maximum number of cluster centers is reached.
+</p><!--l. 82--><p class="noindent" >To refine the cluster center assignments, and ensure that the &#8220;center&#8221; of each cluster is truly
+equidistant from all assigned points, a k-medoids algorithm known as Partitioning around Medoids
+(PAM)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xpark_simple_2009">51</a>]</span> is used. PAM proceeds by iterating through each cluster and choosing a new center
+                                                                                      
+                                                                                      
+from one of the currently assigned points. All points across all states are then reassigned
+based on this new proposed cluster center. From this proposed center, a &#8221;cost&#8221; is calculated
+(i.e. the sum of distances from each point to their respective center), and the proposed
+center placement is accepted if the cost is minimized. Once states are discretized, clustered,
+assigned across a simulation trajectory, the transition probability matrix is estimated. As
+mentioned above, the matrix of transitions between states is counted based on some lag time
+<!--l. 82--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C4;</mi></math>.
+</p><!--l. 84--><p class="noindent" >One simple approach to estimate transitions is to count the number of transitions from states
+<!--l. 84--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math> to
+<!--l. 84--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math> between all states, and divide
+by the number of states <!--l. 84--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>
+observed. To maintain ergodicity, some methods only estimate over the largest connected subset of
+states<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xprinz_optimal_2011">52</a>]</span> or using maximum likelihood estimators that respect detailed balance<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xprinz_markov_2011">53</a>]</span>. One method to
+estimate transition probabilities is to to average the count matrix with the transpose of itself </p><table class="equation"><tr><td>
+<a 
+ id="x5-8006r4"></a>
+<!--l. 85--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                <msubsup><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow><mrow 
+><mi 
+>t</mi><mi 
+>r</mi><mi 
+>a</mi><mi 
+>n</mi><mi 
+>s</mi><mi 
+>p</mi><mi 
+>o</mi><mi 
+>s</mi><mi 
+>e</mi></mrow></msubsup 
+> <mo 
+class="MathClass-rel">=</mo> <mfrac><mrow 
+><msub><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+> <mo 
+class="MathClass-bin">+</mo> <mi 
+>C</mi><mi 
+>j</mi><mi 
+>i</mi></mrow> 
+     <mrow 
+><mn>2</mn></mrow></mfrac>
+</math></td><td class="eq-no">(1.4)</td></tr></table>
+<!--l. 88--><p class="noindent" >where <!--l. 88--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+></math> is the observed number
+of transitions from state <!--l. 88--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>
+to state <!--l. 88--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math>,
+and <!--l. 88--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>j</mi><mi 
+>i</mi></mrow></msub 
+></math>
+                                                                                      
+                                                                                      
+represents the number of transitions in the reverse direction. Subsequent row normalization is used to
+calculate the equilibrium probabilities: </p><table class="equation"><tr><td> <a 
+ id="x5-8007r5"></a>
+<!--l. 89--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                <msub><mrow 
+><mi 
+>&#x03C0;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+> <mo 
+class="MathClass-rel">=</mo>   <mfrac><mrow 
+><munder class="msub"><mrow 
+><mo  
+> &#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>j</mi></mrow></munder 
+><msubsup><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow><mrow 
+><mi 
+>t</mi><mi 
+>r</mi><mi 
+>a</mi><mi 
+>n</mi><mi 
+>s</mi><mi 
+>p</mi><mi 
+>o</mi><mi 
+>s</mi><mi 
+>e</mi></mrow></msubsup 
+></mrow> 
+<mrow 
+><munder class="msub"><mrow 
+><mo  
+> &#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>k</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>j</mi></mrow></munder 
+><msubsup><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>k</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>j</mi></mrow><mrow 
+><mi 
+>t</mi><mi 
+>r</mi><mi 
+>a</mi><mi 
+>n</mi><mi 
+>s</mi><mi 
+>p</mi><mi 
+>o</mi><mi 
+>s</mi><mi 
+>e</mi></mrow></msubsup 
+></mrow></mfrac>
+</math></td><td class="eq-no">(1.5)</td></tr></table>
+<!--l. 92--><p class="noindent" >where <!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msubsup><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow><mrow 
+><mi 
+>t</mi><mi 
+>r</mi><mi 
+>a</mi><mi 
+>n</mi><mi 
+>s</mi><mi 
+>p</mi><mi 
+>o</mi><mi 
+>s</mi><mi 
+>e</mi></mrow></msubsup 
+></math> is the averaged number
+of transitions between states <!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math>
+and state <!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math>, and
+<!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msubsup><mrow 
+><mi 
+>C</mi></mrow><mrow 
+><mi 
+>k</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>j</mi></mrow><mrow 
+><mi 
+>t</mi><mi 
+>r</mi><mi 
+>a</mi><mi 
+>n</mi><mi 
+>s</mi><mi 
+>p</mi><mi 
+>o</mi><mi 
+>s</mi><mi 
+>e</mi></mrow></msubsup 
+></math> is the number of
+transitions between states <!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>k</mi></math>
+and <!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math>.
+Recent success has been observed by simply adding a pseudocount
+<!--l. 92--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover 
+accent="true"><mrow 
+><mi 
+>C</mi></mrow><mo accent="true">&#x0303;</mo></mover></math> to
+serve as an estimate of the system in absence of data <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XZimmerman:2018jn">42</a>,&#x00A0;<a 
+href="mainli4.html#XCruz2020vp35">54</a>]</span>. This pseudocount is computed as a
+single observed transition that is divided up across all states </p><table class="equation"><tr><td> <a 
+ id="x5-8008r6"></a>
+<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                       <mover 
+accent="true"><mrow 
+><mi 
+>C</mi></mrow><mo accent="true">&#x0303;</mo></mover> <mo 
+class="MathClass-rel">=</mo>  <mfrac><mrow 
+><mn>1</mn></mrow> 
+<mrow 
+><mi 
+>N</mi></mrow></mfrac>
+</math></td><td class="eq-no">(1.6)</td></tr></table>
+                                                                                      
+                                                                                      
+<!--l. 96--><p class="noindent" >where <!--l. 96--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>N</mi></math>
+is the number of states.
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.2.3    </span> <a 
+ id="x5-90001.2.3"></a>The scalable power of Folding@home has generated insights into protein behaviors.</h4>
+<!--l. 99--><p class="noindent" >There are many success stories that have come out of the usage of the Folding@home platform such as
+the observation of a millisecond-timescale folding event in 2010 <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVoelz:2010hs">46</a>]</span>. Markov state models have
+been shown to quantitatively agree with experimental measurements<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBowman:2011bc">55</a>,&#x00A0;<a 
+href="mainli4.html#XChodera:2014gk">40</a>]</span>. Particularly, there is
+excellent agreement between microsecond-scale simulations and the properties of systems measured
+with NMR and room-temperature crystallography<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBowman:2015da">56</a>,&#x00A0;<a 
+href="mainli4.html#Xbowman2014extensive">57</a>]</span>. Furthermore, simulations have been able
+to interpret the impact of mutations on diseases such as phenylketonuria<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xge_simulations_2018">58</a>]</span> and characterize the
+landscapes of a myriad of targets<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xchen_dynamic_2019">59</a>]</span>. Folding@home and MSMs have allowed for the assessment of
+families of protein homologs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xporter_conformational_2020">10</a>]</span>.
+</p><!--l. 101--><p class="noindent" >Folding@home has also made significant progress in developing and supplementing experimental work with
+predictive models. For example, Folding@home data was used to identify novel cryptic pockets in TEM-1
+<!--l. 101--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-lactmase<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>]</span>,
+the enzyme most directly involved in antibiotic breakdown and microbial
+resistance. Indeed, accounting for the dynamics within the active site of TEM-1
+<!--l. 101--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-lactamase
+substantially improved the predictive ability of modern virtual screening technologies<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHart:2016kb">9</a>]</span>.
+Similar approaches have yielded valuable insights into the pH dependence of protein-protein
+interactions<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xpascolutti_structure_2016">60</a>]</span>, and other biological phenomena.
+                                                                                      
+                                                                                      
+</p><!--l. 103--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">1.3    </span> <a 
+ id="x5-100001.3"></a>Allosteric communication is critical for protein function, but difficult to infer.</h3>
+<!--l. 104--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.3.1    </span> <a 
+ id="x5-110001.3.1"></a>Allosteric communication is universal and critical for biological function.</h4>
+<!--l. 105--><p class="noindent" >One cellular phenomena existing at long-timescales is communication between distant structural
+elements of a protein. This behavior, referred to as <span 
+class="ptmb7t-x-x-120">allostery</span><span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xhilser_ensemble_2010">61</a>]</span>, was first recognized in
+hemoglobin<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPerutz:1970vb">62</a>]</span> where the binding of oxygen to a single subunit increases the oxygen
+affinity within the other three subunits. Since then, the importance of allostery has been
+recognized in a myriad of cellular functions, such as transcription factors<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTzeng:2009im">63</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2011by">64</a>]</span> or cellular
+signaling<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XWeis:2018fj">65</a>]</span>.
+</p><!--l. 107--><p class="noindent" >A well-studied protein (and drug target) with allosteric behavior is the G protein
+coupled receptor, which transmits information from outside the cell to inside based
+on a stimulus. This stimulus can be anything from ligand binding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xwacker_how_2017">66</a>]</span> to membrane
+deformations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xrosholm_membrane_2017">67</a>]</span>. Structural methods revealed rearrangements of transmembrane helices
+that convert the GPCR into an &#8220;active&#8221; form <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>]</span>. However, recent data of different
+GPCR-G<!--l. 107--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+complexes have highlighted the conformational heterogeneity in the allostery and activation of
+GPCRs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKoehl:2018fv">20</a>,&#x00A0;<a 
+href="mainli4.html#XDraperJoyce:2018il">21</a>,&#x00A0;<a 
+href="mainli4.html#XGarciaNafria:2018hu">22</a>,&#x00A0;<a 
+href="mainli4.html#XKang:2018kq">23</a>]</span>.
+</p><!--l. 109--><p class="noindent" >The idea that a protein&#8217;s conformational landscape can impact its allosteric behavior leads one to
+speculate if all proteins have some degree of allosteric coupling<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XGunasekaran:2004kq">69</a>]</span>. Indeed, the ubiquity of allostery
+has been acknowledged in studies of natural and directed evolution<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xromero_exploring_2009">70</a>,&#x00A0;<a 
+href="mainli4.html#XSalverda:2010db">71</a>]</span>, where mutations
+                                                                                      
+                                                                                      
+distant from the active site can impact measured properties. Given the potentially universal
+nature of allostery, it is worth speculating if mutations and ligands work by tapping into
+existing allosteric networks to modulate the distributions of a protein&#8217;s of structures and
+dynamics<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKnoverek:2018kk">41</a>]</span>. Thus, understanding allosteric coupling in proteins could present new
+opportunities for modulating biological processes, designing therapeutics, or even designing new
+proteins.
+</p><!--l. 111--><p class="noindent" >Mounting evidence highlights the value in leveraging allostery to modulate protein function. There are
+a multitude of biological systems where allostery is leveraged to inhibit or activate protein-protein
+interactions, and so it may be possible to identify small molecules that could achieve the same
+objective of modulating protein behaviors. An allosteric drug that could modulate protein behaviors
+could play a huge role in restoring lost functions or reducing overactive protein behaviors. However,
+modern drug-design methods often require the presence of a cavity (or &#8220;pocket&#8221;) to successfully
+design small molecule hits. Many surfaces involved in protein-protein interactions are often too
+flat for a small molecule to bind tightly<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xarkin_small-molecule_2004">72</a>]</span>, and targeting known ligand binding sites of
+critical signaling proteins like GPCRs creates the risk of off-target effects. Identifying
+distant pockets that are not as conserved between homologs could be a means to achieve
+specificity<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xivetac_mapping_2010">73</a>]</span>.
+</p><!--l. 113--><p class="noindent" >Hidden allosteric sites known as &#8216;cryptic pockets&#8217; could be promising targets for drug design methods.
+The shape-shifting nature of proteins implies the existence of states that contain new pockets that are
+not observed in existing experimental structures. The hidden pockets may also be cryptic allosteric
+sites that are connected to key functional sites via the underlying allosteric network of a protein<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xhardy_searching_2004">74</a>]</span>.
+Successful methods have emerged to identify novel allosteric sites, some of which have been verified
+by experiments <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>]</span>. Indeed, the value of cryptic pockets has been supported by the discovery
+of small molecule inhibitors that are shown to bind an allosteric pocket and modulate a
+protein&#8217;s function<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHart:2016kb">9</a>,&#x00A0;<a 
+href="mainli4.html#XHorn:2004uu">75</a>,&#x00A0;<a 
+href="mainli4.html#Xarkin_binding_2003">76</a>,&#x00A0;<a 
+href="mainli4.html#Xostrem_k-rasg12c_2013">77</a>]</span>. Computer simulations provide promising avenues to hunt
+and target cryptic pockets, an effort which has yielded promising results<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVajda:2018kt">78</a>,&#x00A0;<a 
+href="mainli4.html#Xschames_discovery_2004">79</a>]</span>, but it
+remains a challenge to apply these approaches to a wide variety of systems. Furthermore, the
+                                                                                      
+                                                                                      
+discovery of a distant pocket in a protein does not imply it is &#8220;useful&#8221; as a drug target,
+because it is difficult to measure the degree of coupling between the cryptic pocket and a
+protein&#8217;s functional regions (like active site). Understanding the communication between a
+cryptic pocket to functional regions of a protein could further supplement drug design
+strategies. However, obtaining a complete picture of the allosteric network of a protein is often
+difficult.
+</p><!--l. 115--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.3.2    </span> <a 
+ id="x5-120001.3.2"></a>Inferring allosteric communication in proteins remains a non-trivial task.</h4>
+<!--l. 116--><p class="noindent" >Methods for inferring allostery typically rely on observing concerted structural changes. A system
+with two distant sites may jump between alternative configurations in some coupled fashion. That is,
+the structure of site A may be coupled to the configuration of site B, and vice versa. This extreme
+example of conformational selection could be inferred by comparing structures of proteins
+before and after some perturbation to one of the sites is introduced (such as ligand binding).
+Indeed, crystallography and HDX methods have proved useful in revealing residues involved
+in allosteric networks of TIM-barrels and their catalytic domains<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xfrantom_mapping_2009">80</a>]</span>. Multiple NMR
+methods have also proven useful in studying the nature of allosteric communication between
+proteins<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xmanley_nmr_2012">81</a>]</span>.
+</p><!--l. 118--><p class="noindent" >Likewise, computational methods measure concerted structural changes using a variety of metrics on a
+myriad protein features. Some methods utilize sequence coevolution to group proteins regions into
+&#8220;sectors&#8221; that are coupled to one another<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLockless:1999uf">82</a>]</span>. Recent work has highlighted that molecular
+simulations can capture atomistically detailed pictures of allosteric coupling between sites. The
+underlying assumption that a proteins functional states are encoded in the equilibrium simulations
+implies that observing correlated motions in MD simulations would be representative of the degree
+                                                                                      
+                                                                                      
+of coupling between residues. Indeed, a number of algorithms use a myriad of features
+and metrics to quantify coupling<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFeher:2014cx">83</a>,&#x00A0;<a 
+href="mainli4.html#XGreener:2017ie">84</a>]</span>. Some features used could be the backbone
+C<!--l. 118--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+atoms of proteins, and measuring the degree of covariance in pairs of
+C<!--l. 118--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+atoms<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XIchiye:1991db">85</a>]</span>. Other methods utilize mutual information methods on dihedral angles to quantify how
+much better one residue&#8217;s dihedral angle predicts the dihedral angle of another residue<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMcClendon:2009gd">86</a>]</span>. However,
+there has been growing recognition that allostery via concerted structural changes is not the only
+mechanism through which two sites may be coupled.
+</p><!--l. 120--><p class="noindent" >In recent years the role of conformational entropy in allosteric communication has been increasingly
+acknowledged. The importance of conformational entropy was first described theoretically in 1984 by
+Cooper and Dryden<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XCooper:1984tb">87</a>]</span>. Since then experimental evidence for this &#8220;dynamical allostery&#8221; has grown.
+Particularly, NMR data demonstrated two sites on a transcription factor were coupled with no
+discernible structural changes<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPopovych:2006js">88</a>]</span>. Furthermore, intrinsically disordered regions can also play a role
+in allosteric coupling, as normally ordered regions of a protein may transition locally into
+higher-entropy excited states that rapidly hop between multiple thermodynamic minima. This
+flattening of the effective free energy surface for a set of residues distinguishes dynamic allostery from
+the previously discussed mechanism of concerted structural changes. More recently, it has
+become apparent that to understand a protein&#8217;s allosteric network, it is important to observe
+both concerted structural changes and altered conformational entropy<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLin:2016gi">89</a>]</span>. The ability to
+construct allosteric networks, by measuring both structure and disorder, has the potential to
+explain the mechanism of coupling in many complex biological process and may present
+opportunities to identify promising druggable pockets and the role they play in modulating protein
+function.
+                                                                                      
+                                                                                      
+</p><!--l. 123--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">1.4    </span> <a 
+ id="x5-130001.4"></a>Scope of thesis.</h3>
+<!--l. 124--><p class="noindent" >It remains a critical challenge to understand allostery to completely describe biological behavior. The
+potential power of MD simulations to explain complex biological processes in atomistic detail
+presents a promising avenue to achieve these goals, but the tools to do so remain limited in scope, and
+generating simulation datasets that capture slow allosteric processes remains difficult. This thesis
+describes an approach to understand allosteric communication and the conformational landscape of
+proteins, and leverages these insights towards understanding fundamental biological phenomena or
+supplementing drug design efforts.
+</p><!--l. 126--><p class="noindent" >In this thesis I will describe a method to infer allosteric coupling in MD simulations via both
+concerted structural changes and conformational entropy. This will be done by measuring the
+Correlation of All Rotameric and Dynamical States (CARDS) &#8211; a novel method presented in <span 
+class="ptmb7t-x-x-120">chapter</span>
+<a 
+href="mainch2.html#x6-140002"><span 
+class="ptmb7t-x-x-120">2</span><!--tex4ht:ref: ch:CARDS --></a>. This algorithm builds upon previous works that infer allostery through structural changes by
+capturing allostery through changes in conformational entropy. It parses dihedrals into dynamical
+states, capturing whether a rotamer is ordered (remaining in a single basin) or disordered (rapidly
+hopping between basis). We then describe our framework to measure coupling between every pair of
+residues by computing communication between rotameric states, between dynamical states, as well as
+cross-correlations. We apply the CARDS methods to a system with known dynamic allostery, the
+Catabolite Activator Protein (CAP), a transcription factor whose allosteric behavior was previously
+measured in NMR and ITC studies.
+</p><!--l. 128--><p class="noindent" ><span 
+class="ptmb7t-x-x-120">Chapter </span><a 
+href="mainch3.html#x7-320003"><span 
+class="ptmb7t-x-x-120">3</span><!--tex4ht:ref: ch:GDPrelease --></a> describes the application of CARDS and other MD/MSM methods to a known allosteric
+system of importance, the heterotrimeric G proteins. Heterotrimeric G proteins are molecular switches
+that regulate everything including vision, smell, and neurotransmission. Malfunctions in G protein
+activation are implicated in cancers such as uveal melanoma. While considerable work has
+characterized G protein thermodynamics and kinetics, a complete mechanism of activation
+                                                                                      
+                                                                                      
+remains unclear including the allosteric network coupling the receptor and nucleotide binding
+sites. Here we describe in atomistic detail for the first time a complete mechanism of G
+protein activation, GDP release, and the conformational and dynamical changes driving this
+process.
+</p><!--l. 130--><p class="noindent" ><span 
+class="ptmb7t-x-x-120">Chapter </span><a 
+href="mainch4.html#x8-530004"><span 
+class="ptmb7t-x-x-120">4</span><!--tex4ht:ref: ch:vp35pocket --></a> describes the discovery of a hidden cryptic pocket in the previously &#8216;undruggable&#8217;
+ebolavirus protein VP35. The seeding strategy described in chapter <a 
+href="mainch3.html#x7-320003">3<!--tex4ht:ref: ch:GDPrelease --></a> is applied to the RNA-binding
+VP35 protein. A cryptic pocket is identified from a Folding@home dataset, and CARDS identifies the
+degree of coupling between the cryptic pocket and residues important for Protein-Protein and
+Protein-Nucleic-Acid interactions (PPIs and PNIs, respectively). The existence of this cryptic pocket
+is supported using experiments, and the functional importance of this distant allosteric site is
+solidified using experimental techniques that observe VP35 inhibition after pocket-open state is
+stabilized.
+</p><!--l. 132--><p class="noindent" >Chapters <a 
+href="mainch5.html#x9-680005">5<!--tex4ht:ref: ch:chapter6 --></a> and <a 
+href="mainch6.html#x10-880006">6<!--tex4ht:ref: ch:covid19pockets --></a> describe recent efforts utilizing Folding@home to study SARS-CoV-2, the virus
+behind the COVID19 pandemic. In <span 
+class="ptmb7t-x-x-120">chapter </span><a 
+href="mainch5.html#x9-680005"><span 
+class="ptmb7t-x-x-120">5</span><!--tex4ht:ref: ch:chapter6 --></a>, we rapidly generate conformations of the Nucleocapsid
+protein folded domains, and integrate them with Monte Carlo simulations and experiments. This
+study shows that the Nucleocapsid protein is dynamic, disordered, and undergoes Liquid
+Liquid Phase Separation (LLPS) behavior. Folding@home simulations of the folded domain
+are used to seed Monte Carlo simulations of the intrinsically disordered regions of the
+Nucleocapsid protein, obtaining a complete picture of the free energy landscape; a feat which
+would not have been achieved using a single method. These simulations are integrated
+with experimental data to describe a model explaining how the N protein may package the
+genome.
+</p><!--l. 134--><p class="noindent" >In <span 
+class="ptmb7t-x-x-120">Chapter </span><a 
+href="mainch6.html#x10-880006"><span 
+class="ptmb7t-x-x-120">6</span><!--tex4ht:ref: ch:covid19pockets --></a>, I describe a recent effort where Folding@home shifted focus to simulating potential
+drug targets in the proteome of the SARS-CoV-2 virus, the cause of the COVID19 pandemic. Many
+citizen-scientists around the world rallied together, downloading the Folding@home app and running
+simulations of almost every possible protein from SARS-CoV-2. This effort generated a historic 0.1
+                                                                                      
+                                                                                      
+seconds of equilibrium simulation data using Folding@home. Included is a description of how,
+through generations donations and partnerships, Folding@home surpassed the exascale barrier in
+computing speed, a feat never before achieved in human history. We utilize this monumental
+computational power to study how the viral Spike protein uses conformational masking to evade an
+immune response, and identify cryptic pockets that are not present in existing experimental
+snapshots. The data generated by Folding@home presents new potential targets for drug design
+efforts, and new structural and mechanistic insights that may supplement the design of
+therapeutics.
+</p><!--l. 136--><p class="noindent" ><span 
+class="ptmb7t-x-x-120">Chapter </span><a 
+href="mainch7.html#x11-1060007"><span 
+class="ptmb7t-x-x-120">7</span><!--tex4ht:ref: ch:chapter2 --></a> demonstrates how MD simulations can be integrated with standard structural biology
+techniques to explain mechanisms of antibiotic resistance. The cefotaximase enzyme CTXM is
+responsible for the breakdown of many modern cephalosporins, which can result in microbial
+resistance and sustained infections. With each new drug generated, such as Ceftazidime (CAZ),
+CTXM has been shown to accrue mutations that grant it enhanced resistance profiles. This chapter will
+focus on two mutations, D240G and P167S. Counter-intuitively, these mutations are not additive in
+their behavior, and the presence of both mutations abrogates the CAZ resistance profile in CTXM.
+Combining MD and crystallographic methods, along with biochemical approaches, we describe how
+these mutations alter the acyl-enzyme complex and modulate a key-region in CTXM known as the
+<!--l. 136--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03A9;</mi></math>-loop.
+We show that while each mutation uniquely modulates the
+<!--l. 136--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03A9;</mi></math>-loop
+to better accomdate CAZ, both mutations revert the conformational behavior of the
+<!--l. 136--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03A9;</mi></math>-loop
+back to its non-resistant state. This study demonstrates the unique ability of combining MD
+with structural biology methods to better understand fundamental behaviors and biological
+phenomena.
+</p><!--l. 138--><p class="noindent" >Lastly, in <span 
+class="ptmb7t-x-x-120">chapter </span><a 
+href="mainch8.html#x12-1300008"><span 
+class="ptmb7t-x-x-120">8</span><!--tex4ht:ref: ch:chapter8 --></a> I summarize the main advancements presented within this thesis. This chapter
+further explores the general implications of these findings and how allosteric coupling may be a
+                                                                                      
+                                                                                      
+universal phenomena. I expand by discussing future projects, discussing future promising questions,
+and speculate on the prospect of further integrating simulations with experiments to better answer
+fundamental biological questions.
+                                                                                      
+                                                                                      
+</p>
+<!--l. 3--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch2.html" >next</a>] [<a 
+href="mainli3.html" >prev</a>] [<a 
+href="mainli3.html#tailmainli3.html" >prev-tail</a>] [<a 
+href="mainch1.html" >front</a>] [<a 
+href="main.html#mainch1.html" >up</a>] </p></div>
+<!--l. 3--><p class="noindent" ><a 
+ id="tailmainch1.html"></a></p> 
+</body></html> 

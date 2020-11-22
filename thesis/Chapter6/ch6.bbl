@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{cubuk_sars-cov-2_2020}
+Jasmine Cubuk, Jhullian~J. Alston, J.~Jeremías Incicco, Sukrit Singh,
+  Melissa~D. Stuchell-Brereton, Michael~D. Ward, Maxwell~I. Zimmerman, Neha
+  Vithani, Daniel Griffith, Jason~A. Wagoner, Gregory~R. Bowman, Kathleen~B.
+  Hall, Andrea Soranno, and Alex~S. Holehouse.
+\newblock The {SARS}-{CoV}-2 nucleocapsid protein is dynamic, disordered, and
+  phase separates with {RNA}.
+\newblock preprint, Biophysics, June 2020.
+
+\bibitem{Zhu2020-do}
+Na~Zhu, Dingyu Zhang, Wenling Wang, Xingwang Li, Bo~Yang, Jingdong Song, Xiang
+  Zhao, Baoying Huang, Weifeng Shi, Roujian Lu, Peihua Niu, Faxian Zhan, Xuejun
+  Ma, Dayan Wang, Wenbo Xu, Guizhen Wu, George~F Gao, Wenjie Tan, and {China
+  Novel Coronavirus Investigating and Research Team}.
+\newblock A novel coronavirus from patients with pneumonia in china, 2019.
+\newblock {\em N. Engl. J. Med.}, 382(8):727--733, February 2020.
+
+\bibitem{Corman2018-my}
+Victor~M Corman, Doreen Muth, Daniela Niemeyer, and Christian Drosten.
+\newblock Chapter eight - hosts and sources of endemic human coronaviruses.
+\newblock In Margaret Kielian, Thomas~C Mettenleiter, and Marilyn~J Roossinck,
+  editors, {\em Advances in Virus Research}, volume 100, pages 163--188.
+  Academic Press, January 2018.
+
+\bibitem{Roser2020-yb}
+Max Roser, Hannah Ritchie, Esteban Ortiz-Ospina, and Joe Hasell.
+\newblock Coronavirus pandemic ({COVID-19}).
+\newblock {\em Our World in Data}, 2020.
+
+\bibitem{Lurie2020-vk}
+Nicole Lurie, Melanie Saville, Richard Hatchett, and Jane Halton.
+\newblock Developing covid-19 vaccines at pandemic speed.
+\newblock {\em N. Engl. J. Med.}, 382(21):1969--1973, May 2020.
+
+\bibitem{Gordon2020-sg}
+David~E Gordon, Gwendolyn~M Jang, Mehdi Bouhaddou, Jiewei Xu, Kirsten Obernier,
+  Kris~M White, Matthew~J O'Meara, Veronica~V Rezelj, Jeffrey~Z Guo, Danielle~L
+  Swaney, Tia~A Tummino, Ruth Huettenhain, Robyn~M Kaake, Alicia~L Richards,
+  Beril Tutuncuoglu, Helene Foussard, Jyoti Batra, Kelsey Haas, Maya Modak,
+  Minkyu Kim, Paige Haas, Benjamin~J Polacco, Hannes Braberg, Jacqueline~M
+  Fabius, Manon Eckhardt, Margaret Soucheray, Melanie~J Bennett, Merve Cakir,
+  Michael~J McGregor, Qiongyu Li, Bjoern Meyer, Ferdinand Roesch, Thomas
+  Vallet, Alice Mac~Kain, Lisa Miorin, Elena Moreno, Zun Zar~Chi Naing, Yuan
+  Zhou, Shiming Peng, Ying Shi, Ziyang Zhang, Wenqi Shen, Ilsa~T Kirby, James~E
+  Melnyk, John~S Chorba, Kevin Lou, Shizhong~A Dai, Inigo Barrio-Hernandez,
+  Danish Memon, Claudia Hernandez-Armenta, Jiankun Lyu, Christopher J~P Mathy,
+  Tina Perica, Kala~B Pilla, Sai~J Ganesan, Daniel~J Saltzberg, Ramachandran
+  Rakesh, Xi~Liu, Sara~B Rosenthal, Lorenzo Calviello, Srivats Venkataramanan,
+  Jose Liboy-Lugo, Yizhu Lin, Xi-Ping Huang, Yongfeng Liu, Stephanie~A
+  Wankowicz, Markus Bohn, Maliheh Safari, Fatima~S Ugur, Cassandra Koh,
+  Nastaran~Sadat Savar, Quang~Dinh Tran, Djoshkun Shengjuler, Sabrina~J
+  Fletcher, Michael~C O'Neal, Yiming Cai, Jason C~J Chang, David~J Broadhurst,
+  Saker Klippsten, Phillip~P Sharp, Nicole~A Wenzell, Duygu Kuzuoglu, Hao-Yuan
+  Wang, Raphael Trenker, Janet~M Young, Devin~A Cavero, Joseph Hiatt,
+  Theodore~L Roth, Ujjwal Rathore, Advait Subramanian, Julia Noack, Mathieu
+  Hubert, Robert~M Stroud, Alan~D Frankel, Oren~S Rosenberg, Kliment~A Verba,
+  David~A Agard, Melanie Ott, Michael Emerman, Natalia Jura, Mark von Zastrow,
+  Eric Verdin, Alan Ashworth, Olivier Schwartz, Christophe d'Enfert, Shaeri
+  Mukherjee, Matt Jacobson, Harmit~S Malik, Danica~G Fujimori, Trey Ideker,
+  Charles~S Craik, Stephen~N Floor, James~S Fraser, John~D Gross, Andrej Sali,
+  Bryan~L Roth, Davide Ruggero, Jack Taunton, Tanja Kortemme, Pedro Beltrao,
+  Marco Vignuzzi, Adolfo Garc{\'\i}a-Sastre, Kevan~M Shokat, Brian~K Shoichet,
+  and Nevan~J Krogan.
+\newblock A {SARS-CoV-2} protein interaction map reveals targets for drug
+  repurposing.
+\newblock {\em Nature}, April 2020.
+
+\bibitem{Sanders2020-ea}
+James~M Sanders, Marguerite~L Monogue, Tomasz~Z Jodlowski, and James~B Cutrell.
+\newblock Pharmacologic treatments for coronavirus disease 2019 ({COVID-19)}: A
+  review.
+\newblock {\em JAMA}, April 2020.
+
+\bibitem{Walls2020-of}
+Alexandra~C Walls, Young-Jun Park, M~Alejandra Tortorici, Abigail Wall,
+  Andrew~T McGuire, and David Veesler.
+\newblock Structure, function, and antigenicity of the {SARS-CoV-2} spike
+  glycoprotein.
+\newblock {\em Cell}, 181(2):281--292.e6, April 2020.
+
+\bibitem{Hoffmann2020-nt}
+Markus Hoffmann, Hannah Kleine-Weber, Simon Schroeder, Nadine Kr{\"u}ger, Tanja
+  Herrler, Sandra Erichsen, Tobias~S Schiergens, Georg Herrler, Nai-Huei Wu,
+  Andreas Nitsche, Marcel~A M{\"u}ller, Christian Drosten, and Stefan
+  P{\"o}hlmann.
+\newblock {SARS-CoV-2} cell entry depends on {ACE2} and {TMPRSS2} and is
+  blocked by a clinically proven protease inhibitor.
+\newblock {\em Cell}, 181(2):271--280.e8, April 2020.
+
+\bibitem{Shang2020-er}
+Jian Shang, Gang Ye, Ke~Shi, Yushun Wan, Chuming Luo, Hideki Aihara, Qibin
+  Geng, Ashley Auerbach, and Fang Li.
+\newblock Structural basis of receptor recognition by {SARS-CoV-2}.
+\newblock {\em Nature}, 581(7807):221--224, May 2020.
+
+\bibitem{Lan2020-wh}
+Jun Lan, Jiwan Ge, Jinfang Yu, Sisi Shan, Huan Zhou, Shilong Fan, Qi~Zhang,
+  Xuanling Shi, Qisheng Wang, Linqi Zhang, and Xinquan Wang.
+\newblock Structure of the {SARS-CoV-2} spike receptor-binding domain bound to
+  the {ACE2} receptor.
+\newblock {\em Nature}, 581(7807):215--220, May 2020.
+
+\bibitem{masters_coronavirus_2019}
+Paul~S. Masters.
+\newblock Coronavirus genomic {RNA} packaging.
+\newblock {\em Virology}, 537:198--207, November 2019.
+
+\end{thebibliography}

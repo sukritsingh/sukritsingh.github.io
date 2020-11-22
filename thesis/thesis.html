@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head> <title></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<!-- html,xhtml,2,mathml --> 
+<meta name="src" content="main.tex" /> 
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+ 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML" 
+></script> 
+ 
+<script async defer src="http://hypothes.is/embed.js"></script><link rel="stylesheet" type="text/css" href="css/scale.css" /> 
+<script type="text/javascript" src="js/fw.js"></script> 
+<script type="text/javascript" src="js/sidebar.js"></script> 
+<script type="text/javascript" src="js/bib.js"></script></head><body 
+>
+                                                                                      
+                                                                                      
+<!--l. 100--><p class="indent" >
+                                                                                      
+                                                                                      
+</p><!--l. 100--><p class="indent" >
+                                                                                      
+                                                                                      
+</p>
+<div class="center" 
+>
+<!--l. 101--><p class="noindent" >
+</p><!--l. 103--><p class="noindent" >
+</p><!--l. 107--><p class="noindent" >WASHINGTON UNIVERSITY IN ST. LOUIS
+</p><!--l. 110--><p class="noindent" >Division of Biology &amp; Biomedical Sciences<br />
+Computational and Molecular Biophysics Program
+</p><!--l. 114--><p class="noindent" >Dissertation Examination Committee:<br />
+Gregory R. Bowman, Chair<br />
+Kendall J. Blumer<br />
+Rohit V. Pappu<br />
+Linda J. Pike<br />
+Jay W. Ponder<br />
+Janice L. Robertson
+</p><!--l. 125--><p class="noindent" >Understanding and Exploiting Protein Allostery and Dynamics<br />
+Using Molecular Simulations<br />
+by<br />
+Sukrit Singh
+</p><!--l. 133--><p class="noindent" >A dissertation presented to<br />
+The Graduate School<br />
+of Washington University<br />
+in partial fulfillment of the<br />
+requirements for the degree<br />
+of Doctor of Philosophy
+</p><!--l. 142--><p class="noindent" >January 2021<br />
+St. Louis, Missouri </p></div>
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!--l. 148--><p class="indent" >    </p>
+<div class="center" 
+>
+<!--l. 148--><p class="noindent" >
+</p><!--l. 148--><p class="noindent" ><span 
+class="ptmr8c-x-x-120">© </span>2020, Sukrit Singh</p></div>
+<!--l. 148--><p class="noindent" >
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+</p><!--l. 154--><p class="indent" >
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+</p>
+   <div class="tableofcontents">
+   <span class="likechapterToc" ><a 
+href="mainli1.html#x2-1000" id="QQ2-2-1">List of Figures</a></span>
+<br />   <span class="chapterToc" > <a 
+href="mainli1.html#Q1-2-2">List of Figures</a></span>
+<br />   <span class="likechapterToc" ><a 
+href="mainli2.html#x3-2000" id="QQ2-3-3">List of Tables</a></span>
+<br />   <span class="chapterToc" > <a 
+href="mainli2.html#Q1-3-4">List of Tables</a></span>
+<br />   <span class="likechapterToc" ><a 
+href="mainli3.html#x4-3000" id="QQ2-4-5">Acknowledgments</a></span>
+<br />   <span class="chapterToc" > <a 
+href="mainli3.html#Q1-4-6">Acknowledgments</a></span>
+<br />   <span class="chapterToc" > <a 
+href="mainli3.html#Q1-4-7">Abstract</a></span>
+<br />   <span class="chapterToc" >1 <a 
+href="mainch1.html#x5-40001" id="QQ2-5-8">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.1 <a 
+href="mainch1.html#x5-50001.1" id="QQ2-5-9">Protein conformational landscapes encode functional information.</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.2 <a 
+href="mainch1.html#x5-60001.2" id="QQ2-5-10">The Folding@home platform allows access to protein motions
+at biologically relevant timescales.</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.3 <a 
+href="mainch1.html#x5-100001.3" id="QQ2-5-14">Allosteric communication is critical for protein function, but
+difficult to infer.</a></span>
+<br />   &#x00A0;<span class="sectionToc" >1.4 <a 
+href="mainch1.html#x5-130001.4" id="QQ2-5-17">Scope of thesis.</a></span>
+<br />   <span class="chapterToc" >2 <a 
+href="mainch2.html#x6-140002" id="QQ2-6-18">Quantifying allosteric communication via both concerted structural
+changes and conformational disorder</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.1 <a 
+href="mainch2.html#x6-150002.1" id="QQ2-6-19">Abstract</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.2 <a 
+href="mainch2.html#x6-160002.2" id="QQ2-6-20">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.3 <a 
+href="mainch2.html#x6-170002.3" id="QQ2-6-21">Theory and methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.4 <a 
+href="mainch2.html#x6-240002.4" id="QQ2-6-28">Results and discussion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.5 <a 
+href="mainch2.html#x6-300002.5" id="QQ2-6-34">Conclusion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >2.6 <a 
+href="mainch2.html#x6-310002.6" id="QQ2-6-35">Acknowledgements</a></span>
+                                                                                      
+                                                                                      
+<br />   <span class="chapterToc" >3 <a 
+href="mainch3.html#x7-320003" id="QQ2-7-36">Simulation of spontaneous G protein activation reveals a new
+intermediate driving GDP unbinding</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.1 <a 
+href="mainch3.html#x7-330003.1" id="QQ2-7-37">Abstract</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.2 <a 
+href="mainch3.html#x7-340003.2" id="QQ2-7-38">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.3 <a 
+href="mainch3.html#x7-350003.3" id="QQ2-7-39">Results and Discussion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.4 <a 
+href="mainch3.html#x7-410003.4" id="QQ2-7-45">Conclusion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.5 <a 
+href="mainch3.html#x7-420003.5" id="QQ2-7-46">Materials and Methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >3.6 <a 
+href="mainch3.html#x7-520003.6" id="QQ2-7-56">Acknowledgements</a></span>
+<br />   <span class="chapterToc" >4 <a 
+href="mainch4.html#x8-530004" id="QQ2-8-57">Discovery of a cryptic allosteric site in Ebola&#8217;s &#8216;undruggable&#8217;
+VP35 protein using simulations and experiments</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.1 <a 
+href="mainch4.html#x8-540004.1" id="QQ2-8-58">Abstract</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.2 <a 
+href="mainch4.html#x8-550004.2" id="QQ2-8-59">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.3 <a 
+href="mainch4.html#x8-560004.3" id="QQ2-8-60">Results</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.4 <a 
+href="mainch4.html#x8-610004.4" id="QQ2-8-65">Discussion.</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.5 <a 
+href="mainch4.html#x8-620004.5" id="QQ2-8-66">Methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >4.6 <a 
+href="mainch4.html#x8-670004.6" id="QQ2-8-71">Acknowledgements</a></span>
+<br />   <span class="chapterToc" >5 <a 
+href="mainch5.html#x9-680005" id="QQ2-9-72">The SARS-CoV-2 nucleocapsid protein is dynamic, disordered,
+and phase separates with RNA.</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.1 <a 
+href="mainch5.html#x9-690005.1" id="QQ2-9-73">Abstract</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.2 <a 
+href="mainch5.html#x9-700005.2" id="QQ2-9-74">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.3 <a 
+href="mainch5.html#x9-710005.3" id="QQ2-9-75">Results</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.4 <a 
+href="mainch5.html#x9-770005.4" id="QQ2-9-81">Discussion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.5 <a 
+href="mainch5.html#x9-820005.5" id="QQ2-9-86">Methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >5.6 <a 
+href="mainch5.html#x9-870005.6" id="QQ2-9-91">Acknowledgements</a></span>
+<br />   <span class="chapterToc" >6 <a 
+href="mainch6.html#x10-880006" id="QQ2-10-92">Citizen Scientists Create an Exascale Computer to Combat COVID-19</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.1 <a 
+href="mainch6.html#x10-890006.1" id="QQ2-10-93">Abstract</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.2 <a 
+href="mainch6.html#x10-900006.2" id="QQ2-10-94">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.3 <a 
+href="mainch6.html#x10-910006.3" id="QQ2-10-95">Results and discussion</a></span>
+                                                                                      
+                                                                                      
+<br />   &#x00A0;<span class="sectionToc" >6.4 <a 
+href="mainch6.html#x10-950006.4" id="QQ2-10-99">Discussion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.5 <a 
+href="mainch6.html#x10-960006.5" id="QQ2-10-100">Methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.6 <a 
+href="mainch6.html#x10-1040006.6" id="QQ2-10-108">Acknowledgements</a></span>
+<br />   &#x00A0;<span class="sectionToc" >6.7 <a 
+href="mainch6.html#x10-1050006.7" id="QQ2-10-109">Disclosures</a></span>
+<br />   <span class="chapterToc" >7           <a 
+href="mainch7.html#x11-1060007" id="QQ2-11-110">Antagonism           between           substitutions           in
+<!--l. 148--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-lactamase
+explains a path not taken in the evolution of bacterial drug resistance</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.1 <a 
+href="mainch7.html#x11-1070007.1" id="QQ2-11-111">Abstract</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.2 <a 
+href="mainch7.html#x11-1080007.2" id="QQ2-11-112">Introduction</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.3 <a 
+href="mainch7.html#x11-1090007.3" id="QQ2-11-113">Results</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.4 <a 
+href="mainch7.html#x11-1160007.4" id="QQ2-11-120">Discussion</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.5 <a 
+href="mainch7.html#x11-1170007.5" id="QQ2-11-121">Methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.6 <a 
+href="mainch7.html#x11-1270007.6" id="QQ2-11-131">Author contributions</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.7 <a 
+href="mainch7.html#x11-1280007.7" id="QQ2-11-132">Acknowledgments</a></span>
+<br />   &#x00A0;<span class="sectionToc" >7.8 <a 
+href="mainch7.html#x11-1290007.8" id="QQ2-11-133">Additional information.</a></span>
+<br />   <span class="chapterToc" >8 <a 
+href="mainch8.html#x12-1300008" id="QQ2-12-134">Conclusions</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.1 <a 
+href="mainch8.html#x12-1310008.1" id="QQ2-12-135">Main findings</a></span>
+<br />   &#x00A0;<span class="sectionToc" >8.2 <a 
+href="mainch8.html#x12-1320008.2" id="QQ2-12-136">Future directions</a></span>
+<br />   <span class="appendixToc" >A <a 
+href="mainap1.html#x13-133000A" id="QQ2-13-137">Supplementary Material on the CARDS method</a></span>
+<br />   &#x00A0;<span class="sectionToc" >A.1 <a 
+href="mainap1.html#x13-134000A.1" id="QQ2-13-138">Supplementary Methods</a></span>
+<br />   &#x00A0;<span class="sectionToc" >A.2 <a 
+href="mainap1.html#x13-137000A.2" id="QQ2-13-141">Supplementary Figures</a></span>
+   </div>
+                                                                                      
+                                                                                      
+
+                                                                                      
+                                                                                      
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!--l. 5--><p class="noindent" >
+                                                                                      
+                                                                                      
+<a 
+ id="x1-132001r134"></a>
+</p>
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<a 
+ id="x1-137015r134"></a>
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<a 
+ id="x1-139023r134"></a>
+                                                                                      
+                                                                                      
+<a 
+ id="x1-141021r134"></a>
+                                                                                      
+                                                                                      
+<a 
+ id="x1-167041r134"></a>
+                                                                                      
+                                                                                      
+ 
+</body></html> 
+
+                                                                                      
+
+

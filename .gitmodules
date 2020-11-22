@@ -1,3 +1,6 @@
 [submodule "bestiary"]
-	path = bestiary
-	url = https://github.com/sukritsingh/bestiary
+    path = bestiary
+    url = https://github.com/sukritsingh/bestiary
+[submodule "thesis"]
+    path = thesis
+    url = https://github.com/sukritsingh/thesis

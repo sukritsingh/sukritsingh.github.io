@@ -1,0 +1,10 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Protein conformational landscapes encode functional information.}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{The Folding@home platform allows access to protein motions at biologically relevant timescales.}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Folding@home distributes simulations across thousands of computers at once.}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Markov State Models allow for the construction of unified models from large simulation datasets.}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{The scalable power of Folding@home has generated insights into protein behaviors.}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{Allosteric communication is critical for protein function, but difficult to infer.}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{Allosteric communication is universal and critical for biological function.}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Inferring allosteric communication in proteins remains a non-trivial task.}{section.1.3}% 9
+\BOOKMARK [1][-]{section.1.4}{Scope of thesis.}{chapter.1}% 10

@@ -1,0 +1,18 @@
+\BOOKMARK [0][-]{chapter.1}{Quantifying allosteric communication via both concerted structural changes and conformational disorder}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Abstract}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Introduction}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Theory and methods}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.3.1}{Molecular Dynamics simulations}{section.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.3.2}{Assignment of dihedrals to rotameric states}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.3}{Assignment of snapshots to dynamical states}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.4}{Calculation of structural, disorder-mediated, and holistic correlations}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.5}{Calculation of net communication to a target site}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.6}{Calculation of global communication}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{Results and discussion}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{Many dihedrals have the potential for disorder-mediated communication}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Disorder-mediated correlations dominate communication between the CBDs}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.3}{Disorder-mediated communication is enhanced in the S62F variant}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.4}{Side-chain-side-chain and backbone-side-chain correlations dominate allosteric communication in CAP}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.5}{Locating communication hotspots identifies key functional sites}{section.1.4}% 16
+\BOOKMARK [1][-]{section.1.5}{Conclusion}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.6}{Acknowledgements}{chapter.1}% 18

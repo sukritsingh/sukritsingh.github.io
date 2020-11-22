@@ -1,2 +1,6 @@
 _site/
 .DS_Store
+_drafts/
+grimoire.sublime*
+.sass-cache/
+.jekyll-cache/
