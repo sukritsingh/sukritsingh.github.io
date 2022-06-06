@@ -11,9 +11,10 @@
         ]
       },
       "properties": {
-        "name": "Matto Coffee",
+        "name": "Pony Bar",
         "Neighborhood": "UES",
-        "Flavor1": "4.0"
+        "Flavor1": "4.0",
+        "Type":"Bar"
       }
     },
     {
@@ -26,9 +27,10 @@
         ]
       },
       "properties": {
-        "name": "Buunni Coffee",
-        "Neighborhood": "Washington Heights/Inwood",
-        "Flavor1": "4.0"
+        "name": "Center of the World",
+        "Neighborhood": "UES",
+        "Flavor1": "4.0",
+        "Type":"Bar"
       }
     }
   ]

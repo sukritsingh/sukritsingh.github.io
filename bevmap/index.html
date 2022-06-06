@@ -36,7 +36,6 @@
     </script>
     <script src="/js/leaflet.ajax.min.js"></script>
     <!-- <script src="bars.json"></script> -->
-
     <script>
 
     // show a marker on the map
@@ -58,15 +57,52 @@
       layer.bindPopup(popupContent);
     }
 
-    // this set of lines adds a bunch of default pointers to the map as separate
-    // layer 
+    // this function sets the styles for each point and how to mark them
+    function pointToLayer(feature, latlng) {
+      var mag=feature.properties.Type;
+      var colorString="";
+      if (mag=='Bar'){
+        colorString="blue",
+        iconString="wine"
+      }
+      else if (mag=='Coffee'){
+        colorString="red",
+        iconString="coffee"
+      }
+      else{
+        iconstring="help",
+        colorString="White"
+      }
+      return L.circleMarker(latlng, {
+        radius: 8,
+        fillColor: colorString,
+        color: colorString,
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+      // L.AwesomeMarkers.Icon.prototype.options.prefix = 'ion';
+      // var markerSet= L.AwesomeMarkers.icon({
+      //   icon: iconString,
+      //   markerColor: colorString,
+      // });
+      // return L.marker(latlng, {
+      //   icon: markerSet
+      // });
+    }
+
+    // this set of lines adds a points to the map as separate feature each
+    // this adds bars
     var barLayer =  L.geoJson.ajax("bars.json", {
-      onEachFeature: onEachFeature
+      onEachFeature: onEachFeature,
+      pointToLayer: pointToLayer,
     });
     barLayer.addTo(map)
 
+    // this adds coffee
     var coffeeLayer =  L.geoJson.ajax("icedmocha.json", {
-      onEachFeature: onEachFeature
+      onEachFeature: onEachFeature,
+      pointToLayer: pointToLayer,
     });
     coffeeLayer.addTo(map)
 
@@ -93,7 +129,7 @@
     // }).addTo(map);
 
     var overlayMaps = {
-      "Bar map": barLayer,
+      "Old Fashioned map": barLayer,
       "Mocha map": coffeeLayer
     };
  

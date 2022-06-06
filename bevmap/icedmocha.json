@@ -13,7 +13,8 @@
       "properties": {
         "name": "Matto",
         "Neighborhood": "UES",
-        "Flavor1": "4.0"
+        "Flavor1": "4.0",
+        "Type":"Coffee"
       }
     },
     {
@@ -21,14 +22,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9204098,
-          40.8680974
+          -73.9377454,
+          40.8551761
         ]
       },
       "properties": {
-        "name": "Center of the World",
+        "name": "Buunni Coffee",
         "Neighborhood": "UES",
-        "Flavor1": "4.0"
+        "Flavor1": "4.0",
+        "Type":"Coffee"
       }
     }
   ]
