@@ -1,0 +1,27 @@
+var geoJsonLayer={
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9543140,
+          40.7697624
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95701,
+          40.76379
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}
