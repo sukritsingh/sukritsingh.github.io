@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9581504,
+          40.7654726
+        ]
+      },
+      "properties": {
+        "name": "Matto",
+        "Neighborhood": "UES",
+        "Flavor1": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9204098,
+          40.8680974
+        ]
+      },
+      "properties": {
+        "name": "Center of the World",
+        "Neighborhood": "UES",
+        "Flavor1": "4.0"
+      }
+    }
+  ]
+}

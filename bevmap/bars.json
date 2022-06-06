@@ -1,4 +1,4 @@
-var geoJsonLayer={
+{
   "type": "FeatureCollection",
   "features": [
     {
@@ -6,11 +6,15 @@ var geoJsonLayer={
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9543140,
+          -73.954314,
           40.7697624
         ]
       },
-      "properties": {}
+      "properties": {
+        "name": "Matto Coffee",
+        "Neighborhood": "UES",
+        "Flavor1": "4.0"
+      }
     },
     {
       "type": "Feature",
@@ -21,7 +25,11 @@ var geoJsonLayer={
           40.76379
         ]
       },
-      "properties": {}
+      "properties": {
+        "name": "Buunni Coffee",
+        "Neighborhood": "Washington Heights/Inwood",
+        "Flavor1": "4.0"
+      }
     }
   ]
 }
