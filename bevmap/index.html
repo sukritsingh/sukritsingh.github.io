@@ -22,7 +22,7 @@
     <div id="map"></div>
     <script>
       // initialize Leaflet
-      var map = L.map('map').setView({lon: -73.95701, lat: 40.76379}, 13.5);
+      var map = L.map('map').setView({lon: -73.9711, lat: 40.7753}, 12.9);
 
       // add the OpenStreetMap tiles
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -41,20 +41,54 @@
     // show a marker on the map
     //L.marker({lon: -73.95701, lat: 40.76379}).bindPopup('The center of the world').addTo(map);
 
+    function getDeepKeys(obj) {
+        var keys = [];
+        for(var key in obj) {
+            keys.push(key);
+            if(typeof obj[key] === "object") {
+                var subkeys = getDeepKeys(obj[key]);
+                keys = keys.concat(subkeys.map(function(subkey) {
+                    return key + "." + subkey;
+                    //return subkey;
+                }));
+            }
+        }
+        return keys;
+    }
+
+
     // barLayer.addTo(map);
     function onEachFeature(feature, layer) {
-      // var popupContent = "<p>I started out as a GeoJSON " +
-      //     feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
-      var popupContent = feature.properties.name+"<br>"+ // puts in newline
-      feature.properties.Neighborhood + "<br>"+
-      feature.properties.Flavor1;
+      //Generate the list of categories based on type
+      if (feature.properties.Type == "Bar"){
+        var names=["<b>Whiskey</b>","<b>Acidity/Sweet</b>","<b>Presentation</b>"];
+      }
+      else if (feature.properties.Type=='Coffee'){
+        var names=["<b>Strength</b>","<b>Sweet</b>","<b>Speed</b>"];
+      }
+      else if (feature.properties.Type=='Coffee'){
+        var names=["<b>Store</b>","<b>Bagel</b>","<b>Spread</b>"];
+      }
+      else {
+        var names=["Score1","Score2","Score3"];
+      }
 
-      // if (feature.properties && feature.properties.popupContent) {
-      //   popupContent += feature.properties.name;
-      //   popContent+=feature.properties.Neighborhood;
-      // }
+      //generate the actual popup text
+      var popupContent = "<b><u>"+feature.properties.name+"</b></u>" +"<br>"+ // puts in newline
+      feature.properties.Neighborhood + "<br>"+names[0]+": "+
+      feature.properties.Score1+ "/5<br>"+names[1]+": "+
+      feature.properties.Score2+ "/5<br>"+names[2]+": "+
+      feature.properties.Score3+ "/5";
 
-      layer.bindPopup(popupContent);
+      layer.bindPopup(popupContent, {
+        closeButton: true,
+        offset: L.point(0, -20)
+      });
+
+      // layer.on('click', function() {
+      //   layer.openPopup();
+      // });
+
     }
 
     // this function sets the styles for each point and how to mark them
@@ -69,26 +103,22 @@
         colorString="red",
         iconString="coffee"
       }
+      else if (mag=='Bagel'){
+        colorString="green",
+        iconString="bagel"
+      }
       else{
         iconstring="help",
         colorString="White"
       }
       return L.circleMarker(latlng, {
-        radius: 8,
+        radius: 10,
         fillColor: colorString,
         color: colorString,
         weight: 1,
         opacity: 1,
         fillOpacity: 0.8
       });
-      // L.AwesomeMarkers.Icon.prototype.options.prefix = 'ion';
-      // var markerSet= L.AwesomeMarkers.icon({
-      //   icon: iconString,
-      //   markerColor: colorString,
-      // });
-      // return L.marker(latlng, {
-      //   icon: markerSet
-      // });
     }
 
     // this set of lines adds a points to the map as separate feature each
@@ -106,30 +136,8 @@
     });
     coffeeLayer.addTo(map)
 
-    // Alternative way of adding points below 
-    // BUT manipulating this layer involves a whole other API usage 
-    // L.geoJson({features: [barPlaces, barLayer2]}, {
-
-    //   style: function (feature) {
-    //     return feature.properties && feature.properties.style;
-    //   },
-
-    //   onEachFeature: onEachFeature,
-
-    //   pointToLayer: function (feature, latlng) {
-    //     return L.circleMarker(latlng, {
-    //       radius: 8,
-    //       fillColor: "#ff7800",
-    //       color: "#000",
-    //       weight: 1,
-    //       opacity: 1,
-    //       fillOpacity: 0.8
-    //     });
-    //   }
-    // }).addTo(map);
-
     var overlayMaps = {
-      "Old Fashioned map": barLayer,
+      "Whiskey Cocktail map": barLayer,
       "Mocha map": coffeeLayer
     };
  
