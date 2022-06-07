@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9581504,
+          40.7654726
+        ]
+      },
+      "properties": {
+        "name": "Matto",
+        "Neighborhood": "Upper East Side",
+        "Type":"Coffee",
+        "Score1": "4.0",
+        "Score2":"4.0",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9377454,
+          40.8551761
+        ]
+      },
+      "properties": {
+        "name": "Buunni Coffee",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "4.0",
+        "Score2":"4.0",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93654,
+          40.85019
+        ]
+      },
+      "properties": {
+        "name": "Forever Coffee Bar",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "4.5",
+        "Score2":"4.0",
+        "Score3": "3.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9398530,
+          40.8514351
+        ]
+      },
+      "properties": {
+        "name": "Cafe Bark",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "4.5",
+        "Score2":"4.0",
+        "Score3": "4.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9902413,
+          40.7452186
+        ]
+      },
+      "properties": {
+        "name": "Patent Pending",
+        "Neighborhood": "Flatiron",
+        "Type":"Coffee",
+        "Score1": "4.0",
+        "Score2":"4.8",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9911197,
+          40.7295053
+        ]
+      },
+      "properties": {
+        "name": "The Alley",
+        "Neighborhood": "NoHo",
+        "Type":"Coffee",
+        "Score1": "4.6",
+        "Score2":"3.8",
+        "Score3": "4.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9854600,
+          40.7359816
+        ]
+      },
+      "properties": {
+        "name": "Sunburst Espresso Cafe",
+        "Neighborhood": "Gramercy Park",
+        "Type":"Coffee",
+        "Score1": "4.7",
+        "Score2":"3.6",
+        "Score3": "4.2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95781,
+          40.76566
+        ]
+      },
+      "properties": {
+        "name": "Gregory's Coffee",
+        "Neighborhood": "Upper East Side",
+        "Type":"Coffee",
+        "Score1": "4.7",
+        "Score2":"2.6",
+        "Score3": "3.9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9636651,
+          40.8035851
+        ]
+      },
+      "properties": {
+        "name": "The Hungarian Pastry Shop",
+        "Neighborhood": "Morningside Heights",
+        "Type":"Coffee",
+        "Score1": "4.7",
+        "Score2":"4.6",
+        "Score3": "3.4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9452550,
+          40.8345127
+        ]
+      },
+      "properties": {
+        "name": "Taszo Specialty Espresso Bar",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "4.7",
+        "Score2":"4.3",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93793,
+          40.83941
+        ]
+      },
+      "properties": {
+        "name": "The Plug",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "4.7",
+        "Score2":"4.6",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93914,
+          40.84902
+        ]
+      },
+      "properties": {
+        "name": "Buunni Cafe Bridge",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "4.0",
+        "Score2":"4.3",
+        "Score3": "4.2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93332,
+          40.8547
+        ]
+      },
+      "properties": {
+        "name": "Halo Bistro Cafe",
+        "Neighborhood": "Washington Heights",
+        "Type":"Coffee",
+        "Score1": "3.4",
+        "Score2":"3.4",
+        "Score3": "3.8"
+      }
+    }
+  ]
+}

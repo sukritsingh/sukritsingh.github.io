@@ -1,0 +1,419 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954314,
+          40.7697624
+        ]
+      },
+      "properties": {
+        "name": "Pony Bar",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.1",
+        "Score2":"4.3",
+        "Score3": "4.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95701,
+          40.76379
+        ]
+      },
+      "properties": {
+        "name": "Center of the World",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.8",
+        "Score3": "4.9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9893474,
+          40.7400479
+        ]
+      },
+      "properties": {
+        "name": "Obica Mozzarella Bar",
+        "Neighborhood": "Flatiron",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.6",
+        "Score3": "4.8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9902413,
+          40.7452186
+        ]
+      },
+      "properties": {
+        "name": "Patent Pending",
+        "Neighborhood": "Flatiron",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.7",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00147,
+          40.71769
+        ]
+      },
+      "properties": {
+        "name": "Live Axe",
+        "Neighborhood": "Chinatown",
+        "Type":"Bar",
+        "Score1": "4.7",
+        "Score2":"4.7",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9915999,
+           40.7191105
+        ]
+      },
+      "properties": {
+        "name": "Lena LES",
+        "Neighborhood": "Lower East Side",
+        "Type":"Bar",
+        "Score1": "4.7",
+        "Score2":"4.3",
+        "Score3": "3.4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99144,
+           40.71889
+        ]
+      },
+      "properties": {
+        "name": "Attaboy",
+        "Neighborhood": "Lower East Side",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.8",
+        "Score3": "4.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99144,
+           40.71889
+        ]
+      },
+      "properties": {
+        "name": "The Gray Mare",
+        "Neighborhood": "Bowery",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.5",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9837690,
+          40.7271211
+        ]
+      },
+      "properties": {
+        "name": "Please Don't Tell",
+        "Neighborhood": "Bowery",
+        "Type":"Bar",
+        "Score1": "4.7",
+        "Score2":"4.5",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98576,
+          40.72764
+        ]
+      },
+      "properties": {
+        "name": "William Barnacle Tavern",
+        "Neighborhood": "Bowery",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.5",
+        "Score3": "4.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9863,
+          40.73273
+        ]
+      },
+      "properties": {
+        "name": "The Belfry",
+        "Neighborhood": "Gramercy Park",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.0",
+        "Score3": "3.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9900429,
+          40.7451365
+        ]
+      },
+      "properties": {
+        "name": "Oscar Wilde",
+        "Neighborhood": "Gramercy Park",
+        "Type":"Bar",
+        "Score1": "3.8",
+        "Score2":"3.0",
+        "Score3": "2.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9812159,
+          40.7562438
+        ]
+      },
+      "properties": {
+        "name": "Valerie",
+        "Neighborhood": "Midtown",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"4.0",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9558220,
+          40.7661197
+        ]
+      },
+      "properties": {
+        "name": "The Hunterian",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "3.5",
+        "Score2":"3.0",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9511428,
+          40.7747898
+        ]
+      },
+      "properties": {
+        "name": "Horn's Hook Tavern",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "3.8",
+        "Score2":"3.0",
+        "Score3": "4.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9532380,
+          40.7754854
+        ]
+      },
+      "properties": {
+        "name": "The Penrose",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"3.0",
+        "Score3": "4.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9603481,
+          40.8141743
+        ]
+      },
+      "properties": {
+        "name": "Pisticci",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.0",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9657309,
+          40.8007289
+        ]
+      },
+      "properties": {
+        "name": "Dive 106",
+        "Neighborhood": "Upper West Side",
+        "Type":"Bar",
+        "Score1": "3.5",
+        "Score2":"3.0",
+        "Score3": "4.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9696591,
+          40.7953361
+        ]
+      },
+      "properties": {
+        "name": "Moonrise Izakaya",
+        "Neighborhood": "Upper West Side",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.0",
+        "Score3": "3.7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9778793,
+          40.7841279
+        ]
+      },
+      "properties": {
+        "name": "Caledonia UWS",
+        "Neighborhood": "Upper West Side",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.3",
+        "Score3": "4.2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9776088,
+          40.7795716
+        ]
+      },
+      "properties": {
+        "name": "Dive 75",
+        "Neighborhood": "Upper West Side",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"3.6",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9380293,
+          40.8480741
+        ]
+      },
+      "properties": {
+        "name": "Terravita",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.4",
+        "Score2":"4.4",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9363590,
+          40.8497987
+        ]
+      },
+      "properties": {
+        "name": "Bar 180",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.5",
+        "Score3": "4.5"
+      }
+    }
+  ]
+}
