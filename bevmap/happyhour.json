@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954314,
+          40.7697624
+        ]
+      },
+      "properties": {
+        "name": "Pony Bar",
+        "Neighborhood": "Upper East Side",
+        "Type":"happyHour",
+        "Score1": "4.4",
+        "Score2":"4.2",
+        "Score3": "3.8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9550189,
+          40.7700616
+        ]
+      },
+      "properties": {
+        "name": "NR",
+        "Neighborhood": "Upper East Side",
+        "Type":"happyHour",
+        "Score1": "4.8",
+        "Score2":"4.5",
+        "Score3": "3.2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9509133,
+          40.7773359
+        ]
+      },
+      "properties": {
+        "name": "City Swiggers",
+        "Neighborhood": "Upper East Side",
+        "Type":"happyHour",
+        "Score1": "4.5",
+        "Score2":"na",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96464,
+          40.75636
+        ]
+      },
+      "properties": {
+        "name": "Greats of Craft",
+        "Neighborhood": "Midtown East",
+        "Type":"happyHour",
+        "Score1": "4.3",
+        "Score2":"3.0",
+        "Score3": "3.6"
+      }
+    }
+  ]
+}

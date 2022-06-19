@@ -103,9 +103,9 @@
         colorString="red",
         iconString="coffee"
       }
-      else if (mag=='Bagel'){
+      else if (mag=='happyHour'){
         colorString="green",
-        iconString="bagel"
+        iconString="hh"
       }
       else{
         iconstring="help",
@@ -136,9 +136,17 @@
     });
     coffeeLayer.addTo(map)
 
+      // this adds coffee
+    var happyHourLayer =  L.geoJson.ajax("happyhour.json", {
+      onEachFeature: onEachFeature,
+      pointToLayer: pointToLayer,
+    });
+    happyHourLayer.addTo(map)
+
     var overlayMaps = {
       "Whiskey Cocktail map": barLayer,
-      "Mocha map": coffeeLayer
+      "Mocha map": coffeeLayer,
+      "Happy Hour map": happyHourLayer
     };
  
     L.control.layers(null, overlayMaps, {collapsed: false}).addTo(map)

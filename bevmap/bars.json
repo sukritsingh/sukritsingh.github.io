@@ -414,6 +414,42 @@
         "Score2":"4.5",
         "Score3": "4.5"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9550189,
+          40.7700616
+        ]
+      },
+      "properties": {
+        "name": "NR",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.0",
+        "Score3": "4.8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9532,
+          40.77631
+        ]
+      },
+      "properties": {
+        "name": "Caledonia UES",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.0",
+        "Score3": "4.8"
+      }
     }
   ]
 }
