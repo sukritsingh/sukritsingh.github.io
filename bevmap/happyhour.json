@@ -72,6 +72,24 @@
         "Score2":"3.0",
         "Score3": "3.6"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0032442,
+          40.7318556
+        ]
+      },
+      "properties": {
+        "name": "Blind Tiger",
+        "Neighborhood": "West Village",
+        "Type":"happyHour",
+        "Score1": "4.5",
+        "Score2":"4.0",
+        "Score3": "4.0"
+      }
     }
   ]
 }
