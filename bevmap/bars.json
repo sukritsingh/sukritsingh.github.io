@@ -468,6 +468,42 @@
         "Score2":"4.2",
         "Score3": "3.8"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98577,
+          40.7276
+        ]
+      },
+      "properties": {
+        "name": "William Barnacle Tavern",
+        "Neighborhood": "East Village",
+        "Type":"Bar",
+        "Score1": "4.4",
+        "Score2":"4.2",
+        "Score3": "3.8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93932,
+          40.85135
+        ]
+      },
+      "properties": {
+        "name": "Uptown Garrison",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.5",
+        "Score3": "4.4"
+      }
     }
   ]
 }

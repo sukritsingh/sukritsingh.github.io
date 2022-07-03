@@ -90,6 +90,24 @@
         "Score2":"4.0",
         "Score3": "4.0"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93932,
+          40.85135
+        ]
+      },
+      "properties": {
+        "name": "Uptown Garrison",
+        "Neighborhood": "Washington Heights",
+        "Type":"happyHour",
+        "Score1": "4.5",
+        "Score2":"4.5",
+        "Score3": "4.5"
+      }
     }
   ]
 }

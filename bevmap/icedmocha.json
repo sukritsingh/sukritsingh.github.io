@@ -234,6 +234,24 @@
         "Score2":"3.4",
         "Score3": "3.8"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015,
+          40.7401
+        ]
+      },
+      "properties": {
+        "name": "787 Coffee",
+        "Neighborhood": "Chelsea",
+        "Type":"Coffee",
+        "Score1": "4.8",
+        "Score2":"4.8",
+        "Score3": "4.4"
+      }
     }
   ]
 }
