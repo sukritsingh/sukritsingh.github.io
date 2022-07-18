@@ -504,6 +504,24 @@
         "Score2":"4.5",
         "Score3": "4.4"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9884140,
+          40.7383894
+        ]
+      },
+      "properties": {
+        "name": "Gramercy Tavern",
+        "Neighborhood": "Gramercy Park",
+        "Type":"Bar",
+        "Score1": "4.9",
+        "Score2":"4.9",
+        "Score3": "4.6"
+      }
     }
   ]
 }

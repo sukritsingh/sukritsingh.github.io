@@ -108,6 +108,24 @@
         "Score2":"4.5",
         "Score3": "4.5"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9890998,
+          40.7636531
+        ]
+      },
+      "properties": {
+        "name": "Hibernia",
+        "Neighborhood": "Hell's Kitchen",
+        "Type":"happyHour",
+        "Score1": "3.5",
+        "Score2":"3.5",
+        "Score3": "3.5"
+      }
     }
   ]
 }
