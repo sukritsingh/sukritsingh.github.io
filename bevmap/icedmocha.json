@@ -252,6 +252,24 @@
         "Score2":"4.8",
         "Score3": "4.4"
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.78318,
+          42.72988
+        ]
+      },
+      "properties": {
+        "name": "Abrazo Coffee",
+        "Neighborhood": "Racine",
+        "Type":"Coffee",
+        "Score1": "4.4",
+        "Score2":"4.4",
+        "Score3": "4.4"
+      }
+    },
   ]
 }

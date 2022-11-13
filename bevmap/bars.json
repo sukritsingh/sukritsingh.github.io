@@ -522,6 +522,294 @@
         "Score2":"4.9",
         "Score3": "4.6"
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.78729,
+          42.73211
+        ]
+      },
+      "properties": {
+        "name": "Joey's Yardarm",
+        "Neighborhood": "Racine",
+        "Type":"Bar",
+        "Score1": "3.8",
+        "Score2":"3.5",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94804,
+          40.77422
+        ]
+      },
+      "properties": {
+        "name": "The Five Lamps",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "3.8",
+        "Score2":"4.0",
+        "Score3": "3.4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02501,
+          38.90647
+        ]
+      },
+      "properties": {
+        "name": "Calico",
+        "Neighborhood": "Washington DC",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"3.8",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9400045,
+          40.8514544
+        ]
+      },
+      "properties": {
+        "name": "Le Cheile",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.8",
+        "Score2":"4.2",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93958,
+          40.85137
+        ]
+      },
+      "properties": {
+        "name": "Saggio",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"4.2",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98716,
+          40.72966
+        ]
+      },
+      "properties": {
+        "name": "The Long Pour",
+        "Neighborhood": "Tribeca",
+        "Type":"Bar",
+        "Score1": "3.2",
+        "Score2":"3.4",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9642554,
+          40.8027402
+        ]
+      },
+      "properties": {
+        "name": "The Hamilton",
+        "Neighborhood": "Morningside Heights",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"3.8",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96898,
+          40.75577
+        ]
+      },
+      "properties": {
+        "name": "Clinton Hall",
+        "Neighborhood": "Midtown East",
+        "Type":"Bar",
+        "Score1": "1.0",
+        "Score2":"1.8",
+        "Score3": "2.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99051,
+          40.74174
+        ]
+      },
+      "properties": {
+        "name": "Thyme Bar",
+        "Neighborhood": "Flatiron District",
+        "Type":"Bar",
+        "Score1": "4.9",
+        "Score2":"4.8",
+        "Score3": "5.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95443,
+          40.76957
+        ]
+      },
+      "properties": {
+        "name": "Bar Essen",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.0",
+        "Score2":"3.8",
+        "Score3": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9772607,
+          40.7849421
+        ]
+      },
+      "properties": {
+        "name": "The Dead Poet",
+        "Neighborhood": "Upper West Side",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.5",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9556375,
+          40.7686775
+        ]
+      },
+      "properties": {
+        "name": "Finnegan's Wake",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.0",
+        "Score2":"4.0",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9656648,
+          40.7651273
+        ]
+      },
+      "properties": {
+        "name": "Jojo's by Jean Gorges",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.5",
+        "Score2":"4.5",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96308,
+          40.76099
+        ]
+      },
+      "properties": {
+        "name": "The Jeffrey Craft Beer and Bites",
+        "Neighborhood": "Upper East Side",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"4.2",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93771,
+          40.84116
+        ]
+      },
+      "properties": {
+        "name": "Barrel 79",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.4",
+        "Score2":"4.4",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9410005,
+          40.8389092
+        ]
+      },
+      "properties": {
+        "name": "Fort Washington Public House",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.4",
+        "Score2":"4.5",
+        "Score3": "3.5"
+      }
+    },
   ]
 }

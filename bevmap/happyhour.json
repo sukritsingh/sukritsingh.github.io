@@ -126,6 +126,24 @@
         "Score2":"3.5",
         "Score3": "3.5"
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9400045,
+          40.8514544
+        ]
+      },
+      "properties": {
+        "name": "Le Cheile",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.4",
+        "Score2":"4.2",
+        "Score3": "4.0"
+      }
+    },
   ]
 }
