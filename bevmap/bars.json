@@ -810,6 +810,24 @@
         "Score2":"4.5",
         "Score3": "3.5"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9501284,
+          40.8273279
+        ]
+      },
+      "properties": {
+        "name": "Bird in Hand",
+        "Neighborhood": "Harlem",
+        "Type":"Bar",
+        "Score1": "4.2",
+        "Score2":"4.3",
+        "Score3": "4.8"
+      }
     }
   ]
 }
