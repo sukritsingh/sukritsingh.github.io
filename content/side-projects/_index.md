@@ -3,8 +3,8 @@ title: "Side projects"
 description: "Latest updates and articles"
 ---
 
-Sometimes I like to tinker with doing a variety of different ideas or mappings.
-Here are posted some collection of those efforts, some of which are embedded:
+Sometimes I like to tinker with a variety of different things.
+Compiled here are some of those efforts, some of which are embedded:
 {{< cards >}}
   {{< card link="/side-projects/thesis/" 
   title="My thesis in HTML" 
@@ -17,6 +17,14 @@ Here are posted some collection of those efforts, some of which are embedded:
   {{< card link="/side-projects/molview/" 
   title="Interactive Traj Viewer"
   icon="video-camera"
+  >}}
+  {{< card link="https://sukritsingh.github.io/bestiary/" 
+  title="D&D 5e Bestiary and NPC database"
+  icon="collection"
+  >}}
+  {{< card link="https://sukritsingh.github.io/grimoire/" 
+  title="D&D 5e Spell Compendium"
+  icon="collection"
   >}}
 {{< /cards >}}
 
