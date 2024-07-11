@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ch1.aux
+The style file: unsrt.bst
+Database file #1: References.bib
+Repeated entry---line 32254 of file References.bib
+ : @article{chen_dynamic_2019
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 32385 of file References.bib
+ : @article{arkin_small-molecule_2004
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 32417 of file References.bib
+ : @article{hardy_searching_2004
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 32481 of file References.bib
+ : @article{schames_discovery_2004
+ :                                ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Wand:2013dz
+Warning--there's a number but no volume in PerezHernandez:2013ih
+Warning--empty journal in Tzeng:2011by
+Warning--empty journal in Feher:2014cx
+Warning--empty journal in Greener:2017ie
+You've used 85 entries,
+            1791 wiz_defined-function locations,
+            988 strings with 23542 characters,
+and the built_in function-call counts, 24331 in all, are:
+= -- 2036
+> -- 1495
+< -- 6
++ -- 529
+- -- 444
+* -- 2269
+:= -- 3979
+add.period$ -- 256
+call.type$ -- 85
+change.case$ -- 85
+chr.to.int$ -- 0
+cite$ -- 90
+duplicate$ -- 839
+empty$ -- 2043
+format.name$ -- 444
+if$ -- 5086
+int.to.chr$ -- 0
+int.to.str$ -- 85
+missing$ -- 85
+newline$ -- 428
+num.names$ -- 87
+pop$ -- 111
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 379
+stack$ -- 0
+substring$ -- 2045
+swap$ -- 155
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 237
+width$ -- 87
+write$ -- 934
+(There were 4 error messages)

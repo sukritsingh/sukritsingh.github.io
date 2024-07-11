@@ -1,0 +1,24 @@
+
+# Site settings
+title: "Thesis document"
+author: "sukritsingh"
+description:
+  "Sukrit's thesis in webpage form"
+#baseurl: "/bestiary" # the subpath of your site, e.g. /blog/
+url: "http://sukritsingh.github.io/thesis" # the base hostname & protocol for your site
+#source-url: "https://github.com/sukritsingh/bestiary/"
+permalink: "/:categories/:title"
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+# # Build settings
+# markdown: kramdown
+# highlighter: pygments
+
+# Site defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: "thesis"

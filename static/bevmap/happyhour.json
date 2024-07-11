@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954314,
+          40.7697624
+        ]
+      },
+      "properties": {
+        "name": "Pony Bar",
+        "Neighborhood": "Upper East Side",
+        "Type":"happyHour",
+        "Score1": "4.4",
+        "Score2":"4.2",
+        "Score3": "3.8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9550189,
+          40.7700616
+        ]
+      },
+      "properties": {
+        "name": "NR",
+        "Neighborhood": "Upper East Side",
+        "Type":"happyHour",
+        "Score1": "4.8",
+        "Score2":"4.5",
+        "Score3": "3.2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9509133,
+          40.7773359
+        ]
+      },
+      "properties": {
+        "name": "City Swiggers",
+        "Neighborhood": "Upper East Side",
+        "Type":"happyHour",
+        "Score1": "4.5",
+        "Score2":"na",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96464,
+          40.75636
+        ]
+      },
+      "properties": {
+        "name": "Greats of Craft",
+        "Neighborhood": "Midtown East",
+        "Type":"happyHour",
+        "Score1": "4.3",
+        "Score2":"3.0",
+        "Score3": "3.6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0032442,
+          40.7318556
+        ]
+      },
+      "properties": {
+        "name": "Blind Tiger",
+        "Neighborhood": "West Village",
+        "Type":"happyHour",
+        "Score1": "4.5",
+        "Score2":"4.0",
+        "Score3": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93932,
+          40.85135
+        ]
+      },
+      "properties": {
+        "name": "Uptown Garrison",
+        "Neighborhood": "Washington Heights",
+        "Type":"happyHour",
+        "Score1": "4.5",
+        "Score2":"4.5",
+        "Score3": "4.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9890998,
+          40.7636531
+        ]
+      },
+      "properties": {
+        "name": "Hibernia",
+        "Neighborhood": "Hell's Kitchen",
+        "Type":"happyHour",
+        "Score1": "3.5",
+        "Score2":"3.5",
+        "Score3": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9400045,
+          40.8514544
+        ]
+      },
+      "properties": {
+        "name": "Le Cheile",
+        "Neighborhood": "Washington Heights",
+        "Type":"Bar",
+        "Score1": "4.4",
+        "Score2":"4.2",
+        "Score3": "4.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ch3.aux
+The style file: unsrt.bst
+Database file #1: ../References.bib
+Name 2 in "{Pratul K Agarwal} and Salomon R Billeter, and and Hammes-Schiffer, Sharon" has a comma at the end for entry PratulKAgarwal:2002dp
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in Feher:2014cx
+Warning--empty journal in Elber:2011dj
+Warning--can't use both author and editor fields in Zhang2012
+Warning--empty journal in Kern:2003fv
+Warning--empty journal in Tzeng:2011by
+Warning--empty journal in Haliloglu:2015dj
+Warning--empty journal in Wand:2013dz
+Warning--empty journal in Hedges:2007fw
+Warning--empty journal in Bowman:2011bc
+Warning--empty journal in Jung:2005jk
+You've used 97 entries,
+            1791 wiz_defined-function locations,
+            1098 strings with 22639 characters,
+and the built_in function-call counts, 25199 in all, are:
+= -- 2299
+> -- 1127
+< -- 4
++ -- 412
+- -- 315
+* -- 2251
+:= -- 3956
+add.period$ -- 291
+call.type$ -- 97
+change.case$ -- 93
+chr.to.int$ -- 0
+cite$ -- 107
+duplicate$ -- 919
+empty$ -- 2358
+format.name$ -- 315
+if$ -- 5370
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 101
+newline$ -- 488
+num.names$ -- 97
+pop$ -- 145
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 376
+stack$ -- 0
+substring$ -- 2408
+swap$ -- 133
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 10
+while$ -- 269
+width$ -- 99
+write$ -- 1057
+(There was 1 error message)

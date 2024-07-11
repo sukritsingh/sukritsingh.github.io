@@ -1,0 +1,1507 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 JUL 2020 20:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ch4.tex
+(./ch4.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/02/14 v1.6 Multi-file projects (class)
+Preamble taken from file `../main.tex'
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read2
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/01/22  v 6.0
+) (../main.tex
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen137
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks22
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks23
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count188
+\l__pdf_internal_box=\box47
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count189
+\g__xparse_grabber_int=\count190
+\l__xparse_m_args_int=\count191
+\l__xparse_v_nesting_int=\count192
+)
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen146
+\ar@mcellbox=\box48
+\extrarowheight=\dimen147
+\NC@list=\toks26
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box50
+\l__siunitx_tmp_dim=\dimen148
+\l__siunitx_tmp_int=\count193
+\l__siunitx_number_mantissa_length_int=\count194
+\l__siunitx_number_uncert_length_int=\count195
+\l__siunitx_round_int=\count196
+\l__siunitx_process_decimal_int=\count197
+\l__siunitx_process_uncertainty_int=\count198
+\l__siunitx_process_fixed_int=\count199
+\l__siunitx_process_integer_min_int=\count266
+\l__siunitx_process_precision_int=\count267
+\l__siunitx_group_min_int=\count268
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
+\l__siunitx_angle_marker_dim=\dimen149
+\l__siunitx_angle_unit_dim=\dimen150
+\l__siunitx_unit_int=\count269
+\l__siunitx_unit_denominator_int=\count270
+\l__siunitx_unit_numerator_int=\count271
+\l__siunitx_unit_prefix_int=\count272
+\l__siunitx_unit_prefix_base_int=\count273
+\l__siunitx_unit_prefix_gram_int=\count274
+\l__siunitx_number_product_int=\count275
+\c__siunitx_one_fill_skip=\skip55
+\l__siunitx_table_unit_align_skip=\skip56
+\l__siunitx_table_exponent_dim=\dimen151
+\l__siunitx_table_integer_dim=\dimen152
+\l__siunitx_table_mantissa_dim=\dimen153
+\l__siunitx_table_marker_dim=\dimen154
+\l__siunitx_table_result_dim=\dimen155
+\l__siunitx_table_uncert_dim=\dimen156
+\l__siunitx_table_fill_pre_dim=\dimen157
+\l__siunitx_table_fill_post_dim=\dimen158
+\l__siunitx_table_fill_mid_dim=\dimen159
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
+\l__siunitx_table_number_align_skip=\skip57
+\l__siunitx_table_text_align_skip=\skip58
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/fontsmpl.sty
+Package: fontsmpl 1994/10/29 Font sample package
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+78.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Font Warning: Font shape `OT1/pcr/m/up' undefined
+(Font)              using `OT1/pcr/m/n' instead on input line 178.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks27
+\float@box=\box57
+\@float@everytoks=\toks28
+\@floatcapt=\box58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count277
+\@vwid@loff=\dimen160
+\@vwid@roff=\dimen161
+)
+\c@taburow=\count278
+\tabu@nbcols=\count279
+\tabu@cnt=\count280
+\tabu@Xcol=\count281
+\tabu@alloc=\count282
+\tabu@nested=\count283
+\tabu@target=\dimen162
+\tabu@spreadtarget=\dimen163
+\tabu@naturalX=\dimen164
+\tabucolX=\dimen165
+\tabu@Xsum=\dimen166
+\extrarowdepth=\dimen167
+\abovetabulinesep=\dimen168
+\belowtabulinesep=\dimen169
+\tabustrutrule=\dimen170
+\tabu@thebody=\toks29
+\tabu@footnotes=\toks30
+\tabu@box=\box60
+\tabu@arstrutbox=\box61
+\tabu@hleads=\box62
+\tabu@vleads=\box63
+\tabu@cellskip=\skip59
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count284
+\multirow@dima=\skip61
+\bigstrutjot=\dimen171
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count285
+\@cmidlb=\count286
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count287
+\@lastruleclass=\count288
+\@thisrulewidth=\dimen184
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count289
+\cp@tempcnt=\count290
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks31
+\SOUL@lasttoken=\toks32
+\SOUL@cmds=\toks33
+\SOUL@buffer=\toks34
+\SOUL@token=\toks35
+\SOUL@spaceskip=\skip62
+\SOUL@ttwidth=\dimen185
+\SOUL@uldp=\dimen186
+\SOUL@ulht=\dimen187
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count291
+\output=\toks36
+\linenoprevgraf=\count292
+\linenumbersep=\dimen188
+\linenumberwidth=\dimen189
+\c@linenumber=\count293
+\c@pagewiselinenumber=\count294
+\c@LN@truepage=\count295
+\c@internallinenumber=\count296
+\c@internallinenumbers=\count297
+\quotelinenumbersep=\dimen190
+\bframerule=\dimen191
+\bframesep=\dimen192
+\bframebox=\box64
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count300
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count301
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen194
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count302
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count303
+\c@Item=\count304
+\c@Hfootnote=\count305
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip63
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks37
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count308
+\c@Blindtext=\count309
+\c@blind@countparstart=\count310
+\blind@countxx=\count311
+\blindtext@numBlindtext=\count312
+\blind@countyy=\count313
+\c@blindlist=\count314
+\c@blindlistlevel=\count315
+\c@blindlist@level=\count316
+\blind@listitem=\count317
+\c@blind@listcount=\count318
+\c@blind@levelcount=\count319
+\blind@mathformula=\count320
+\blind@Mathformula=\count321
+\c@blind@randomcount=\count322
+\c@blind@randommax=\count323
+\c@blind@pangramcount=\count324
+\c@blind@pangrammax=\count325
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen197
+\captionmargin@=\dimen198
+\captionwidth=\dimen199
+\caption@tempdima=\dimen256
+\caption@indent=\dimen257
+\caption@parindent=\dimen258
+\caption@hangindent=\dimen259
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count326
+\c@continuedfloat=\count327
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count328
+\sf@farskip=\skip64
+\sf@captopadj=\dimen260
+\sf@capskip=\skip65
+\sf@nearskip=\skip66
+\c@subfigure=\count329
+\c@subfigure@save=\count330
+\c@lofdepth=\count331
+\c@subtable=\count332
+\c@subtable@save=\count333
+\c@lotdepth=\count334
+\sf@top=\skip67
+\sf@bottom=\skip68
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count335
+\calc@Bcount=\count336
+\calc@Adimen=\dimen261
+\calc@Bdimen=\dimen262
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count337
+\calc@Cskip=\skip71
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen263
+\AM@pageheight=\dimen264
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box65
+\AM@global@opts=\toks38
+\AM@pagecnt=\count338
+\AM@toc@title=\toks39
+\c@AM@survey=\count339
+\AM@templatesizebox=\box66
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count340
+\ST@wd=\dimen265
+\ST@rightskip=\skip72
+\ST@leftskip=\skip73
+\ST@parfillskip=\skip74
+\ST@pageleft=\dimen266
+\ST@headht=\dimen267
+\ST@tailht=\dimen268
+\ST@pagesofar=\dimen269
+\ST@pboxht=\dimen270
+\ST@lineht=\dimen271
+\ST@prevht=\dimen272
+\ST@toadd=\dimen273
+\ST@dimen=\dimen274
+\ST@pbox=\box67
+)
+\offsetpage=\skip75
+))
+(./ch4.aux
+
+LaTeX Warning: Label `mut-inf-eq' multiply defined.
+
+)
+\openout1 = `ch4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count341
+\scratchdimen=\dimen275
+\scratchbox=\box68
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen276
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks41
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+LaTeX Info: Redefining \celsius on input line 2.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 2.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 2.
+Package gensymb Info: Using \Omega for \ohm on input line 2.
+
+Package gensymb Warning: Not defining \micro.
+
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring ON on input line 2.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count347
+)
+LaTeX Info: Redefining \ref on input line 2.
+LaTeX Info: Redefining \pageref on input line 2.
+LaTeX Info: Redefining \nameref on input line 2.
+ (./ch4.out) (./ch4.out)
+\@outlinefile=\write3
+\openout3 = `ch4.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Chapter 1.
+
+LaTeX Warning: Citation `Sun:2018kx' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Oldham:2006ui' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Oldham:2008cr' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Johnston:2007ir' on page 1 undefined on input line 18.
+
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 1 undefined on input line 18.
+
+<ch4-fig1.png, id=73, 216.81pt x 193.9245pt>
+File: ch4-fig1.png Graphic file (type png)
+<use ch4-fig1.png>
+Package pdftex.def Info: ch4-fig1.png  used on input line 22.
+(pdftex.def)             Requested size: 252.94499pt x 226.25749pt.
+
+LaTeX Warning: Citation `Oldham:2008cr' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Sunahara:1997tg' on page 1 undefined on input line 28.
+
+
+
+LaTeX Warning: Citation `Leipe:2002ky' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Westfield:2011ef' on page 1 undefined on input line 28
+.
+
+
+LaTeX Warning: Citation `Lambright:1994gd' on page 1 undefined on input line 28
+.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 1 undefined on input line 28
+.
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Leipe:2002ky' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Oldham:2008cr' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Westfield:2011ef' on page 1 undefined on input line 28
+.
+
+
+LaTeX Warning: Citation `Liang:2017cz' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Hilger:2018en' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Furness:2016it' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Toyama:2017gy' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Sun:2015gj' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Goricanec:2016hl' on page 1 undefined on input line 28
+.
+
+[1
+
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `LindorffLarsen:2011gl' on page 2 undefined on input li
+ne 30.
+
+
+LaTeX Warning: Citation `Buch:2011bm' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Bowman:2012jd' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Silva:2011ct' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Plattner:2015br' on page 2 undefined on input line 30.
+
+
+
+LaTeX Warning: Citation `Tiwary:2015hw' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Plattner:2017fs' on page 2 undefined on input line 30.
+
+
+
+LaTeX Warning: Citation `Zhou:2017bh' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Dror:2015bg' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Yao:2016kw' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Chidiac:1999jh' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Ross:2008jm' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Mukhopadhyay:1999dp' on page 2 undefined on input line
+ 30.
+
+
+LaTeX Warning: Citation `Chidiac:1999jh' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `VanRaamsdonk:2009kv' on page 2 undefined on input line
+ 32.
+
+
+LaTeX Warning: Citation `VanRaamsdonk:2010iy' on page 2 undefined on input line
+ 32.
+
+
+LaTeX Warning: Citation `Laio:2002ft' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Bowman:2013uj' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Singh:2017hh' on page 2 undefined on input line 32.
+
+
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+ [2 <./ch4-fig1.png>]
+
+LaTeX Warning: Citation `Boehr:2006jd' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Fraser:2009gv' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Changeux:2011fv' on page 3 undefined on input line 37.
+
+
+
+LaTeX Warning: Citation `Carpenter:2016gr' on page 3 undefined on input line 37
+.
+
+
+LaTeX Warning: Citation `Lambright:1996en' on page 3 undefined on input line 37
+.
+
+
+LaTeX Warning: Citation `Noel:1993dc' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Denker:1992uj' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation `EthanPMarin:2002fr' on page 3 undefined on input line 
+37.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp1' on page 3 undefined on input line
+ 37.
+
+
+LaTeX Warning: Citation `Nishimura:2010gt' on page 3 undefined on input line 37
+.
+
+
+LaTeX Warning: Citation `Huang:2009bx' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Tiwary:2015hw' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Laio:2002ft' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Dama:2014ef' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Bowman:2013uj' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Biswas:2018hc' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Zhang:2016ex' on page 3 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Noe:2009en' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Weinan:2006vr' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp2' on page 3 undefined on input line
+ 43.
+
+<ch4-fig2.png, id=96, 397.485pt x 507.5763pt>
+File: ch4-fig2.png Graphic file (type png)
+<use ch4-fig2.png>
+Package pdftex.def Info: ch4-fig2.png  used on input line 47.
+(pdftex.def)             Requested size: 339.66878pt x 433.75763pt.
+
+LaTeX Warning: Citation `Dror:2015bg' on page 3 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Dror:2015bg' on page 3 undefined on input line 49.
+
+[3]
+
+LaTeX Warning: Citation `VanEps:2011hb' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Citation `Dror:2015bg' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp4' on page 4 undefined on input line
+ 53.
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 4 undefined on input line 53.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 4 undefined on input line
+ 53.
+
+
+LaTeX Warning: Citation `Liang:2017cz' on page 4 undefined on input line 53.
+
+[4 <./ch4-fig2.png>]
+
+LaTeX Warning: Citation `Dror:2015bg' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 5 undefined on input line 55
+.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+8.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Warning: Reference `fig:ch4-fig3-supp1' on page 5 undefined on input line
+ 58.
+
+
+LaTeX Warning: Reference `tab:galpha-struc-compares' on page 5 undefined on inp
+ut line 58.
+
+
+LaTeX Warning: Reference `fig:ch4-fig3-supp2' on page 5 undefined on input line
+ 58.
+
+
+LaTeX Warning: Citation `Choe:2011cb' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 5 undefined on input line 60
+.
+
+
+LaTeX Warning: Citation `Liang:2017cz' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Zhang:2017gu' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Carpenter:2016gr' on page 5 undefined on input line 60
+.
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 5 undefined on input line 60
+.
+
+
+LaTeX Warning: Citation `Oldham:2006kn' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Koehl:2018fv' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `DraperJoyce:2018il' on page 5 undefined on input line 
+60.
+
+
+LaTeX Warning: Citation `GarciaNafria:2018hu' on page 5 undefined on input line
+ 60.
+
+
+LaTeX Warning: Citation `Kang:2018kq' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 5 undefined on input line 60
+.
+
+
+LaTeX Warning: Citation `Koehl:2018fv' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `DraperJoyce:2018il' on page 5 undefined on input line 
+60.
+
+
+LaTeX Warning: Citation `GarciaNafria:2018hu' on page 5 undefined on input line
+ 60.
+
+
+LaTeX Warning: Citation `Kang:2018kq' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Reference `tab:galpha-struc-compares' on page 5 undefined on inp
+ut line 60.
+
+
+LaTeX Warning: Citation `Carpenter:2016gr' on page 5 undefined on input line 60
+.
+
+
+LaTeX Warning: Citation `Sun:2015gj' on page 5 undefined on input line 60.
+
+<ch4-fig3.png, id=116, 247.6452pt x 419.8887pt>
+File: ch4-fig3.png Graphic file (type png)
+<use ch4-fig3.png>
+Package pdftex.def Info: ch4-fig3.png  used on input line 64.
+(pdftex.def)             Requested size: 289.07999pt x 490.17862pt.
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 5 undefined on input line 66
+.
+
+
+LaTeX Warning: Citation `Choe:2011cb' on page 5 undefined on input line 66.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 5 undefined on input line 66
+.
+
+
+LaTeX Warning: Citation `Choe:2011cb' on page 5 undefined on input line 66.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Overfull \vbox (19.04355pt too high) has occurred while \output is active []
+
+
+[6 <./ch4-fig3.png>]
+
+LaTeX Warning: Citation `Oldham:2008cr' on page 7 undefined on input line 70.
+
+
+LaTeX Warning: Citation `Rasmussen:2011kp' on page 7 undefined on input line 70
+.
+
+
+LaTeX Warning: Citation `Hilger:2018en' on page 7 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Sun:2015gj' on page 7 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Singh:2017hh' on page 7 undefined on input line 73.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 7 undefined on input line
+ 75.
+
+
+LaTeX Warning: Citation `Iiri:1994kw' on page 7 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Posner:1998gj' on page 7 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Thomas:1993wv' on page 7 undefined on input line 75.
+
+<ch4-fig4.png, id=132, 542.025pt x 619.3539pt>
+File: ch4-fig4.png Graphic file (type png)
+<use ch4-fig4.png>
+Package pdftex.def Info: ch4-fig4.png  used on input line 79.
+(pdftex.def)             Requested size: 469.75502pt x 536.79222pt.
+<ch4-fig5.png, id=133, 469.755pt x 225.9642pt>
+File: ch4-fig5.png Graphic file (type png)
+<use ch4-fig5.png>
+Package pdftex.def Info: ch4-fig5.png  used on input line 87.
+(pdftex.def)             Requested size: 361.34999pt x 173.81711pt.
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 7 undefined on input line
+ 93.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 7 undefined on input line
+ 93.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 7 undefined on input line
+ 93.
+
+
+LaTeX Warning: Citation `Sun:2015gj' on page 7 undefined on input line 95.
+
+[7]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+[8 <./ch4-fig4.png>]
+<ch4-fig6.png, id=152, 238.491pt x 243.0681pt>
+File: ch4-fig6.png Graphic file (type png)
+<use ch4-fig6.png>
+Package pdftex.def Info: ch4-fig6.png  used on input line 99.
+(pdftex.def)             Requested size: 238.49121pt x 243.07121pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 105.
+
+
+LaTeX Warning: Citation `Oldham:2008cr' on page 9 undefined on input line 106.
+
+
+LaTeX Warning: Citation `Flock:2017bm' on page 9 undefined on input line 106.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./ch4-fig5.png> <./ch4-fig6.png>]
+<ch4-fig7.png, id=160, 542.025pt x 626.5809pt>
+File: ch4-fig7.png Graphic file (type png)
+<use ch4-fig7.png>
+Package pdftex.def Info: ch4-fig7.png  used on input line 110.
+(pdftex.def)             Requested size: 404.71243pt x 467.85982pt.
+
+
+LaTeX Warning: Reference `fig:ch4-fig7-supp1' on page 10 undefined on input lin
+e 116.
+
+
+LaTeX Warning: Reference `fig:ch4-fig9-supp1' on page 10 undefined on input lin
+e 116.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 10 undefined on input lin
+e 116.
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 10 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Toyama:2017gy' on page 10 undefined on input line 116.
+
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 10 undefined on input line 116.
+
+<ch4-fig8.png, id=167, 238.491pt x 169.5936pt>
+File: ch4-fig8.png Graphic file (type png)
+<use ch4-fig8.png>
+Package pdftex.def Info: ch4-fig8.png  used on input line 120.
+(pdftex.def)             Requested size: 228.37346pt x 162.4017pt.
+<ch4-fig9.png, id=170, 240.4182pt x 239.6955pt>
+File: ch4-fig9.png Graphic file (type png)
+<use ch4-fig9.png>
+Package pdftex.def Info: ch4-fig9.png  used on input line 128.
+(pdftex.def)             Requested size: 228.37346pt x 227.6948pt.
+
+LaTeX Warning: Reference `fig:ch4-fig8-supp1' on page 10 undefined on input lin
+e 134.
+
+
+LaTeX Warning: Citation `Singh:2017hh' on page 10 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Sun:2015gj' on page 10 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Sun:2015gj' on page 10 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Hatley:2003co' on page 10 undefined on input line 134.
+
+
+[10] [11 <./ch4-fig7.png>] [12 <./ch4-fig8.png> <./ch4-fig9.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+
+LaTeX Warning: Reference `fig:ch4-fig7-supp1' on page 13 undefined on input lin
+e 139.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp3' on page 13 undefined on input lin
+e 139.
+
+
+LaTeX Warning: Citation `Herrmann:2004gp' on page 13 undefined on input line 13
+9.
+
+<ch4-fig10.png, id=193, 469.755pt x 259.6902pt>
+File: ch4-fig10.png Graphic file (type png)
+<use ch4-fig10.png>
+Package pdftex.def Info: ch4-fig10.png  used on input line 143.
+(pdftex.def)             Requested size: 289.07999pt x 159.80956pt.
+
+LaTeX Warning: Citation `Preininger:2013if' on page 13 undefined on input line 
+150.
+
+
+LaTeX Warning: Citation `Flock:2015dj' on page 13 undefined on input line 150.
+
+
+LaTeX Warning: Citation `Koehl:2018fv' on page 13 undefined on input line 150.
+
+
+LaTeX Warning: Citation `DraperJoyce:2018il' on page 13 undefined on input line
+ 150.
+
+
+LaTeX Warning: Citation `GarciaNafria:2018hu' on page 13 undefined on input lin
+e 150.
+
+
+LaTeX Warning: Citation `Kang:2018kq' on page 13 undefined on input line 150.
+
+
+LaTeX Warning: Citation `Nishimura:2010gt' on page 13 undefined on input line 1
+56.
+
+
+LaTeX Warning: Citation `Oldham:2008cr' on page 13 undefined on input line 156.
+
+
+
+Underfull \vbox (badness 2181) has occurred while \output is active []
+
+ [13
+
+ <./ch4-fig10.png>]
+
+LaTeX Warning: Citation `Jorgensen:1983fl' on page 14 undefined on input line 1
+58.
+
+
+LaTeX Warning: Citation `Zhang:2000cy' on page 14 undefined on input line 158.
+
+
+LaTeX Warning: Citation `Abraham:2015gj' on page 14 undefined on input line 160
+.
+
+
+LaTeX Warning: Citation `VanDerSpoel:2005hz' on page 14 undefined on input line
+ 160.
+
+
+LaTeX Warning: Citation `Duan:2003gt' on page 14 undefined on input line 160.
+
+
+LaTeX Warning: Citation `Meagher:2003be' on page 14 undefined on input line 160
+.
+
+
+LaTeX Warning: Citation `Bussi:2007cs' on page 14 undefined on input line 160.
+
+
+LaTeX Warning: Citation `Kolafa:2006jh' on page 14 undefined on input line 160.
+
+
+
+LaTeX Warning: Citation `Hess:2008fl' on page 14 undefined on input line 160.
+
+
+LaTeX Warning: Citation `Parrinello:1981it' on page 14 undefined on input line 
+160.
+
+
+LaTeX Warning: Citation `Feenstra:1999ue' on page 14 undefined on input line 16
+0.
+
+
+Overfull \hbox (87.41815pt too wide) in paragraph at lines 160--161
+\OT1/ptm/m/n/10 The force field pa-ram-e-ters of GDP were ob-tained from the AM
+-BER Pa-ram-e-ter Database (http://research.bmh.manchester.ac.uk/bryce/amber)
+ []
+
+
+LaTeX Warning: Citation `Shirts:2000du' on page 14 undefined on input line 162.
+
+
+
+LaTeX Warning: Citation `Laio:2002ft' on page 14 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Tribello:2014eb' on page 14 undefined on input line 16
+5.
+
+
+LaTeX Warning: Citation `Beauchamp:2011he' on page 14 undefined on input line 1
+65.
+
+
+LaTeX Warning: Citation `Tribello:2014eb' on page 14 undefined on input line 16
+5.
+
+[14]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 181.
+
+
+LaTeX Warning: Citation `Maragliano:2006kg' on page 15 undefined on input line 
+212.
+
+! Extra }, or forgotten $.
+l.218 ...chi_{k}}\frac{dF(z(\alpha))}{dZ(\alpha)}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Citation `Maragliano:2007bz' on page 15 undefined on input line 
+236.
+
+
+LaTeX Warning: Citation `Maragliano:2014jj' on page 15 undefined on input line 
+236.
+
+
+LaTeX Warning: Citation `Shirts:2000du' on page 15 undefined on input line 239.
+
+
+[15]
+
+LaTeX Warning: Citation `Singh:2017hh' on page 16 undefined on input line 242.
+
+
+LaTeX Warning: Citation `Beauchamp:2011he' on page 16 undefined on input line 2
+58.
+
+
+LaTeX Warning: Citation `Bowman:2009cb' on page 16 undefined on input line 258.
+
+
+
+LaTeX Warning: Citation `porter2018enspara' on page 16 undefined on input line 
+258.
+
+
+LaTeX Warning: Citation `Sheong:2015jd' on page 16 undefined on input line 258.
+
+
+
+LaTeX Warning: Citation `Swope:2004gx' on page 16 undefined on input line 258.
+
+
+LaTeX Warning: Reference `fig:ch4-fig2-supp5' on page 16 undefined on input lin
+e 258.
+
+
+LaTeX Warning: Citation `Shannon:1948iy' on page 16 undefined on input line 261
+.
+
+[16]
+
+LaTeX Warning: Citation `Singh:2017hh' on page 17 undefined on input line 266.
+
+
+LaTeX Warning: Citation `Noe:2009en' on page 17 undefined on input line 269.
+
+
+LaTeX Warning: Citation `Weinan:2006vr' on page 17 undefined on input line 269.
+
+
+
+LaTeX Warning: Citation `Metzner:2009jl' on page 17 undefined on input line 269
+.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 269.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 424.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
+ (./ch4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 424.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 424.
+Package rerunfilecheck Info: File `ch4.out' has not changed.
+(rerunfilecheck)             Checksum: F41D0A65B73A7B125A07463CBF719DB4;1518.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13789 strings out of 480608
+ 245880 string characters out of 5903631
+ 513720 words of memory out of 5000000
+ 29302 multiletter control sequences out of 15000+600000
+ 561806 words of font info for 102 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,10n,61p,2342b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on ch4.pdf (17 pages, 5625863 bytes).
+PDF statistics:
+ 299 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+

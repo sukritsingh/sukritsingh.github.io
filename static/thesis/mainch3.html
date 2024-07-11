@@ -1,0 +1,3399 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>3 Simulation of spontaneous G protein activation reveals a new intermediate driving GDP
+unbinding</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<!-- html,xhtml,2,mathml --> 
+<meta name="src" content="main.tex" /> 
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+ 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML" 
+></script> 
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+ 
+<script async defer src="http://hypothes.is/embed.js"></script><link rel="stylesheet" type="text/css" href="css/scale.css" /> 
+<script type="text/javascript" src="js/fw.js"></script> 
+<script type="text/javascript" src="js/sidebar.js"></script> 
+<script type="text/javascript" src="js/bib.js"></script></head><body 
+>
+<!--l. 4--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch4.html" >next</a>] [<a 
+href="mainch2.html" >prev</a>] [<a 
+href="mainch2.html#tailmainch2.html" >prev-tail</a>] [<a 
+href="#tailmainch3.html">tail</a>] [<a 
+href="main" >up</a>] </p></div>
+<h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;3</span><br /><a 
+ id="x7-320003"></a>Simulation of spontaneous G protein activation reveals a new intermediate driving GDP
+unbinding</h2>
+<div class="chapterTOCS">
+
+<br />&#x00A0;<span class="sectionToc" >3.1 <a 
+href="mainch3.html#x7-330003.1">Abstract</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >3.2 <a 
+href="mainch3.html#x7-340003.2">Introduction</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >3.3 <a 
+href="mainch3.html#x7-350003.3">Results and Discussion</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.3.1 <a 
+href="mainch3.html#x7-360003.3.1" id="QQ2-6-31">Capturing G-protein activation and GDP release in atomic detail</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.3.2 <a 
+href="mainch3.html#x7-370003.3.2" id="QQ2-6-31">Tilting of H5 helps induce GDP release</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.3.3 <a 
+href="mainch3.html#x7-380003.3.3" id="QQ2-6-31">Identification of the allosteric network that triggers GDP release</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.3.4 <a 
+href="mainch3.html#x7-390003.3.4" id="QQ2-6-31">H1 and β-sheets are communication hubs</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.3.5 <a 
+href="mainch3.html#x7-400003.3.5" id="QQ2-6-31">GDP release alters the structure and dynamics of the Gβ-binding site</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >3.4 <a 
+href="mainch3.html#x7-410003.4">Conclusion</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >3.5 <a 
+href="mainch3.html#x7-420003.5">Materials and Methods</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.5.1 <a 
+href="mainch3.html#x7-430003.5.1" id="QQ2-6-31">Molecular dynamics simulations of GDP unbinding</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.5.2 <a 
+href="mainch3.html#x7-480003.5.2" id="QQ2-6-31">Identifying the allosteric network with CARDS</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.5.3 <a 
+href="mainch3.html#x7-490003.5.3" id="QQ2-6-31">Markov state model construction</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.5.4 <a 
+href="mainch3.html#x7-500003.5.4" id="QQ2-6-31">Quantifying conformational disorder</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >3.5.5 <a 
+href="mainch3.html#x7-510003.5.5" id="QQ2-6-31">Identification of the rate-limiting step for GDP release</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >3.6 <a 
+href="mainch3.html#x7-520003.6">Acknowledgements</a></span>
+
+</div>
+<!--l. 9--><p class="noindent" ><span 
+class="ptmri7t-x-x-120">This chapter is adapted from the following publication:</span>
+</p><!--l. 11--><p class="noindent" ><span 
+class="ptmri7t-x-x-120">Sun, X.</span><!--l. 11--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">*</mo></mrow></msup 
+></math><span 
+class="ptmri7t-x-x-120">and</span>
+<span 
+class="ptmri7t-x-x-120">Singh, S.</span><!--l. 11--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">*</mo></mrow></msup 
+></math><span 
+class="ptmri7t-x-x-120">,</span>
+<span 
+class="ptmri7t-x-x-120">Blumer, K.J., and Bowman, G.R., Simulation of spontaneous G protein activation reveals a new intermediate</span>
+<span 
+class="ptmri7t-x-x-120">driving GDP unbinding. eLife, 7, October 2018, https://doi.org/10.7554/eLife.38465.001 </span><span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSun:2018kx">48</a>]</span>
+<!--l. 12--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">*</mo></mrow></msup 
+></math><span 
+class="ptmri7t-x-x-120">Authors</span>
+<span 
+class="ptmri7t-x-x-120">contributed equally to this work</span>
+                                                                                      
+                                                                                      
+</p>
+<h3 class="sectionHead"><span class="titlemark">3.1    </span> <a 
+ id="x7-330003.1"></a>Abstract</h3>
+<!--l. 15--><p class="noindent" >Activation of heterotrimeric G proteins is a key step in many signaling cascades. However, a complete
+mechanism for this process, which requires allosteric communication between binding sites that are
+<!--l. 15--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">~</mo></math>30 &#197;
+apart, remains elusive. We construct an atomically detailed model of G protein activation by
+combining three powerful computational methods: metadynamics, Markov state models (MSMs), and
+CARDS analysis of correlated motions. We uncover a mechanism that is consistent with a
+wide variety of structural and biochemical data. Surprisingly, the rate-limiting step for
+GDP release correlates with tilting rather than translation of the GPCR-binding helix 5.
+<!--l. 15--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-Strands
+1-3 and helix 1 emerge as hubs in the allosteric network that links conformational changes in the
+GPCR-binding site to disordering of the distal nucleotide-binding site and consequent GDP release.
+Our approach and insights provide foundations for understanding disease-implicated G protein
+mutants, illuminating slow events in allosteric networks, and examining unbinding processes with
+slow off-rates.
+</p><!--l. 17--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">3.2    </span> <a 
+ id="x7-340003.2"></a>Introduction</h3>
+<!--l. 18--><p class="noindent" >Heterotrimeric G proteins are molecular switches that play pivotal roles in signaling processes from
+vision to olfaction and neurotransmission<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XOldham:2006ui">168</a>,&#x00A0;<a 
+href="mainli4.html#XOldham:2008cr">169</a>,&#x00A0;<a 
+href="mainli4.html#XJohnston:2007ir">170</a>]</span>. By default, a G protein adopts an inactive
+state in which guanosine diphosphate (GDP) binds between the Ras-like and helical domains of the
+                                                                                      
+                                                                                      
+<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>-subunit
+(G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>, Fig. <a 
+href="#x7-34001r1">3.1<!--tex4ht:ref: fig:ch4-fig1 --></a>). A dimer
+consisting of the <!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-
+and <!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B3;</mi></math>-subunits
+(G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi><mi 
+>&#x03B3;</mi></math>) also
+binds G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>.
+G protein-coupled receptors (GPCRs) trigger G protein activation by binding
+G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+and stimulating GDP release, followed by GTP binding to
+G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> and
+dissociation of G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+from G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi><mi 
+>&#x03B3;</mi></math>.
+G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> and
+<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi><mi 
+>&#x03B3;</mi></math>
+then interact with effectors that trigger downstream cellular responses.
+G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+returns to the inactive state by hydrolyzing GTP to GDP and rebinding
+G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi><mi 
+>&#x03B3;</mi></math>. Given the central
+role G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> plays,
+a common G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+numbering scheme (CGN) has been established to facilitate discussion of the activation mechanisms of different
+G<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> homologs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>]</span>. For
+example, the notation Lys52<!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+indicates that Lys52 is the first residue in helix 1 (H1) of the Ras-like domain (also called the GTPase domain, or G).
+S6 refers to <!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-strand
+6 and s6h5 refers to the loop between S6 and H5.
+</p>
+                                                                                      
+                                                                                      
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-34001r1"></a>
+                                                                                      
+                                                                                      
+<!--l. 22--><p class="noindent" ><img 
+src="Chapter4/ch4-fig1.png" alt="PIC"  
+width="252" height="252"  />
+<a 
+ id="x7-34002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.1: </span><span  
+class="content">Structure of G<!--l. 24--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+with     key     secondary     structure     elements     labeled     according     to     the     Common
+G<!--l. 24--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+Numbering  (CGN)  system.  The  coloring  scheme  highlights  the  GPCR  binding  interface
+(gray),  GDP  phosphate-binding  regions  (pink),  GDP  nucleotide-binding  regions  (green),
+<!--l. 24--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets
+(blue), and switch 2 (orange).</span></div><!--tex4ht:label?: x7-34001r3.2 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 28--><p class="noindent" >Strikingly, the GPCR- and nucleotide-binding sites of
+G<!--l. 28--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> are
+<!--l. 28--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">~</mo></math>30 &#197;
+apart (Fig. <a 
+href="#x7-34001r1">3.1<!--tex4ht:ref: fig:ch4-fig1 --></a>), but the allosteric mechanism coupling these sites to evoke GDP release remains
+incompletely understood<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XOldham:2008cr">169</a>]</span>. Biochemical and structural studies have elucidated some
+key steps, but the entire process has yet to be described in atomic detail. Early studies of
+G<!--l. 28--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+subunits revealed structures of the GDP- and GTP-bound states, as well as the transition state for GTP
+hydrolysis<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSunahara:1997tg">172</a>,&#x00A0;<a 
+href="mainli4.html#XLeipe:2002ky">173</a>,&#x00A0;<a 
+href="mainli4.html#XWestfield:2011ef">174</a>]</span>. The high similarity of these structures and the binding of GDP or GTP
+deep in the protein&#8217;s core suggests that activation occurs by adoption of other conformational states
+that allow GDP release<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLambright:1994gd">175</a>]</span>. One intermediate in G protein activation was suggested by the first
+crystal structure of a GPCR-bound G protein in which the Ras-like and helical domains of
+G<!--l. 28--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> are
+hinged apart and GDP has dissociated<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>]</span>. Structural analysis has led to the proposal of a universal
+mechanism for G protein activation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>]</span>. In this model, GPCR binding induces translation of H5
+away from H1, which increases disorder in H1 and the P-loop (or Walker A motif<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLeipe:2002ky">173</a>]</span>) to facilitate
+GDP release. However, there is evidence that additional intermediates may be involved in
+G<!--l. 28--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+activation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XOldham:2008cr">169</a>,&#x00A0;<a 
+href="mainli4.html#XWestfield:2011ef">174</a>,&#x00A0;<a 
+href="mainli4.html#XLiang:2017cz">176</a>,&#x00A0;<a 
+href="mainli4.html#XHilger:2018en">177</a>]</span>,and the functional importance of this conformational
+ensemble has been previously suggested<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFurness:2016it">178</a>]</span>. Furthermore, mutagenesis and nuclear
+magnetic resonance (NMR) studies have suggested important roles for other structural
+elements<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XToyama:2017gy">179</a>,&#x00A0;<a 
+href="mainli4.html#XSun:2015gj">180</a>,&#x00A0;<a 
+href="mainli4.html#XGoricanec:2016hl">181</a>]</span>.
+</p><!--l. 30--><p class="noindent" >Molecular dynamics simulations promise to capture the entire mechanism of G protein activation and
+synthesize the wealth of experimental data on this process. Methodological advances now
+enable simulations to capture millisecond timescale processes for proteins with less than
+100 residues<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLindorffLarsen:2011gl">182</a>]</span>. For example, it is now possible to capture the binding or release of
+                                                                                      
+                                                                                      
+small molecules<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBuch:2011bm">183</a>,&#x00A0;<a 
+href="mainli4.html#XBowman:2012jd">47</a>,&#x00A0;<a 
+href="mainli4.html#XSilva:2011ct">99</a>,&#x00A0;<a 
+href="mainli4.html#XPlattner:2015br">184</a>,&#x00A0;<a 
+href="mainli4.html#XTiwary:2015hw">185</a>]</span> and peptides<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPlattner:2017fs">186</a>,&#x00A0;<a 
+href="mainli4.html#XZhou:2017bh">187</a>]</span> from small proteins.
+Impressive simulations on the ANTON supercomputer have revealed critical conformational
+dynamics of G proteins in their inactive and active states, elucidating the role of domain
+opening in GDP unbinding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDror:2015bg">188</a>,&#x00A0;<a 
+href="mainli4.html#XYao:2016kw">189</a>]</span>. However, even this specialized hardware could not
+capture the entire process of G protein activation and GDP release due to the size of the
+G<!--l. 30--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> subunit
+(<!--l. 30--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003E;</mo></math>300
+residues)  and  the  slow  kinetics  of  GDP  dissociation
+(<!--l. 30--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">~</mo></math>10<!--l. 30--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo><mn>3</mn></mrow></msup 
+></math>
+min<!--l. 30--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo><mn>1</mn></mrow></msup 
+></math>)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XChidiac:1999jh">190</a>,&#x00A0;<a 
+href="mainli4.html#XRoss:2008jm">191</a>,&#x00A0;<a 
+href="mainli4.html#XMukhopadhyay:1999dp">192</a>]</span>.
+</p><!--l. 32--><p class="noindent" >Here, we introduce an approach to capture rare or long-timescale events, such as GDP release, and reveal the mechanism of
+G<!--l. 32--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> activation. As a test of this
+methodology, we apply it to G<!--l. 32--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q,
+which has one of the slowest GDP release rates<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XChidiac:1999jh">190</a>]</span> and is frequently mutated in uveal melanoma<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVanRaamsdonk:2009kv">193</a>,&#x00A0;<a 
+href="mainli4.html#XVanRaamsdonk:2010iy">194</a>]</span>.
+To highlight aspects of the activation mechanism that we propose are general to all G proteins, we
+focus our analysis on the behavior of secondary structure elements and amino acids that are conserved
+across G<!--l. 32--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+domains. Our approach first combines two powerful sampling methods, metadynamics<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLaio:2002ft">195</a>]</span> and
+Markov state models (MSMs)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBowman:2013uj">196</a>]</span>, to observe GDP release and identify the rate-limiting step for
+this slow process. Then we use our recently developed CARDS method<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSingh:2017hh">90</a>]</span>, which quantifies
+correlations between both the structure and disorder of different regions of a protein, to
+identify the allosteric network connecting the GPCR- and nucleotide-binding sites. The
+resulting model is consistent with a wealth of experimental data and leads to a number of
+predictions, described below. Taken together, our results provide the most comprehensive
+model of G protein activation to date. Based on this success, we expect our approach to be
+valuable for studying other rare events, including conformational changes and unbinding
+processes.
+                                                                                      
+                                                                                      
+</p>
+<h3 class="sectionHead"><span class="titlemark">3.3    </span> <a 
+ id="x7-350003.3"></a>Results and Discussion</h3>
+<!--l. 36--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.3.1    </span> <a 
+ id="x7-360003.3.1"></a>Capturing G-protein activation and GDP release in atomic detail</h4>
+<!--l. 37--><p class="noindent" >We reasoned that studying the mechanism of spontaneous GDP release from a truncated form of
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+would be representative of the mechanism of GPCR-mediated activation of the heterotrimeric G
+protein while minimizing the computational cost of our simulations. This hypothesis was inspired by
+previous work demonstrating that a protein&#8217;s spontaneous fluctuations are representative of the
+conformational changes required for the protein to perform its function <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBoehr:2006jd">14</a>,&#x00A0;<a 
+href="mainli4.html#XFraser:2009gv">197</a>,&#x00A0;<a 
+href="mainli4.html#XChangeux:2011fv">97</a>]</span>.
+Therefore, we hypothesized that GPCRs stabilize conformational states that G proteins
+naturally, albeit infrequently, adopt in the absence of a receptor. We chose to focus on
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> since it
+forms substantial interactions with GPCRs, compared to the relatively negligible interactions between GPCRs
+and G protein <!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>
+and <!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B3;</mi></math> subunits.
+This view is supported by the fact that GPCRs and &#8216;mini&#8217; G proteins, essentially composed of just the Ras-like
+domain of G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>,
+recapitulate many features of GPCR-G protein interactions<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XCarpenter:2016gr">198</a>]</span>. We also reasoned that truncating the last five
+residues of G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+would facilitate the activation process. These residues contact
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+                                                                                      
+                                                                                      
+in some GDP-bound structures but not in GPCR-bound structures<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLambright:1996en">199</a>,&#x00A0;<a 
+href="mainli4.html#XNoel:1993dc">200</a>]</span>, and
+removing these residues promotes GDP release due to a reduced GDP-binding
+affinity<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDenker:1992uj">201</a>,&#x00A0;<a 
+href="mainli4.html#XEthanPMarin:2002fr">202</a>]</span>. Taken together, such evidence suggests that the last five residues of
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+help stabilize the inactive state and that removing them would accelerate activation.
+In support of this hypothesis, we find that the energetic barrier to GDP release is
+lower in metadynamics simulations of the truncated variant than for full-length
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q (Figure
+<a 
+href="mainap2.html#x14-139001r1">B.1<!--tex4ht:ref: fig:ch4-fig2-supp1 --></a>). These simulations, and those described hereafter, were initiated from an X-ray structure of the
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+heterotrimer bound to GDP and an inhibitor of nucleotide exchange<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XNishimura:2010gt">203</a>]</span>;
+G<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi><mi 
+>&#x03B3;</mi></math> and
+the inhibitor were excluded from all simulations.
+</p><!--l. 39--><p class="noindent" >To observe G-protein activation, we developed a variant of adaptive seeding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHuang:2009bx">204</a>]</span> capable of
+capturing slow processes like ligand unbinding that are beyond reach of conventional simulation
+methods. First, we use metadynamics<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTiwary:2015hw">185</a>,&#x00A0;<a 
+href="mainli4.html#XLaio:2002ft">195</a>,&#x00A0;<a 
+href="mainli4.html#XDama:2014ef">205</a>]</span> to facilitate broad sampling of conformational
+space by biasing simulations to sample conformations with different distances between GDP and
+G<!--l. 39--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q. Doing
+so forces GDP release to occur but provides limited mechanistic information because adding a biasing
+force can distort the system&#8217;s kinetics or cause the simulations to sample high-energy conformations
+that are not representative of behavior at thermal equilibrium. To overcome these limitations, we chose
+starting conformations along release pathways observed by metadynamics as starting points for
+standard molecular dynamics simulations, together yielding an aggregate simulation time of 122.6
+<!--l. 39--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s.
+These simulations should quickly relax away from high-energy conformations and provide more
+accurate kinetics. Then we use these simulations to build an MSM (Source data 1). MSMs are adept at
+extracting both thermodynamic and kinetic information from many standard simulations that, together,
+                                                                                      
+                                                                                      
+cover larger regions of conformational space than any individual simulation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBowman:2013uj">196</a>]</span>. Related
+approaches have successfully captured the dynamics of small model systems<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBiswas:2018hc">206</a>]</span> and RNA
+polymerase<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XZhang:2016ex">207</a>]</span>.
+</p><!--l. 41--><p class="noindent" >This protocol enabled us to capture the entire mechanism of G-protein activation, including GDP
+release and the rate-limiting step for this process. Identifying the rate-limiting step for this process is
+of great value because GDP release is the rate-limiting step for G-protein activation and downstream
+signaling. Therefore, the key structural and dynamical changes responsible for activation
+should be apparent from the rate-limiting conformational transition for this dissociation
+process.
+</p><!--l. 43--><p class="noindent" >To identify the rate-limiting step, we applied transition path theory<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XNoe:2009en">208</a>,&#x00A0;<a 
+href="mainli4.html#XWeinan:2006vr">209</a>]</span> to find the
+highest flux paths from bound structures resembling the GDP-bound crystal structure to
+fully dissociated conformations. Then, we identified the least probable steps along the 10
+highest flux release pathways (Figure <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>A and Figure <a 
+href="mainap2.html#x14-139003r2">B.2<!--tex4ht:ref: fig:ch4-fig2-supp2 --></a>), which represent the rate-limiting
+step of release. By comparing the structures before and after the rate-limiting step, we
+define the bound state as all conformations where the distance from the center of mass
+of GDP&#8217;s phosphates to the center of mass of three residues on H1 that contact the GDP
+<!--l. 43--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-phosphate
+(Lys52<!--l. 43--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>,
+Ser53<!--l. 43--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>, and
+Thr54<!--l. 43--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>3</mn></mrow></msup 
+></math>) is
+less than 8 &#197;. Consistent with this definition, this distance remains less than 8 &#197; throughout the entirety
+of 35.3 <!--l. 43--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s of
+GDP-bound simulations.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-36001r2"></a>
+                                                                                      
+                                                                                      
+<!--l. 47--><p class="noindent" ><img 
+src="Chapter4/ch4-fig2.png" alt="PIC"  
+width="339" height="339"  />
+<a 
+ id="x7-36002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.2:  </span><span  
+class="content">Structural  and  dynamical  changes  during  the  rate  limiting  step  for  GDP
+release.   <span 
+class="ptmb7t-x-x-120">A.   </span>Overlay   of   representative   structures   before   (blue)   and   after   (orange)   the
+rate  limiting  step.  <span 
+class="ptmb7t-x-x-120">B.  </span>Change  in  conformational  disorder  (Shannon  entropy)  across  the
+rate-limiting  step,  according  to  the  color  scale  on  the  right.  <span 
+class="ptmb7t-x-x-120">C.  </span>Histograms  of  inter-domain
+distances  before  (top,  blue)  and  after  (middle,  orange)  the  rate  limiting  step,  along  with
+the  inter-domain  distance  distribution  after  GDP  is  released  (bottom,  black).  Inter-domain
+distance  is  measured  using  residues  analogous  to  those  used  in  DEER  experiments<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDror:2015bg">188</a>]</span>,
+Leu97<!--l. 49--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>H</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mi 
+>A</mi><mo 
+class="MathClass-punc">.</mo><mn>2</mn><mn>9</mn></mrow></msup 
+></math>
+in the helical domain and Glu250<!--l. 49--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>3</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>
+on H3. <span 
+class="ptmb7t-x-x-120">D. </span>Distribution of distances between Glu49<!--l. 49--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>
+and Arg183<!--l. 49--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>h</mi><mi 
+>f</mi><mi 
+>s</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>
+(left)  before  (blue)  and  after  (orange)  the  rate-limiting  step,  as  well  as  after  GDP  release
+(black). Representative structures of the interacting residues are also shown (right).</span></div><!--tex4ht:label?: x7-36001r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 53--><p class="noindent" >The conformational changes we observe during the rate-limiting step are consistent with previous
+structural and biochemical work. For example, we observe that the Ras-like and helical
+domains separate (Figure <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>C), as observed in DEER experiments<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVanEps:2011hb">210</a>]</span> and previous
+simulations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDror:2015bg">188</a>]</span>. This finding is consistent with the intuition that these domains must separate
+to sterically permit GDP release, and that this separation is driven by the disruption of
+multiple inter-domain interactions. For example, we note a disrupted salt bridge between
+K275<!--l. 53--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math> and
+D155<!--l. 53--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>H</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>h</mi><mi 
+>d</mi><mi 
+>h</mi><mi 
+>e</mi><mo 
+class="MathClass-punc">.</mo><mn>5</mn></mrow></msup 
+></math> (Figure <a 
+href="mainap2.html#x14-139007r4">B.4<!--tex4ht:ref: fig:ch4-fig2-supp4 --></a>),
+previously identified in structural studies<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>]</span>. Domain opening is accompanied by disruption of a key salt bridge
+between Glu49<!--l. 53--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math> of the
+P-loop and Arg183<!--l. 53--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>h</mi><mi 
+>f</mi><mi 
+>s</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>
+of switch 1 (Figure <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>D), as well as an increase in the disorder of many of the surrounding residues
+(Figure <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>B and Figure <a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>A), consistent with the proposal that this salt bridge stabilizes the closed,
+GDP-bound state<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLiang:2017cz">176</a>]</span>.
+</p><!--l. 55--><p class="noindent" >While domain opening is necessary for GDP release, previous simulations suggest it is
+insufficient for unbinding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDror:2015bg">188</a>]</span>. Indeed, we also see that this opening is necessary but not
+sufficient for GDP unbinding, as the Ras-like and helical domains often separate prior
+to release (Figure <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>C). Notably, the Ras-like and helical domains only separate by
+<!--l. 55--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">~</mo></math>10 &#197;
+during the rate-limiting step. In contrast, these domains separate by 56 &#197; in the first structure of a
+GPCR-G-protein complex. This result suggests that GDP release may have occurred long before a
+G protein adopts the sort of widely opened conformations observed in crystallographic
+structures<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>]</span>.
+</p>
+                                                                                      
+                                                                                      
+<h4 class="subsectionHead"><span class="titlemark">3.3.2    </span> <a 
+ id="x7-370003.3.2"></a>Tilting of H5 helps induce GDP release</h4>
+<!--l. 58--><p class="noindent" >We also observe less expected conformational changes associated with GDP release.
+The most striking is tilting of H5 by about 26&#176;(Figure <a 
+href="#x7-37001r3">3.3<!--tex4ht:ref: fig:ch4-fig3 --></a>A, and Figure <a 
+href="mainap2.html#x14-139011r6">B.6<!--tex4ht:ref: fig:ch4-fig3-supp1 --></a>).
+We find that H5 tilting correlates strongly with the distance between GDP and
+G<!--l. 58--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+along the highest flux dissociation pathway (Figure <a 
+href="#x7-37001r3">3.3<!--tex4ht:ref: fig:ch4-fig3 --></a>B and <a 
+href="mainap2.html#x14-139015r1">B.1<!--tex4ht:ref: tab:galpha-struc-compares --></a>). In particular, substantial tilting of
+H5 is coincident with the rate-limiting step for GDP release. This tilting contrasts with X-ray
+structures and the universal mechanism, in which H5 is proposed to translate along its helical axis
+towards the GPCR, initiating the process of GDP release (Figure <a 
+href="#x7-37001r3">3.3<!--tex4ht:ref: fig:ch4-fig3 --></a>A). During our simulations we
+also observe translation of H5, but it is not correlated with the rate-limiting step of GDP release
+(Figure <a 
+href="#x7-37001r3">3.3<!--tex4ht:ref: fig:ch4-fig3 --></a>C, Figure <a 
+href="mainap2.html#x14-139013r7">B.7<!--tex4ht:ref: fig:ch4-fig3-supp2 --></a>). Therefore, we are not merely missing an important role for translation due
+to insufficient sampling.
+</p><!--l. 60--><p class="noindent" >The potential importance of H5 tilting is supported by other structural data. For
+example, a crystal structure of rhodopsin<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XChoe:2011cb">211</a>]</span> with a C-terminal fragment from H5 of
+G<!--l. 60--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>t
+shows a similar degree of tilting (Figure <a 
+href="#x7-37001r3">3.3<!--tex4ht:ref: fig:ch4-fig3 --></a>A). Also, the tilt of H5 varies in crystal structures of the
+<!--l. 60--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>2AR-Gs
+complex <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>]</span>, two different GLP-1 receptor-Gs complexes<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLiang:2017cz">176</a>,&#x00A0;<a 
+href="mainli4.html#XZhang:2017gu">212</a>]</span>, and an A2AR-mini-Gs
+complex<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XCarpenter:2016gr">198</a>]</span>. The potential relevance of tilting has also been acknowledged by a number of recent
+works<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>,&#x00A0;<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>,&#x00A0;<a 
+href="mainli4.html#XOldham:2006kn">213</a>]</span> including four recently published structures of receptor-G-protein complexes
+across which H5 also shows a broad range of tilting and translational motion<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKoehl:2018fv">20</a>,&#x00A0;<a 
+href="mainli4.html#XDraperJoyce:2018il">21</a>,&#x00A0;<a 
+href="mainli4.html#XGarciaNafria:2018hu">22</a>,&#x00A0;<a 
+href="mainli4.html#XKang:2018kq">23</a>]</span>.
+Interestingly, the tilting and translation we observe falls within the observed range of tilting
+and translational motions that H5 undergoes in available GPCR-G protein complex
+structures<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>,&#x00A0;<a 
+href="mainli4.html#XKoehl:2018fv">20</a>,&#x00A0;<a 
+href="mainli4.html#XDraperJoyce:2018il">21</a>,&#x00A0;<a 
+href="mainli4.html#XGarciaNafria:2018hu">22</a>,&#x00A0;<a 
+href="mainli4.html#XKang:2018kq">23</a>]</span>, providing support that conformational selection plays an important
+role (<a 
+href="mainap2.html#x14-139015r1">B.1<!--tex4ht:ref: tab:galpha-struc-compares --></a>). Finally, H5 is translated toward the GPCR in the A2AR-mini-Gs structure but
+GDP remains bound<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XCarpenter:2016gr">198</a>]</span>. The authors of that study originally suggested that one of the
+mutations in mini-Gs decouples H5 translation from GDP release. However, given that we see
+                                                                                      
+                                                                                      
+GDP release without H5 translation in our simulations, it is also possible that amino acid
+substitutions required to create mini-Gs instead mitigate H5 tilting. Both of these models are
+consistent with the fact that some of the mutations in mini-Gs stabilize the GDP-bound
+state<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSun:2015gj">180</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-37001r3"></a>
+                                                                                      
+                                                                                      
+<!--l. 64--><p class="noindent" ><img 
+src="Chapter4/ch4-fig3.png" alt="PIC"  
+width="289" height="289"  />
+<a 
+ id="x7-37002"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.3:    </span><span  
+class="content">Tilting    of    H5    is    correlated    with    GDP    release    but    translation
+of     H5     is     not.     <span 
+class="ptmb7t-x-x-120">A.     </span>Displacements     of     H5     relative     to     the     GDP-bound
+crystal     structure     (blue).     The     three     other     orientations     of     H5     come     from
+the     rate-limiting     step     in     our     model     (orange),     the     co-crystal     structure     of
+G<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>s
+and <!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>2AR
+(green,  PDB  ID  3SN6  <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>]</span>),  and  the  co-crystal  structure  of  a  C-terminal  fragment  of
+G<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>t
+and   rhodopsin   (magenta,   PDB   ID   3PQR   <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XChoe:2011cb">211</a>]</span>).   The   black   arrows   highlight   the
+change  in  orientation  of  the  long  axis  of  each  helix.  A  representative  GPCR  (gray)  and
+G<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+(white)      structure      are      shown      for      reference.      <span 
+class="ptmb7t-x-x-120">B.      </span>GDP      release      distance
+across     the     highest     flux     pathway,     defined     as     the     distance     from     the     GDP
+<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-phosphate
+to the center of mass between residues Lys52<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>,
+Ser53<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>,
+and Thr54<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>3</mn></mrow></msup 
+></math>
+on H1. The state marking the rate-limiting step is highlighted by the blue dashed line. <span 
+class="ptmb7t-x-x-120">C. </span>H5
+motion across the highest flux pathway. The distances measured here representing H5 motion
+are taken from the same states as in B. H5 tilting (orange) is measured by the distance between
+Leu349<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>5</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn><mn>6</mn></mrow></msup 
+></math>
+and Tyr325<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>S</mi><mn>6</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>.
+Likewise,    H5    vertical    motion    (green)    is    measured    by    the    distance    between
+Thr334<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>5</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+and Phe341<!--l. 66--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>5</mn><mo 
+class="MathClass-punc">.</mo><mn>8</mn></mrow></msup 
+></math>.
+The rate-limiting step is marked with the blue dashed line, extended down from B.</span></div><!--tex4ht:label?: x7-37001r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 70--><p class="noindent" >We propose that tilting of H5 is an early step in the GDP release process, which is followed by upward
+translation of this helix to form a GPCR-G protein complex primed to bind GTP. This hypothesis
+stems from our observation that tilting of H5 is coincident with the rate-limiting step for GDP release,
+while translation of H5 only becomes stable after GDP dissociates (Figure <a 
+href="#x7-37001r3">3.3<!--tex4ht:ref: fig:ch4-fig3 --></a>C). This
+model is consistent with previous suggestions that G-protein activation occurs through
+a series of sequential interactions with a GPCR <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XOldham:2008cr">169</a>,&#x00A0;<a 
+href="mainli4.html#XRasmussen:2011kp">68</a>]</span>. Another possibility is that
+any displacement of H5, whether tilting or translation, may be sufficient to trigger GDP
+release.
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.3.3    </span> <a 
+ id="x7-380003.3.3"></a>Identification of the allosteric network that triggers GDP release</h4>
+<!--l. 73--><p class="noindent" >While conformational changes of H5 are important for
+G<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+activation, other regions could also play a role<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHilger:2018en">177</a>,&#x00A0;<a 
+href="mainli4.html#XSun:2015gj">180</a>]</span>. However, it is not straightforward to
+determine what other structural elements contribute to activation or their importance relative to H5.
+Our hypothesis that spontaneous motions of a protein encode functionally relevant conformational
+changes suggests that the coupling between the GPCR- and nucleotide-binding sites of
+G<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+should be present in simulations of the inactive protein; This provides a means to
+identify key elements of this allosteric network. To test this hypothesis, we ran 35.3
+<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s of simulation
+of GDP-G<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q.
+Then we applied the CARDS method<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSingh:2017hh">90</a>]</span> to detect correlations between both the structure and
+dynamical states of every pair of dihedral angles. Structural states are determined by assigning
+                                                                                      
+                                                                                      
+dihedral angles to the three dominant rotameric states for side-chains (gauche+, gauche-, and trans)
+and the two dominant rotameric states for backbone dihedrals (cis and trans). Dynamical states are
+determined by whether a dihedral angle remains in a single rotameric state (ordered) or rapidly
+transitions between multiple rotameric states (disordered). These pairwise correlations serve as a basis
+for quantifying the correlation of every residue to a target site, such as the GPCR-binding
+site. Combining these correlations with structural and dynamical changes in our model of
+GDP release provides a basis for inferring how perturbations to the GPCR-binding site
+are transmitted to the nucleotide-binding site. We focus our analysis on the most direct
+routes for communication between the GPCR- and nucleotide-binding sites by following
+correlated motions that emanate from structural elements that directly contact GPCRs until
+they reach the GDP-binding site. There are correlations between many other elements of
+G<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q, including
+parts of the helical domain, that branch off of this allosteric network. Such correlations may be important for
+aspects of G<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+function besides activation, but are beyond the scope of the present study, which focuses on how
+GPCR-binding impacts nucleotide release.
+</p><!--l. 75--><p class="noindent" >To understand how H5 tilting triggers GDP release, we first identified structural elements with strong
+coupling to H5 and then worked our way outward in repeated iterations until we reached the
+nucleotide-binding site (Figure <a 
+href="#x7-38001r4">3.4<!--tex4ht:ref: fig:ch4-fig4 --></a>). This analysis reveals that tilting of H5 directly communicates
+with and impacts the conformational preferences of the s6h5 loop, which contacts the nucleobase of
+GDP (Figure <a 
+href="#x7-38001r4">3.4<!--tex4ht:ref: fig:ch4-fig4 --></a> and Figure <a 
+href="#x7-38003r5">3.5<!--tex4ht:ref: fig:ch4-fig5 --></a>). During the rate-limiting step, these contacts are broken and there is
+increased disorder in the s6h5 loop, particularly Ala331 of the TCAT motif (Figure <a 
+href="#x7-38003r5">3.5<!--tex4ht:ref: fig:ch4-fig5 --></a> and Figure
+<a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>B). The importance of the TCAT motif in our model is consistent with its conservation and the
+fact that mutating it accelerates GDP release<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XIiri:1994kw">214</a>,&#x00A0;<a 
+href="mainli4.html#XPosner:1998gj">215</a>,&#x00A0;<a 
+href="mainli4.html#XThomas:1993wv">216</a>]</span>. Based on our model, we
+propose these mutations accelerate release by weakening shape complementarity with
+GDP.
+</p>
+                                                                                      
+                                                                                      
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-38001r4"></a>
+                                                                                      
+                                                                                      
+<!--l. 79--><p class="noindent" ><img 
+src="Chapter4/ch4-fig4.png" alt="PIC"  
+width="452" height="453"  />
+<a 
+ id="x7-38002"></a>
+<br />   </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.4:     </span><span  
+class="content">Allosteric     network     connecting     H5     motion     to     the     nucleotide
+binding-site    via    s6h5.    CARDS    data    showing    communication    per    residue    to    a
+target    site    (dashed    box)    is    plotted    (left)    and    mapped    onto    the    structure    of
+G<!--l. 81--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+(right) for <span 
+class="ptmb7t-x-x-120">(A) </span>H5, <span 
+class="ptmb7t-x-x-120">(B) </span>s6h5, <span 
+class="ptmb7t-x-x-120">(C) </span>HG, <span 
+class="ptmb7t-x-x-120">(D) </span>H1, and <span 
+class="ptmb7t-x-x-120">(E) </span>the P-loop. Arrows indicate regions of
+importance with significant communication to the target site.</span></div><!--tex4ht:label?: x7-38001r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-38003r5"></a>
+                                                                                      
+                                                                                      
+<!--l. 87--><p class="noindent" ><img 
+src="Chapter4/ch4-fig5.png" alt="PIC"  
+width="361" height="361"  />
+<a 
+ id="x7-38004"></a>
+<br />    </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.5:       </span><span  
+class="content">Change       in       the       s6h5       loop       conformation       across       the
+rate-limiting         step.         Distribution         of         distances         (left)         from         GDP&#8217;s
+<!--l. 89--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-phosphate
+to Ala331<!--l. 89--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>6</mn><mi 
+>h</mi><mn>5</mn><mo 
+class="MathClass-punc">.</mo><mn>3</mn></mrow></msup 
+></math>
+on the s6h5 loop before (blue) and after (orange) the rate-limiting step, as well as after GDP
+release (black). Representative structures of the s6h5 loop (right) are shown for before (top
+right, blue) and after (bottom right, orange) the rate limiting step.</span></div><!--tex4ht:label?: x7-38003r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 93--><p class="noindent" >We also observe an important role for communication from H5 to H1, consistent with the
+universal mechanism. In particular, H1 is strongly coupled with the s6h5 loop (Figure <a 
+href="#x7-38001r4">3.4<!--tex4ht:ref: fig:ch4-fig4 --></a>B),
+which is sensitive to displacement of H5. In the rate-limiting step, s6h5 moves away from
+H1, contributing to an increase in disorder of H1 and the P-loop (Figure <a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>A and Figure
+<a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>B). Increased disorder in a set of residues that directly contact the GDP phosphates
+(Glu49<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>,
+Ser50<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>5</mn></mrow></msup 
+></math>,
+Gly51<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>6</mn></mrow></msup 
+></math>,
+Lys52<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>, and
+Ser53<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>)
+likely contributes to a reduced affinity for GDP (Figure <a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>A). Increased disorder
+in these residues also contributes to disruption of the salt bridge between
+Glu49<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math> of the Ras-like
+domain and Arg183<!--l. 93--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>h</mi><mi 
+>f</mi><mi 
+>s</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>
+of the helical domain, facilitating inter-domain separation.
+</p><!--l. 95--><p class="noindent" >We further note that the s6h5 loop impacts the nucleotide-binding site
+through allosteric coupling with the HG helix, which also contacts GDP via
+Lys275<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math> and
+Asp277<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mn>2</mn></mrow></msup 
+></math>
+(Figures <a 
+href="#x7-38001r4">3.4<!--tex4ht:ref: fig:ch4-fig4 --></a>E and <a 
+href="#x7-38005r6">3.6<!--tex4ht:ref: fig:ch4-fig6 --></a>). The disorder of both of these residues increases during the rate-limiting
+step, consistent with observations of increased mobility in HG upon receptor-mediated
+activation (Oldham and Hamm, 2008). There are also correlations between the P-loop and
+Lys275<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+on Helix G (Figure <a 
+href="#x7-38001r4">3.4<!--tex4ht:ref: fig:ch4-fig4 --></a>E), which result from the disruption of a key salt bridge between
+Lys275<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math> and
+Glu49<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>
+                                                                                      
+                                                                                      
+on the P-loop during the rate-limiting step (Figure <a 
+href="#x7-38005r6">3.6<!--tex4ht:ref: fig:ch4-fig6 --></a>).
+Lys275<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math> is conserved
+across all G<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+families, suggesting it plays an important role in the stability or function of the protein.
+However, attempts to experimentally examine the role of this residue by mutating
+Lys275<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+have resulted in aggregation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSun:2015gj">180</a>]</span>. Our simulations suggest
+Lys275<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+plays an important role in stabilizing the GDP-bound state and that breaking the salt bridge with
+Glu49<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>
+facilitates GDP release. This finding demonstrates the utility of our atomistic simulations, as we can
+examine the role of residues that are difficult to probe experimentally.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-38005r6"></a>
+                                                                                      
+                                                                                      
+<!--l. 99--><p class="noindent" ><img 
+src="Chapter4/ch4-fig6.png" alt="PIC"  
+width="238" height="238"  />
+<a 
+ id="x7-38006"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.6:   </span><span  
+class="content">Probability   distributions   of   the   distance   between   the   side-chains   of
+Lys275<!--l. 101--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>5</mn><mi 
+>h</mi><mi 
+>g</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+and Glu49<!--l. 101--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>1</mn><mi 
+>h</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>.
+Distributions were computed for the bound (blue), rate-limiting step (orange), and dissociated
+(black)  states.  Representative  structures  (above)  for  the  bound  (left,  blue)  and  rate-limiting
+step (right, orange) are included with residues as sticks.</span></div><!--tex4ht:label?: x7-38005r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h4 class="subsectionHead"><span class="titlemark">3.3.4    </span> <a 
+ id="x7-390003.3.4"></a>H1 and <!--l. 105--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets
+are communication hubs</h4>
+<!--l. 106--><p class="noindent" >To identify other important structural elements in the allosteric network underlying G protein
+activation, we followed correlated motions emanating from other sites that are known to interact
+directly with GPCRs, including the hNs1 loop, the h3s5 loop, and the h4s6 loop<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XOldham:2008cr">169</a>]</span>. We find that
+h3s5 and h4s6 are largely isolated, suggesting they play a role in forming a stable GPCR-G protein
+complex but not in the allosteric mechanism that triggers GDP release. This finding is consistent with
+sequence analysis suggesting these structural elements are important determinants of the specificity of
+GPCR-G<!--l. 106--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+interactions<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2017bm">217</a>]</span>. In contrast, the hNs1 loop has strong correlations with
+<!--l. 106--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-strands
+S1-S3 (Figure <a 
+href="#x7-39001r7">3.7<!--tex4ht:ref: fig:ch4-fig7 --></a>). These strands, in turn, communicate with H1, switch 1, and the P-loop.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-39001r7"></a>
+                                                                                      
+                                                                                      
+<!--l. 110--><p class="noindent" ><img 
+src="Chapter4/ch4-fig7.png" alt="PIC"  
+width="404" height="404"  />
+<a 
+ id="x7-39002"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.7:    </span><span  
+class="content">CARDS    data    showing    communication    per    residue    to    a    target
+site     (dashed     box)     is     plotted     (left)     and     mapped     onto     the     structure     of
+G<!--l. 112--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+(right) for <span 
+class="ptmb7t-x-x-120">(A) </span>hNs1, <span 
+class="ptmb7t-x-x-120">(B) </span>S1, <span 
+class="ptmb7t-x-x-120">(C) </span>S3, <span 
+class="ptmb7t-x-x-120">(D) </span>S2, and <span 
+class="ptmb7t-x-x-120">(E) </span>H1. Arrows indicate regions of importance
+with significant communication to the target site.</span></div><!--tex4ht:label?: x7-39001r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 116--><p class="noindent" >Integrating our correlation analysis with structural insight from the rate-limiting step described above
+suggests an important role for S1-S3 in a complex allosteric network that couples the GPCR- and
+nucleotide-binding sites (Figures <a 
+href="#x7-39001r7">3.7<!--tex4ht:ref: fig:ch4-fig7 --></a> and <a 
+href="#x7-39003r8">3.8<!--tex4ht:ref: fig:ch4-fig8 --></a>, Figure <a 
+href="mainap2.html#x14-139017r8">B.8<!--tex4ht:ref: fig:ch4-fig7-supp1 --></a>). S2 and S3 twist relative to S1 and away
+from H1 (Figures <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>A and <a 
+href="#x7-39005r9">3.9<!--tex4ht:ref: fig:ch4-fig9 --></a>, Figure <a 
+href="mainap2.html#x14-139021r10">B.10<!--tex4ht:ref: fig:ch4-fig9-supp1 --></a>). This twisting disrupts stacking between
+Phe194<!--l. 116--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>S</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>6</mn></mrow></msup 
+></math> on S2
+and His63<!--l. 116--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn><mn>2</mn></mrow></msup 
+></math>
+on H1 and increases disorder of side-chains in H1 (Figures <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>B and <a 
+href="#x7-39005r9">3.9<!--tex4ht:ref: fig:ch4-fig9 --></a>, Figure <a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>C).
+Increased disorder in H1 is also a crucial component of the proposed universal mechanism,
+but in that model translation of H5 is the key trigger for changes in H1. The role for the
+<!--l. 116--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets in
+our model is consistent with previous work identifying interactions between S2 and H1<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>]</span>, NMR
+experiments showing chemical exchange in the methyls of S1-S3 upon receptor binding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XToyama:2017gy">179</a>]</span>, and
+mutational data. In particular, Flock et al. have previously noted the important interaction between residues
+Phe194<!--l. 116--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>S</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>6</mn></mrow></msup 
+></math> and
+His63<!--l. 116--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn><mn>2</mn></mrow></msup 
+></math>
+<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-39003r8"></a>
+                                                                                      
+                                                                                      
+<!--l. 120--><p class="noindent" ><img 
+src="Chapter4/ch4-fig8.png" alt="PIC"  
+width="228" height="228"  />
+<a 
+ id="x7-39004"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.8:    </span><span  
+class="content">Allosteric    network    connecting    the    GPCR-    and    nucleotide-binding
+interfaces.      The      coloring      scheme      corresponds      to      that      used      in      <a 
+href="#x7-34001r1">3.1<!--tex4ht:ref: fig:ch4-fig1 --></a>,
+highlighting      the      GPCR      binding      interface      (gray),      GDP      phosphate-binding
+regions        (pink),        GDP        nucleotide-binding        regions        (green),        and        the
+<!--l. 122--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets
+(blue).</span></div><!--tex4ht:label?: x7-39003r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-39005r9"></a>
+                                                                                      
+                                                                                      
+<!--l. 128--><p class="noindent" ><img 
+src="Chapter4/ch4-fig9.png" alt="PIC"  
+width="228" height="228"  />
+<a 
+ id="x7-39006"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.9: </span><span  
+class="content"><!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C0;</mi></math>&#8211;stacking
+between   S2   and   H1   is   disrupted   during   the   rate-limiting   step.   Distribution   of   the
+<!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mn>1</mn></mrow></msub 
+></math>
+angle (bottom) of Phe194<!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>S</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>6</mn></mrow></msup 
+></math>
+on      S2      before      (blue)      and      after      (orange)      the      rate-limiting      step,      as
+well       as       after       GDP       release       (black).       Representative       structures       of
+Phe194<!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>S</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>6</mn></mrow></msup 
+></math>
+and His63<!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn><mn>2</mn></mrow></msup 
+></math>
+(top) corresponding to before and after the rate-limiting step are also shown.</span></div><!--tex4ht:label?: x7-39005r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 134--><p class="noindent" >The importance of H1 and <!--l. 134--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-strands
+S1-S3 is underscored by mapping the global communication of every residue onto a structure of
+G<!--l. 134--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> (Figure
+<a 
+href="mainap2.html#x14-139019r9">B.9<!--tex4ht:ref: fig:ch4-fig8-supp1 --></a>). The global communication of a residue is the sum of its correlations to every other residue and is a
+useful metric for identifying residues that are important players in allosteric networks<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSingh:2017hh">90</a>]</span>. Interestingly,
+these <!--l. 134--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-strands
+and H1 have higher global communication than H5 and the s6h5 loop. This suggests that H1 and the
+<!--l. 134--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets integrate
+conformational information from multiple sources, including the hNs1 loop, and not just H5. The importance
+of the <!--l. 134--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets
+and H1 for allosteric communication is consistent with their conservation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSun:2015gj">180</a>]</span>, which may not
+simply reflect the role they play in protein folding and stability, as had been suggested
+previously<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSun:2015gj">180</a>,&#x00A0;<a 
+href="mainli4.html#XHatley:2003co">218</a>]</span>.
+                                                                                      
+                                                                                      
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.3.5    </span> <a 
+ id="x7-400003.3.5"></a>GDP release alters the structure and dynamics of the
+G<!--l. 138--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-binding
+site</h4>
+<!--l. 139--><p class="noindent" >We also find that switch 2 has strong correlations with the nucleotide-binding site, especially
+switch 1 (Figure <a 
+href="mainap2.html#x14-139017r8">B.8<!--tex4ht:ref: fig:ch4-fig7-supp1 --></a>). Given that switch 2 is a major component of the interface between
+G<!--l. 139--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> and
+G<!--l. 139--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>,
+this communication could enable GDP release to trigger dissociation of
+G<!--l. 139--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math> from
+G<!--l. 139--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi><mi 
+>&#x03B3;</mi></math>.
+Examining the rate-limiting step for GDP release reveals that switch 2 shifts towards the
+nucleotide-binding site (Figure <a 
+href="#x7-40001r10">3.10<!--tex4ht:ref: fig:ch4-fig10 --></a>) and exhibits increased conformational disorder (Figure <a 
+href="#x7-36001r2">3.2<!--tex4ht:ref: fig:ch4-fig2 --></a>B and
+Figure <a 
+href="mainap2.html#x14-139005r3">B.3<!--tex4ht:ref: fig:ch4-fig2-supp3 --></a>). These findings are consistent with previous kinetic studies postulating that switch 2
+dynamics are impacted prior to GDP release<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHerrmann:2004gp">219</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-40001r10"></a>
+                                                                                      
+                                                                                      
+<!--l. 143--><p class="noindent" ><img 
+src="Chapter4/ch4-fig10.png" alt="PIC"  
+width="289" height="289"  />
+<a 
+ id="x7-40002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.10: </span><span  
+class="content">Switch 2 moves towards GDP across the rate-limiting step. Distance distribution
+(left) of Gly207<!--l. 145--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>s</mi><mn>3</mn><mi 
+>h</mi><mn>2</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>
+to GDP before (blue) and after (orange) the rate-limiting step, as well as after GDP release
+(black). Representative structures of Switch 2 motion are shown (right).</span></div><!--tex4ht:label?: x7-40001r3.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h3 class="sectionHead"><span class="titlemark">3.4    </span> <a 
+ id="x7-410003.4"></a>Conclusion</h3>
+<!--l. 150--><p class="noindent" >We have succeeded in simulating G protein activation, including both the
+allosteric coupling between the GPCR- and nucleotide-binding sites of
+G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q and
+consequent unbinding of GDP. Our results reveal a previously unobserved intermediate that defines the
+rate-limiting step for GDP release and, ultimately, G protein activation. Our model synthesizes a wealth of
+experimental data and previous analyses. For example, we identify an important role for coupling
+from H5 to the s6h5 loop and H1 that is consistent with a previously proposed universal mechanism
+for G protein activation. However, we also find that this allosteric network incorporates the hNs1 loop,
+<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-strands
+S1-S3, and the HG helix. Strands S1-S3 and H1 serve as hubs in this network,
+simultaneously integrating information from both H5 and the hNs1 loop. Our observation
+is consistent with previous postulates that information flows from H5 and hNs1 to
+H1<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPreininger:2013if">220</a>]</span>. It is important to note that our model was extracted using simulations of
+G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q,
+and so some correlations or changes in conformation and dynamics may apply only to
+G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q.
+However, by focusing our analysis on secondary structure elements and residues that are shared across
+all G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+homologs, our model likely captures a universal &#8216;skeleton&#8217; of changes involved in
+G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+activation, expanding upon a previously proposed universal mechanism for
+G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+                                                                                      
+                                                                                      
+activation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFlock:2015dj">171</a>]</span>. The consistency of our model with a wide variety of structural and biochemical data
+suggests that it is a promising foundation for future efforts to understand the determinants of
+GPCR-G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+interaction specificity, how mutations cause aberrant signaling and disease, and how small molecule inhibitors
+modulate G<!--l. 150--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+activation. Our model also adds weight to the growing appreciation for the fact that a
+protein&#8217;s spontaneous fluctuations encode considerable information about its functional
+dynamics<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKoehl:2018fv">20</a>,&#x00A0;<a 
+href="mainli4.html#XDraperJoyce:2018il">21</a>,&#x00A0;<a 
+href="mainli4.html#XGarciaNafria:2018hu">22</a>,&#x00A0;<a 
+href="mainli4.html#XKang:2018kq">23</a>]</span>. Construction of our model was enabled by a powerful combination of
+simulation methods, namely metadynamics and MSMs. In the future, we expect this methodology
+will prove valuable for understanding other slow conformational changes and unbinding
+processes.
+</p><!--l. 153--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">3.5    </span> <a 
+ id="x7-420003.5"></a>Materials and Methods</h3>
+<!--l. 154--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.5.1    </span> <a 
+ id="x7-430003.5.1"></a>Molecular dynamics simulations of GDP unbinding</h4>
+<!--l. 155--><p class="noindent" >
+                                                                                      
+                                                                                      
+</p>
+<h5 class="subsubsectionHead"><a 
+ id="x7-440003.5.1"></a>System preparation</h5>
+<!--l. 156--><p class="noindent" >We used the crystal structure of G<!--l. 156--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+from the heterotrimeric G<!--l. 156--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+protein (PDB entry 3AH8) as the initial structure to set up our simulations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XNishimura:2010gt">203</a>]</span>.
+The first 36 residues were removed prior to simulation, as they come from
+G<!--l. 156--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>i, along
+with the G<!--l. 156--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>
+and G<!--l. 156--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B3;</mi></math>
+subunits which were removed to minimize the system size and maximize our chances of observing
+GDP release<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XOldham:2008cr">169</a>]</span>.
+</p><!--l. 158--><p class="noindent" >The protein structure was solvated in a dodecahedron box of TIP3P water<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XJorgensen:1983fl">143</a>]</span> that extended 1 nm
+beyond the protein in every dimension. A single Mg2+ ion was added coordinating the
+phosphate groups of GDP as its presence accelerates GDP release<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XZhang:2000cy">221</a>]</span>. Thereafter, Na+ and
+Cl<!--l. 158--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">-</mo></math> were
+added to produce a neutral system at 0.15 M NaCl. The final system consists of one GDP, one
+G<!--l. 158--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q, 57
+Cl<!--l. 158--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo><mn>1</mn></mrow></msup 
+></math>, 64
+Na<!--l. 158--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">+</mo><mn>1</mn></mrow></msup 
+></math>, one
+Mg<!--l. 158--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mn>2</mn><mo 
+class="MathClass-bin">+</mo></mrow></msup 
+></math>,
+and 18696 TIP3P water molecules, for a total of 61,893 atoms.
+</p><!--l. 160--><p class="noindent" >Molecular dynamics (MD) simulations were carried out using Gromacs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XAbraham:2015gj">222</a>,&#x00A0;<a 
+href="mainli4.html#XVanDerSpoel:2005hz">145</a>]</span> and the
+AMBER03 force field<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDuan:2003gt">146</a>]</span>. The force field parameters of GDP were obtained from the
+AMBER Parameter Database (http://research.bmh.manchester.ac.uk/bryce/amber)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMeagher:2003be">223</a>]</span>.
+The system was energy minimized with the steepest descent algorithm for 50,000 steps
+until the maximum force fell below 100 kJ/mol/nm using a step size of 0.02 nm and a
+                                                                                      
+                                                                                      
+cut-off distance of 0.9 nm for the neighbor list, electrostatic interactions and van der Waals
+interactions. Afterward, the solvent was relaxed by a NVT simulation of 100 ps with the
+constraint of 1000 kJ/mol/nm applied to the protein heavy atoms and 2 fs as the time step. In
+this relaxation simulation, the temperature of the system is constrained to 300 K using
+V-rescale thermostat (with a time constant of 0.1 ps)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBussi:2007cs">224</a>]</span>. A cut-off distance of 1 nm
+was used for the van der Waals, short-range electrostatic interactions. Periodic boundary
+conditions are applied to x, y and z directions. The Particle-Mesh-Ewald method is employed
+to recover the long-range electrostatic interactions with 0.16 nm as the grid spacing and
+with a fourth order spline<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKolafa:2006jh">225</a>]</span>. All the bonds connecting to hydrogens are constrained
+using LINCS algorithm<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHess:2008fl">226</a>]</span>. After the NVT relaxation, the system further underwent
+an NPT simulation for one ns with the time step of 2 fs for equilibration. The simulation
+parameters here are kept the same as the NVT relaxation except for the application of
+Parrinello-Rahman barostat for pressure coupling<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XParrinello:1981it">227</a>]</span>. After these equilibration runs, the constraint
+on heavy atoms were removed for all subsequent production runs. Virtual sites were used to
+allow for a 4 fs time-step<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFeenstra:1999ue">228</a>]</span>. We then applied a three-step protocol to simulate GDP
+release.
+</p>
+<h5 class="subsubsectionHead"><a 
+ id="x7-450003.5.1"></a>Step one: MD simulations of the GDP-bound state</h5>
+<!--l. 162--><p class="noindent" >We performed 100 parallel simulations of the GDP bound state on the Folding@home<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XShirts:2000du">37</a>]</span>
+distributed computing environment for an aggregate simulation time of 35.3
+<!--l. 162--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s.
+</p><!--l. 164--><p class="noindent" >
+                                                                                      
+                                                                                      
+</p>
+<h5 class="subsubsectionHead"><a 
+ id="x7-460003.5.1"></a>Step two: Metadynamics simulations</h5>
+<!--l. 165--><p class="noindent" >We subsequently ran metadynamics simulations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLaio:2002ft">195</a>,&#x00A0;<a 
+href="mainli4.html#XTribello:2014eb">229</a>]</span> initiated from conformations generated in
+step one to actively promote GDP release. Starting conformations were selected from step one by
+clustering protein conformations into 625 states using a hybrid K-center/K-medoids method<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBeauchamp:2011he">230</a>]</span> with a
+2 &#197;cutoff. The 10 most populated states included conformations with large inter-domain separation
+distances between the Ras-like and AH domains as measured by the angle formed between the
+<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>-carbon atoms
+of Leu97<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>H</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mi 
+>A</mi><mo 
+class="MathClass-punc">.</mo><mn>2</mn><mn>9</mn></mrow></msup 
+></math>,
+Asn82<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>H</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mi 
+>A</mi><mo 
+class="MathClass-punc">.</mo><mn>1</mn><mn>4</mn></mrow></msup 
+></math>,
+Ile258<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>3</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn><mn>2</mn></mrow></msup 
+></math>, and
+Glu250<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>3</mn><mo 
+class="MathClass-punc">.</mo><mn>4</mn></mrow></msup 
+></math>. This inter-domain
+angle ranged from <!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">-</mo></math>30&#176;
+to 0&#176;. From these states, three representative structures were chosen with inter-domain angles of
+<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">-</mo></math>6&#176;(Conf.
+1),<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">-</mo></math>10&#176;(Conf.
+2), and <!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">-</mo></math>26.6&#176;
+(Conf. 3) as starting conformations for metadynamics simulations, which were run
+on PLUMED<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTribello:2014eb">229</a>]</span>. We defined two collective variables for our metadynamics
+simulations: 1) the distance between GDP&#8217;s phosphate groups and the backbone of
+Lys52<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>-Thr54<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>3</mn></mrow></msup 
+></math>
+in G<!--l. 165--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+subunit (CV1), and 2) the RMSD of GDP to the starting conformation (CV2).
+</p><!--l. 167--><p class="noindent" >In metadynamics, a history-dependent biased potential VG(S,t) is added to the two selected
+CVs.
+</p>
+                                                                                      
+                                                                                      
+<table class="equation"><tr><td> <a 
+ id="x7-46001r1"></a>
+<!--l. 169--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+               <msub><mrow 
+><mi 
+>V</mi> </mrow><mrow 
+><mi 
+>G</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>S</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><msubsup><mrow 
+><mo  
+> &#x222B;
+ <!--nolimits--></mo><!--nolimits--></mrow><mrow 
+><mn>0</mn></mrow><mrow 
+><mi 
+>t</mi></mrow></msubsup 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>d</mi><msup><mrow 
+><mi 
+>t</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msup 
+><mi 
+>&#x03C9;</mi><mi class="qopname"> exp</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo><!--nolimits--> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">-</mo><munderover accentunder="false" accent="false"><mrow  
+><mo  
+>&#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>i</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>d</mi></mrow></munderover 
+><mfrac><mrow 
+><msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><msub><mrow 
+><mi 
+>S</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>R</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <msub><mrow 
+><mi 
+>S</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>R</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><msup><mrow 
+><mi 
+>t</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msup 
+></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow>
+               <mrow 
+><mn>2</mn><msubsup><mrow 
+><mi 
+>&#x03C3;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mn>2</mn></mrow></msubsup 
+></mrow></mfrac>               </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math></td><td class="eq-no">(3.1)</td></tr></table>
+<!--l. 173--><p class="noindent" >where <!--l. 173--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>t</mi></math> represents
+time, <!--l. 173--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>S</mi></math> are collective
+variables, <!--l. 173--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C9;</mi></math> is the
+energy rate and <!--l. 173--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C3;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+></math>
+controls the width of the Gaussian for the ith collective variable. Summing up the Gaussians allows us to obtain the
+biased potential <!--l. 173--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>V</mi> </mrow><mrow 
+><mi 
+>G</mi></mrow></msub 
+></math>.
+The free energy <!--l. 173--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-bin">-</mo> <mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>S</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+is derived by the assumption,
+</p>
+<table class="equation"><tr><td> <a 
+ id="x7-46002r2"></a>
+<!--l. 175--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                <munder class="msub"><mrow 
+><mi class="qopname">lim</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> </mrow><mrow 
+><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2192;</mo><mi 
+>&#x221E;</mi></mrow></munder 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>S</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">~</mo><mo 
+class="MathClass-bin">-</mo><mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>S</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math></td><td class="eq-no">(3.2)</td></tr></table>
+                                                                                      
+                                                                                      
+<!--l. 179--><p class="noindent" >The metadynamics simulations were repeated three times for each selected representative structure
+using different Gaussian widths (<a 
+href="#x7-46003r1">3.1<!--tex4ht:ref: tab:metadyn-table --></a>). We set the Gaussian height to 1.5 kJ/mol.
+</p>
+<div class="table">
+                                                                                      
+                                                                                      
+<!--l. 181--><p class="noindent" ><a 
+ id="x7-46003r1"></a></p><hr class="float" /><div class="float" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x7-46004"></a>
+ <div class="caption" 
+><span class="id">Table&#x00A0;3.1: </span><span  
+class="content">Details of metadynamics simulations</span></div><!--tex4ht:label?: x7-46003r3.5 -->
+<div class="tabular"> <table id="TBL-1" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-1-1g"><col 
+id="TBL-1-1" /></colgroup><colgroup id="TBL-1-2g"><col 
+id="TBL-1-2" /></colgroup><colgroup id="TBL-1-3g"><col 
+id="TBL-1-3" /></colgroup><colgroup id="TBL-1-4g"><col 
+id="TBL-1-4" /></colgroup><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-1-"><td  style="text-align:center; white-space:nowrap;" id="TBL-1-1-1"  
+class="td11"> <div class="multicolumn"  style="text-align:center; white-space:nowrap;"><span 
+class="ptmb7t-x-x-120">Starting conformation</span></div> </td><td  style="text-align:center; white-space:nowrap;" id="TBL-1-1-2"  
+class="td11"> <div class="multicolumn"  style="text-align:center; white-space:nowrap;"><span 
+class="ptmb7t-x-x-120">Width of CV1 (</span><span 
+class="ptmb7t-x-x-120">&#197;</span><span 
+class="ptmb7t-x-x-120">)</span></div> </td><td  style="text-align:center; white-space:nowrap;" id="TBL-1-1-3"  
+class="td11"> <div class="multicolumn"  style="text-align:center; white-space:nowrap;"><span 
+class="ptmb7t-x-x-120">Width of CV2 (</span><span 
+class="ptmb7t-x-x-120">&#197;</span><span 
+class="ptmb7t-x-x-120">)</span></div> </td><td  style="text-align:center; white-space:nowrap;" id="TBL-1-1-4"  
+class="td11"> <div class="multicolumn"  style="text-align:center; white-space:nowrap;"><span 
+class="ptmb7t-x-x-120">Number of conformations selected</span></div>
+</td></tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-2-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-2-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">1                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-2-2"  
+class="td11"> 0.1                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-2-3"  
+class="td11"> 0.1                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-2-4"  
+class="td11"> 171                                                      </td></tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-3-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-3-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">1 </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-3-2"  
+class="td11"> 0.08 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-3-3"  
+class="td11"> 0.03 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-3-4"  
+class="td11"> 132</td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-4-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-4-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">1                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-4-2"  
+class="td11"> 0.03                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-4-3"  
+class="td11"> 0.01                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-4-4"  
+class="td11"> 504                                                     </td></tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-5-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-5-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">2 </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-5-2"  
+class="td11"> 0.1 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-5-3"  
+class="td11"> 0.1 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-5-4"  
+class="td11"> 145</td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-6-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-6-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">2                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-6-2"  
+class="td11"> 0.08                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-6-3"  
+class="td11"> 0.03                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-6-4"  
+class="td11"> 141                                                     </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-7-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-7-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">2                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-7-2"  
+class="td11"> 0.03                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-7-3"  
+class="td11"> 0.01                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-7-4"  
+class="td11"> 320                                                     </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-8-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-8-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">3                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-8-2"  
+class="td11"> 0.1                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-8-3"  
+class="td11"> 0.1                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-8-4"  
+class="td11"> 198                                                     </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-9-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-9-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">3                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-9-2"  
+class="td11"> 0.08                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-9-3"  
+class="td11"> 0.03                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-9-4"  
+class="td11"> 186                                                     </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-10-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-10-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">3                                      </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-10-2"  
+class="td11"> 0.03                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-10-3"  
+class="td11"> 0.01                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-1-10-4"  
+class="td11"> 288                                                     </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-11-"><td  style="text-align:left; white-space:nowrap;" id="TBL-1-11-1"  
+class="td11">                  </td></tr></table></div>
+                                                                                      
+                                                                                      
+</div><hr class="endfloat" />
+</div>
+<!--l. 212--><p class="noindent" >We observed the release of GDP from G<!--l. 212--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+in the metadynamics simulations and obtained the free-energy landscape for the release.
+We then applied the string method<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMaragliano:2006kg">231</a>]</span> to detect potential release pathways and use
+these conformations as the seeds for simulations in step 3. We can use the function
+<!--l. 212--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> to
+represent <!--l. 212--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>C</mi><mn>1</mn><mo 
+class="MathClass-punc">,</mo><mi 
+>C</mi><mn>2</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+which showing the minimum free-energy path. We thus have </p><table class="equation"><tr><td> <a 
+ id="x7-46005r3"></a>
+<!--l. 213--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                            <mfrac><mrow 
+><mi 
+>d</mi><mi 
+>Z</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+  <mrow 
+><mi 
+>d</mi><mi 
+>&#x03B1;</mi></mrow></mfrac>   <mo 
+class="MathClass-rel">=</mo><munderover accentunder="false" accent="false"><mrow  
+><mo  
+> &#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>k</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>n</mi></mrow></munderover 
+><mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <mfrac><mrow 
+><mi 
+>d</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow> 
+ <mrow 
+><mi 
+>d</mi><mi 
+>&#x03B1;</mi></mrow></mfrac>
+</math></td><td class="eq-no">(3.3)</td></tr></table>
+<!--l. 216--><p class="noindent" >which is parallel to </p><table class="equation"><tr><td> <a 
+ id="x7-46006r4"></a>
+<!--l. 217--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+          <munderover accentunder="false" accent="false"><mrow  
+><mo  
+>&#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>k</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>n</mi></mrow></munderover 
+><mfrac><mrow 
+><mi 
+>&#x2202;</mi><mi 
+>&#x03B8;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+   <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <mfrac><mrow 
+><mi 
+>d</mi><mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+  <mrow 
+><mi 
+>d</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>    <mo 
+class="MathClass-rel">=</mo><munderover accentunder="false" accent="false"><mrow  
+><mo  
+> &#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>j</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>k</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>n</mi></mrow></munderover 
+><mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>j</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <mfrac><mrow 
+><mi 
+>d</mi><mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>z</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+  <mrow 
+><mi 
+>d</mi><mi 
+>Z</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></mfrac>
+</math></td><td class="eq-no">(3.4)</td></tr></table>
+                                                                                      
+                                                                                      
+<!--l. 220--><p class="noindent" >The average of the tensor </p><table class="equation"><tr><td> <a 
+ id="x7-46007r5"></a>
+<!--l. 221--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                             <munderover accentunder="false" accent="false"><mrow  
+><mo  
+>&#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>j</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>k</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>n</mi></mrow></munderover 
+><mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>j</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>
+</math></td><td class="eq-no">(3.5)</td></tr></table>
+<!--l. 224--><p class="noindent" >can be represented as </p><table class="equation"><tr><td> <a 
+ id="x7-46008r6"></a>
+<!--l. 225--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+             <msub><mrow 
+><mi 
+>M</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>z</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>&#x03A9;</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo><mn>1</mn></mrow></msup 
+><msup><mrow 
+><mi 
+>e</mi></mrow><mrow 
+><mi 
+>&#x03B2;</mi><mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>z</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></msup 
+><msub><mrow 
+><mo  
+> &#x222B;
+ <!--nolimits--></mo><!--nolimits--></mrow><mrow 
+><mi 
+>I</mi><mspace width="-0.17em" class="negthinspace"/><msup><mrow 
+><mi 
+>R</mi></mrow><mrow 
+><mi 
+>N</mi></mrow></msup 
+></mrow></msub 
+><munderover accentunder="false" accent="false"><mrow  
+><mo  
+> &#x2211;</mo>
+  </mrow><mrow 
+><mi 
+>k</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>n</mi></mrow></munderover 
+><mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <mfrac><mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>j</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+    <mrow 
+><mi 
+>&#x2202;</mi><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mi 
+>k</mi></mrow></msub 
+></mrow></mfrac>     <msup><mrow 
+><mi 
+>e</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo><mi 
+>&#x03B2;</mi><mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>z</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></msup 
+>
+</math></td><td class="eq-no">(3.6)</td></tr></table>
+<table class="equation"><tr><td> <a 
+ id="x7-46009r7"></a>
+<!--l. 228--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                               <munderover accentunder="false" accent="false"><mrow  
+><mo  
+>&#x220F;</mo>
+  </mrow><mrow 
+><mi 
+>v</mi><mo 
+class="MathClass-rel">=</mo><mn>1</mn></mrow><mrow 
+><mi 
+>N</mi></mrow></munderover 
+><mi 
+>&#x03B4;</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><msub><mrow 
+><mi 
+>z</mi></mrow><mrow 
+>
+<mi 
+>v</mi></mrow></msub 
+> <mo 
+class="MathClass-bin">-</mo> <msub><mrow 
+><mi 
+>&#x03B8;</mi></mrow><mrow 
+><mi 
+>v</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03C7;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow><mi 
+>d</mi><mi 
+>&#x03C7;</mi>
+</math></td><td class="eq-no">(3.7)</td></tr></table>
+                                                                                      
+                                                                                      
+<!--l. 231--><p class="noindent" >The points determining the minimum free-energy path along the surface satisfy </p><table class="equation"><tr><td> <a 
+ id="x7-46010r8"></a>
+<!--l. 232--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                               <mn>0</mn> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><msub><mrow 
+><mi 
+>M</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>z</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mi 
+>&#x0394;</mi><mi 
+>F</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>z</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>&#x03B1;</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mo 
+class="MathClass-rel">&#x22A5;</mo></mrow></msup 
+>
+</math></td><td class="eq-no">(3.8)</td></tr></table>
+<!--l. 236--><p class="noindent" >We applied this method<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMaragliano:2007bz">232</a>,&#x00A0;<a 
+href="mainli4.html#XMaragliano:2014jj">233</a>]</span> to obtain a minimum free energy path, extracting 2085
+conformations along potential GDP release pathways. Notably, we only observed the transition from
+the bound state and the unbound state for one time in a single metadynamics simulation. This implies
+that the predicted free-energy surface from metadynamics cannot be used to describe the release
+events accurately. In spite of this, we can still use the conformations along the release pathway
+explored by metadynamics to seed unbiased parallel MD simulations.
+</p>
+<h5 class="subsubsectionHead"><a 
+ id="x7-470003.5.1"></a>Step three: Metadynamics-seeded MD simulation of GDP release</h5>
+<!--l. 239--><p class="noindent" >Lastly, we carried out unbiased MD simulations initiated from the 2085 conformations
+obtained from metadynamics using the Folding@home platform <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XShirts:2000du">37</a>]</span>. A total of 122.6
+<!--l. 239--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s of
+simulation was generated in this step. All the following analyses are based on unbiased MD
+simulations.
+                                                                                      
+                                                                                      
+</p><!--l. 241--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.5.2    </span> <a 
+ id="x7-480003.5.2"></a>Identifying the allosteric network with CARDS</h4>
+<!--l. 242--><p class="noindent" >To determine how the GPCR- and GDP-binding regions communicate with one another,
+we applied the CARDS<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSingh:2017hh">90</a>]</span> methodology to simulations of the GDP-bound state of
+G<!--l. 242--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q.
+CARDS measures communication between every pair of dihedrals via both correlated changes in
+structural motions and dynamical behavior. Structural states are captured by discretizing backbone
+<!--l. 242--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03D5;</mi></math> and
+<!--l. 242--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C8;</mi></math>
+dihedrals into two structural states (cis and trans), while side-chain
+<!--l. 242--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C7;</mi></math> angles
+are placed into three states (gauche+, gauche-, and trans). Every dihedral is also parsed into
+dynamical states, capturing whether the dihedral is stable in a single state (ordered), or rapidly
+transitioning between multiple states (disordered). These dynamical states are identified using two
+kinetic signatures of dihedral motion: the average time a dihedral persists in a structural
+state (an ordered timescale), and the typical timescale for transitions between structural
+states (a disordered timescale). Parsing into dynamical states utilizes a two-step process by
+(i) calculating the distribution or ordered and disordered times from the simulations and
+(ii) assigning each period of time between two consecutive transitions into ordered and
+disordered states based on which distribution the time between two transitions is most consistent
+with.
+</p><!--l. 244--><p class="noindent" >From these states, a holistic communication (<!--l. 244--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>H</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></math>)
+is computed for every pair of dihedrals <!--l. 244--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+and <!--l. 244--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>: </p><table class="equation"><tr><td>
+<a 
+ id="x7-48001r9"></a>
+                                                                                      
+                                                                                      
+<!--l. 245--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+              <msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>H</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover>
+</math></td><td class="eq-no">(3.9)</td></tr></table>
+<!--l. 249--><p class="noindent" >where <!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>is
+the normalized mutual information between the structure (i.e., rotameric state) of dihedral
+<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the structure
+of dihedral <!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>,
+<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>
+is the normalized mutual information between the structure of dihedral
+<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the dynamical
+state of dihedral <!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>,
+<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi></mrow></msub 
+><mi 
+>d</mi></mrow><mo 
+accent="true" stretchy="true">-</mo></mover><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+is the normalized mutual information between the dynamical state of dihedral
+<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the structure
+of dihedral <!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>,
+and <!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>
+is the normalized mutual information between the dynamical state of dihedral
+<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the dynamical
+state of dihedral <!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>. The
+Mutual Information (<!--l. 249--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>I</mi></math>)
+is </p><table class="equation"><tr><td> <a 
+ id="x7-48002r10"></a>
+                                                                                      
+                                                                                      
+<!--l. 250--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                        <mi 
+>I</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">-</mo><munder class="msub"><mrow 
+><mo  
+>&#x2211;</mo>
+   </mrow><mrow 
+><mi 
+>x</mi><mo 
+class="MathClass-rel">&#x2208;</mo><mi 
+>X</mi></mrow></munder 
+><munder class="msub"><mrow 
+><mo  
+> &#x2211;</mo>
+   </mrow><mrow 
+><mi 
+>y</mi><mo 
+class="MathClass-rel">&#x2208;</mo><mi 
+>Y</mi> </mrow></munder 
+>  <mfrac><mrow 
+><mi 
+>P</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>y</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+<mrow 
+><mi 
+>P</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mi 
+>P</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>y</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></mfrac>
+</math></td><td class="eq-no">(3.10)</td></tr></table>
+<!--l. 253--><p class="noindent" >where <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi> <mo 
+class="MathClass-rel">&#x2208;</mo> <mi 
+>X</mi></math> refers to the set of
+possible states that dihedral <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+can adopt, <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> is the
+probability that dihedral <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+adopts state <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>, and
+<!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>y</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> is the joint probability
+that dihedral <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+adopts state <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>
+and dihedral <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>
+adopts state <!--l. 253--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>y</mi></math>.
+Normalized mutual information is computed using the maximum possible mutual information for any
+specific mode of communication.
+</p><!--l. 255--><p class="noindent" >From the pairwise correlation for every dihedral-pair, we extracted how much each individual residue
+communicates with a target site of interest via bootstrapping with 10 random samples with
+replacement. After locating the group of residues communicating most strongly with a specific target
+site, we set this newly identified group as the new target site; The iteration of this process
+allows us to identify a pathway of communication from one region of interest to another.
+Here, we set the GPCR contact sites as our initial target sites. We then iteratively used this
+approach to identify pathways connecting these contact sites with the GDP-binding site of
+G<!--l. 255--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q.
+                                                                                      
+                                                                                      
+</p><!--l. 257--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.5.3    </span> <a 
+ id="x7-490003.5.3"></a>Markov state model construction</h4>
+<!--l. 258--><p class="noindent" >We clustered G<!--l. 258--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>q
+conformations and GDP binding states separately and combined the assignments to build a Markov
+State Model using MSMbuilder <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBeauchamp:2011he">230</a>,&#x00A0;<a 
+href="mainli4.html#XBowman:2009cb">234</a>]</span> and enspara<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xporter2018enspara">39</a>]</span>. First, we clustered protein
+conformations into 5040 states using a hybrid k-center/k-medoids method with 1.8 &#197; cutoff. Then we
+clustered the GDP-binding state into 321 states using the automatic partitioning algorithm
+(APM)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSheong:2015jd">235</a>]</span> with a residence time of 2 ns. By combining the assignments from protein
+conformations and the GDP-binding states, we obtained a total of 221,965 states. The
+implied timescales of this MSM show Markovian behavior with a lag time of 5 ns<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSwope:2004gx">236</a>]</span>.
+(Figure <a 
+href="mainap2.html#x14-139009r5">B.5<!--tex4ht:ref: fig:ch4-fig2-supp5 --></a>). Analyses of distances, angles, and dihedrals of interest were carried out using
+bootstrapping with ten random samples, with replacement. Results were insensitive to varying the
+number of bootstrapped samples between 5 and 30. Histograms were generated using 100
+bins.
+</p><!--l. 260--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.5.4    </span> <a 
+ id="x7-500003.5.4"></a>Quantifying conformational disorder</h4>
+<!--l. 261--><p class="noindent" >The disorder of every residue was measured by computing Shannon entropy<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XShannon:1948iy">237</a>]</span> of each dihedral as
+they are natural degrees of freedom for describing protein dynamics. Shannon entropy
+(<!--l. 261--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>H</mi></math>) is
+defined as </p><table class="equation"><tr><td> <a 
+ id="x7-50001r11"></a>
+                                                                                      
+                                                                                      
+<!--l. 262--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                            <mi 
+>H</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">-</mo><munder class="msub"><mrow 
+><mo  
+>&#x2211;</mo>
+   </mrow><mrow 
+><mi 
+>x</mi><mo 
+class="MathClass-rel">&#x2208;</mo><mi 
+>X</mi></mrow></munder 
+><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mi 
+>l</mi><mi 
+>o</mi><mi 
+>g</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math></td><td class="eq-no">(3.11)</td></tr></table>
+<!--l. 266--><p class="noindent" >where <!--l. 266--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi> <mo 
+class="MathClass-rel">&#x2208;</mo> <mi 
+>X</mi></math> refers to the set of
+possible states that dihedral <!--l. 266--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+can adopt and <!--l. 266--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> is the
+probability that dihedral <!--l. 266--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+adopts state <!--l. 266--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>.
+Dihedral angles were calculated using MDTraj (McGibbon et al., 2015) and assigned to discrete
+rotameric states as described above using CARDS. The entropy of a single residue was computed by
+summing up the entropies of its dihedrals, and normalized by the residue&#8217;s maximum possible
+Shannon entropy. This maximum possible Shannon entropy, using a flat distribution for the
+appropriate number of bins, is referred to as the &#8217;channel capacity&#8217; and has been used to normalize
+other information-theoretic metrics<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSingh:2017hh">90</a>]</span>. Summing entropies within a residue establishes an upper
+bound on the degree of motion for a single residue, while ignoring intra-residue correlations between
+dihedrals.
+</p><!--l. 268--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.5.5    </span> <a 
+ id="x7-510003.5.5"></a>Identification of the rate-limiting step for GDP release</h4>
+<!--l. 269--><p class="noindent" >We used transition path theory (TPT) <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XNoe:2009en">208</a>,&#x00A0;<a 
+href="mainli4.html#XWeinan:2006vr">209</a>]</span> to find the highest flux paths from
+                                                                                      
+                                                                                      
+the bound state to the unbound state<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMetzner:2009jl">238</a>]</span>. The bound state was defined as all
+clusters that satisfied two criteria: (i) GDP is within 6 &#197; of the backbone atoms of
+Lys52<!--l. 269--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>-Thr54<!--l. 269--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+></mrow><mrow 
+><mi 
+>G</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>H</mi><mn>1</mn><mo 
+class="MathClass-punc">.</mo><mn>1</mn></mrow></msup 
+></math>,
+and (ii) GDP has an RMSD <!--l. 269--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003C;</mo> <mn>0</mn><mo 
+class="MathClass-punc">.</mo><mn>5</mn><mi 
+>&#197;</mi></math>
+to its crystallographic conformation. The unbound state was defined as all clusters with GDP
+<!--l. 269--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003E;</mo> <mn>5</mn><mn>5</mn><mi 
+>&#197;</mi></math>
+from the binding pocket. The rate-limiting step was identified by finding the bottleneck
+in the highest flux paths. To obtain this, we first calculate the flux between states
+<!--l. 269--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>i</mi></math> and
+<!--l. 269--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>j</mi></math> along
+any possible unbinding path using </p><table class="equation-star"><tr><td>
+<!--l. 270--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+<mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo>  <mfenced separators="" 
+open="{"  close="" ><mrow> <mtable  align="axis" style=""  
+equalrows="false" columnlines="none" equalcolumns="false" class="array"> <mtr><mtd 
+class="array"  columnalign="left"><msub><mrow 
+><mi 
+>&#x03C0;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+><msubsup><mrow 
+><mi 
+>q</mi></mrow><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo></mrow></msubsup 
+><msub><mrow 
+><mi 
+>T</mi></mrow><mrow 
+>
+<mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+><msubsup><mrow 
+><mi 
+>q</mi></mrow><mrow 
+><mi 
+>j</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">+</mo></mrow></msubsup 
+><mo 
+class="MathClass-punc">,</mo><mspace width="1em" class="quad"/></mtd><mtd 
+class="array"  columnalign="left"><mstyle 
+class="text"><mtext  >if&#x00A0;</mtext></mstyle><mi 
+>i</mi><mo 
+class="MathClass-rel">&#x2260;</mo><mi 
+>j</mi>  </mtd>
+</mtr>  <mtr><mtd 
+class="array"  columnalign="left"><mn>0</mn><mo 
+class="MathClass-punc">,</mo>            <mspace width="1em" class="quad"/></mtd><mtd 
+class="array"  columnalign="left"><mstyle 
+class="text"><mtext  >if&#x00A0;</mtext></mstyle><mi 
+>i</mi> <mo 
+class="MathClass-rel">=</mo> <mi 
+>j</mi></mtd></mtr>
+<!--@{}l@{\quad }l@{}--></mtable>                                                                                                  </mrow></mfenced>
+</math></td></tr></table>
+<!--l. 277--><p class="noindent" >where <!--l. 277--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+><mi 
+>q</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">+</mo></mrow></msup 
+></math>
+is the committor probability from the bound to the unbound state, and
+<!--l. 277--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msubsup><mrow 
+><mi 
+>q</mi></mrow><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo></mrow></msubsup 
+></math> is
+<!--l. 277--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn> <mo 
+class="MathClass-bin">-</mo> <msubsup><mrow 
+><mi 
+>q</mi></mrow><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">+</mo></mrow></msubsup 
+></math>;
+<!--l. 277--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C0;</mi></mrow><mrow 
+><mi 
+>i</mi></mrow></msub 
+></math> is the weighted
+probability, and <!--l. 277--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>T</mi></mrow><mrow 
+><mi 
+>i</mi><mi 
+>j</mi></mrow></msub 
+></math>
+is the transition matrix. The highest flux paths can be identified by maximizing the fluxes between the
+bound states and the unbound states using </p><table class="equation"><tr><td> <a 
+ id="x7-51001r12"></a>
+                                                                                      
+                                                                                      
+<!--l. 278--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                          <mi 
+>c</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>w</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mi class="qopname"> min</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><munderover accentunder="false" accent="false"><mrow  
+><mi 
+>f</mi></mrow><mrow 
+><msub><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mi 
+>l</mi></mrow></msub 
+><msub><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mi 
+>l</mi><mo 
+class="MathClass-bin">+</mo><mn>1</mn></mrow></msub 
+></mrow><mrow 
+><mo 
+class="MathClass-bin">+</mo></mrow></munderover 
+><mo 
+class="MathClass-rel">|</mo><mi 
+>l</mi> <mo 
+class="MathClass-rel">=</mo> <mn>1</mn><mi class="qopname">&#x2026;</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo><msub><mrow 
+><mi 
+>n</mi></mrow><mrow 
+>
+<mi 
+>w</mi></mrow></msub 
+> <mo 
+class="MathClass-bin">-</mo> <mn>1</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math></td><td class="eq-no">(3.12)</td></tr></table>
+<!--l. 282--><p class="noindent" >where <!--l. 282--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>i</mi></mrow><mrow 
+><mi 
+>l</mi></mrow></msub 
+></math>
+are intermediate states. From this, the slowest step was extracted as the minimum flux step of the
+highest flux release pathway.
+</p><!--l. 284--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">3.6    </span> <a 
+ id="x7-520003.6"></a>Acknowledgements</h3>
+<!--l. 285--><p class="noindent" >We thank TE Frederick and TD Todd for their helpful discussion and insight. We are grateful to the
+Folding@home users for computing resources.
+                                                                                      
+                                                                                      
+</p>
+<!--l. 3--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch4.html" >next</a>] [<a 
+href="mainch2.html" >prev</a>] [<a 
+href="mainch2.html#tailmainch2.html" >prev-tail</a>] [<a 
+href="mainch3.html" >front</a>] [<a 
+href="main.html#mainch3.html" >up</a>] </p></div>
+<!--l. 3--><p class="noindent" ><a 
+ id="tailmainch3.html"></a></p> 
+</body></html> 

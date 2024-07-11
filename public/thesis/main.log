@@ -1,0 +1,3429 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=latex 2020.4.7)  20 NOV 2020 18:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
+documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
+ tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode myconfig.cfg.a.b.c.\input  
+main.tex
+ (./main.tex
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2020-02-18-14:17
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen137
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks21
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks22
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2020-03-12 L3 backend support: dvips
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count188
+\l__pdf_backend_content_box=\box48
+\l__pdf_backend_model_box=\box49
+\g__pdf_backend_annotation_int=\count189
+\g__pdf_backend_link_int=\count190
+\g__pdf_backend_link_sf_int=\count191
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count192
+\g__xparse_grabber_int=\count193
+\l__xparse_m_args_int=\count194
+\l__xparse_v_nesting_int=\count195
+)
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen146
+\ar@mcellbox=\box50
+\extrarowheight=\dimen147
+\NC@list=\toks25
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box51
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen148
+\l__siunitx_tmp_int=\count196
+\l__siunitx_number_mantissa_length_int=\count197
+\l__siunitx_number_uncert_length_int=\count198
+\l__siunitx_round_int=\count199
+\l__siunitx_process_decimal_int=\count266
+\l__siunitx_process_uncertainty_int=\count267
+\l__siunitx_process_fixed_int=\count268
+\l__siunitx_process_integer_min_int=\count269
+\l__siunitx_process_precision_int=\count270
+\l__siunitx_group_min_int=\count271
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen149
+\l__siunitx_angle_unit_dim=\dimen150
+\l__siunitx_unit_int=\count272
+\l__siunitx_unit_denominator_int=\count273
+\l__siunitx_unit_numerator_int=\count274
+\l__siunitx_unit_prefix_int=\count275
+\l__siunitx_unit_prefix_base_int=\count276
+\l__siunitx_unit_prefix_gram_int=\count277
+\l__siunitx_number_product_int=\count278
+\c__siunitx_one_fill_skip=\skip55
+\l__siunitx_table_unit_align_skip=\skip56
+\l__siunitx_table_exponent_dim=\dimen151
+\l__siunitx_table_integer_dim=\dimen152
+\l__siunitx_table_mantissa_dim=\dimen153
+\l__siunitx_table_marker_dim=\dimen154
+\l__siunitx_table_result_dim=\dimen155
+\l__siunitx_table_uncert_dim=\dimen156
+\l__siunitx_table_fill_pre_dim=\dimen157
+\l__siunitx_table_fill_post_dim=\dimen158
+\l__siunitx_table_fill_mid_dim=\dimen159
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
+\l__siunitx_table_number_align_skip=\skip57
+\l__siunitx_table_text_align_skip=\skip58
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/fontsmpl.sty
+Package: fontsmpl 1994/10/29 Font sample package
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+78.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Font Warning: Font shape `OT1/pcr/m/up' undefined
+(Font)              using `OT1/pcr/m/n' instead on input line 178.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count279
+\float@exts=\toks26
+\float@box=\box59
+\@float@everytoks=\toks27
+\@floatcapt=\box60
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/01/22  v 6.0
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count280
+\@vwid@loff=\dimen160
+\@vwid@roff=\dimen161
+)
+\c@taburow=\count281
+\tabu@nbcols=\count282
+\tabu@cnt=\count283
+\tabu@Xcol=\count284
+\tabu@alloc=\count285
+\tabu@nested=\count286
+\tabu@target=\dimen162
+\tabu@spreadtarget=\dimen163
+\tabu@naturalX=\dimen164
+\tabucolX=\dimen165
+\tabu@Xsum=\dimen166
+\extrarowdepth=\dimen167
+\abovetabulinesep=\dimen168
+\belowtabulinesep=\dimen169
+\tabustrutrule=\dimen170
+\tabu@thebody=\toks28
+\tabu@footnotes=\toks29
+\tabu@box=\box62
+\tabu@arstrutbox=\box63
+\tabu@hleads=\box64
+\tabu@vleads=\box65
+\tabu@cellskip=\skip59
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count287
+\multirow@dima=\skip61
+\bigstrutjot=\dimen171
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen184
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count292
+\cp@tempcnt=\count293
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks30
+\SOUL@lasttoken=\toks31
+\SOUL@cmds=\toks32
+\SOUL@buffer=\toks33
+\SOUL@token=\toks34
+\SOUL@spaceskip=\skip62
+\SOUL@ttwidth=\dimen185
+\SOUL@uldp=\dimen186
+\SOUL@ulht=\dimen187
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count294
+\output=\toks35
+\linenoprevgraf=\count295
+\linenumbersep=\dimen188
+\linenumberwidth=\dimen189
+\c@linenumber=\count296
+\c@pagewiselinenumber=\count297
+\c@LN@truepage=\count298
+\c@internallinenumber=\count299
+\c@internallinenumbers=\count300
+\quotelinenumbersep=\dimen190
+\bframerule=\dimen191
+\bframesep=\dimen192
+\bframebox=\box66
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count304
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen194
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+\Field@toks=\toks36
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count306
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver: htex4ht.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/htex4ht.def
+File: htex4ht.def 2020/01/14 v7.00d Hyperref driver for TeX4ht
+Package hyperref Info: tex4ht is already loaded.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks37
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count307
+\c@Blindtext=\count308
+\c@blind@countparstart=\count309
+\blind@countxx=\count310
+\blindtext@numBlindtext=\count311
+\blind@countyy=\count312
+\c@blindlist=\count313
+\c@blindlistlevel=\count314
+\c@blindlist@level=\count315
+\blind@listitem=\count316
+\c@blind@listcount=\count317
+\c@blind@levelcount=\count318
+\blind@mathformula=\count319
+\blind@Mathformula=\count320
+\c@blind@randomcount=\count321
+\c@blind@randommax=\count322
+\c@blind@pangramcount=\count323
+\c@blind@pangrammax=\count324
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen197
+\captionmargin@=\dimen198
+\captionwidth=\dimen199
+\caption@tempdima=\dimen256
+\caption@indent=\dimen257
+\caption@parindent=\dimen258
+\caption@hangindent=\dimen259
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count325
+\c@continuedfloat=\count326
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@KVtest=\count327
+\sf@farskip=\skip63
+\sf@captopadj=\dimen260
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
+\c@subfigure=\count328
+\c@subfigure@save=\count329
+\c@lofdepth=\count330
+\c@subtable=\count331
+\c@subtable@save=\count332
+\c@lotdepth=\count333
+\sf@top=\skip66
+\sf@bottom=\skip67
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count334
+\calc@Bcount=\count335
+\calc@Adimen=\dimen261
+\calc@Bdimen=\dimen262
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count336
+\calc@Cskip=\skip70
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+
+tex4ht warning: package eso-pic was prevented from loading
+)
+\AM@pagewidth=\dimen263
+\AM@pageheight=\dimen264
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/ppnull.def
+File: ppnull.def 2020/01/28 v0.5q Pdfpages dummy driver (AM)
+
+
+Package pdfpages Warning: I will use a dummy \includepdf command
+(pdfpages)                which will insert empty pages instead of the actual
+(pdfpages)                PDF file because we are running in DVI mode or with
+(pdfpages)                dvips driver.
+
+))
+\AM@pagebox=\box67
+\AM@global@opts=\toks38
+\AM@pagecnt=\count337
+\AM@toc@title=\toks39
+\c@AM@survey=\count338
+\AM@templatesizebox=\box68
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count339
+\ST@wd=\dimen265
+\ST@rightskip=\skip71
+\ST@leftskip=\skip72
+\ST@parfillskip=\skip73
+\ST@pageleft=\dimen266
+\ST@headht=\dimen267
+\ST@tailht=\dimen268
+\ST@pagesofar=\dimen269
+\ST@pboxht=\dimen270
+\ST@lineht=\dimen271
+\ST@prevht=\dimen272
+\ST@toadd=\dimen273
+\ST@dimen=\dimen274
+\ST@pbox=\box69
+)
+\offsetpage=\skip74
+ (./myconfig.cfg (./mem4hack.sty
+
+! LaTeX Error: Command \@memb@bchap undefined in `myconfig.cfg'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \renewcommand\@memb@bchap
+                             {\chapter*{\bibname}\bibmark\prebibhook}
+? 
+) (./tools.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+version 2020-03-12-14:03
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+--------------------------------------
+--- Note --- For MathML on MSIE + MathPlayer use the command line option `mathp
+layer'
+--------------------------------------
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2020-02-18-14:17
+
+--- needs --- tex4ht main ---
+\tmp:cnt=\count340
+\openout15 = `main.tmp'.
+
+(./main.tmp)
+\tmp:dim=\skip75
+ (./main.xref)
+\:refout=\write3
+\openout3 = `main.xref'.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+--------------------------------------
+--- Note --- For section filenames that reflect on their titles use the command
+ line option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: html,xhtml,2,mathml
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht)
+\:tokwrite=\toks40
+\:tokpage=\toks41
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `main.4ct'.
+
+\:tocout=\write4
+\openout4 = `main.4tc'.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2020-02-26-14:25
+LaTeX Info: Redefining \_ on input line 168.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2018-11-06-15:55
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+\tmp:bx=\box70
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+391.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) [1
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 139
+7.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 139
+7.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2] [3]
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+--------------------------------------
+--- Note --- for sources failing to produce clean mathml code, try the command 
+line option `mathml-'
+--------------------------------------
+ [49]
+[50] [51] [52] [53])
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/book.4ht
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
+--------------------------------------
+--------------------------------------
+--- Note --- for frames-like object-based table of contents, use the command li
+ne option `obj-toc'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/inputenc.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+version 2018-10-01-14:24
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/graphics.4ht
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line
+ options `graphics-num' or `graphics-'. The `num' should provide the density of
+ pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for key dimensions try the option `Gin-dim'; for key dimensions wh
+en bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/amsfonts.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/amssymb.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+ [54] [55]
+[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
+[71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
+[101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112]
+[113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
+[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136]
+[137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148]
+[149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172]
+[173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184]
+[185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196]
+[197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220]
+[221] [222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232]
+[233] [234] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244]
+[245] [246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256]
+[257]) (/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/amsmath.4ht
+version 2019-12-29-14:17
+\tmp:muskip=\muskip18
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/amstext.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/amsopn.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/bm.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/array.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/float.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/xcolor.4ht
+version 2019-04-09-10:06
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/color.4ht
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/color.4ht)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/tabu.4ht
+version 2018-12-30-09:31
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/multirow.4ht
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/booktabs.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/soul.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/lineno.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+
+l.37258 --- TeX4ht warning --- The line numbers are commented out. To reintrodu
+ce them, use the \Configure{lineno}{...}{...} command ---
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/hyperref.4ht
+version 2019-09-14-15:17
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count341
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/nameref.4ht
+version 2019-12-23-13:36
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+LaTeX Info: Redefining \autoref on input line 95.
+\Hy@SectionHShift=\skip76
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/url.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+--------------------------------------
+--- Note --- for URL encoding within href use the command line option `url-enc'
+
+--------------------------------------
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/enumerate.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/caption.4ht
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/ifthen.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/supertabular.4ht
+version 2009-05-21-09:32
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-03-16-10:43
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2019-12-28-14:40
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2020-02-28-14:58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2020-03-06-15:07
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/html4-uni.4ht))
+(./main.aux
+
+LaTeX Warning: Label `implied-timescales-eq' multiply defined.
+
+
+LaTeX Warning: Label `holistic-mut-inf-eq' multiply defined.
+
+
+LaTeX Warning: Label `mut-inf-eq' multiply defined.
+
+
+LaTeX Warning: Label `mut-inf-eq' multiply defined.
+
+
+LaTeX Warning: Label `holistic-mut-inf-eq' multiply defined.
+
+
+LaTeX Warning: Label `ch:cards-supp-info' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+LaTeX Info: Redefining \celsius on input line 39.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 39.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 39.
+Package gensymb Info: Using \Omega for \ohm on input line 39.
+
+Package gensymb Warning: Not defining \micro.
+
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring ON on input line 39.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2020-03-12-14:03
+))
+Package pdflscape Info: Auto-detected driver: dvips (dvips) on input line 124.
+)
+--- file main.css ---
+)
+[1] [2
+
+] [3] [1] [2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+48.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [3
+
+] [4]
+[5
+
+] [6
+
+] [2] (./main.4ct [3
+
+] [4]
+Runaway argument?
+{\csname a:TocLink\endcsname {13}{x13-137010}{}{\numberline {A.5}{\ignorespaces
+ \ETC.
+! Paragraph ended before \doTocEntry was complete.
+<to be read again> 
+                   \par 
+l.281 \par
+          
+? 
+)
+--- file mainli1.html ---
+ (./main.4ct
+
+! Package inputenc Error: Unicode character β (U+03B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...de-binding site via the β-sheets.}}}{105}
+                                                  \relax
+? 
+Runaway argument?
+{\csname a:TocLink\endcsname {13}{x13-137010}{}{\numberline {A.5}{\ignorespaces
+ \ETC.
+! Paragraph ended before \doTocEntry was complete.
+<to be read again> 
+                   \par 
+l.281 \par
+          
+? R
+OK, entering \nonstopmode...
+[5] [6]) [7] [8
+
+]
+--- file mainli2.html ---
+ (./main.4ct
+Runaway argument?
+{\csname a:TocLink\endcsname {13}{x13-137010}{}{\numberline {A.5}{\ignorespaces
+ \ETC.
+! Paragraph ended before \doTocEntry was complete.
+<to be read again> 
+                   \par 
+l.281 \par
+          
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+) (./acknowledgments.tex [9
+
+] [10
+
+]
+--- file mainli3.html ---
+ [11
+
+] [12] [13]) [14] [15
+
+]
+! Undefined control sequence.
+\dedicationpage ...ll the immigrants out there.\n 
+                                                  } \normalsize {You're gett...
+l.179     \begin{dedicationpage}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16] [17] (./abstract.tex [18
+
+] [19] [20]) [15] [16
+
+] [17] [18
+
+]
+(./Chapter1/ch1.tex [1] [2
+
+]
+Chapter 1.
+--- file mainch1.html ---
+(./main.4ct) [3
+
+] [4] [5] [6] [7] [8] [9
+
+]
+l.39 --- TeX4ht warning --- File `"Chapter1/ch1-fig1.xbb"' not found ---
+l.39 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter1/ch1-f
+ig1.xbb" (no BoundingBox) ---
+l. 39 --- needs --- Chapter1/ch1-fig1.png ---
+[10
+
+] [11
+
+] [12
+
+]
+l.51 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter1/ch1-f
+ig2.jpeg" (no BoundingBox) ---
+l. 51 --- needs --- Chapter1/ch1-fig2.jpeg ---
+[13
+
+] [14
+
+] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27])
+(./Chapter3/ch3.tex [28] [29
+
+] [30
+
+]
+Chapter 2.
+--- file mainch2.html ---
+(./main.4ct) [31] [32] [33] [34] [35
+
+]
+l. 27 --- needs --- Chapter3/cap-intro-fig.png ---
+ [36
+
+] [37
+
+] [38] [39
+
+]
+l. 43 --- needs --- Chapter3/cards-workflow-fig.png ---
+ [40
+
+] [41
+
+]
+LaTeX Info: Symbol \textlangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 57.
+LaTeX Info: Symbol \textrangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 57.
+LaTeX Info: Symbol \textlangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 57.
+LaTeX Info: Symbol \textrangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 57.
+LaTeX Info: Symbol \textlangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 57.
+LaTeX Info: Symbol \textrangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 57.
+ [42]
+[43] [44] [45] [46] [47] [48]
+LaTeX Info: Symbol \textlangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 89.
+LaTeX Info: Symbol \textrangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 89.
+LaTeX Info: Symbol \textlangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 89.
+LaTeX Info: Symbol \textrangle not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 89.
+
+
+LaTeX Warning: Citation `Cruz2020vp35m' on page 49 undefined on input line 91.
+
+[49] [50] [51
+
+]
+l. 95 --- needs --- Chapter3/cap-disordered-residues-fig.png ---
+ [52
+
+] [53
+
+] [54] [55
+
+]
+l. 110 --- needs --- Chapter3/cap-targetsite-fig.png ---
+ [56
+
+] [57
+
+] [58] [59
+
+]
+l. 127 --- needs --- Chapter3/cap-s62f-deltaMI-fig.png ---
+ [60
+
+] [61
+
+] [62] [63]
+[64
+
+]
+l. 144 --- needs --- Chapter3/cap-bb-sc-matrix-fig.png ---
+ [65
+
+] [66
+
+] [67
+
+]
+l. 159 --- needs --- Chapter3/cap-global-mi-fig.png ---
+ [68
+
+] [69
+
+]) (./Chapter4/ch4.tex [70] [71
+
+] [72
+
+]
+Chapter 3.
+--- file mainch3.html ---
+(./main.4ct) [73] [74] [75] [76] [77
+
+]
+l.22 --- TeX4ht warning --- File `"Chapter4/ch4-fig1.xbb"' not found ---
+l.22 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-f
+ig1.xbb" (no BoundingBox) ---
+l. 22 --- needs --- Chapter4/ch4-fig1.png ---
+[78
+
+] [79
+
+] [80] [81] [82] [83] [84
+
+]
+l.47 --- TeX4ht warning --- File `"Chapter4/ch4-fig2.xbb"' not found ---
+l.47 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-f
+ig2.xbb" (no BoundingBox) ---
+l. 47 --- needs --- Chapter4/ch4-fig2.png ---
+[85
+
+] [86
+
+] [87] [88] [89
+
+]
+l.64 --- TeX4ht warning --- File `"Chapter4/ch4-fig3.xbb"' not found ---
+l.64 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-f
+ig3.xbb" (no BoundingBox) ---
+l. 64 --- needs --- Chapter4/ch4-fig3.png ---
+[90
+
+] [91
+
+] [92] [93] [94
+
+]
+l.79 --- TeX4ht warning --- File `"Chapter4/ch4-fig4.xbb"' not found ---
+l.79 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-f
+ig4.xbb" (no BoundingBox) ---
+l. 79 --- needs --- Chapter4/ch4-fig4.png ---
+[95
+
+] [96
+
+] [97
+
+]
+l.87 --- TeX4ht warning --- File `"Chapter4/ch4-fig5.xbb"' not found ---
+l.87 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-f
+ig5.xbb" (no BoundingBox) ---
+l. 87 --- needs --- Chapter4/ch4-fig5.png ---
+[98
+
+] [99
+
+] [100] [101
+
+]
+l.99 --- TeX4ht warning --- File `"Chapter4/ch4-fig6.xbb"' not found ---
+l.99 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-f
+ig6.xbb" (no BoundingBox) ---
+l. 99 --- needs --- Chapter4/ch4-fig6.png ---
+[102
+
+] [103
+
+] [104
+
+]
+l.110 --- TeX4ht warning --- File `"Chapter4/ch4-fig7.xbb"' not found ---
+l.110 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-
+fig7.xbb" (no BoundingBox) ---
+l. 110 --- needs --- Chapter4/ch4-fig7.png ---
+[105
+
+] [106
+
+] [107
+
+]
+l.120 --- TeX4ht warning --- File `"Chapter4/ch4-fig8.xbb"' not found ---
+l.120 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-
+fig8.xbb" (no BoundingBox) ---
+l. 120 --- needs --- Chapter4/ch4-fig8.png ---
+[108
+
+] [109
+
+] [110
+
+]
+l.128 --- TeX4ht warning --- File `"Chapter4/ch4-fig9.xbb"' not found ---
+l.128 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-
+fig9.xbb" (no BoundingBox) ---
+l. 128 --- needs --- Chapter4/ch4-fig9.png ---
+[111
+
+] [112
+
+] [113
+
+] [114
+
+]
+l.143 --- TeX4ht warning --- File `"Chapter4/ch4-fig10.xbb"' not found ---
+l.143 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter4/ch4-
+fig10.xbb" (no BoundingBox) ---
+l. 143 --- needs --- Chapter4/ch4-fig10.png ---
+[115
+
+] [116
+
+] [117] [118] [119] [120] [121] [122] [123
+
+] [124
+
+]
+! Extra }, or forgotten $.
+l.218 ...chi_{k}}\frac{dF(z(\alpha))}{dZ(\alpha)}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[125
+
+] [126] [127] [128] [129] [130] [131]
+
+LaTeX Warning: Command \r invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 269.
+
+[132] [133]) (./Chapter5/ch5.tex [134] [135
+
+] [136
+
+]
+Chapter 4.
+--- file mainch4.html ---
+(./main.4ct) [137] [138] [139] [140] [141] [142
+
+]
+l.28 --- TeX4ht warning --- File `"Chapter5/ch5-fig1.xbb"' not found ---
+l.28 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter5/ch5-f
+ig1.xbb" (no BoundingBox) ---
+l. 28 --- needs --- Chapter5/ch5-fig1.png ---
+[143
+
+] [144
+
+] [145] [146] [147
+
+]
+l. 47 --- needs --- Chapter5/ch5-fig2.png ---
+ [148
+
+] [149
+
+] [150] [151
+
+]
+l. 62 --- needs --- Chapter5/ch5-fig3.png ---
+ [152
+
+] [153
+
+] [154]
+[155] [156
+
+]
+l. 82 --- needs --- Chapter5/ch5-fig4.png ---
+ [157
+
+] [158
+
+] [159] [160] [161
+
+]
+l. 99 --- needs --- Chapter5/ch5-fig5.png ---
+ [162
+
+] [163
+
+] [164] [165] [166]
+[167] [168]) (./Chapter6/ch6.tex [169] [170
+
+]
+Chapter 5.
+--- file mainch5.html ---
+(./main.4ct) [171
+
+] [172] [173] [174] [175
+
+]
+l.32 --- TeX4ht warning --- File `"Chapter6/ch6-fig1.xbb"' not found ---
+l.32 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-f
+ig1.xbb" (no BoundingBox) ---
+l. 32 --- needs --- Chapter6/ch6-fig1.png ---
+[176
+
+] [177
+
+] [178] [179] [180] [181
+
+]
+l.57 --- TeX4ht warning --- File `"Chapter6/ch6-fig2.xbb"' not found ---
+l.57 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-f
+ig2.xbb" (no BoundingBox) ---
+l. 57 --- needs --- Chapter6/ch6-fig2.png ---
+[182
+
+] [183
+
+] [184] [185] [186
+
+]
+l.75 --- TeX4ht warning --- File `"Chapter6/ch6-fig3.xbb"' not found ---
+l.75 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-f
+ig3.xbb" (no BoundingBox) ---
+l. 75 --- needs --- Chapter6/ch6-fig3.png ---
+[187
+
+] [188
+
+] [189] [190] [191
+
+]
+l.90 --- TeX4ht warning --- File `"Chapter6/ch6-fig4.xbb"' not found ---
+l.90 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-f
+ig4.xbb" (no BoundingBox) ---
+l. 90 --- needs --- Chapter6/ch6-fig4.png ---
+[192
+
+] [193
+
+] [194] [195
+
+]
+l.107 --- TeX4ht warning --- File `"Chapter6/ch6-fig5.xbb"' not found ---
+l.107 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-
+fig5.xbb" (no BoundingBox) ---
+l. 107 --- needs --- Chapter6/ch6-fig5.png ---
+[196
+
+]
+! Argument of \@firstofone has an extra }.
+<inserted text> 
+                \par 
+l.120 ...osey2018-dv,Sanders2020-tl,Riback2020-tw}
+                                                  . Furthermore, not only mu...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@firstofone was complete.
+<to be read again> 
+                   \par 
+l.120 ...osey2018-dv,Sanders2020-tl,Riback2020-tw}
+                                                  . Furthermore, not only mu...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.120 ...osey2018-dv,Sanders2020-tl,Riback2020-tw}
+                                                  . Furthermore, not only mu...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `\par ' on page 197 undefined on input line 120.
+
+[197
+
+] [198] [199] [200] [201
+
+]
+l.136 --- TeX4ht warning --- File `"Chapter6/ch6-fig6.xbb"' not found ---
+l.136 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-
+fig6.xbb" (no BoundingBox) ---
+l. 136 --- needs --- Chapter6/ch6-fig6.png ---
+[202
+
+] [203
+
+] [204] [205] [206] [207] [208] [209] [210] [211] [212
+
+]
+l.196 --- TeX4ht warning --- File `"Chapter6/ch6-fig7.xbb"' not found ---
+l.196 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter6/ch6-
+fig7.xbb" (no BoundingBox) ---
+l. 196 --- needs --- Chapter6/ch6-fig7.png ---
+[213
+
+] [214
+
+] [215] [216]) [217] (./Chapter7/ch7.tex [218] [219
+
+] [220
+
+]
+Chapter 6.
+--- file mainch6.html ---
+(./main.4ct) [221] [222] [223] [224] [225] [226
+
+]
+l.37 --- TeX4ht warning --- File `"Chapter7/ch7-fig1.xbb"' not found ---
+l.37 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter7/ch7-f
+ig1.xbb" (no BoundingBox) ---
+l. 37 --- needs --- Chapter7/ch7-fig1.png ---
+[227
+
+] [228
+
+] [229] [230] [231
+
+]
+l.59 --- TeX4ht warning --- File `"Chapter7/ch7-fig2.xbb"' not found ---
+l.59 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter7/ch7-f
+ig2.xbb" (no BoundingBox) ---
+l. 59 --- needs --- Chapter7/ch7-fig2.png ---
+[232
+
+] [233
+
+] [234
+
+]
+l.71 --- TeX4ht warning --- File `"Chapter7/ch7-fig3.xbb"' not found ---
+l.71 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter7/ch7-f
+ig3.xbb" (no BoundingBox) ---
+l. 71 --- needs --- Chapter7/ch7-fig3.png ---
+[235
+
+] [236
+
+] [237] [238
+
+]
+l.89 --- TeX4ht warning --- File `"Chapter7/ch7-fig4.xbb"' not found ---
+l.89 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter7/ch7-f
+ig4.xbb" (no BoundingBox) ---
+l. 89 --- needs --- Chapter7/ch7-fig4.png ---
+[239
+
+] [240
+
+] [241] [242
+
+] [243
+
+] [244
+
+] [245] [246] [247] [248] [249] [250])
+(./Chapter2/ch2.tex [251] [252
+
+]
+Chapter 7.
+--- file mainch7.html ---
+(./main.4ct) [253
+
+]
+
+! Package inputenc Error: Unicode character Ω (U+03A9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...dynamics simulations further correlated Ω
+                                                  -loop opening with catalyt...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character Ω (U+03A9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ... to restricting the conformation of the Ω
+                                                  -loop. These results revea...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[254] [255] [256] [257] [258
+
+]
+l.32 --- TeX4ht warning --- File `"Chapter2/ch2-fig1.xbb"' not found ---
+l.32 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-f
+ig1.xbb" (no BoundingBox) ---
+l. 32 --- needs --- Chapter2/ch2-fig1.jpg ---
+[259
+
+] [260
+
+] [261
+
+]
+l.42 --- TeX4ht warning --- File `"Chapter2/ch2-fig2.xbb"' not found ---
+l.42 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-f
+ig2.xbb" (no BoundingBox) ---
+l. 42 --- needs --- Chapter2/ch2-fig2.jpg ---
+[262
+
+] [263
+
+] [264] [265] [266] [267
+
+]
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 7
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 73.
+ [268
+
+] [269
+
+]
+[270
+
+] [271
+
+] [272
+
+] [273] [274] [275
+
+]
+l.118 --- TeX4ht warning --- File `"Chapter2/ch2-fig3.xbb"' not found ---
+l.118 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig3.xbb" (no BoundingBox) ---
+l. 118 --- needs --- Chapter2/ch2-fig3.jpg ---
+[276
+
+] [277
+
+] [278] [279
+
+]
+l.130 --- TeX4ht warning --- File `"Chapter2/ch2-fig4.xbb"' not found ---
+l.130 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig4.xbb" (no BoundingBox) ---
+l. 130 --- needs --- Chapter2/ch2-fig4.jpg ---
+[280
+
+] [281
+
+] [282] [283
+
+]
+l.142 --- TeX4ht warning --- File `"Chapter2/ch2-fig5.xbb"' not found ---
+l.142 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig5.xbb" (no BoundingBox) ---
+l. 142 --- needs --- Chapter2/ch2-fig5.jpg ---
+[284
+
+] [285
+
+] [286] [287
+
+]
+l.152 --- TeX4ht warning --- File `"Chapter2/ch2-fig6.xbb"' not found ---
+l.152 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig6.xbb" (no BoundingBox) ---
+l. 152 --- needs --- Chapter2/ch2-fig6.jpg ---
+[288
+
+] [289
+
+] [290
+
+]
+l.162 --- TeX4ht warning --- File `"Chapter2/ch2-fig7.xbb"' not found ---
+l.162 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig7.xbb" (no BoundingBox) ---
+l. 162 --- needs --- Chapter2/ch2-fig7.jpg ---
+[291
+
+] [292
+
+] [293] [294
+
+]
+l.174 --- TeX4ht warning --- File `"Chapter2/ch2-fig8.xbb"' not found ---
+l.174 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig8.xbb" (no BoundingBox) ---
+l. 174 --- needs --- Chapter2/ch2-fig8.jpg ---
+[295
+
+] [296
+
+] [297] [298] [299
+
+]
+l.192 --- TeX4ht warning --- File `"Chapter2/ch2-fig9.xbb"' not found ---
+l.192 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig9.xbb" (no BoundingBox) ---
+l. 192 --- needs --- Chapter2/ch2-fig9.png ---
+[300
+
+] [301
+
+] [302
+
+]
+l.202 --- TeX4ht warning --- File `"Chapter2/ch2-fig10.xbb"' not found ---
+l.202 --- TeX4ht warning --- Cannot determine size of graphic in "Chapter2/ch2-
+fig10.xbb" (no BoundingBox) ---
+l. 202 --- needs --- Chapter2/ch2-fig10.png ---
+[303
+
+] [304
+
+] [305] [306] [307] [308] [309] [310] [311] [312] [313] [314]
+[315] [316] [317] [318] [319] [320] [321] [322] [323
+
+] [324
+
+])
+(./Chapter8/ch8.tex [325
+
+] [326
+
+]
+Chapter 8.
+--- file mainch8.html ---
+(./main.4ct) [327
+
+] [328] [329] [330] [331] [332] [333]) [334]
+(./AppendixA/AppendixA.tex [335
+
+] [336
+
+]
+Appendix A.
+--- file mainap1.html ---
+[337] [338] [339] [340
+
+]
+l.30 --- TeX4ht warning --- File `"AppendixA/suppfig1-pearsonr.xbb"' not found 
+---
+l.30 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig1-pearsonr.xbb" (no BoundingBox) ---
+l. 30 --- needs --- AppendixA/suppfig1-pearsonr.png ---
+[341
+
+] [342
+
+] [343
+
+]
+l.37 --- TeX4ht warning --- File `"AppendixA/suppfig2-timescale-dists.xbb"' not
+ found ---
+l.37 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig2-timescale-dists.xbb" (no BoundingBox) ---
+l. 37 --- needs --- AppendixA/suppfig2-timescale-dists.png ---
+[344
+
+] [345
+
+] [346
+
+]
+l.44 --- TeX4ht warning --- File `"AppendixA/suppfig3-avgtimes-2dhist.xbb"' not
+ found ---
+l.44 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig3-avgtimes-2dhist.xbb" (no BoundingBox) ---
+l. 44 --- needs --- AppendixA/suppfig3-avgtimes-2dhist.png ---
+[347
+
+] [348
+
+] [349
+
+]
+l.51 --- TeX4ht warning --- File `"AppendixA/suppfig4-disord-resis-cutoff.xbb"'
+ not found ---
+l.51 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig4-disord-resis-cutoff.xbb" (no BoundingBox) ---
+l. 51 --- needs --- AppendixA/suppfig4-disord-resis-cutoff.png ---
+[350
+
+] [351
+
+] [352
+
+]
+l.58 --- TeX4ht warning --- File `"AppendixA/suppfig5-top5percentresis.xbb"' no
+t found ---
+l.58 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig5-top5percentresis.xbb" (no BoundingBox) ---
+l. 58 --- needs --- AppendixA/suppfig5-top5percentresis.png ---
+[353
+
+] [354
+
+] [355
+
+]
+l.65 --- TeX4ht warning --- File `"AppendixA/suppfig6-top2percent-hubs.xbb"' no
+t found ---
+l.65 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig6-top2percent-hubs.xbb" (no BoundingBox) ---
+l. 65 --- needs --- AppendixA/suppfig6-top2percent-hubs.png ---
+[356
+
+] [357
+
+] [358
+
+]
+l.72 --- TeX4ht warning --- File `"AppendixA/suppfig7-deltaglobalMI.xbb"' not f
+ound ---
+l.72 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixA/supp
+fig7-deltaglobalMI.xbb" (no BoundingBox) ---
+l. 72 --- needs --- AppendixA/suppfig7-deltaglobalMI.png ---
+[359
+
+]
+l.78 --- TeX4ht warning --- \SaveEverypar's: 1 at \begin{document} and 2 \end{d
+ocument} ---
+) (./AppendixB/AppendixB.tex [360
+
+] [361
+
+] [362
+
+]
+Appendix B.
+--- file mainap2.html ---
+[363] [364
+
+]
+l.14 --- TeX4ht warning --- File `"AppendixB/ch4-fig2-supp1.xbb"' not found ---
+
+l.14 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig2-supp1.xbb" (no BoundingBox) ---
+l. 14 --- needs --- AppendixB/ch4-fig2-supp1.png ---
+[365
+
+] [366
+
+] [367
+
+]
+l.22 --- TeX4ht warning --- File `"AppendixB/ch4-fig2-supp2.xbb"' not found ---
+
+l.22 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig2-supp2.xbb" (no BoundingBox) ---
+l. 22 --- needs --- AppendixB/ch4-fig2-supp2.png ---
+[368
+
+] [369
+
+] [370
+
+]
+l.30 --- TeX4ht warning --- File `"AppendixB/ch4-fig2-supp3.xbb"' not found ---
+
+l.30 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig2-supp3.xbb" (no BoundingBox) ---
+l. 30 --- needs --- AppendixB/ch4-fig2-supp3.png ---
+[371
+
+] [372
+
+] [373
+
+]
+l.38 --- TeX4ht warning --- File `"AppendixB/ch4-fig2-supp4.xbb"' not found ---
+
+l.38 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig2-supp4.xbb" (no BoundingBox) ---
+l. 38 --- needs --- AppendixB/ch4-fig2-supp4.png ---
+[374
+
+] [375
+
+] [376
+
+]
+l.46 --- TeX4ht warning --- File `"AppendixB/ch4-fig2-supp5.xbb"' not found ---
+
+l.46 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig2-supp5.xbb" (no BoundingBox) ---
+l. 46 --- needs --- AppendixB/ch4-fig2-supp5.png ---
+[377
+
+] [378
+
+] [379
+
+]
+l.54 --- TeX4ht warning --- File `"AppendixB/ch4-fig3-supp1.xbb"' not found ---
+
+l.54 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig3-supp1.xbb" (no BoundingBox) ---
+l. 54 --- needs --- AppendixB/ch4-fig3-supp1.png ---
+[380
+
+] [381
+
+] [382
+
+]
+l.62 --- TeX4ht warning --- File `"AppendixB/ch4-fig3-supp2.xbb"' not found ---
+
+l.62 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4-
+fig3-supp2.xbb" (no BoundingBox) ---
+l. 62 --- needs --- AppendixB/ch4-fig3-supp2.png ---
+[383
+
+] [384
+
+] [385
+
+] [386
+
+] [387
+
+] [388
+
+]
+l.109 --- TeX4ht warning --- File `"AppendixB/ch4-fig7-supp1.xbb"' not found --
+-
+l.109 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4
+-fig7-supp1.xbb" (no BoundingBox) ---
+l. 109 --- needs --- AppendixB/ch4-fig7-supp1.png ---
+[389
+
+] [390
+
+] [391
+
+]
+l.117 --- TeX4ht warning --- File `"AppendixB/ch4-fig8-supp1.xbb"' not found --
+-
+l.117 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4
+-fig8-supp1.xbb" (no BoundingBox) ---
+l. 117 --- needs --- AppendixB/ch4-fig8-supp1.png ---
+[392
+
+] [393
+
+] [394
+
+]
+l.125 --- TeX4ht warning --- File `"AppendixB/ch4-fig9-supp1.xbb"' not found --
+-
+l.125 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixB/ch4
+-fig9-supp1.xbb" (no BoundingBox) ---
+l. 125 --- needs --- AppendixB/ch4-fig9-supp1.png ---
+[395
+
+]) (./AppendixC/AppendixC.tex [396
+
+] [397
+
+] [398
+
+]
+Appendix C.
+--- file mainap3.html ---
+[399] [400
+
+]
+l.16 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig1.xbb"' not found ---
+l.16 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig1.xbb" (no BoundingBox) ---
+l. 16 --- needs --- AppendixC/ch5-suppfig1.png ---
+[401
+
+] [402
+
+] [403
+
+]
+l.24 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig2.xbb"' not found ---
+l.24 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig2.xbb" (no BoundingBox) ---
+l. 24 --- needs --- AppendixC/ch5-suppfig2.png ---
+[404
+
+] [405
+
+] [406
+
+]
+l.33 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig3.xbb"' not found ---
+l.33 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig3.xbb" (no BoundingBox) ---
+l. 33 --- needs --- AppendixC/ch5-suppfig3.png ---
+[407
+
+] [408
+
+] [409
+
+]
+l.41 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig4.xbb"' not found ---
+l.41 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig4.xbb" (no BoundingBox) ---
+l. 41 --- needs --- AppendixC/ch5-suppfig4.png ---
+[410
+
+] [411
+
+] [412
+
+]
+l.49 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig5.xbb"' not found ---
+l.49 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig5.xbb" (no BoundingBox) ---
+l. 49 --- needs --- AppendixC/ch5-suppfig5.png ---
+[413
+
+] [414
+
+] [415
+
+]
+l.57 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig6.xbb"' not found ---
+l.57 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig6.xbb" (no BoundingBox) ---
+l. 57 --- needs --- AppendixC/ch5-suppfig6.png ---
+[416
+
+] [417
+
+] [418
+
+] [419
+
+] [420
+
+] [421
+
+] [422
+
+] [423
+
+] [424
+
+]
+l.90 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig7.xbb"' not found ---
+l.90 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig7.xbb" (no BoundingBox) ---
+l. 90 --- needs --- AppendixC/ch5-suppfig7.png ---
+[425
+
+] [426
+
+] [427
+
+]
+l.98 --- TeX4ht warning --- File `"AppendixC/ch5-suppfig8.xbb"' not found ---
+l.98 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixC/ch5-
+suppfig8.xbb" (no BoundingBox) ---
+l. 98 --- needs --- AppendixC/ch5-suppfig8.png ---
+[428
+
+]) (./AppendixE/AppendixE.tex [429
+
+] [430
+
+]
+Appendix D.
+--- file mainap4.html ---
+[431
+
+] [432] [433
+
+]
+l.24 --- TeX4ht warning --- File `"AppendixE/appendixE-sequence.xbb"' not found
+ ---
+l.24 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/appe
+ndixE-sequence.xbb" (no BoundingBox) ---
+l. 24 --- needs --- AppendixE/appendixE-sequence.png ---
+[434
+
+]
+! Argument of \@firstofone has an extra }.
+<inserted text> 
+                \par 
+l.30 ...(http://ctraj.com/)\cite{McGibbon:2015fv,}
+                                                  . For IDR only simulations...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@firstofone was complete.
+<to be read again> 
+                   \par 
+l.30 ...(http://ctraj.com/)\cite{McGibbon:2015fv,}
+                                                  . For IDR only simulations...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.30 ...(http://ctraj.com/)\cite{McGibbon:2015fv,}
+                                                  . For IDR only simulations...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Citation `\par ' on page 435 undefined on input line 30.
+
+[435
+
+] [436] [437] [438] [439] [440] [441] [442] [443] [444] [445] [446]
+[447] [448] [449] [450] [451] [452] [453] [454] [455] [456] [457] [458]
+[459] [460] [461] [462] [463] [464] [465] [466] [467] [468] [469] [470
+
+]
+[471
+
+] [472
+
+] [473
+
+] [474
+
+] [475
+
+] [476
+
+] [477
+
+] [478
+
+] [479
+
+] [480
+
+] [481
+
+] [482
+
+]
+l.327 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig1.xbb"' not found -
+--
+l.327 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig1.xbb" (no BoundingBox) ---
+l. 327 --- needs --- AppendixE/appendix-e-fig1.png ---
+[483
+
+] [484
+
+] [485
+
+]
+l.335 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig2.xbb"' not found -
+--
+l.335 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig2.xbb" (no BoundingBox) ---
+l. 335 --- needs --- AppendixE/appendix-e-fig2.png ---
+[486
+
+] [487
+
+] [488
+
+]
+l.343 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig3.xbb"' not found -
+--
+l.343 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig3.xbb" (no BoundingBox) ---
+l. 343 --- needs --- AppendixE/appendix-e-fig3.png ---
+[489
+
+] [490
+
+] [491
+
+]
+l.352 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig4.xbb"' not found -
+--
+l.352 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig4.xbb" (no BoundingBox) ---
+l. 352 --- needs --- AppendixE/appendix-e-fig4.png ---
+[492
+
+] [493
+
+] [494
+
+]
+l.360 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig5.xbb"' not found -
+--
+l.360 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig5.xbb" (no BoundingBox) ---
+l. 360 --- needs --- AppendixE/appendix-e-fig5.png ---
+[495
+
+] [496
+
+] [497
+
+]
+l.368 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig6.xbb"' not found -
+--
+l.368 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig6.xbb" (no BoundingBox) ---
+l. 368 --- needs --- AppendixE/appendix-e-fig6.png ---
+[498
+
+] [499
+
+] [500
+
+]
+l.376 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig7.xbb"' not found -
+--
+l.376 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig7.xbb" (no BoundingBox) ---
+l. 376 --- needs --- AppendixE/appendix-e-fig7.png ---
+[501
+
+] [502
+
+] [503
+
+]
+l.384 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig8.xbb"' not found -
+--
+l.384 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig8.xbb" (no BoundingBox) ---
+l. 384 --- needs --- AppendixE/appendix-e-fig8.png ---
+[504
+
+] [505
+
+] [506
+
+]
+l.392 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig9.xbb"' not found -
+--
+l.392 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig9.xbb" (no BoundingBox) ---
+l. 392 --- needs --- AppendixE/appendix-e-fig9.png ---
+[507
+
+] [508
+
+] [509
+
+]
+l.400 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig10.xbb"' not found 
+---
+l.400 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig10.xbb" (no BoundingBox) ---
+l. 400 --- needs --- AppendixE/appendix-e-fig10.png ---
+[510
+
+] [511
+
+] [512
+
+]
+l.408 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig11.xbb"' not found 
+---
+l.408 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig11.xbb" (no BoundingBox) ---
+l. 408 --- needs --- AppendixE/appendix-e-fig11.png ---
+[513
+
+] [514
+
+] [515
+
+]
+l.416 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig12.xbb"' not found 
+---
+l.416 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig12.xbb" (no BoundingBox) ---
+l. 416 --- needs --- AppendixE/appendix-e-fig12.png ---
+[516
+
+] [517
+
+] [518
+
+]
+l.424 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig13.xbb"' not found 
+---
+l.424 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig13.xbb" (no BoundingBox) ---
+l. 424 --- needs --- AppendixE/appendix-e-fig13.png ---
+[519
+
+] [520
+
+] [521
+
+]
+l.432 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig14.xbb"' not found 
+---
+l.432 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig14.xbb" (no BoundingBox) ---
+l. 432 --- needs --- AppendixE/appendix-e-fig14.png ---
+[522
+
+] [523
+
+] [524
+
+]
+l.440 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig15.xbb"' not found 
+---
+l.440 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig15.xbb" (no BoundingBox) ---
+l. 440 --- needs --- AppendixE/appendix-e-fig15.png ---
+[525
+
+] [526
+
+] [527
+
+]
+l.448 --- TeX4ht warning --- File `"AppendixE/appendix-e-fig16.xbb"' not found 
+---
+l.448 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixE/app
+endix-e-fig16.xbb" (no BoundingBox) ---
+l. 448 --- needs --- AppendixE/appendix-e-fig16.png ---
+[528
+
+]) (./AppendixD/AppendixD.tex [529
+
+] [530
+
+]
+Appendix E.
+--- file mainap5.html ---
+[531
+
+] [532
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 48.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 48.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 48.
+
+[533
+
+] [534
+
+] [535
+
+]
+l.55 --- TeX4ht warning --- File `"AppendixD/ch2-suppfig1.xbb"' not found ---
+l.55 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixD/ch2-
+suppfig1.xbb" (no BoundingBox) ---
+l. 55 --- needs --- AppendixD/ch2-suppfig1.png ---
+[536
+
+] [537
+
+] [538
+
+]
+l.62 --- TeX4ht warning --- File `"AppendixD/ch2-suppfig2.xbb"' not found ---
+l.62 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixD/ch2-
+suppfig2.xbb" (no BoundingBox) ---
+l. 62 --- needs --- AppendixD/ch2-suppfig2.png ---
+[539
+
+] [540
+
+] [541
+
+]
+l.69 --- TeX4ht warning --- File `"AppendixD/ch2-suppfig3.xbb"' not found ---
+l.69 --- TeX4ht warning --- Cannot determine size of graphic in "AppendixD/ch2-
+suppfig3.xbb" (no BoundingBox) ---
+l. 69 --- needs --- AppendixD/ch2-suppfig3.png ---
+[542
+
+]) [543
+
+] [544
+
+] (./main.bbl [545] [546
+
+]
+--- file mainli4.html ---
+ [547
+
+] [548] [549] [550] [551]
+[552] [553] [554] [555] [556] [557] [558] [559] [560] [561] [562] [563]
+
+! Package inputenc Error: Unicode character α (U+03B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.538   α
+          -isopropylmalate synthase from \textit{mycobacterium tuberculosis}...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[564] [565] [566] [567]
+
+! Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 ...otein Dynamics in Enzymatic Catalysis: 
+                                                   Exploration of
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[568] [569] [570] [571] [572] [573] [574] [575] [576] [577] [578] [579]
+[580] [581] [582] [583] [584] [585] [586] [587] [588] [589] [590] [591]
+[592] [593]
+
+! Package inputenc Error: Unicode character   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1472 \newblock {P-LINCS: 
+                              A Parallel Linear Constraint Solver for Molecular
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[594] [595] [596] [597] [598] [599]
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1664 Washington~B. Cá
+                         rdenas, Yueh-Ming Loo, Michael Gale, Amy~L. Hartman,
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1665   Christopher~R. Kimberlin, Luis Martí
+                                               nez-Sobrido, Erica~Ollmann Sa...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ̈ (U+0308)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1673   Elke Mü
+                  hlberger, Mike Bray, Hans-Dieter Klenk, Peter Palese, and ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1674   Garcí
+                a-Sastre.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[600] [601]
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1722   Washington~B. Cá
+                           rdenas, Gaya~K. Amarasinghe, Viktor~E. Volchkov, and
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[602] [603] [604] [605] [606] [607] [608] [609] [610] [611] [612] [613]
+[614] [615] [616] [617] [618] [619] [620] [621] [622] [623] [624] [625]
+[626] [627] [628] [629] [630] [631] [632] [633] [634] [635] [636] [637]
+[638] [639] [640]
+
+! Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2912 ...Sars cov main proteinase: the monomer−
+                                                  dimer equilibrium
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[641] [642] [643] [644] [645] [646] [647]
+
+! Package inputenc Error: Unicode character ̂ (U+0302)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3136 Â
+          ngela Novais, Rafael Cantón, Teresa~M. Coque, Andrés Moya, Fer...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3136 Ângela Novais, Rafael Cantó
+                                      n, Teresa~M. Coque, Andrés Moya, Fer...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3136 ...afael Cantón, Teresa~M. Coque, André
+                                                  s Moya, Fernando
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3137   Baquero, and Juan~Carlos Galá
+                                        n.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[648] [649] [650] [651]
+
+! Package inputenc Error: Unicode character ω (U+03C9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3230 \newblock A triple mutant in the ω
+                                          -loop of tem-1 $\beta$-lactamase c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[652] [653] [654] [655] [656]
+Package fontsmpl Info: Command \dj undefined in encoding OT1 on input line 3412
+.
+ [657] [658]) [659] [660]
+
+Package pdfpages Warning: I cannot determine the number of pages of the
+(pdfpages)                included document, because we are running in
+(pdfpages)                DVI mode. 
+(pdfpages)                You can use the option `lastpage' to give me a hint.
+
+[661
+
+]
+! Undefined control sequence.
+<argument> ...\edef \AM@texcoord {\ifESO@texcoord 
+                                                  -\AM@pageheight \else \z@ ...
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\raise' in vertical mode.
+\put  (#1,#2)#3->\@killglue \raise 
+                                   #2\unitlength \hb@xt@ \z@ {\kern #1\unitl...
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+--- file mainap6.html ---
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra \else.
+\@iwhilesw ...i ->#1\expandafter \@iwhilesw \else 
+                                                  \@gobbletwo \fi {#1}\fi 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \else.
+\@iwhilesw ...i ->#1\expandafter \@iwhilesw \else 
+                                                  \@gobbletwo \fi {#1}\fi 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\@iwhilesw ...ilesw \else \@gobbletwo \fi {#1}\fi 
+                                                  
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten \endgroup.
+\@iwhilesw ...@iwhilesw \else \@gobbletwo \fi {#1}
+                                                  \fi 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra \fi.
+\@iwhilesw ...ilesw \else \@gobbletwo \fi {#1}\fi 
+                                                  
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\@whilesw #1\fi #2->#1#2\@iwhilesw {#1#2}\fi \fi 
+                                                 
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+[662]
+! Extra \fi.
+\\includepdf ...ter {\the \AM@global@opts ,#1}\fi 
+                                                  \AM@CheckAtEnd \endgroup \...
+l.246             {Sukrit-Singh-CV.pdf}
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+l.247 --- TeX4ht warning --- \SaveEverypar's: 2 at \begin{thesisCV} and 3 \end{
+thesisCV} ---
+[663] [664
+
+] (./main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21157 strings out of 480609
+ 363089 string characters out of 5903657
+ 751442 words of memory out of 5000000
+ 36133 multiletter control sequences out of 15000+600000
+ 547212 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,16n,69p,3666b,3044s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (953 pages, 1928380 bytes).

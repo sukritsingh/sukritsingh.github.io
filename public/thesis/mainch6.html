@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>6 Citizen Scientists Create an Exascale Computer to Combat COVID-19</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<!-- html,xhtml,2,mathml --> 
+<meta name="src" content="main.tex" /> 
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+ 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML" 
+></script> 
+ 
+<script async defer src="http://hypothes.is/embed.js"></script><link rel="stylesheet" type="text/css" href="css/scale.css" /> 
+<script type="text/javascript" src="js/fw.js"></script> 
+<script type="text/javascript" src="js/sidebar.js"></script> 
+<script type="text/javascript" src="js/bib.js"></script></head><body 
+>
+<!--l. 3--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch7.html" >next</a>] [<a 
+href="mainch5.html" >prev</a>] [<a 
+href="mainch5.html#tailmainch5.html" >prev-tail</a>] [<a 
+href="#tailmainch6.html">tail</a>] [<a 
+href="main" >up</a>] </p></div>
+<h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;6</span><br /><a 
+ id="x10-880006"></a>Citizen Scientists Create an Exascale Computer to Combat COVID-19</h2>
+<div class="chapterTOCS">
+
+<br />&#x00A0;<span class="sectionToc" >6.1<a 
+href="mainch6.html#x10-890006.1">Abstract</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.2<a 
+href="mainch6.html#x10-900006.2">Introduction</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.3<a 
+href="mainch6.html#x10-910006.3">Results and discussion</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.3.1<a 
+href="mainch6.html#x10-920006.3.1" id="QQ2-8-68">To the Exascale and beyond!</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.3.2<a 
+href="mainch6.html#x10-930006.3.2" id="QQ2-8-68">Unmasking the spike complex</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.3.3<a 
+href="mainch6.html#x10-940006.3.3" id="QQ2-8-68">Cryptic pockets and functional dynamics</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.4<a 
+href="mainch6.html#x10-950006.4">Discussion</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.5<a 
+href="mainch6.html#x10-960006.5">Methods</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.1 <a 
+href="mainch6.html#x10-970006.5.1" id="QQ2-8-68">System preparations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.2 <a 
+href="mainch6.html#x10-980006.5.2" id="QQ2-8-68">Adaptive sampling simulations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.3 <a 
+href="mainch6.html#x10-990006.5.3" id="QQ2-8-68">Folding@home simulations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.4 <a 
+href="mainch6.html#x10-1000006.5.4" id="QQ2-8-68">Markov state models</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.5 <a 
+href="mainch6.html#x10-1010006.5.5" id="QQ2-8-68">Spike/ACE2 binding competency</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.6 <a 
+href="mainch6.html#x10-1020006.5.6" id="QQ2-8-68">Cryptic pockets and solvent accessible surface area</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >6.5.7 <a 
+href="mainch6.html#x10-1030006.5.7" id="QQ2-8-68">Sequence conservation
+</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.6<a 
+href="mainch6.html#x10-1040006.6">Acknowledgements</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >6.7<a 
+href="mainch6.html#x10-1050006.7">Disclosures</a></span>
+</div>
+<!--l. 8--><p class="noindent" ><span 
+class="ptmri7t-x-x-120">This chapter is adapted from the following publication:</span>
+</p><!--l. 10--><p class="noindent" ><span 
+class="ptmri7t-x-x-120">Zimmerman, M.I., Porter, J.R., Ward, M.D., Singh, S., Vithani, N., Meller, A., Mallimadugula, U.L.,</span>
+<span 
+class="ptmri7t-x-x-120">Kuhn, C.E., Borowski, J.H., Wiewiora, R.P., Hurley, M.F.D., Coffland, J.E., Voelz, V.A., Chodera, J.D.,</span>
+<span 
+class="ptmri7t-x-x-120">Bowman, G.R., Available on BiorXiv at https://doi.org/10.1101/2020.06.27.175430</span><span class="cite">&#x00A0;[<a 
+href="mainli4.html#XZimmerman2020covid-pocket">403</a>]</span>
+</p><!--l. 12--><p class="noindent" ><span 
+class="ptmri7t-x-x-120">My work in setting up almost all SARS-CoV-2 system for simulation and managing the Folding@home</span>
+<span 
+class="ptmri7t-x-x-120">network led figures </span><a 
+href="#x10-92001r1"><span 
+class="ptmri7t-x-x-120">6.1</span><!--tex4ht:ref: fig:ch7-fig1 --></a> <span 
+class="ptmri7t-x-x-120">and </span><a 
+href="#x10-94001r4"><span 
+class="ptmri7t-x-x-120">6.4</span><!--tex4ht:ref: fig:ch7-fig4 --></a> <span 
+class="ptmri7t-x-x-120">and the data described in table </span><a 
+href="#x10-94003r1"><span 
+class="ptmri7t-x-x-120">6.1</span><!--tex4ht:ref: tab:covid-systems-table1 --></a>
+</p>
+<h3 class="sectionHead"><span class="titlemark">6.1    </span> <a 
+ id="x10-890006.1"></a>Abstract</h3>
+<!--l. 16--><p class="noindent" >The SARS-CoV-2/COVID-19 pandemic continues to threaten global health and socioeconomic
+                                                                                      
+                                                                                      
+stability. Experiments have revealed snapshots of many of the viral components but remain blind to
+moving parts of these molecular machines. To capture these essential processes, over a million
+citizen scientists have banded together through the Folding@home distributed computing
+project to create the world&#8217;s first Exascale computer and simulate protein dynamics. An
+unprecedented 0.1 seconds of simulation of the viral proteome reveal how the spike complex uses
+conformational masking to evade an immune response, conformational changes implicated in
+the function of other viral proteins, and &#8216;cryptic&#8217; pockets that are absent in experimental
+snapshots. These structures and mechanistic insights present new targets for the design of
+therapeutics.
+</p><!--l. 18--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">6.2    </span> <a 
+ id="x10-900006.2"></a>Introduction</h3>
+<!--l. 19--><p class="noindent" >Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel coronavirus that poses an
+imminent threat to global human health and socioeconomic stability <span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzhou_pneumonia_2020">404</a>,&#x00A0;<a 
+href="mainli4.html#Xliu_reproductive_2020">405</a>]</span>. With estimates of
+the basic reproduction number at &#x00A0;3-4 and a case fatality rate for coronavirus disease 2019
+(COVID-19) ranging from &#x00A0;0.1-12% (high temporal variation), SARS-CoV-2/COVID-19 has the
+potential to spread quickly and endanger the global population <span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xsorci_why_2020">406</a>,&#x00A0;<a 
+href="mainli4.html#Xliu_reproductive_2020">405</a>,&#x00A0;<a 
+href="mainli4.html#Xkhafaie_cross-country_2020">407</a>,&#x00A0;<a 
+href="mainli4.html#Xmahase_coronavirus:_2020">408</a>,&#x00A0;<a 
+href="mainli4.html#Xonder_case-fatality_2020">409</a>]</span>. As of
+June 23rd, 2020, there have been over 9.1 million confirmed cases and over 472,000 fatalities,
+globally. Quarantines and social distancing are effective at slowing the rate of infection; however, they
+cause significant social and economic disruption. Taken together, it is crucial that we find immediate
+therapeutic interventions.
+</p><!--l. 21--><p class="noindent" >A structural understanding of the SARS-CoV-2 proteins could accelerate the discovery of new
+therapeutics by enabling the use of rational design<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xferreira_molecular_2015">410</a>]</span>. Towards this end, the structural biology
+                                                                                      
+                                                                                      
+community has made heroic efforts to rapidly build models of SARS-CoV-2 proteins and the
+complexes they form. However, it is well established that a protein&#8217;s function is dictated by the
+full range of conformations it can access; many of which remain hidden to experimental
+methods. Mapping these conformations for proteins in SARS-CoV-2 will provide a clearer
+picture of how they accomplish their functions, such as infecting cells, evading the immune
+system, and replicating. Such maps may also present new therapeutic opportunities, such as
+&#8216;cryptic&#8217; pockets that are absent in experimental snapshots but provide novel targets for drug
+discovery.
+</p><!--l. 23--><p class="noindent" >Molecular dynamics simulations have the ability to capture the full ensemble of structures a protein
+adopts but require significant computational resources. Such simulations capture an all-atom
+representation of the range of motions a protein undergoes. Modern datasets often consist of a few
+<!--l. 23--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s of
+simulation for a single protein, with a few noteworthy examples reaching ms timescales. However,
+many important processes occur on slower timescales. Moreover, simulating every protein that is
+relevant to SARS-CoV-2 for biologically relevant timescales would require compute resources on an
+unprecedented scale.
+</p><!--l. 25--><p class="noindent" >To overcome this challenge, more than a million citizen scientists from around the world have donated
+their computer resources to simulate SARS-CoV-2 proteins. This massive collaboration was enabled
+by the Folding@home distributed computing platform, which has crossed the Exascale computing
+barrier and is now the world&#8217;s largest supercomputer. Using this resource, we constructed quantitative
+maps of the structural ensembles of over two dozen proteins and complexes that pertain
+to SARS-CoV-2. Together, we have run an unprecedented 0.1 s of simulation. Our data
+uncover the mechanisms of conformational changes that are essential for SARS-CoV-2&#8217;s
+replication cycle and reveal a multitude of new therapeutic opportunities. The data are
+supported by a variety of experimental observations and have been made publicly available
+(https://covid.molssi.org/) in accordance with open science principles to accelerate the discovery of
+new therapeutics.
+                                                                                      
+                                                                                      
+</p><!--l. 27--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">6.3    </span> <a 
+ id="x10-910006.3"></a>Results and discussion</h3>
+<!--l. 28--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.3.1    </span> <a 
+ id="x10-920006.3.1"></a>To the Exascale and beyond!</h4>
+<!--l. 29--><p class="noindent" >Folding@home is a community of citizen scientists, researchers, and tech organizations that apply
+their collective computational and intellectual resources to understand the role of proteins&#8217; dynamics
+in their function and dysfunction, and to aid in the design of new proteins and therapeutics. The
+project was founded in the year 2000 with the intent of understanding how proteins fold. At the time,
+simulating the folding of even small proteins could easily take thousands of years on a single
+computer. To overcome this challenge, the scientific team created a way to break these
+intractable problems into small pieces that could be performed completely independently of one
+another. They then created the Folding@home project to enable anyone with a computer and
+an internet connection to volunteer to run these small chunks of simulation, called work
+units.
+</p><!--l. 31--><p class="noindent" >Over the years, Folding@home has generalized to address many aspects of protein dynamics, and the
+algorithms have developed significantly. The project has provided insight into diverse topics, ranging
+from signaling mechanisms<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKohlhoff:2014bo">411</a>,&#x00A0;<a 
+href="mainli4.html#XShukla:2014jp">412</a>,&#x00A0;<a 
+href="mainli4.html#XSun:2018kx">48</a>]</span> to the connection between phenotype and
+genotype<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHart:2016kb">9</a>,&#x00A0;<a 
+href="mainli4.html#Xchen_dynamic_2019">59</a>,&#x00A0;<a 
+href="mainli4.html#Xporter_conformational_2020">10</a>]</span>. Translational applications have included new means to combat antimicrobial
+                                                                                      
+                                                                                      
+resistance, Ebola virus, and SFTS virus<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>,&#x00A0;<a 
+href="mainli4.html#Xhart_designing_2017">413</a>,&#x00A0;<a 
+href="mainli4.html#XCruz2020vp35">54</a>,&#x00A0;<a 
+href="mainli4.html#Xwang_cap-snatching_2020">414</a>]</span>.
+</p><!--l. 33--><p class="noindent" >In response to the COVID-19 pandemic, Folding@home quickly pivoted to focus on SARS-CoV-2
+and the host factors it interacts with. Many people found the opportunity to take action at a time when
+they were otherwise feeling helpless alluring. In less than three months, the project grew
+from &#x00A0;30,000 active devices to over a million devices around the globe (Fig. <a 
+href="#x10-92001r1">6.1<!--tex4ht:ref: fig:ch7-fig1 --></a>A and
+<a 
+href="#x10-92001r1">6.1<!--tex4ht:ref: fig:ch7-fig1 --></a>B).
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x10-92001r1"></a>
+                                                                                      
+                                                                                      
+<!--l. 37--><p class="noindent" ><img 
+src="Chapter7/ch7-fig1.png" alt="PIC"  
+width="452" height="453"  />
+<a 
+ id="x10-92002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.1: </span><span  
+class="content">Summary of Folding@home&#8217;s computational power. <span 
+class="ptmb7t-x-x-120">A. </span>The growth and usage of
+Folding@home in response to COVID-19. Users are colored blue and COVID-19 cases are
+orange. <span 
+class="ptmb7t-x-x-120">B. </span>Location of folding at home users. Each yellow dot represents a unique IP address
+contributing to Folding@home. <span 
+class="ptmb7t-x-x-120">C. </span>The processing speed of Folding@home and the next 10
+fastest supercomputers, in exaFLOPS.</span></div><!--tex4ht:label?: x10-92001r6.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 43--><p class="noindent" >Estimating the aggregate compute power of Folding@home is non-trivial due to factors like hardware
+heterogeneity, measures to maintain volunteers&#8217; anonymity, and the fact that volunteers can turn their
+machines on and off at-will. Furthermore, volunteers&#8217; machines only communicate with the
+Folding@home servers at the beginning and end of a work unit, each of which can take anywhere
+from tens of minutes to a few days depending on the volunteer&#8217;s hardware and the protein to
+simulate. Therefore, we chose to estimate the performance by counting the number of GPUs
+and CPUs that participated in Folding@home during a three-day window and making a
+conservative assumption about the computational performance of each device (see Methods for
+details).
+</p><!--l. 45--><p class="noindent" >Given the above, we estimate the peak performance of Folding@home hit 1.01 exaFLOPS. This
+performance was achieved at a point when &#x00A0;280,000 GPUs and 4.8 million CPU cores were
+performing simulations. For reference, that performance is 5-fold greater than the peak performance of
+the world&#8217;s fastest traditional supercomputer, called Summit (Fig. <a 
+href="#x10-92001r1">6.1<!--tex4ht:ref: fig:ch7-fig1 --></a>C). It is also more than the top
+100 supercomputers combined. Prior to Folding@home, the first exascale supercomputer was not
+scheduled to come online until the end of 2021.
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.3.2    </span> <a 
+ id="x10-930006.3.2"></a>Unmasking the spike complex</h4>
+<!--l. 49--><p class="noindent" >The spike complex (S) is a prominent vaccine target that is known to undergo substantial
+conformational changes as part of its function<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xkirchdoerfer_stabilized_2018">415</a>,&#x00A0;<a 
+href="mainli4.html#Xwalls_structure_2020">416</a>,&#x00A0;<a 
+href="mainli4.html#Xwrapp_cryo-em_2020">417</a>]</span>. Structurally, S is composed of three
+interlocking proteins, with each chain having a cleavage site separating an S1 and S2 fragment. S
+resides on the virion surface, where it waits to engage with an angiotensin-converting enzyme 2
+(ACE2) receptor on a host cell to trigger infection<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzhang_angiotensin-converting_2020">418</a>,&#x00A0;<a 
+href="mainli4.html#Xhoffmann_sars-cov-2_2020">419</a>]</span>. The fact that S is exposed on the virion
+surface makes it an appealing vaccine target. However, it has a number of effective defense strategies.
+                                                                                      
+                                                                                      
+First, S is decorated extensively with glycans that aid in immune evasion by shielding potential
+antigens<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xwatanabe_vulnerabilities_2020">420</a>]</span>. S also uses a conformational masking strategy, wherein it predominantly adopts a
+closed conformation that buries the receptor-binding domains (RBDs) to evade immune surveillance
+mechanisms. To engage with ACE2, S undergoes rare transitions to an open state that exposes the
+conserved binding interface of the RBDs. Characterization of the full range of this motion is
+important for understanding pathogenesis and could provide insights into novel therapeutic
+options.
+</p><!--l. 51--><p class="noindent" >To capture S opening, we employed our goal-oriented adaptive sampling algorithm, FAST, in
+conjunction with Folding@home. The FAST method iterates between running a batch of simulations,
+building an MSM, ranking the MSM states based on how likely starting a new simulation from that
+state is to yield useful data, and starting a new batch of simulations from the top ranked
+states<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzimmerman_fast_2015">35</a>,&#x00A0;<a 
+href="mainli4.html#Xzimmerman_how_2016">421</a>]</span>. The ranking function is designed to balance between favoring structures with a
+desired geometric feature (in this case opening of S) and broad exploration of conformational
+space. By balancing exploration-exploitation tradeoffs, FAST often captures conformational
+changes with orders of magnitude less simulation time than alternative methods. Broadly
+distributed structures from our FAST simulations were then used as starting points for extensive
+Folding@home simulations, totaling 1 ms of data, enabling us to obtain a statistically sound final
+model.
+</p><!--l. 53--><p class="noindent" >Our SARS-CoV-2 S protein simulations capture opening of S and substantial conformational
+heterogeneity in the open state (Fig. <a 
+href="#x10-93003r3">6.3<!--tex4ht:ref: fig:ch7-fig3 --></a>). Capturing opening of S is an impressive technical feat given
+that previous large-scale simulations were unable to observe this essential event for the initiation of
+infection. Intriguingly, we find that opening occurs only for a single RBD at a time, akin to that
+observed in cryoEM structures<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xyuan_cryo-em_2017">422</a>]</span>. Additionally, we find that the scale of this opening can be
+substantially larger than has been observed in experimental snapshots (Fig. <a 
+href="#x10-93003r3">6.3<!--tex4ht:ref: fig:ch7-fig3 --></a>). The dramatic
+opening we observe is consistent with the observation that antibodies can bind to regions
+of the RBD that are deeply buried and seemingly inaccessible in existing experimental
+snapshots<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xhuo_neutralization_2020">423</a>]</span>.
+                                                                                      
+                                                                                      
+</p><!--l. 55--><p class="noindent" >To understand the potential role of conformational masking in determining the lethality and infectivity
+of different coronaviruses, we also simulated the opening of S proteins from two related viruses:
+SARS-CoV-1 and HCoV-NL63. These viruses were selected because they also bind the ACE2
+receptor but are associated with varying mortality rates. SARS-CoV-1 caused an outbreak in 2003
+with a high case fatality rate but has not become a pandemic<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzhong_epidemiology_2003">424</a>]</span>. NL63 was discovered the
+following year and continues to spread around the globe, although it is significantly less lethal
+than either SARS virus<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xvan_der_hoek_identification_2004">425</a>]</span>. We hypothesized that these phenotypic differences may be
+explained by changes to the S conformational ensemble. Specifically, we propose mutations or
+other perturbations can increase the S-ACE2 affinity by increasing the probability that S
+adopts an open conformation or by increasing the affinity between an exposed RBD and
+ACE2.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x10-93001r2"></a>
+                                                                                      
+                                                                                      
+<!--l. 59--><p class="noindent" ><img 
+src="Chapter7/ch7-fig2.png" alt="PIC"  
+width="452" height="453"  />
+<a 
+ id="x10-93002"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.2:   </span><span  
+class="content">Structural   characterization   of   conformational   masking   in   different   spike
+complexes.   <span 
+class="ptmb7t-x-x-120">A.   </span>A   representative   structure   of   SARS-CoV-2   spike   protein   in   an   open
+conformation,   as   pulled   from   our   molecular   dynamic   simulations.   ACE2   (gray)   is
+superimposed onto the structure to highlight binding compatibility. The three chains of Spike
+are illustrated with a cartoon and transparent surface representation (orange, teal, and purple),
+and  glycans  are  shown  as  sticks  (green).  <span 
+class="ptmb7t-x-x-120">B.  </span>The  probability  that  each  sequence  adopts  an
+ACE2 binding competent pose. HCoV-NL63, SARS-CoV-1, and SARS-CoV-2 are shown as
+light-blue, orange, and black, respectively. <span 
+class="ptmb7t-x-x-120">C. </span>The probability that the center of mass of an RBD
+deviates from its position in the closed state for HCoV-NL63, SARS-CoV-1, and SARS-CoV-2.</span></div><!--tex4ht:label?: x10-93001r6.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 65--><p class="noindent" >As expected, the three S complexes have very different propensities to adopt an open state and bind
+ACE2. Structures from each ensemble were classified as competent to bind ACE2 if superimposing an
+ACE2-RBD structure on S did not result in any steric clashes between ACE2 and the rest of the S
+complex. We find that SARS-CoV-1 has the highest population of conformations that can
+bind to ACE2 without steric clashes, followed by SARS-CoV-2, while opening of NL63 is
+sufficiently rare that we did not observe ACE2-binding competent conformations in our
+simulations (Fig. <a 
+href="#x10-93001r2">6.2<!--tex4ht:ref: fig:ch7-fig2 --></a>B). Interestingly, S proteins that are more likely to adopt structures that
+are competent to bind ACE2 are also more likely to adopt highly open structures (Fig.
+<a 
+href="#x10-93001r2">6.2<!--tex4ht:ref: fig:ch7-fig2 --></a>C).
+</p><!--l. 67--><p class="noindent" >We also observe a number of interesting correlations between conformational masking, lethality, and
+infectivity of different coronaviruses. First, more deadly coronaviruses have S proteins with less
+conformational masking. Second, there is an inverse correlation between S opening and the affinity of
+an isolated RBD for ACE2 (RBD-ACE2 affinities of &#x00A0;35 nM, &#x00A0;44 nM, and &#x00A0;185 nM for HCoV-NL63,
+SARS-CoV-2, and SARS-CoV-1, respectively)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xwu_crystal_2009">426</a>,&#x00A0;<a 
+href="mainli4.html#Xshang_structural_2020">427</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x10-93003r3"></a>
+                                                                                      
+                                                                                      
+<!--l. 71--><p class="noindent" ><img 
+src="Chapter7/ch7-fig3.png" alt="PIC"  
+width="361" height="361"  />
+<a 
+ id="x10-93004"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.3: </span><span  
+class="content">Effects of glycan shielding and conformational masking on the accessibility of
+different parts of the spike to potential therapeutics. <span 
+class="ptmb7t-x-x-120">A. </span>The probability that a residue is exposed
+to potential therapeutics, as determined from our structural ensemble. <span 
+class="ptmb7t-x-x-120">B. </span>Exposure probabilities
+colored on the surface of the spike protein. Exposed patches are circled orange. Red residues
+have a higher probability of being exposed, whereas blue residues have a lower probability of
+being exposed. <span 
+class="ptmb7t-x-x-120">C. </span>Sequence conservation score colored onto the Spike protein. A conserved
+patch on the protein is circled in orange. Red residues have higher conservation, whereas blue
+residues  have  lower  conservation.  <span 
+class="ptmb7t-x-x-120">D.  </span>The  difference  in  the  probability  that  each  residue  is
+exposed between the ACE2-binding competent conformations and the entire ensemble. Red
+residues have a higher probability of being exposed upon opening, whereas blue residues have
+a lower probability of being exposed.</span></div><!--tex4ht:label?: x10-93003r6.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 77--><p class="noindent" >These observations suggest a tradeoff wherein greater conformational masking enables immune
+evasion but requires a higher affinity between an exposed RBD and ACE2 to successfully infect a host
+cell. We propose that the NL63 S complex is probably best at evading immune detection but is not as
+infectious as the SARS viruses because strong conformational masking reduces the overall
+affinity for ACE2. In contrast, the SARS-CoV-1 S complex adopts open conformations more
+readily but is also more readily detected by immune surveillance mechanisms. Finally,
+SARS-CoV-2 balances conformational masking and the RBD-ACE2 affinity in a manner
+that allows it to evade an immune response while maintaining its ability to infect a host
+cell. Based on this model, we predict that mutations that increase the probability that the
+SARS-CoV-2 S complex adopts open conformations may be more lethal but spread less
+readily.
+</p><!--l. 79--><p class="noindent" >Our atomically detailed model of S can enable rapid structure-based vaccine antigen design through
+identification of regions minimally protected by conformational masking or the glycan shield<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xgraham_structure-based_2019">428</a>]</span>.
+To identify these potential epitopes, we calculated the probability that each residue in S could be
+exposed to therapeutics (e.g. not shielded by a glycan or buried by conformational masking), as shown
+in Fig. <a 
+href="#x10-93003r3">6.3<!--tex4ht:ref: fig:ch7-fig3 --></a>A. Visualizing these values on the protein reveals a few patches of protein surface that
+are exposed through the glycan shielding (Fig. <a 
+href="#x10-93003r3">6.3<!--tex4ht:ref: fig:ch7-fig3 --></a>B). However, another important factor
+when targeting an antigen is picking a region with a conserved sequence to yield broader
+and longer lasting efficacy. Not surprisingly, many of the exposed regions do not have a
+strongly conserved sequence. Promisingly, though, we do find a conserved area with a larger
+degree of solvent exposure (Fig. <a 
+href="#x10-93003r3">6.3<!--tex4ht:ref: fig:ch7-fig3 --></a>C). Another possibility for antigen design is to exploit
+the opening motion. A number of conserved residues of the RBD show an increase in
+exposure by 3&#x0303;0% in ACE2 binding competent structures (Fig. <a 
+href="#x10-93003r3">6.3<!--tex4ht:ref: fig:ch7-fig3 --></a>C). Consistent with
+immunoassays, this region was recently found to be a cluster for neutralizing antibody
+binding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xhuo_neutralization_2020">423</a>,&#x00A0;<a 
+href="mainli4.html#Xzhong_epidemiology_2003">424</a>]</span>.
+                                                                                      
+                                                                                      
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.3.3    </span> <a 
+ id="x10-940006.3.3"></a>Cryptic pockets and functional dynamics</h4>
+<!--l. 83--><p class="noindent" >Every protein in SARS-CoV-2 is a potential drug target. So, to understand their role in disease and
+help progress the design of antivirals, we unleashed the full power of Folding@home to simulate
+dozens of systems related to pathogenesis. While we are interested in all aspects of a proteins&#8217;
+functional dynamics, expanding on the number of antiviral targets is of immediate value. Towards this
+end, we seeded Folding@home simulations from our FAST-pockets adaptive sampling to aid in
+the discovery of cryptic pockets. We briefly discuss two illustrative examples, out of 36
+datasets.
+</p><!--l. 85--><p class="noindent" >Nonstructural protein number 5 (NSP5, also named the main protease, Mpro, or
+3CLpro) is critical for the lifecycle of coronaviruses and is a major target for the design
+of antivirals<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzhang_crystal_2020">429</a>]</span>. It is highly conserved between coronaviruses, owing to its necessary
+function of processing polyproteins. NSP5 is only active as a dimer, however it exists in
+a monomer-dimer equilibrium with estimates of its dissociation constant in the low
+<!--l. 85--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>M
+range<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xgraziano_sars_2006">430</a>]</span>. Small molecules targeting this protein to inhibit enzymatic activity, either by altering its
+active site or favoring the inactive monomer state, would be promising broad-spectrum antiviral
+candidates<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xgoyal_targeting_2020">431</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x10-94001r4"></a>
+                                                                                      
+                                                                                      
+<!--l. 89--><p class="noindent" ><img 
+src="Chapter7/ch7-fig4.png" alt="PIC"  
+width="433" height="433"  />
+<a 
+ id="x10-94002"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.4:   </span><span  
+class="content">Examples   of   cryptic   pockets   and   functionally-relevant   dynamics.   <span 
+class="ptmb7t-x-x-120">A-B)</span>
+Conformational ensemble of the main protease (NSP5) projected onto the solvent accessible
+surface areas (SASAs) of residues surrounding either the active-site or a cryptic pocket. Cluster
+centers are represented as black circles with representative structures depicted with cartoon.
+The  starting  structure  for  simulations  (6Y2E)  is  shown  as  a  red  dot.  Domains  I  and  II  are
+colored cyan and domain III is colored gray. The loop of domain III, that covers the active-site
+residues and is seen to be highly dynamic, is colored tan. <span 
+class="ptmb7t-x-x-120">C-D) </span>Conformational ensemble of
+Nucleoprotein projected onto the distance and angle between the positive finger and a nearby
+loop. Angles were calculated between vectors that point along each red segment in panel D
+and distances were calculated between their centers of mass. Cluster centers are represented as
+black circles and representative structures are depicted with cartoon. The starting structure for
+simulations (6VYO) is shown as a red dot.</span></div><!--tex4ht:label?: x10-94001r6.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 95--><p class="noindent" >Our simulations reveal two novel cryptic pockets on NSP5 that expand our current
+therapeutic options. These are shown in figure <a 
+href="#x10-94001r4">6.4<!--tex4ht:ref: fig:ch7-fig4 --></a>A, which projects states from our MSM
+onto the solvent exposure of residues that make up the pockets. The first cryptic pocket
+is an expansion of NSP5&#8217;s catalytic site. We find that the loop bridging domains II and
+III is highly dynamic and can fully disengage the protein. This motion may be necessary
+for catalysis and is similar to motions we have observed previously for the enzyme
+<!--l. 95--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-lactamase<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>]</span>.
+Owing to its location, a small molecule bound in this pocket is likely to prevent catalysis by
+obstructing polypeptide association with catalytic residues. The second pocket is a large opening
+between domains I/II and domain III. Located at the dimerization interface, this pocket offers the
+possibility to find small molecule or peptide stabilizers that favor the inactive monomer
+state.
+</p><!--l. 97--><p class="noindent" >In addition to cryptic pockets, our data captures many potentially functionally relevant motions within
+the SARS-CoV-2 proteome. We illustrate this with the SARS-CoV-2 nucleoprotein. The
+nucleoprotein is a multifunctional protein responsible for major lifecycle events such as
+viral packaging, transcription, and physically linking RNA to the envelope<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xmcbride_coronavirus_2014">301</a>,&#x00A0;<a 
+href="mainli4.html#Xmasters_coronavirus_2019">289</a>]</span>. As
+such, we expect the protein to accomplish these goals through a highly dynamic and rich
+conformational ensemble, akin to context-dependent regulatory modules observed in Ebola virus
+nucleoprotein<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xcubuk_sars-cov-2_2020">2</a>,&#x00A0;<a 
+href="mainli4.html#Xsu_electron_2018">3</a>]</span>. Investigating the RNA-binding domain, we observe both cryptic pockets and
+an incredibly dynamic beta-hairpin, which hosts the RNA binding site, referred to as a
+&#8220;positive finger&#8221; (Fig. <a 
+href="#x10-94001r4">6.4<!--tex4ht:ref: fig:ch7-fig4 --></a>C-D). Our observed conformational heterogeneity of the positive
+finger is consistent with a structural ensemble determined using solution-state nuclear
+magnetic resonance spectroscopy<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xdinesh_structural_2020">432</a>]</span>. Our simulations also capture numerous states of the
+putative RNA binding pose, where the positive finger curls up to form a cradle for RNA.
+These states can provide a structural basis for the design of small molecules that would
+compete with RNA binding, preventing viral assembly. Additionally, knowledge of these
+                                                                                      
+                                                                                      
+probabilities can provide further insight into the mechanisms and regulation of genome
+compaction/release.
+</p><!--l. 99--><p class="noindent" >The data we present in this paper represents the single largest collection of all-atom simulations. Table
+<a 
+href="#x10-94003r1">6.1<!--tex4ht:ref: tab:covid-systems-table1 --></a> is a comprehensive list of the systems we have simulated. Systems span various oligomerization
+states, include important complexes, and include representation from multiple coronaviruses. We also
+include human proteins that are targets for supportive therapies and preventative treatments. To
+accelerate the discovery of new therapeutics and promote open science, we are posting all of our data
+online (https://covid.molssi.org/).
+</p>
+<div class="table">
+                                                                                      
+                                                                                      
+<!--l. 101--><p class="noindent" ><a 
+ id="x10-94003r1"></a></p><hr class="float" /><div class="float" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x10-94004"></a>
+ <div class="caption" 
+><span class="id">Table&#x00A0;6.1:  </span><span  
+class="content">A  list  of  protein  systems  we  have  simulated  on  Folding@home.  Systems  are
+organized by viral strain and include name, oligomerization state, starting structure, number of
+residues, number of atoms in the system, aggregate simulation time, and the number of cryptic
+pockets we have identified.<br 
+class="newline" />*Missing residues were modeled using Swiss model<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xwaterhouse_swiss-model:_2018">1</a>]</span>.<br 
+class="newline" />**Structural model was generated from a homologous sequence using Swiss model<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xwaterhouse_swiss-model:_2018">1</a>]</span>.<br 
+class="newline" />***Missing residues were modeled using CHARMM-GUI<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xcubuk_sars-cov-2_2020">2</a>,&#x00A0;<a 
+href="mainli4.html#Xsu_electron_2018">3</a>]</span></span></div><!--tex4ht:label?: x10-94003r6.3 -->
+<!--tex4ht:inline--><div class="tabular"> <table id="TBL-3" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-3-1g"><col 
+id="TBL-3-1" /></colgroup><colgroup id="TBL-3-2g"><col 
+id="TBL-3-2" /></colgroup><colgroup id="TBL-3-3g"><col 
+id="TBL-3-3" /></colgroup><colgroup id="TBL-3-4g"><col 
+id="TBL-3-4" /></colgroup><colgroup id="TBL-3-5g"><col 
+id="TBL-3-5" /></colgroup><colgroup id="TBL-3-6g"><col 
+id="TBL-3-6" /></colgroup><colgroup id="TBL-3-7g"><col 
+id="TBL-3-7" /></colgroup><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-1-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-1-1"  
+class="td11"> System name                                          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-1-2"  
+class="td11"> Oligomerization  </td><td  style="text-align:left;" id="TBL-3-1-3"  
+class="td11"> <!--l. 169--><p class="noindent" >Initial
+  structure
+  (homology)       </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-1-4"  
+class="td11"> Residues  </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-1-5"  
+class="td11"> Atoms in system  </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-1-6"  
+class="td11"> Aggregate simulation time (us)  </td><td  style="text-align:left;" id="TBL-3-1-7"  
+class="td11"> <!--l. 169--><p class="noindent" >Cryptic
+  pockets
+  discovered         </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-2-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-2-1"  
+class="td11">                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-2-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-2-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-2-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-2-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-2-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-2-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td></tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-3-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-3-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">SARS-CoV-2 </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-3-2"  
+class="td11"> </td><td  style="text-align:left;" id="TBL-3-3-3"  
+class="td11"> <!--l. 169--><p class="noindent" > </p> </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-3-4"  
+class="td11"> </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-3-5"  
+class="td11"> </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-3-6"  
+class="td11"> </td><td  style="text-align:left;" id="TBL-3-3-7"  
+class="td11"> <!--l. 169--><p class="noindent" ></p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-4-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-1"  
+class="td11"> NSP3 (Macrodomain "X")                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-4-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W02                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-4"  
+class="td11"> 167          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-5"  
+class="td11"> 23907                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-4-6"  
+class="td11"> 10,906                                        </td><td  style="text-align:left;" id="TBL-3-4-7"  
+class="td11"> <!--l. 169--><p class="noindent" > -                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-5-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-1"  
+class="td11"> NSP3 (Papain-like protease 2, PL2pro)  </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-5-3"  
+class="td11"> <!--l. 169--><p class="noindent" >3E9S**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-4"  
+class="td11"> 306          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-5"  
+class="td11"> 97285                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-5-6"  
+class="td11"> 731                                              </td><td  style="text-align:left;" id="TBL-3-5-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-6-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-1"  
+class="td11"> NSP5 (main protease, 3CLpro)               </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-6-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6Y2E                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-4"  
+class="td11"> 306          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-5"  
+class="td11"> 64791                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-6-6"  
+class="td11"> 6,405                                           </td><td  style="text-align:left;" id="TBL-3-6-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-7-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-1"  
+class="td11"> NSP5 (main protease, 3CLpro)               </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-2"  
+class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-3-7-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6Y2E                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-4"  
+class="td11"> 612          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-5"  
+class="td11"> 77331                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-7-6"  
+class="td11"> 2,902                                           </td><td  style="text-align:left;" id="TBL-3-7-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-8-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-1"  
+class="td11"> NSP7                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-8-3"  
+class="td11"> <!--l. 169--><p class="noindent" >5F22**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-4"  
+class="td11"> 79            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-5"  
+class="td11"> 20094                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-8-6"  
+class="td11"> 3,722                                          </td><td  style="text-align:left;" id="TBL-3-8-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-9-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-1"  
+class="td11"> NSP8                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-9-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2AHM**          </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-4"  
+class="td11"> 191          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-5"  
+class="td11"> 156282                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-9-6"  
+class="td11"> 1,776                                           </td><td  style="text-align:left;" id="TBL-3-9-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-10-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-1"  
+class="td11"> NSP9                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-2"  
+class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-3-10-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W4B*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-4"  
+class="td11"> 226          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-5"  
+class="td11"> 49885                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-10-6"  
+class="td11"> 8,939                                           </td><td  style="text-align:left;" id="TBL-3-10-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-11-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-1"  
+class="td11"> NSP10                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-11-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W4H*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-4"  
+class="td11"> 131          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-5"  
+class="td11"> 29560                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-11-6"  
+class="td11"> 6,141                                           </td><td  style="text-align:left;" id="TBL-3-11-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-12-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-1"  
+class="td11"> NSP12 (polymerase)                               </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-12-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6NUR**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-4"  
+class="td11"> 891          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-5"  
+class="td11"> 186622                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-12-6"  
+class="td11"> 3,330                                           </td><td  style="text-align:left;" id="TBL-3-12-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-13-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-1"  
+class="td11"> NSP13 (helicase)                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-13-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6JYT**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-4"  
+class="td11"> 596          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-5"  
+class="td11"> 129368                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-13-6"  
+class="td11"> 3,407                                              </td><td  style="text-align:left;" id="TBL-3-13-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-14-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-1"  
+class="td11"> NSP14                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-14-3"  
+class="td11"> <!--l. 169--><p class="noindent" >5C8S**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-4"  
+class="td11"> 527          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-5"  
+class="td11"> 216380                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-14-6"  
+class="td11"> 2,384                                              </td><td  style="text-align:left;" id="TBL-3-14-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td></tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-15-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-1"  
+class="td11"> NSP15 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-2"  
+class="td11"> Monomer </td><td  style="text-align:left;" id="TBL-3-15-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6VWW </p> </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-4"  
+class="td11"> 347 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-5"  
+class="td11"> 67345 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-15-6"  
+class="td11"> 3,674 </td><td  style="text-align:left;" id="TBL-3-15-7"  
+class="td11"> <!--l. 169--><p class="noindent" >4</p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-16-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-1"  
+class="td11"> NSP15                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-2"  
+class="td11"> Hexamer              </td><td  style="text-align:left;" id="TBL-3-16-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6VWW             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-4"  
+class="td11"> 2082        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-5"  
+class="td11"> 230339                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-16-6"  
+class="td11"> 4,270                                           </td><td  style="text-align:left;" id="TBL-3-16-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-17-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-1"  
+class="td11"> NSP16                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-17-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W4H*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-4"  
+class="td11"> 298          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-5"  
+class="td11"> 45672                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-17-6"  
+class="td11"> 2,382                                           </td><td  style="text-align:left;" id="TBL-3-17-7"  
+class="td11"> <!--l. 169--><p class="noindent" >5                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-18-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-1"  
+class="td11"> Nucleoprotein (RBD)                              </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-18-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6VYO               </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-4"  
+class="td11"> 173          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-5"  
+class="td11"> 29125                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-18-6"  
+class="td11"> 9,493                                           </td><td  style="text-align:left;" id="TBL-3-18-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-19-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-1"  
+class="td11"> Nucleoprotein Dimerization Domain      </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-19-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6YUN*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-4"  
+class="td11"> 118          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-5"  
+class="td11"> 34905                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-19-6"  
+class="td11"> 6,782                                           </td><td  style="text-align:left;" id="TBL-3-19-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-20-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-1"  
+class="td11"> Nucleoprotein Dimerization Domain      </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-2"  
+class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-3-20-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6YUN*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-4"  
+class="td11"> 236          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-5"  
+class="td11"> 72733                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-20-6"  
+class="td11"> 1,458                                           </td><td  style="text-align:left;" id="TBL-3-20-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-21-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-1"  
+class="td11"> Spike                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-2"  
+class="td11"> Trimer                 </td><td  style="text-align:left;" id="TBL-3-21-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6VXX***         </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-4"  
+class="td11"> 3363        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-5"  
+class="td11"> 442881                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-21-6"  
+class="td11"> 1,109                                              </td><td  style="text-align:left;" id="TBL-3-21-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-22-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-1"  
+class="td11"> NSP7 / NSP8 / NSP12                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-2"  
+class="td11"> Trimer complex   </td><td  style="text-align:left;" id="TBL-3-22-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6NUR**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-4"  
+class="td11"> 1184        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-5"  
+class="td11"> 215694                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-22-6"  
+class="td11"> 1,686                                              </td><td  style="text-align:left;" id="TBL-3-22-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-23-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-1"  
+class="td11"> NSP10 / NSP14                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-2"  
+class="td11"> Dimer complex   </td><td  style="text-align:left;" id="TBL-3-23-3"  
+class="td11"> <!--l. 169--><p class="noindent" >5C8S**             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-4"  
+class="td11"> 688          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-5"  
+class="td11"> 226672                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-23-6"  
+class="td11"> 689                                              </td><td  style="text-align:left;" id="TBL-3-23-7"  
+class="td11"> <!--l. 169--><p class="noindent" >3                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-24-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-1"  
+class="td11"> NSP10 / NSP16                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-2"  
+class="td11"> Dimer complex   </td><td  style="text-align:left;" id="TBL-3-24-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W4H*             </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-4"  
+class="td11"> 429          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-5"  
+class="td11"> 63752                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-24-6"  
+class="td11"> 3.463                                           </td><td  style="text-align:left;" id="TBL-3-24-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-25-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-25-1"  
+class="td11">                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-25-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-25-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-25-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-25-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-25-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-25-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-26-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-26-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">SARS-CoV-1                                          </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-26-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-26-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-26-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-26-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-26-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-26-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-27-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-1"  
+class="td11"> NSP3 (Macrodomain "X")                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-27-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2FAV                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-4"  
+class="td11"> 172          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-5"  
+class="td11"> 33117                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-27-6"  
+class="td11"> 659                                              </td><td  style="text-align:left;" id="TBL-3-27-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-28-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-1"  
+class="td11"> NSP9                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-2"  
+class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-3-28-3"  
+class="td11"> <!--l. 169--><p class="noindent" >1QZ8*              </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-4"  
+class="td11"> 226          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-5"  
+class="td11"> 49599                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-28-6"  
+class="td11"> 7,763                                           </td><td  style="text-align:left;" id="TBL-3-28-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-29-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-1"  
+class="td11"> NSP15                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-29-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2H85                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-4"  
+class="td11"> 345          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-5"  
+class="td11"> 67345                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-29-6"  
+class="td11"> 4,734                                           </td><td  style="text-align:left;" id="TBL-3-29-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-30-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-1"  
+class="td11"> NSP15                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-2"  
+class="td11"> Hexamer              </td><td  style="text-align:left;" id="TBL-3-30-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2H85                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-4"  
+class="td11"> 2070        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-5"  
+class="td11"> 230339                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-30-6"  
+class="td11"> 1,130                                              </td><td  style="text-align:left;" id="TBL-3-30-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-31-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-1"  
+class="td11"> Nucleoprotein RBD                                </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-31-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2OFZ                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-4"  
+class="td11"> 174          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-5"  
+class="td11"> 29125                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-31-6"  
+class="td11"> 4,088                                           </td><td  style="text-align:left;" id="TBL-3-31-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-32-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-1"  
+class="td11"> Nucleoprotein Dimerization Domain      </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-32-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2GIB                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-4"  
+class="td11"> 370          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-5"  
+class="td11"> 34905                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-32-6"  
+class="td11"> 1,626                                              </td><td  style="text-align:left;" id="TBL-3-32-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-33-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-1"  
+class="td11"> Nucleoprotein Dimerization Domain      </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-2"  
+class="td11"> Dimer                  </td><td  style="text-align:left;" id="TBL-3-33-3"  
+class="td11"> <!--l. 169--><p class="noindent" >2GIB                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-4"  
+class="td11"> 740          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-5"  
+class="td11"> 72733                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-33-6"  
+class="td11"> 4,221                                              </td><td  style="text-align:left;" id="TBL-3-33-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-34-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-1"  
+class="td11"> Spike                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-2"  
+class="td11"> Trimer                 </td><td  style="text-align:left;" id="TBL-3-34-3"  
+class="td11"> <!--l. 169--><p class="noindent" >5X58***           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-4"  
+class="td11"> 3261        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-5"  
+class="td11"> 375851                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-34-6"  
+class="td11"> 741                                              </td><td  style="text-align:left;" id="TBL-3-34-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-35-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-1"  
+class="td11"> NSP10 / NSP16                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-2"  
+class="td11"> Dimer complex   </td><td  style="text-align:left;" id="TBL-3-35-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W4H**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-4"  
+class="td11"> 425          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-5"  
+class="td11"> 69589                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-35-6"  
+class="td11"> 518                                              </td><td  style="text-align:left;" id="TBL-3-35-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-36-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-36-1"  
+class="td11">                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-36-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-36-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-36-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-36-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-36-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-36-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-37-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-37-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">Human                                                    </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-37-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-37-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-37-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-37-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-37-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-37-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-38-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-1"  
+class="td11"> IL6                                                           </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-38-3"  
+class="td11"> <!--l. 169--><p class="noindent" >1ALU               </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-4"  
+class="td11"> 166          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-5"  
+class="td11"> 26855                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-38-6"  
+class="td11"> 1,593                                           </td><td  style="text-align:left;" id="TBL-3-38-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-39-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-1"  
+class="td11"> IL6-R                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-39-3"  
+class="td11"> <!--l. 169--><p class="noindent" >1N26                 </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-4"  
+class="td11"> 299          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-5"  
+class="td11"> 149764                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-39-6"  
+class="td11"> 196                                              </td><td  style="text-align:left;" id="TBL-3-39-7"  
+class="td11"> <!--l. 169--><p class="noindent" >5                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-40-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-1"  
+class="td11"> ACE2                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-40-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6LZG                </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-4"  
+class="td11"> 596          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-5"  
+class="td11"> 75787                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-40-6"  
+class="td11"> 664                                              </td><td  style="text-align:left;" id="TBL-3-40-7"  
+class="td11"> <!--l. 169--><p class="noindent" >2                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-41-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-41-1"  
+class="td11">                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-41-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-41-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-41-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-41-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-41-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-41-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-42-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-42-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">MERS                                                     </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-42-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-42-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-42-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-42-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-42-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-42-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-43-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-1"  
+class="td11"> NSP13                                                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-2"  
+class="td11"> Monomer            </td><td  style="text-align:left;" id="TBL-3-43-3"  
+class="td11"> <!--l. 169--><p class="noindent" >5WWP              </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-4"  
+class="td11"> 596          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-5"  
+class="td11"> 121134                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-43-6"  
+class="td11"> 719                                              </td><td  style="text-align:left;" id="TBL-3-43-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-44-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-1"  
+class="td11"> NSP10 / NSP16                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-2"  
+class="td11"> Dimer Complex  </td><td  style="text-align:left;" id="TBL-3-44-3"  
+class="td11"> <!--l. 169--><p class="noindent" >6W4H**           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-4"  
+class="td11"> 424          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-5"  
+class="td11"> 69127                   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-44-6"  
+class="td11"> 518                                              </td><td  style="text-align:left;" id="TBL-3-44-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-45-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-45-1"  
+class="td11">                            </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-45-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-45-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-45-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-45-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-45-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-45-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-46-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-46-1"  
+class="td11"> <span 
+class="ptmb7t-x-x-120">HCoV-NL63                                           </span></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-46-2"  
+class="td11">             </td><td  style="text-align:left;" id="TBL-3-46-3"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-46-4"  
+class="td11">        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-46-5"  
+class="td11">             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-46-6"  
+class="td11">                      </td><td  style="text-align:left;" id="TBL-3-46-7"  
+class="td11"> <!--l. 169--><p class="noindent" >           </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-47-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-1"  
+class="td11"> Spike                                                       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-2"  
+class="td11"> Trimer                 </td><td  style="text-align:left;" id="TBL-3-47-3"  
+class="td11"> <!--l. 169--><p class="noindent" >5SZS***           </p></td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-4"  
+class="td11"> 3606        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-5"  
+class="td11"> 453348                 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-3-47-6"  
+class="td11"> 651                                              </td><td  style="text-align:left;" id="TBL-3-47-7"  
+class="td11"> <!--l. 169--><p class="noindent" >-                  </p></td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-48-"><td  style="text-align:left; white-space:nowrap;" id="TBL-3-48-1"  
+class="td11">                            </td></tr></table>                                                                                                                            </div>
+                                                                                      
+                                                                                      
+</div><hr class="endfloat" />
+</div>
+<h3 class="sectionHead"><span class="titlemark">6.4    </span> <a 
+ id="x10-950006.4"></a>Discussion</h3>
+<!--l. 173--><p class="noindent" >In this work, we have utilized the largest computer in the world to tackle a global threat. The pandemic
+caused by SARS-CoV-2 has necessitated a call-to-arms; a call that over a million citizen-scientists
+have answered, generating more than 0.1 seconds of simulation data. The unprecedented scale of these
+simulations has helped to characterize crucial stages of infection. We find that spike proteins
+have a strong trade-off between making ACE2 binding interfaces accessible to infiltrate
+cells and conformationally masking epitopes to subvert immune responses. SARS-CoV-2
+represents a more optimal tradeoff than related coronaviruses, which may explain its success
+in spreading globally. Our simulations also provide an atomically detailed roadmap for
+targeting proteins for vaccines and antivirals. Furthermore, we are working on making a
+comprehensive repository of cryptic pockets hosted online to accelerate the development of novel
+therapeutics.
+</p><!--l. 175--><p class="noindent" >Beyond SARS-CoV-2, we expect this work to aid in a better understanding of the roles of proteins in
+the coronaviridae family. Coronaviruses have been around for millennia, yet many of their proteins are
+still poorly understood. Because climate change has made zoonotic transmission events more
+commonplace, it is imperative that we continue to perform basic research on these viruses to better
+protect us from future pandemics. For each protein system in Table <a 
+href="#x10-94003r1">6.1<!--tex4ht:ref: tab:covid-systems-table1 --></a>, an extraordinary amount of
+sampling has led to the generation of a quantitative map of its conformational landscape. There is still
+much to learn about coronavirus function and these conformational ensembles contain a wealth of
+information to pull from.
+</p><!--l. 177--><p class="noindent" >While we have aggressively targeted research on SARS-CoV-2, Folding@home is a general platform
+                                                                                      
+                                                                                      
+for running molecular dynamics simulations at scale. Before the COVID-19 pandemic,
+Folding@home was already generating datasets that were orders of magnitude greater than from
+conventional means. With our explosive growth, our compute power has increased around 100-fold.
+Our work here highlights the incredible utility this compute power has to rapidly understand health,
+disease, and aid in drug design. Both in terms of scale and approach, we are in a new frontier of using
+molecular dynamics simulations to understand biophysics; the complex task of simulating an
+organism&#8217;s entire proteome could become commonplace. With the continued support of the citizen
+scientists that have made this work possible, we have the opportunity to make a profound impact
+on other global health crises such as cancer, neurodegenerative diseases, and antibiotic
+resistance.
+</p><!--l. 179--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">6.5    </span> <a 
+ id="x10-960006.5"></a>Methods</h3>
+<!--l. 180--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.5.1    </span> <a 
+ id="x10-970006.5.1"></a>System preparations</h4>
+<!--l. 181--><p class="noindent" >All simulations were prepared using Gromacs 2020<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XAbraham:2015gj">222</a>]</span>. Initial structures were placed in a
+dodecahedron box that extends 1.0 nm beyond the protein in any dimension. Systems were then
+solvated and energy minimized with a steepest descents algorithm until the maximum force fell below
+100 kJ/mol/nm using a step size of 0.01 nm and a cutoff distance of 1.2 nm for the neighbor list,
+                                                                                      
+                                                                                      
+Coulomb interactions, and van der Waals interactions. The AMBER03 force field was used for all
+systems except spike protein with glycans, which used CHARMM36<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDuan:2003gt">146</a>,&#x00A0;<a 
+href="mainli4.html#Xhuang_charmm36_2013">433</a>]</span>. All simulations
+were simulated with explicit TIP3P solvent<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XJorgensen:1983fl">143</a>]</span>.
+</p><!--l. 183--><p class="noindent" >Systems were then equilibrated for 1.0 ns, where all bonds were constrained with the LINCS
+algorithm and virtual sites were used to allow a 4 fs time step<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFeenstra:1999ue">228</a>,&#x00A0;<a 
+href="mainli4.html#XHess:2008fl">226</a>]</span>. Cutoffs of 1.1 nm were
+used for the neighbor list with 0.9 for Coulomb and van der Waals interactions. The Verlet cutoff
+scheme was used for the neighbor list. The stochastic velocity rescaling (v-rescale) thermostat was
+used to hold the temperature at 300 K<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBussi:2007cs">224</a>]</span>.
+</p><!--l. 185--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.5.2    </span> <a 
+ id="x10-980006.5.2"></a>Adaptive sampling simulations</h4>
+<!--l. 186--><p class="noindent" >The FAST algorithm was employed for each protein in Table <a 
+href="#x10-94003r1">6.1<!--tex4ht:ref: tab:covid-systems-table1 --></a> to enhance conformational sampling
+and quickly explore dominant motions. The procedure for FAST simulations is as follows: 1) run
+initial simulations, 2) build MSM, 3) rank states based on FAST ranking, 4) restart simulations from
+the top ranked states, 5) repeat steps 2-4 until ranking is optimized. For each system, MSMs were
+generated after each round of sampling using a k-centers clustering algorithm based on the RMSD
+between select atoms. Clustering continued until the maximum distance of a frame to a cluster center
+fell within a predefined cutoff. In addition to the FAST ranking, a similarity penalty was
+added to promote conformational diversity in starting structures, as has been described
+previously<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xzimmerman_prediction_2017">278</a>]</span>.
+</p><!--l. 188--><p class="noindent" >FAST-distance simulations of all Spike proteins were run at 310 K on the Microsoft Azure cloud computing
+platform. The FAST-distance ranking favored states with greater RBD openings using a set of distances
+between atoms. Each round of sampling was performed with 22 independent simulations that were 40 ns in
+                                                                                      
+                                                                                      
+length (0.88 <!--l. 188--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s
+aggregate sampling per round), where the number of rounds totaled 13 (11.44
+<!--l. 188--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s), 22 (19.36
+<!--l. 188--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s), and 17
+(14.96 <!--l. 188--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s),
+for SARS-CoV-1, SARS-CoV-2, and HCoV-NL63, respectively.
+</p><!--l. 190--><p class="noindent" >For all other proteins, FAST-pocket simulations were run at 300 K for 6 rounds,
+with 10 simulations per round, where each simulation was 40 ns in length (2.4
+<!--l. 190--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s
+aggregate simulation). The FAST-pocket ranking function favored restarting simulations from
+states with large pocket openings. Pocket volumes were calculated using the LIGSITE
+algorithm<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xhendlich_ligsite:_1997">434</a>]</span>.
+</p><!--l. 192--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.5.3    </span> <a 
+ id="x10-990006.5.3"></a>Folding@home simulations</h4>
+<!--l. 193--><p class="noindent" >For each adaptive sampling run, a conformationally diverse set of structures was selected to be run on
+Folding@home. Structures came from the final k-centers clustering of adaptive sampling, as is
+described above. Simulations were deployed using a simulation core based on either GROMACS 5.0.4
+or OpenMM 7.4.1 <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XAbraham:2015gj">222</a>,&#x00A0;<a 
+href="mainli4.html#Xeastman_openmm_2017">34</a>]</span>.
+</p><!--l. 196--><p class="noindent" >
+</p>
+                                                                                      
+                                                                                      
+<h4 class="subsectionHead"><span class="titlemark">6.5.4    </span> <a 
+ id="x10-1000006.5.4"></a>Markov state models</h4>
+<!--l. 197--><p class="noindent" >A Markov state model is a network representation of a free energy landscape and is a key tool for making
+sense of molecular dynamics simulations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHusic:2018iz">38</a>]</span>. All MSMs were built using our python package,
+enspara<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xporter2018enspara">39</a>]</span>. Each system was clustered with the combined FAST and Folding@home datasets. In the
+case of spike proteins, states were defined geometrically based on the RMSD between backbone
+C<!--l. 197--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B1;</mi></math>
+coordinates. States were generated as the top 3000 centers from a k-centers clustering
+algorithm. All other proteins were clustered based on the euclidean distance between the
+solvent accessible surface area of residues, as is described previously<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>]</span>. Systems
+generated either 2500, 5000, 7500, or 10000 cluster centers from a k-centers clustering
+algorithm. Select systems were refined with 1-10 k-medoid sweeps. Transition probability
+matrices were produced by counting transitions between states, adding a prior count of
+<!--l. 197--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mo 
+class="MathClass-bin">&#x2215;</mo><msub><mrow 
+><mi 
+>n</mi></mrow><mrow 
+><mi 
+>s</mi></mrow></msub 
+><mi 
+>t</mi><mi 
+>a</mi><mi 
+>t</mi><mi 
+>e</mi><mi 
+>s</mi></math>, and
+row-normalizing, as is described previously<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XZimmerman:2018jn">42</a>]</span>. Equilibrium populations were calculated as the
+eigenvector of the transition probability matrix with an eigenvalue of one.
+</p><!--l. 199--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.5.5    </span> <a 
+ id="x10-1010006.5.5"></a>Spike/ACE2 binding competency</h4>
+<!--l. 200--><p class="noindent" >To determine Spike protein binding competency to ACE2 the following structures of the RBD bound
+to ACE2 were used: 3D0G, 6M0J, and 3KBH, for SARS-CoV-1, SARS-CoV-2, and HCoV-NL63,
+respectively. The RBD of the bound complex was superimposed onto each RBD for structures in our
+MSM. Steric clashes were then determined between backbone atoms on the ACE2 molecule and the
+rest of the spike protein. If any of the structures had a superposition that resulted in no clashes, it was
+deemed binding competent.
+                                                                                      
+                                                                                      
+</p><!--l. 203--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.5.6    </span> <a 
+ id="x10-1020006.5.6"></a>Cryptic pockets and solvent accessible surface area</h4>
+<!--l. 204--><p class="noindent" >For ease of detecting cryptic pockets and other functional motions, we employed our exposon analysis
+method<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>]</span>. This method correlates the solvent exposure between residues to find concerted
+motions that tend to represent cryptic pocket openings. Solvent accessible surface area
+calculations were computed using the Shrake-Rupley algorithm as implemented in the
+python package MDTraj<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMcGibbon:2015fv">148</a>]</span>. For all proteins and complexes, a solvent probe radius of
+0.28 nm was used, which has been shown to produce a reasonable clustering and exposon
+map<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPorter:2019hv">49</a>]</span>.
+</p><!--l. 206--><p class="noindent" >Spike protein solvent accessible surface areas for SARS-CoV-2 were computed with glycan chains
+modeled onto each cluster center. Multiple glycan rotamers were sampled for each state
+and accessible surface areas for each residue were weighted based on MSM equilibrium
+populations.
+</p><!--l. 208--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.5.7    </span> <a 
+ id="x10-1030006.5.7"></a>Sequence conservation</h4>
+<!--l. 209--><p class="noindent" >Sequence conservation of spike proteins was calculated using the Uniprot database<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xthe_uniprot_consortium_uniprot:_2019">435</a>]</span>. Sequences
+between 30% - 90% were pulled and aligned with the Muscle algorithm<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xedgar_muscle:_2004">436</a>]</span>. The entropy at each
+position was calculated to quantify variability of amino acids. Conservation was defined as one minus
+                                                                                      
+                                                                                      
+the entropy<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XShannon:1948iy">237</a>]</span>.
+</p><!--l. 211--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">6.6    </span> <a 
+ id="x10-1040006.6"></a>Acknowledgements</h3>
+<!--l. 212--><p class="noindent" >We are extremely grateful to all the citizen scientists who contributed their compute power to make
+this work possible, and members of the Folding@home community who volunteered to help with
+everything from technical support to translating content into multiple languages. Thanks to Microsoft
+AI for Health for helping us use Azure to run adaptive sampling simulations, and to UKRI for
+providing compute resources to parallelize data analysis. Thanks to Pure Storage for providing a
+FlashBlade system to store our large datasets, to Seagate and Micron for additional storage, and to
+MolSSI for helping organize public datasets. Thanks to Avast, AWS, Cisco, Linus Tech Tips,
+Microsoft Azure, Oracle, and VMware for helping us to scale-up Folding@home&#8217;s server-side
+infrastructure to keep up with the tremendous growth we experienced in such a short time. Thanks to
+AMD, ARM and Neocortix, and Intel for helping to improve the performance of Folding@home on
+their hardware. Thanks to all of the above companies for spreading the word about Folding@home,
+and also to A16Z, Best Buy, CCP, CoreWeave, Daimler Truck AG, Dell, GitHub, HP, La
+Liga, Media Monks, Microcenter, NVIDIA, and Telefonica. Thanks to CERN and the
+particle physics community for providing guidance on data management strategies and to
+DataDog for server monitoring services. GRB and his lab were supported by funding from
+Avast, the Center for the Science and Engineering of Living Systems (CSELS), an NSF
+RAPID award, NSF CAREER Award MCB-1552471, NIH R01 GM124007, a Burroughs
+Wellcome Fund Career Award at the Scientific Interface, and a Packard Fellowship for
+Science and Engineering. JDC acknowledges support from NIH grant P30 CA008748 and
+NIH grant R01 GM121505. VAV and MFDH acknowledge support from NIH grant R01
+                                                                                      
+                                                                                      
+GM123296.
+</p><!--l. 214--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">6.7    </span> <a 
+ id="x10-1050006.7"></a>Disclosures</h3>
+<!--l. 215--><p class="noindent" >JDC is a current member of the Scientific Advisory Board of OpenEye Scientific Software and a
+consultant to Foresite Laboratories. The Chodera laboratory receives or has received funding from
+multiple sources, including the National Institutes of Health, the National Science Foundation, the
+Parker Institute for Cancer Immunotherapy, Relay Therapeutics, Entasis Therapeutics, Silicon
+Therapeutics, EMD Serono (Merck KGaA), AstraZeneca, Vir Biotechnology, Bayer, XtalPi, the
+Molecular Sciences Software Institute, the Starr Cancer Consortium, the Open Force Field
+Consortium, Cycle for Survival, a Louis V. Gerstner Young Investigator Award, and the
+Sloan Kettering Institute. A complete funding history for the Chodera lab can be found at
+http://choderalab.org/funding.
+                                                                                      
+                                                                                      
+</p>
+<!--l. 3--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch7.html" >next</a>] [<a 
+href="mainch5.html" >prev</a>] [<a 
+href="mainch5.html#tailmainch5.html" >prev-tail</a>] [<a 
+href="mainch6.html" >front</a>] [<a 
+href="main.html#mainch6.html" >up</a>] </p></div>
+<!--l. 3--><p class="noindent" ><a 
+ id="tailmainch6.html"></a></p> 
+</body></html> 

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ch4.aux
+The style file: unsrt.bst
+Database file #1: ../References.bib
+Name 2 in "{Ethan P Marin} and A Gopala Krishna, and and {Thomas P Sakmar}" has a comma at the end for entry EthanPMarin:2002fr
+while executing---line 944 of file unsrt.bst
+You've used 87 entries,
+            1791 wiz_defined-function locations,
+            1053 strings with 24890 characters,
+and the built_in function-call counts, 25323 in all, are:
+= -- 2076
+> -- 1650
+< -- 2
++ -- 580
+- -- 493
+* -- 2429
+:= -- 4174
+add.period$ -- 261
+call.type$ -- 87
+change.case$ -- 87
+chr.to.int$ -- 0
+cite$ -- 87
+duplicate$ -- 846
+empty$ -- 2086
+format.name$ -- 493
+if$ -- 5262
+int.to.chr$ -- 0
+int.to.str$ -- 87
+missing$ -- 88
+newline$ -- 438
+num.names$ -- 87
+pop$ -- 104
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 368
+stack$ -- 0
+substring$ -- 2103
+swap$ -- 153
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 234
+width$ -- 89
+write$ -- 956
+(There was 1 error message)
