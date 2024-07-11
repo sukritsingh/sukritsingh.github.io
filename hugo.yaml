@@ -23,14 +23,14 @@ menu:
     - name: "Blog"
       url: "/blog/"
       weight: 1
-    - name: "Gaming"
-      url: "/gaming/"
-      weight: 2
     - name: "Research"
       url: "/research/"
-      weight: 3
+      weight: 2
     - name: "Side Projects"
       url: "/side-projects/"
+      weight: 3
+    - name: "Gaming"
+      url: "/gaming/"
       weight: 4
     - name: Search
       params:
@@ -58,20 +58,6 @@ params:
 
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
-
-  # # Search
-  # # flexsearch is enabled by default
-  # search:
-  #   enable: true
-  #   type: flexsearch
-
-  #   flexsearch:
-  #     # index page by: content | summary | heading | title
-  #     index: content
-  #     # full | forward | reverse | strict
-  #     # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-  #     tokenize: forward
-
 
   blog:
     list:
