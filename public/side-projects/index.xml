@@ -1,0 +1,105 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sukrit Singh, PhD – Side projects</title>
+    <link>http://localhost:1313/side-projects/</link>
+    <description>Recent content in Side projects on Sukrit Singh, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/side-projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Beverage map</title>
+      <link>http://localhost:1313/side-projects/bevmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/side-projects/bevmap/</guid>
+      <description>
+        
+        
+        &lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;title&gt;Embedded Page Example&lt;/title&gt;
+    &lt;style&gt;
+        .iframe-container {
+            display: flex;
+            justify-content: left; /* Centers the iframe */
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 145%; /* Adjust the width as needed */
+            height: 600px;
+            border: none;
+            margin-left: -20%;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;iframe src=&#34;http://localhost:1313/bevmap/index.html&#34; width=&#34;200%&#34; align=&#34;center&#34; height=&#34;600px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MolView - online molecular viewer</title>
+      <link>http://localhost:1313/side-projects/molview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/side-projects/molview/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Minimal_molview Visualizations&lt;/h1&gt;&lt;p&gt;This page contains links to visualizations created using &lt;a href=&#34;https://github.com/hmacdope/minimal_molview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Minimal_molview&lt;/a&gt;
+Contributions are welcome!&lt;/p&gt;
+&lt;p&gt;Click on the links to view the visualizations in a new tab. A sample visualization is below.&lt;/p&gt;
+&lt;h2&gt;Sample Visualization: A kinase undergoing a &amp;ldquo;DFG-flip&amp;rdquo;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sample-visualization-a-kinase-undergoing-a-dfg-flip&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sample-visualization-a-kinase-undergoing-a-dfg-flip&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Give it a moment to load. Use your cursor to click and drag to rotate the molecule.&lt;/p&gt;
+&lt;iframe src=&#34;http://localhost:1313/molview/quick-flip-morph.html&#34; style=&#34;width: 100%; height: 500px; border: none;&#34;&gt;&lt;/iframe&gt;
+&lt;h2&gt;Other interactive visualizations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;other-interactive-visualizations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#other-interactive-visualizations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/molview/menin-revumenib.html&#34; &gt;Menin + Revumenib ligand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/molview/dfg-flip.html&#34; &gt;Abl kinase DFG-flip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/molview/dfg-flip-spheres.html&#34; &gt;Abl kinase DFG-flip with spheres&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>My thesis project online</title>
+      <link>http://localhost:1313/side-projects/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/side-projects/thesis/</guid>
+      <description>
+        
+        
+        &lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;title&gt;Embedded Page Example&lt;/title&gt;
+    &lt;style&gt;
+        .iframe-container {
+            display: flex;
+            justify-content: left; /* Centers the iframe */
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 145%; /* Adjust the width as needed */
+            height: 600px;
+            border: none;
+            margin-left: -20%;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;iframe src=&#34;http://localhost:1313/thesis/index.html&#34; width=&#34;200%&#34; align=&#34;center&#34; height=&#34;600px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

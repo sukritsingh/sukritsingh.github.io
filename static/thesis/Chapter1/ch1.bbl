@@ -1,0 +1,567 @@
+\begin{thebibliography}{10}
+
+\bibitem{Roth:2017gk}
+Bryan~L Roth, John~J Irwin, and Brian~K Shoichet.
+\newblock {Discovery of new GPCR ligands to illuminate new biology.}
+\newblock {\em Nature chemical biology}, 13(11):1143--1151, November 2017.
+
+\bibitem{weitzner_computational_2019}
+Brian~D. Weitzner, Yakov Kipnis, A.~Gerard Daniel, Donald Hilvert, and David
+  Baker.
+\newblock A computational method for design of connected catalytic networks in
+  proteins.
+\newblock {\em Protein Science}, 28(12):2036--2041, December 2019.
+
+\bibitem{kendrew_three-dimensional_1958}
+J.~C. Kendrew, G.~Bodo, H.~M. Dintzis, R.~G. Parrish, H.~Wyckoff, and D.~C.
+  Phillips.
+\newblock A three-dimensional model of the myoglobin molecule obtained by x-ray
+  analysis.
+\newblock {\em Nature}, 181(4610):662--666, March 1958.
+
+\bibitem{khan_performance_2010}
+Sofia Khan and Mauno Vihinen.
+\newblock Performance of protein stability predictors.
+\newblock {\em Human Mutation}, 31(6):675--684, March 2010.
+
+\bibitem{yin_overview_2017}
+Jian Yin, Niel~M. Henriksen, David~R. Slochower, Michael~R. Shirts, Michael~W.
+  Chiu, David~L. Mobley, and Michael~K. Gilson.
+\newblock Overview of the {SAMPL5} host–guest challenge: {Are} we doing
+  better?
+\newblock {\em Journal of Computer-Aided Molecular Design}, 31(1):1--19,
+  January 2017.
+
+\bibitem{Hart:2016kb}
+Kathryn~M Hart, Chris M~W Ho, Supratik Dutta, Michael~L Gross, and Gregory~R
+  Bowman.
+\newblock {Modelling proteins' hidden conformations to predict antibiotic
+  resistance.}
+\newblock {\em Nature communications}, 7:12965, October 2016.
+
+\bibitem{porter_conformational_2020}
+Justin~R Porter, Artur Meller, Maxwell~I Zimmerman, Michael~J Greenberg, and
+  Gregory~R Bowman.
+\newblock Conformational distributions of isolated myosin motor domains encode
+  their mechanochemical properties.
+\newblock {\em eLife}, 9:e55132, May 2020.
+
+\bibitem{levinthal_how_1969}
+C~Levinthal.
+\newblock How to {Fold} {Graciously}.
+\newblock {\em Topics in mossbauer spectroscopy}, 20(1):25--44, October 1969.
+
+\bibitem{baldwin_early_2011}
+Robert~L. Baldwin.
+\newblock Early days of protein hydrogen exchange: 1954-1972.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics},
+  79(7):2021--2026, July 2011.
+
+\bibitem{HenzlerWildman:2007cz}
+Katherine~A Henzler-Wildman, Ming Lei, Vu~Thai, S~Jordan Kerns, Martin Karplus,
+  and Dorothee Kern.
+\newblock {A hierarchy of timescales in protein dynamics is linked to enzyme
+  catalysis.}
+\newblock {\em Nature}, 450(7171):913--916, December 2007.
+
+\bibitem{Boehr:2006jd}
+David~D Boehr, Dan McElheny, H~Jane Dyson, and P~E Wright.
+\newblock {The dynamic energy landscape of dihydrofolate reductase catalysis.}
+\newblock {\em Science}, 313(5793):1638--1642, September 2006.
+
+\bibitem{Boehr:2009ju}
+David~D Boehr, Ruth Nussinov, and P~E Wright.
+\newblock {The role of dynamic conformational ensembles in biomolecular
+  recognition.}
+\newblock {\em Nature chemical biology}, 5(11):789--796, November 2009.
+
+\bibitem{zorba_molecular_2014}
+Adelajda Zorba, Vanessa Buosi, Steffen Kutter, Nadja Kern, Francesco Pontiggia,
+  Young-Jin Cho, and Dorothee Kern.
+\newblock Molecular mechanism of {Aurora} {A} kinase autophosphorylation and
+  its allosteric activation by {TPX2}.
+\newblock {\em eLife}, 3:e02667, May 2014.
+
+\bibitem{kerns_energy_2015}
+S~Jordan Kerns, Roman~V Agafonov, Young-Jin Cho, Francesco Pontiggia, Renee
+  Otten, Dimitar~V Pachov, Steffen Kutter, Lien~A Phung, Padraig~N Murphy,
+  Vu~Thai, Tom Alber, Michael~F Hagan, and Dorothee Kern.
+\newblock The energy landscape of adenylate kinase during catalysis.
+\newblock {\em Nature Structural \& Molecular Biology}, 22(2):124--131,
+  February 2015.
+
+\bibitem{VanEps:2010by}
+Ned Van~Eps, Lori~L Anderson, Oleg~G Kisselev, Thomas~J Baranski, Wayne~L
+  Hubbell, and Garland~R Marshall.
+\newblock {Electron paramagnetic resonance studies of functionally active,
+  nitroxide spin-labeled peptide analogues of the C-terminus of a G-protein
+  alpha subunit.}
+\newblock {\em Biochemistry}, 49(32):6877--6886, August 2010.
+
+\bibitem{Wand:2013dz}
+A~Joshua Wand.
+\newblock {The dark energy of proteins comes to light: conformational entropy
+  and its role in protein function revealed by NMR relaxation.}
+\newblock 23(1):75--81, February 2013.
+
+\bibitem{Koehl:2018fv}
+Antoine Koehl, Hongli Hu, Shoji Maeda, Yan Zhang, Qianhui Qu, Joseph~M Paggi,
+  Naomi~R Latorraca, Daniel Hilger, Roger Dawson, Hugues Matile, Gebhard F~X
+  Schertler, S{\'e}bastien Granier, William~I Weis, Ron~O Dror, Aashish
+  Manglik, Georgios Skiniotis, and Brian~K Kobilka.
+\newblock {Structure of the {\textmu}-opioid receptor{\textendash}G i protein
+  complex}.
+\newblock {\em Nature}, 383:1, June 2018.
+
+\bibitem{DraperJoyce:2018il}
+Christopher~J Draper-Joyce, Maryam Khoshouei, David~M Thal, Yi-Lynn Liang, Anh
+  T~N Nguyen, Sebastian G~B Furness, Hariprasad Venugopal, Jo-Anne Baltos,
+  J{\"u}rgen~M Plitzko, Radostin Danev, Wolfgang Baumeister, Lauren~T May,
+  Denise Wootten, Patrick~M Sexton, Alisa Glukhova, and Arthur Christopoulos.
+\newblock {Structure of the adenosine-bound human adenosine A1 receptor-Gi
+  complex.}
+\newblock {\em Nature}, 63:1, June 2018.
+
+\bibitem{GarciaNafria:2018hu}
+Javier Garc{\'\i}a-Nafr{\'\i}a, Rony Nehm{\'e}, Patricia~C Edwards, and
+  Christopher~G Tate.
+\newblock {Cryo-EM structure of the serotonin 5-HT1B receptor coupled to
+  heterotrimeric Go.}
+\newblock {\em Nature}, 7:118, June 2018.
+
+\bibitem{Kang:2018kq}
+Yanyong Kang, Oleg Kuybeda, Parker~W de~Waal, Somnath Mukherjee, Ned Van~Eps,
+  Przemyslaw Dutka, X~Edward Zhou, Alberto Bartesaghi, Satchal Erramilli,
+  Takefumi Morizumi, Xin Gu, Yanting Yin, Ping Liu, Yi~Jiang, Xing Meng, Gongpu
+  Zhao, Karsten Melcher, Oliver~P Ernst, Anthony~A Kossiakoff, Sriram
+  Subramaniam, and H~Eric Xu.
+\newblock {Cryo-EM structure of human rhodopsin bound to an inhibitory G
+  protein.}
+\newblock {\em Nature}, 63(Suppl. 1):1256, June 2018.
+
+\bibitem{Dror:2012cs}
+Ron~O Dror, Robert~M Dirks, J~P Grossman, Huafeng Xu, and David~E Shaw.
+\newblock {Biomolecular Simulation: A Computational Microscope for Molecular
+  Biology}.
+\newblock {\em dx.doi.org}, 41(1):429--452, May 2012.
+
+\bibitem{lee_discovery_2009}
+Eric~H. Lee, Jen Hsin, Marcos Sotomayor, Gemma Comellas, and Klaus Schulten.
+\newblock Discovery through the computational microscope.
+\newblock {\em Structure}, 17(10):1295--1306, October 2009.
+
+\bibitem{kukol_current_2015}
+Pedro E.~M. Lopes, Olgun Guvench, and Alexander~D. MacKerell.
+\newblock Current status of protein force fields for molecular dynamics
+  simulations.
+\newblock In Andreas Kukol, editor, {\em Molecular {Modeling} of {Proteins}},
+  volume 1215, pages 47--71. Springer New York, New York, NY, 2015.
+
+\bibitem{E:2010hs}
+Weinan E and Eric Vanden-Eijnden.
+\newblock {Transition-Path Theory and Path-Finding Algorithms for the Study of
+  Rare Events}.
+\newblock {\em dx.doi.org}, 61(1):391--420, March 2010.
+
+\bibitem{hamelberg_accelerated_2004}
+Donald Hamelberg, John Mongan, and J.~Andrew McCammon.
+\newblock Accelerated molecular dynamics: {A} promising and efficient
+  simulation method for biomolecules.
+\newblock {\em The Journal of Chemical Physics}, 120(24):11919--11929, June
+  2004.
+
+\bibitem{paschek_replica_2007}
+Dietmar Paschek, Hugh Nymeyer, and Angel~E. García.
+\newblock Replica exchange simulation of reversible folding/unfolding of the
+  {Trp}-cage miniprotein in explicit solvent: {On} the structure and possible
+  role of internal water.
+\newblock {\em Journal of Structural Biology}, 157(3):524--533, March 2007.
+
+\bibitem{piana_bias-exchange_2007}
+Stefano Piana and Alessandro Laio.
+\newblock A bias-exchange approach to protein folding.
+\newblock {\em The Journal of Physical Chemistry B}, 111(17):4553--4559, May
+  2007.
+
+\bibitem{stone_accelerating_2007}
+John~E. Stone, James~C. Phillips, Peter~L. Freddolino, David~J. Hardy,
+  Leonardo~G. Trabuco, and Klaus Schulten.
+\newblock Accelerating molecular modeling applications with graphics
+  processors.
+\newblock {\em Journal of Computational Chemistry}, 28(16):2618--2640, December
+  2007.
+
+\bibitem{friedrichs_accelerating_2009}
+Mark~S. Friedrichs, Peter Eastman, Vishal Vaidyanathan, Mike Houston, Scott
+  Legrand, Adam~L. Beberg, Daniel~L. Ensign, Christopher~M. Bruns, and Vijay~S.
+  Pande.
+\newblock Accelerating molecular dynamic simulation on graphics processing
+  units.
+\newblock {\em Journal of Computational Chemistry}, 30(6):864--872, April 2009.
+
+\bibitem{eastman_openmm:_2010}
+Peter Eastman and Vijay Pande.
+\newblock Openmm: a hardware-independent framework for molecular simulations.
+\newblock {\em Computing in Science \& Engineering}, 12(4):34--39, July 2010.
+
+\bibitem{eastman_openmm_2017}
+Peter Eastman, Jason Swails, John~D. Chodera, Robert~T. McGibbon, Yutong Zhao,
+  Kyle~A. Beauchamp, Lee-Ping Wang, Andrew~C. Simmonett, Matthew~P. Harrigan,
+  Chaya~D. Stern, Rafal~P. Wiewiora, Bernard~R. Brooks, and Vijay~S. Pande.
+\newblock {OpenMM} 7: {Rapid} development of high performance algorithms for
+  molecular dynamics.
+\newblock {\em PLOS Computational Biology}, 13(7):e1005659, July 2017.
+
+\bibitem{zimmerman_fast_2015}
+Maxwell~I. Zimmerman and Gregory~R. Bowman.
+\newblock Fast conformational searches by balancing exploration/exploitation
+  trade-offs.
+\newblock {\em Journal of Chemical Theory and Computation}, 11(12):5747--5757,
+  December 2015.
+
+\bibitem{shaw_anton_2008}
+David~E. Shaw, Martin~M. Deneroff, Ron~O. Dror, Jeffrey~S. Kuskin, Richard~H.
+  Larson, John~K. Salmon, Cliff Young, Brannon Batson, Kevin~J. Bowers, Jack~C.
+  Chao, Michael~P. Eastwood, Joseph Gagliardo, J.~P. Grossman, C.~Richard Ho,
+  Douglas~J. Ierardi, István Kolossváry, John~L. Klepeis, Timothy Layman,
+  Christine McLeavey, Mark~A. Moraes, Rolf Mueller, Edward~C. Priest, Yibing
+  Shan, Jochen Spengler, Michael Theobald, Brian Towles, and Stanley~C. Wang.
+\newblock Anton, a special-purpose machine for molecular dynamics simulation.
+\newblock {\em Communications of the ACM}, 51(7):91--97, July 2008.
+
+\bibitem{Shirts:2000du}
+M~Shirts and V~S Pande.
+\newblock {COMPUTING: Screen Savers of the World Unite!}
+\newblock {\em Science}, 290(5498):1903--1904, December 2000.
+
+\bibitem{Husic:2018iz}
+Brooke~E Husic and Vijay~S Pande.
+\newblock {Markov State Models: From an Art to a Science.}
+\newblock {\em Journal of the American Chemical Society}, page jacs.7b12191,
+  January 2018.
+
+\bibitem{porter2018enspara}
+J.~R. Porter, M.~I. Zimmerman, and G.~R. Bowman.
+\newblock Enspara: Modeling molecular ensembles with scalable data structures
+  and parallel computing.
+\newblock {\em The Journal of Chemical Physics}, 150(4):044108, 2019.
+
+\bibitem{Chodera:2014gk}
+John~D Chodera and Frank No{\'e}.
+\newblock {Markov state models of biomolecular conformational dynamics.}
+\newblock {\em Current opinion in structural biology}, 25:135--144, April 2014.
+
+\bibitem{Knoverek:2018kk}
+Catherine~R Knoverek, Gaya~K Amarasinghe, and Gregory~R Bowman.
+\newblock {Advanced Methods for Accessing Protein Shape-Shifting Present New
+  Therapeutic Opportunities}.
+\newblock {\em Trends in biochemical sciences}, December 2018.
+
+\bibitem{Zimmerman:2018jn}
+Maxwell~I Zimmerman, Justin~R Porter, Xianqiang Sun, Roseane~R Silva, and
+  Gregory~R Bowman.
+\newblock {Choice of Adaptive Sampling Strategy Impacts State Discovery,
+  Transition Probabilities, and the Apparent Mechanism of Conformational
+  Changes.}
+\newblock {\em Journal of Chemical Theory and Computation},
+  q-bio.BM:acs.jctc.8b00500, October 2018.
+
+\bibitem{Voelz:2010hs}
+Vincent~A Voelz, Gregory~R Bowman, Kyle Beauchamp, and Vijay~S Pande.
+\newblock {Molecular simulation of ab initio protein folding for a millisecond
+  folder NTL9(1-39).}
+\newblock {\em Journal of the American Chemical Society}, 132(5):1526--1528,
+  February 2010.
+
+\bibitem{Bowman:2012jd}
+Gregory~R Bowman and Phillip~L Geissler.
+\newblock {Equilibrium fluctuations of a single folded protein reveal a
+  multitude of potential cryptic allosteric sites}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(29):11681--11686, July 2012.
+
+\bibitem{Sun:2018kx}
+Xianqiang Sun, Sukrit Singh, Kendall Blumer, and Gregory~R Bowman.
+\newblock {Simulation of spontaneous G protein activation reveals a new
+  intermediate driving GDP unbinding}.
+\newblock {\em eLife}, 7, October 2018.
+
+\bibitem{Molgedey:1994ew}
+L~Molgedey and HG~Schuster.
+\newblock {Separation of a mixture of independent signals using time delayed
+  correlations.}
+\newblock {\em Physical review letters}, 72(23):3634--3637, June 1994.
+
+\bibitem{MSultan:2017du}
+Mohammad M~Sultan and Vijay~S Pande.
+\newblock {tICA-Metadynamics: Accelerating Metadynamics by Using Kinetically
+  Selected Collective Variables.}
+\newblock {\em Journal of Chemical Theory and Computation}, 13(6):2440--2447,
+  June 2017.
+
+\bibitem{PerezHernandez:2013ih}
+Guillermo P{\'e}rez-Hern{\'a}ndez, Fabian Paul, Toni Giorgino, Gianni
+  De~Fabritiis, and Frank No{\'e}.
+\newblock {Identification of slow molecular order parameters for Markov model
+  construction}.
+\newblock {\em arXiv.org}, (1):015102, February 2013.
+
+\bibitem{gonzalez_clustering_1985}
+Teofilo~F. Gonzalez.
+\newblock Clustering to minimize the maximum intercluster distance.
+\newblock {\em Theoretical Computer Science}, 38:293--306, 1985.
+
+\bibitem{park_simple_2009}
+Hae-Sang Park and Chi-Hyuck Jun.
+\newblock A simple and fast algorithm for {K}-medoids clustering.
+\newblock {\em Expert Systems with Applications}, 36(2):3336--3341, March 2009.
+
+\bibitem{prinz_optimal_2011}
+Jan-Hendrik Prinz, John~D. Chodera, Vijay~S. Pande, William~C. Swope, Jeremy~C.
+  Smith, and Frank Noé.
+\newblock Optimal use of data in parallel tempering simulations for the
+  construction of discrete-state {Markov} models of biomolecular dynamics.
+\newblock {\em The Journal of Chemical Physics}, 134(24):244108, June 2011.
+
+\bibitem{prinz_markov_2011}
+Jan-Hendrik Prinz, Hao Wu, Marco Sarich, Bettina Keller, Martin Senne, Martin
+  Held, John~D. Chodera, Christof Schütte, and Frank Noé.
+\newblock Markov models of molecular kinetics: {Generation} and validation.
+\newblock {\em The Journal of Chemical Physics}, 134(17):174105, May 2011.
+
+\bibitem{Cruz2020vp35}
+Matthew~A. Cruz, Thomas~E. Frederick, Sukrit Singh, Neha Vithani, Maxwell~I.
+  Zimmerman, Justin~R. Porter, Katelyn~E. Moeder, Gaya~K. Amarasinghe, and
+  Gregory~R. Bowman.
+\newblock Discovery of a cryptic allosteric site in ebola{\textquoteright}s
+  {\textquoteleft}undruggable{\textquoteright} vp35 protein using simulations
+  and experiments.
+\newblock {\em bioRxiv}, 2020.
+
+\bibitem{Bowman:2015da}
+Gregory~R Bowman.
+\newblock {Accurately modeling nanosecond protein dynamics requires at least
+  microseconds of simulation}.
+\newblock {\em Journal of computational chemistry}, pages n/a--n/a, June 2015.
+
+\bibitem{bowman2014extensive}
+Gregory~R Bowman and Phillip~L Geissler.
+\newblock Extensive conformational heterogeneity within protein cores.
+\newblock {\em The Journal of Physical Chemistry B}, 118(24):6417--6423, 2014.
+
+\bibitem{ge_simulations_2018}
+Yunhui Ge, Elias Borne, Shannon Stewart, Michael~R. Hansen, Emilia~C. Arturo,
+  Eileen~K. Jaffe, and Vincent~A. Voelz.
+\newblock Simulations of the regulatory {ACT} domain of human phenylalanine
+  hydroxylase ({Pah}) unveil its mechanism of phenylalanine binding.
+\newblock {\em Journal of Biological Chemistry}, 293(51):19532--19543, December
+  2018.
+
+\bibitem{chen_dynamic_2019}
+Shi Chen, Rafal~P Wiewiora, Fanwang Meng, Nicolas Babault, Anqi Ma, Wenyu Yu,
+  Kun Qian, Hao Hu, Hua Zou, Junyi Wang, Shijie Fan, Gil Blum, Fabio
+  Pittella-Silva, Kyle~A Beauchamp, Wolfram Tempel, Hualiang Jiang, Kaixian
+  Chen, Robert~J Skene, Yujun~George Zheng, Peter~J Brown, Jian Jin, Cheng Luo,
+  John~D Chodera, and Minkui Luo.
+\newblock The dynamic conformational landscape of the protein methyltransferase
+  {SETD8}.
+\newblock {\em eLife}, 8:e45403, May 2019.
+
+\bibitem{Porter:2019hv}
+Justin~R Porter, Katelyn~E Moeder, Carrie~A Sibbald, Maxwell~I Zimmerman,
+  Kathryn~M Hart, Michael~J Greenberg, and Gregory~R Bowman.
+\newblock {Cooperative Changes in Solvent Exposure Identify Cryptic Pockets,
+  Switches, and Allosteric Coupling.}
+\newblock {\em Biophysical Journal}, 116(5):818--830, March 2019.
+
+\bibitem{pascolutti_structure_2016}
+Roberta Pascolutti, Xianqiang Sun, Joseph Kao, Roy L. Maute, Aaron M. Ring,
+  Gregory R. Bowman, and Andrew C. Kruse.
+\newblock Structure and dynamics of pd-l1 and an ultra-high-affinity pd-1
+  receptor mutant.
+\newblock {\em Structure}, 24(10):1719--1728, October 2016.
+
+\bibitem{hilser_ensemble_2010}
+V.~J. Hilser.
+\newblock An ensemble view of allostery.
+\newblock {\em Science}, 327(5966):653--654, February 2010.
+
+\bibitem{Perutz:1970vb}
+M~F Perutz.
+\newblock {Stereochemistry of cooperative effects in haemoglobin.}
+\newblock {\em Nature}, 228(5273):726--739, November 1970.
+
+\bibitem{Tzeng:2009im}
+Shiou-Ru Tzeng and Charalampos~G Kalodimos.
+\newblock {Dynamic activation of an allosteric regulatory protein}.
+\newblock {\em Nature}, 462(7271):368--372, November 2009.
+
+\bibitem{Tzeng:2011by}
+Shiou-Ru Tzeng and Charalampos~G Kalodimos.
+\newblock {Protein dynamics and allostery: an NMR view.}
+\newblock 21(1):62--67, February 2011.
+
+\bibitem{Weis:2018fj}
+William~I Weis and Brian~K Kobilka.
+\newblock {The Molecular Basis of G Protein{\textendash}Coupled Receptor
+  Activation}.
+\newblock {\em Annual review of biochemistry}, 87(1):897--919, June 2018.
+
+\bibitem{wacker_how_2017}
+Daniel Wacker, Raymond~C. Stevens, and Bryan~L. Roth.
+\newblock How ligands illuminate gpcr molecular pharmacology.
+\newblock {\em Cell}, 170(3):414--427, July 2017.
+
+\bibitem{rosholm_membrane_2017}
+Kadla~R Rosholm, Natascha Leijnse, Anna Mantsiou, Vadym Tkach, Søren~L
+  Pedersen, Volker~F Wirth, Lene~B Oddershede, Knud~J Jensen, Karen~L Martinez,
+  Nikos~S Hatzakis, Poul~Martin Bendix, Andrew Callan-Jones, and Dimitrios
+  Stamou.
+\newblock Membrane curvature regulates ligand-specific membrane sorting of
+  {GPCRs} in living cells.
+\newblock {\em Nature Chemical Biology}, 13(7):724--729, July 2017.
+
+\bibitem{Rasmussen:2011kp}
+S{\o}ren G~F Rasmussen, Brian~T DeVree, Yaozhong Zou, Andrew~C Kruse, Ka~Young
+  Chung, Tong~Sun Kobilka, Foon~Sun Thian, Pil~Seok Chae, Els Pardon, Diane
+  Calinski, Jesper~M Mathiesen, Syed T~A Shah, Joseph~A Lyons, Martin Caffrey,
+  Samuel~H Gellman, Jan Steyaert, Georgios Skiniotis, William~I Weis, Roger~K
+  Sunahara, and Brian~K Kobilka.
+\newblock {Crystal structure of the $\beta$2 adrenergic receptor-Gs protein
+  complex.}
+\newblock {\em Nature}, 477(7366):549--555, July 2011.
+
+\bibitem{Gunasekaran:2004kq}
+K~Gunasekaran, Buyong Ma, and Ruth Nussinov.
+\newblock {Is allostery an intrinsic property of all dynamic proteins?}
+\newblock {\em Proteins}, 57(3):433--443, November 2004.
+
+\bibitem{romero_exploring_2009}
+Philip~A. Romero and Frances~H. Arnold.
+\newblock Exploring protein fitness landscapes by directed evolution.
+\newblock {\em Nature Reviews Molecular Cell Biology}, 10(12):866--876,
+  December 2009.
+
+\bibitem{Salverda:2010db}
+Merijn L~M Salverda, J~Arjan G~M De~Visser, and Miriam Barlow.
+\newblock {Natural evolution of TEM-1 $\beta$-lactamase: experimental
+  reconstruction and clinical relevance.}
+\newblock {\em FEMS microbiology reviews}, 34(6):1015--1036, November 2010.
+
+\bibitem{arkin_small-molecule_2004}
+Michelle~R. Arkin and James~A. Wells.
+\newblock Small-molecule inhibitors of protein–protein interactions:
+  progressing towards the dream.
+\newblock {\em Nature Reviews Drug Discovery}, 3(4):301--317, April 2004.
+
+\bibitem{ivetac_mapping_2010}
+Anthony Ivetac and J.~Andrew~McCammon.
+\newblock Mapping the druggable allosteric space of g-protein coupled
+  receptors: a fragment-based molecular dynamics approach: computational
+  mapping of novel druggable sites on gpcrs.
+\newblock {\em Chemical Biology \& Drug Design}, pages no--no, July 2010.
+
+\bibitem{hardy_searching_2004}
+Jeanne~A Hardy and James~A Wells.
+\newblock Searching for new allosteric sites in enzymes.
+\newblock {\em Current Opinion in Structural Biology}, 14(6):706--715, December
+  2004.
+
+\bibitem{Horn:2004uu}
+James~R Horn and Brian~K Shoichet.
+\newblock {Allosteric Inhibition Through Core Disruption}.
+\newblock {\em Journal of Molecular Biology}, 336(5):1283--1291, March 2004.
+
+\bibitem{arkin_binding_2003}
+M.~R. Arkin, M.~Randal, W.~L. DeLano, J.~Hyde, T.~N. Luong, J.~D. Oslob, D.~R.
+  Raphael, L.~Taylor, J.~Wang, R.~S. McDowell, J.~A. Wells, and A.~C. Braisted.
+\newblock Binding of small molecules to an adaptive protein-protein interface.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  100(4):1603--1608, February 2003.
+
+\bibitem{ostrem_k-rasg12c_2013}
+Jonathan~M. Ostrem, Ulf Peters, Martin~L. Sos, James~A. Wells, and Kevan~M.
+  Shokat.
+\newblock K-{Ras}({G12c}) inhibitors allosterically control {GTP} affinity and
+  effector interactions.
+\newblock {\em Nature}, 503(7477):548--551, November 2013.
+
+\bibitem{Vajda:2018kt}
+Sandor Vajda, Dmitri Beglov, Amanda~E Wakefield, Megan Egbert, and Adrian
+  Whitty.
+\newblock {Cryptic binding sites on proteins: definition, detection, and
+  druggability.}
+\newblock {\em Current opinion in chemical biology}, 44:1--8, May 2018.
+
+\bibitem{schames_discovery_2004}
+Julie~R. Schames, Richard~H. Henchman, Jay~S. Siegel, Christoph~A. Sotriffer,
+  Haihong Ni, and J.~Andrew McCammon.
+\newblock Discovery of a novel binding trench in hiv integrase.
+\newblock {\em Journal of Medicinal Chemistry}, 47(8):1879--1881, April 2004.
+
+\bibitem{frantom_mapping_2009}
+Patrick~A. Frantom, Hui-Min Zhang, Mark~R. Emmett, Alan~G. Marshall, and
+  John~S. Blanchard.
+\newblock Mapping of the allosteric network in the regulation of
+  α-isopropylmalate synthase from \textit{mycobacterium tuberculosis} by the
+  feedback inhibitor {\textless}span
+  style="font-variant:small-caps;"{\textgreater}l{\textless}/span{\textgreater}
+  -leucine: solution-phase h/d exchange monitored by ft-icr mass spectrometry.
+\newblock {\em Biochemistry}, 48(31):7457--7464, August 2009.
+
+\bibitem{manley_nmr_2012}
+Gregory Manley and J.~Patrick Loria.
+\newblock {NMR} insights into protein allostery.
+\newblock {\em Archives of Biochemistry and Biophysics}, 519(2):223--231, March
+  2012.
+
+\bibitem{Lockless:1999uf}
+S~W Lockless and R~Ranganathan.
+\newblock {Evolutionarily conserved pathways of energetic connectivity in
+  protein families.}
+\newblock {\em Science}, 286(5438):295--299, October 1999.
+
+\bibitem{Feher:2014cx}
+Victoria~A Feher, Jacob~D Durrant, Adam~T Van~Wart, and Rommie~E Amaro.
+\newblock {Computational approaches to mapping allosteric pathways.}
+\newblock 25:98--103, April 2014.
+
+\bibitem{Greener:2017ie}
+Joe~G Greener and Michael~Je Sternberg.
+\newblock {Structure-based prediction of protein allostery.}
+\newblock 50:1--8, October 2017.
+
+\bibitem{Ichiye:1991db}
+Toshiko Ichiye and Martin Karplus.
+\newblock {Collective motions in proteins: A covariance analysis of atomic
+  fluctuations in molecular dynamics and normal mode simulations}.
+\newblock {\em Proteins}, 11(3):205--217, November 1991.
+
+\bibitem{McClendon:2009gd}
+Christopher~L McClendon, Gregory Friedland, David~L Mobley, Homeira Amirkhani,
+  and Matthew~P Jacobson.
+\newblock {Quantifying Correlations Between Allosteric Sites in Thermodynamic
+  Ensembles.}
+\newblock {\em Journal of Chemical Theory and Computation}, 5(9):2486--2502,
+  September 2009.
+
+\bibitem{Cooper:1984tb}
+A~Cooper and D~T Dryden.
+\newblock {Allostery without conformational change. A plausible model.}
+\newblock {\em European biophysics journal : EBJ}, 11(2):103--109, 1984.
+
+\bibitem{Popovych:2006js}
+Nataliya Popovych, Shangjin Sun, Richard~H Ebright, and Charalampos~G
+  Kalodimos.
+\newblock {Dynamically driven protein allostery}.
+\newblock {\em Nature Structural {\&} Molecular Biology}, 13(9):831--838,
+  September 2006.
+
+\bibitem{Lin:2016gi}
+Milo~M Lin.
+\newblock {Timing Correlations in Proteins Predict Functional Modules and
+  Dynamic Allostery.}
+\newblock {\em Journal of the American Chemical Society}, page jacs.5b08814,
+  April 2016.
+
+\end{thebibliography}

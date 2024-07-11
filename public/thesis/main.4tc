@@ -1,0 +1,280 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{2}{x2-1000}{QQ2-2-1}{List of Figures}}{5}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{2}{Q1-2-2}{}{List of Figures}}{vii}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{3}{x3-2000}{QQ2-3-3}{List of Tables}}{9}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{3}{Q1-3-4}{}{List of Tables}}{ix}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{4}{x4-3000}{QQ2-4-5}{Acknowledgments}}{11}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{4}{Q1-4-6}{}{Acknowledgments}}{xi}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{4}{Q1-4-7}{}{Abstract}}{xviii}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{5}{x5-40001}{QQ2-5-8}{Introduction}}{3}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{5}{x5-50001.1}{QQ2-5-9}{Protein conformational landscapes encode functional information.}}{4}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{5}{x5-60001.2}{QQ2-5-10}{The Folding@home platform allows access to protein motions at biologically relevant timescales.}}{7}\relax 
+\doTocEntry\tocsubsection{1.2.1}{\csname a:TocLink\endcsname{5}{x5-70001.2.1}{QQ2-5-11}{Folding@home distributes simulations across thousands of computers at once.}}{7}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{5}{x5-7002}{}{\numberline {1.1}{\ignorespaces Folding@home distributes work units worldwide to run simulations}}}{10}\relax 
+\doTocEntry\tocsubsection{1.2.2}{\csname a:TocLink\endcsname{5}{x5-80001.2.2}{QQ2-5-12}{Markov State Models allow for the construction of unified models from large simulation datasets.}}{11}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{5}{x5-8002}{}{\numberline {1.2}{\ignorespaces Scheme highlighting the conversion of a simulation dataset into a Markov State Model (MSM)}}}{13}\relax 
+\doTocEntry\tocsubsection{1.2.3}{\csname a:TocLink\endcsname{5}{x5-90001.2.3}{QQ2-5-13}{The scalable power of Folding@home has generated insights into protein behaviors.}}{20}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{5}{x5-100001.3}{QQ2-5-14}{Allosteric communication is critical for protein function, but difficult to infer.}}{21}\relax 
+\doTocEntry\tocsubsection{1.3.1}{\csname a:TocLink\endcsname{5}{x5-110001.3.1}{QQ2-5-15}{Allosteric communication is universal and critical for biological function.}}{21}\relax 
+\doTocEntry\tocsubsection{1.3.2}{\csname a:TocLink\endcsname{5}{x5-120001.3.2}{QQ2-5-16}{Inferring allosteric communication in proteins remains a non-trivial task.}}{23}\relax 
+\doTocEntry\tocsection{1.4}{\csname a:TocLink\endcsname{5}{x5-130001.4}{QQ2-5-17}{Scope of thesis.}}{25}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{6}{x6-140002}{QQ2-6-18}{Quantifying allosteric communication via both concerted structural changes and conformational disorder}}{31}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{6}{x6-150002.1}{QQ2-6-19}{Abstract}}{31}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{6}{x6-160002.2}{QQ2-6-20}{Introduction}}{32}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-16002}{}{\numberline {2.1}{\ignorespaces Structures of CAP in apo and holo forms.}}}{36}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{6}{x6-170002.3}{QQ2-6-21}{Theory and methods}}{38}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-17002}{}{\numberline {2.2}{\ignorespaces Workflow for identifying ordered and disordered regimes.}}}{40}\relax 
+\doTocEntry\tocsubsection{2.3.1}{\csname a:TocLink\endcsname{6}{x6-180002.3.1}{QQ2-6-22}{Molecular Dynamics simulations}}{41}\relax 
+\doTocEntry\tocsubsection{2.3.2}{\csname a:TocLink\endcsname{6}{x6-190002.3.2}{QQ2-6-23}{Assignment of dihedrals to rotameric states}}{42}\relax 
+\doTocEntry\tocsubsection{2.3.3}{\csname a:TocLink\endcsname{6}{x6-200002.3.3}{QQ2-6-24}{Assignment of snapshots to dynamical states}}{42}\relax 
+\doTocEntry\tocsubsection{2.3.4}{\csname a:TocLink\endcsname{6}{x6-210002.3.4}{QQ2-6-25}{Calculation of structural, disorder-mediated, and holistic correlations}}{44}\relax 
+\doTocEntry\tocsubsection{2.3.5}{\csname a:TocLink\endcsname{6}{x6-220002.3.5}{QQ2-6-26}{Calculation of net communication to a target site}}{48}\relax 
+\doTocEntry\tocsubsection{2.3.6}{\csname a:TocLink\endcsname{6}{x6-230002.3.6}{QQ2-6-27}{Calculation of global communication}}{48}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{6}{x6-240002.4}{QQ2-6-28}{Results and discussion}}{49}\relax 
+\doTocEntry\tocsubsection{2.4.1}{\csname a:TocLink\endcsname{6}{x6-250002.4.1}{QQ2-6-29}{Many dihedrals have the potential for disorder-mediated communication}}{49}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-25002}{}{\numberline {2.3}{\ignorespaces Residues whose dihedrals are capable of disorder-mediated communication.}}}{52}\relax 
+\doTocEntry\tocsubsection{2.4.2}{\csname a:TocLink\endcsname{6}{x6-260002.4.2}{QQ2-6-30}{Disorder-mediated correlations dominate communication between the CBDs}}{53}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-26002}{}{\numberline {2.4}{\ignorespaces Communication to a single CBD.}}}{56}\relax 
+\doTocEntry\tocsubsection{2.4.3}{\csname a:TocLink\endcsname{6}{x6-270002.4.3}{QQ2-6-31}{Disorder-mediated communication is enhanced in the S62F variant}}{57}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-27002}{}{\numberline {2.5}{\ignorespaces Change in coupling to a single CBD pocket upon the S62F mutation.}}}{60}\relax 
+\doTocEntry\tocsubsection{2.4.4}{\csname a:TocLink\endcsname{6}{x6-280002.4.4}{QQ2-6-32}{Side-chain-side-chain and backbone-side-chain correlations dominate allosteric communication in CAP}}{61}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-28002}{}{\numberline {2.6}{\ignorespaces Hubs of backbone-side-chain communication in wild-type CAP.}}}{65}\relax 
+\doTocEntry\tocsubsection{2.4.5}{\csname a:TocLink\endcsname{6}{x6-290002.4.5}{QQ2-6-33}{Locating communication hotspots identifies key functional sites}}{66}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{6}{x6-29002}{}{\numberline {2.7}{\ignorespaces Global communication strength of each residue in apo CAP.}}}{68}\relax 
+\doTocEntry\tocsection{2.5}{\csname a:TocLink\endcsname{6}{x6-300002.5}{QQ2-6-34}{Conclusion}}{69}\relax 
+\doTocEntry\tocsection{2.6}{\csname a:TocLink\endcsname{6}{x6-310002.6}{QQ2-6-35}{Acknowledgements}}{70}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{7}{x7-320003}{QQ2-7-36}{Simulation of spontaneous G protein activation reveals a new intermediate driving GDP unbinding}}{73}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{7}{x7-330003.1}{QQ2-7-37}{Abstract}}{74}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{7}{x7-340003.2}{QQ2-7-38}{Introduction}}{74}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-34002}{}{\numberline {3.1}{\ignorespaces Structure of G$\alpha $q with key secondary structure elements labeled according to the Common G$\alpha $ Numbering (CGN) system.}}}{78}\relax 
+\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{7}{x7-350003.3}{QQ2-7-39}{Results and Discussion}}{81}\relax 
+\doTocEntry\tocsubsection{3.3.1}{\csname a:TocLink\endcsname{7}{x7-360003.3.1}{QQ2-7-40}{Capturing G-protein activation and GDP release in atomic detail}}{81}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-36002}{}{\numberline {3.2}{\ignorespaces Structural and dynamical changes during the rate limiting step for GDP release.}}}{85}\relax 
+\doTocEntry\tocsubsection{3.3.2}{\csname a:TocLink\endcsname{7}{x7-370003.3.2}{QQ2-7-41}{Tilting of H5 helps induce GDP release}}{87}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-37002}{}{\numberline {3.3}{\ignorespaces Tilting of H5 is correlated with GDP release but translation of H5 is not.}}}{90}\relax 
+\doTocEntry\tocsubsection{3.3.3}{\csname a:TocLink\endcsname{7}{x7-380003.3.3}{QQ2-7-42}{Identification of the allosteric network that triggers GDP release}}{91}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-38002}{}{\numberline {3.4}{\ignorespaces Allosteric network connecting H5 motion to the nucleotide binding-site via s6h5.}}}{95}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-38004}{}{\numberline {3.5}{\ignorespaces Change in the s6h5 loop conformation across the rate-limiting step.}}}{98}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-38006}{}{\numberline {3.6}{\ignorespaces Probability distributions of the distance between the side-chains of Lys275$^{G.s5hg.1}$ and Glu49$^{G.s1h1.4}$.}}}{102}\relax 
+\doTocEntry\tocsubsection{3.3.4}{\csname a:TocLink\endcsname{7}{x7-390003.3.4}{QQ2-7-43}{H1 and $\beta $-sheets are communication hubs}}{103}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-39002}{}{\numberline {3.7}{\ignorespaces Allosteric network connecting hNs1 motion to the nucleotide-binding site via the β-sheets.}}}{105}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-39004}{}{\numberline {3.8}{\ignorespaces Allosteric network connecting the GPCR- and nucleotide-binding interfaces.}}}{108}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-39006}{}{\numberline {3.9}{\ignorespaces $\pi $–stacking between S2 and H1 is disrupted during the rate-limiting step.}}}{111}\relax 
+\doTocEntry\tocsubsection{3.3.5}{\csname a:TocLink\endcsname{7}{x7-400003.3.5}{QQ2-7-44}{GDP release alters the structure and dynamics of the G$\beta $-binding site}}{113}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{7}{x7-40002}{}{\numberline {3.10}{\ignorespaces Switch 2 moves towards GDP across the rate-limiting step.}}}{115}\relax 
+\doTocEntry\tocsection{3.4}{\csname a:TocLink\endcsname{7}{x7-410003.4}{QQ2-7-45}{Conclusion}}{116}\relax 
+\doTocEntry\tocsection{3.5}{\csname a:TocLink\endcsname{7}{x7-420003.5}{QQ2-7-46}{Materials and Methods}}{117}\relax 
+\doTocEntry\tocsubsection{3.5.1}{\csname a:TocLink\endcsname{7}{x7-430003.5.1}{QQ2-7-47}{Molecular dynamics simulations of GDP unbinding}}{117}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-440003.5.1}{QQ2-7-48}{System preparation}}{118}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-450003.5.1}{QQ2-7-49}{Step one: MD simulations of the GDP-bound state}}{119}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-460003.5.1}{QQ2-7-50}{Step two: Metadynamics simulations}}{120}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{7}{x7-46004}{}{\numberline {3.1}{\ignorespaces Details of metadynamics simulations\relax }}}{124}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{7}{x7-470003.5.1}{QQ2-7-51}{Step three: Metadynamics-seeded MD simulation of GDP release}}{127}\relax 
+\doTocEntry\tocsubsection{3.5.2}{\csname a:TocLink\endcsname{7}{x7-480003.5.2}{QQ2-7-52}{Identifying the allosteric network with CARDS}}{128}\relax 
+\doTocEntry\tocsubsection{3.5.3}{\csname a:TocLink\endcsname{7}{x7-490003.5.3}{QQ2-7-53}{Markov state model construction}}{131}\relax 
+\doTocEntry\tocsubsection{3.5.4}{\csname a:TocLink\endcsname{7}{x7-500003.5.4}{QQ2-7-54}{Quantifying conformational disorder}}{131}\relax 
+\doTocEntry\tocsubsection{3.5.5}{\csname a:TocLink\endcsname{7}{x7-510003.5.5}{QQ2-7-55}{Identification of the rate-limiting step for GDP release}}{132}\relax 
+\doTocEntry\tocsection{3.6}{\csname a:TocLink\endcsname{7}{x7-520003.6}{QQ2-7-56}{Acknowledgements}}{134}\relax 
+\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{8}{x8-530004}{QQ2-8-57}{Discovery of a cryptic allosteric site in Ebola’s ‘undruggable’ VP35 protein using simulations and experiments}}{137}\relax 
+\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{8}{x8-540004.1}{QQ2-8-58}{Abstract}}{138}\relax 
+\doTocEntry\tocsection{4.2}{\csname a:TocLink\endcsname{8}{x8-550004.2}{QQ2-8-59}{Introduction}}{139}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{8}{x8-55002}{}{\numberline {4.1}{\ignorespaces Crystal structure of two copies of VP35’s IID bound to dsRNA.}}}{143}\relax 
+\doTocEntry\tocsection{4.3}{\csname a:TocLink\endcsname{8}{x8-560004.3}{QQ2-8-60}{Results}}{144}\relax 
+\doTocEntry\tocsubsection{4.3.1}{\csname a:TocLink\endcsname{8}{x8-570004.3.1}{QQ2-8-61}{Computer simulations reveal a potentially druggable cryptic pocket.}}{144}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{8}{x8-57002}{}{\numberline {4.2}{\ignorespaces Exposons identify a large cryptic pocket and suggest potential allosteric coupling}}}{148}\relax 
+\doTocEntry\tocsubsection{4.3.2}{\csname a:TocLink\endcsname{8}{x8-580004.3.2}{QQ2-8-62}{The cryptic pocket is allosterically coupled to the blunt end-binding interface.}}{149}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{8}{x8-58002}{}{\numberline {4.3}{\ignorespaces eVP35 allosteric network revealed by the CARDS algorithm}}}{152}\relax 
+\doTocEntry\tocsubsection{4.3.3}{\csname a:TocLink\endcsname{8}{x8-590004.3.3}{QQ2-8-63}{Thiol labeling experiments corroborate the predicted cryptic pocket.}}{154}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{8}{x8-59002}{}{\numberline {4.4}{\ignorespaces Thiol labeling supports the existence of the predicted cryptic pocket.}}}{157}\relax 
+\doTocEntry\tocsubsection{4.3.4}{\csname a:TocLink\endcsname{8}{x8-600004.3.4}{QQ2-8-64}{Stabilizing the open cryptic pocket allosterically disrupts binding to dsRNA blunt ends.}}{158}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{8}{x8-60002}{}{\numberline {4.5}{\ignorespaces Stabilizing the open cryptic pocket in VP35’s IID disrupts dsRNA binding.}}}{162}\relax 
+\doTocEntry\tocsection{4.4}{\csname a:TocLink\endcsname{8}{x8-610004.4}{QQ2-8-65}{Discussion.}}{163}\relax 
+\doTocEntry\tocsection{4.5}{\csname a:TocLink\endcsname{8}{x8-620004.5}{QQ2-8-66}{Methods}}{164}\relax 
+\doTocEntry\tocsubsection{4.5.1}{\csname a:TocLink\endcsname{8}{x8-630004.5.1}{QQ2-8-67}{Molecular dynamics simulations and analysis}}{165}\relax 
+\doTocEntry\tocsubsection{4.5.2}{\csname a:TocLink\endcsname{8}{x8-640004.5.2}{QQ2-8-68}{Protein expression and purification}}{167}\relax 
+\doTocEntry\tocsubsection{4.5.3}{\csname a:TocLink\endcsname{8}{x8-650004.5.3}{QQ2-8-69}{Thiol labeling}}{167}\relax 
+\doTocEntry\tocsubsection{4.5.4}{\csname a:TocLink\endcsname{8}{x8-660004.5.4}{QQ2-8-70}{Fluorescence polarization binding assay}}{168}\relax 
+\doTocEntry\tocsection{4.6}{\csname a:TocLink\endcsname{8}{x8-670004.6}{QQ2-8-71}{Acknowledgements}}{169}\relax 
+\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{9}{x9-680005}{QQ2-9-72}{The SARS-CoV-2 nucleocapsid protein is dynamic, disordered, and phase separates with RNA.}}{171}\relax 
+\doTocEntry\tocsection{5.1}{\csname a:TocLink\endcsname{9}{x9-690005.1}{QQ2-9-73}{Abstract}}{172}\relax 
+\doTocEntry\tocsection{5.2}{\csname a:TocLink\endcsname{9}{x9-700005.2}{QQ2-9-74}{Introduction}}{172}\relax 
+\doTocEntry\tocsection{5.3}{\csname a:TocLink\endcsname{9}{x9-710005.3}{QQ2-9-75}{Results}}{174}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-71002}{}{\numberline {5.1}{\ignorespaces Sequence and structural summary of N protein.}}}{176}\relax 
+\doTocEntry\tocsubsection{5.3.1}{\csname a:TocLink\endcsname{9}{x9-720005.3.1}{QQ2-9-76}{The NTD is disordered, flexible, and transiently interacts with the RBD.}}{178}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-72002}{}{\numberline {5.2}{\ignorespaces The N-terminal domain (NTD) is disordered with residual helical motifs.}}}{182}\relax 
+\doTocEntry\tocsubsection{5.3.2}{\csname a:TocLink\endcsname{9}{x9-730005.3.2}{QQ2-9-77}{The linker is highly dynamic and there is minimal interaction between the RBD and the dimerization domain.}}{183}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-73002}{}{\numberline {5.3}{\ignorespaces The RNA binding domain (RBD) and dimerization domains do not significantly interact and are connected by a disordered linker (LINK).}}}{187}\relax 
+\doTocEntry\tocsubsection{5.3.3}{\csname a:TocLink\endcsname{9}{x9-740005.3.3}{QQ2-9-78}{The CTD engages in transient but non-negligible interactions with the dimerization domain.}}{188}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-74002}{}{\numberline {5.4}{\ignorespaces The C-terminal domain (CTD) is disordered, engages in transient interaction with the dimerization domain, and contains a putative helical binding motif.}}}{192}\relax 
+\doTocEntry\tocsubsection{5.3.4}{\csname a:TocLink\endcsname{9}{x9-750005.3.4}{QQ2-9-79}{N protein undergoes phase separation with RNA.}}{193}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-75002}{}{\numberline {5.5}{\ignorespaces Nucleocapsid protein undergoes phase separation with RNA}}}{196}\relax 
+\doTocEntry\tocsubsection{5.3.5}{\csname a:TocLink\endcsname{9}{x9-760005.3.5}{QQ2-9-80}{A simple polymer model shows symmetry-breaking can facilitate multiple metastable single-polymer condensates instead of a single multi-polymer condensate.}}{197}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-76002}{}{\numberline {5.6}{\ignorespaces A simple polymer suggests symmetry breaking can promote single-polymer condensates over multi-polymer assemblies.}}}{202}\relax 
+\doTocEntry\tocsection{5.4}{\csname a:TocLink\endcsname{9}{x9-770005.4}{QQ2-9-81}{Discussion}}{204}\relax 
+\doTocEntry\tocsubsection{5.4.1}{\csname a:TocLink\endcsname{9}{x9-780005.4.1}{QQ2-9-82}{All three IDRs are highly dynamic}}{204}\relax 
+\doTocEntry\tocsubsection{5.4.2}{\csname a:TocLink\endcsname{9}{x9-790005.4.2}{QQ2-9-83}{Simulations identify multiple transient helices}}{205}\relax 
+\doTocEntry\tocsubsection{5.4.3}{\csname a:TocLink\endcsname{9}{x9-800005.4.3}{QQ2-9-84}{The physiological relevance of nucleocapsid protein phase separation in SARS-CoV-2 physiology}}{206}\relax 
+\doTocEntry\tocsubsection{5.4.4}{\csname a:TocLink\endcsname{9}{x9-810005.4.4}{QQ2-9-85}{The physics of single polymer condensates}}{210}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{9}{x9-81002}{}{\numberline {5.7}{\ignorespaces Summary and proposed model for N protein behavior.}}}{213}\relax 
+\doTocEntry\tocsection{5.5}{\csname a:TocLink\endcsname{9}{x9-820005.5}{QQ2-9-86}{Methods}}{214}\relax 
+\doTocEntry\tocsubsection{5.5.1}{\csname a:TocLink\endcsname{9}{x9-830005.5.1}{QQ2-9-87}{All atom simulations}}{214}\relax 
+\doTocEntry\tocsubsection{5.5.2}{\csname a:TocLink\endcsname{9}{x9-840005.5.2}{QQ2-9-88}{Coarse-grained Polymer Simulations}}{215}\relax 
+\doTocEntry\tocsubsection{5.5.3}{\csname a:TocLink\endcsname{9}{x9-850005.5.3}{QQ2-9-89}{Protein Expression, purification, and labeling.}}{215}\relax 
+\doTocEntry\tocsubsection{5.5.4}{\csname a:TocLink\endcsname{9}{x9-860005.5.4}{QQ2-9-90}{Single-molecule fluorescence spectroscopy.}}{216}\relax 
+\doTocEntry\tocsection{5.6}{\csname a:TocLink\endcsname{9}{x9-870005.6}{QQ2-9-91}{Acknowledgements}}{217}\relax 
+\doTocEntry\tocchapter{6}{\csname a:TocLink\endcsname{10}{x10-880006}{QQ2-10-92}{Citizen Scientists Create an Exascale Computer to Combat COVID-19}}{221}\relax 
+\doTocEntry\tocsection{6.1}{\csname a:TocLink\endcsname{10}{x10-890006.1}{QQ2-10-93}{Abstract}}{221}\relax 
+\doTocEntry\tocsection{6.2}{\csname a:TocLink\endcsname{10}{x10-900006.2}{QQ2-10-94}{Introduction}}{222}\relax 
+\doTocEntry\tocsection{6.3}{\csname a:TocLink\endcsname{10}{x10-910006.3}{QQ2-10-95}{Results and discussion}}{224}\relax 
+\doTocEntry\tocsubsection{6.3.1}{\csname a:TocLink\endcsname{10}{x10-920006.3.1}{QQ2-10-96}{To the Exascale and beyond!}}{224}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{10}{x10-92002}{}{\numberline {6.1}{\ignorespaces Summary of Folding@home’s computational power.}}}{227}\relax 
+\doTocEntry\tocsubsection{6.3.2}{\csname a:TocLink\endcsname{10}{x10-930006.3.2}{QQ2-10-97}{Unmasking the spike complex}}{228}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{10}{x10-93002}{}{\numberline {6.2}{\ignorespaces Structural characterization of conformational masking in different spike complexes.}}}{232}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{10}{x10-93004}{}{\numberline {6.3}{\ignorespaces Effects of glycan shielding and conformational masking on the accessibility of different parts of the spike to potential therapeutics.}}}{235}\relax 
+\doTocEntry\tocsubsection{6.3.3}{\csname a:TocLink\endcsname{10}{x10-940006.3.3}{QQ2-10-98}{Cryptic pockets and functional dynamics}}{237}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{10}{x10-94002}{}{\numberline {6.4}{\ignorespaces Examples of cryptic pockets and functionally-relevant dynamics.}}}{239}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{10}{x10-94004}{}{\numberline {6.1}{\ignorespaces A list of protein systems we have simulated on Folding@home. Systems are organized by viral strain and include name, oligomerization state, starting structure, number of residues, number of atoms in the system, aggregate simulation time, and the number of cryptic pockets we have identified.  *Missing residues were modeled using Swiss model\cite  {waterhouse_swiss-model:_2018}.  **Structural model was generated from a homologous sequence using Swiss model\cite  {waterhouse_swiss-model:_2018}.  ***Missing residues were modeled using CHARMM-GUI\cite  {cubuk_sars-cov-2_2020,su_electron_2018}\relax }}}{243}\relax 
+\doTocEntry\tocsection{6.4}{\csname a:TocLink\endcsname{10}{x10-950006.4}{QQ2-10-99}{Discussion}}{244}\relax 
+\doTocEntry\tocsection{6.5}{\csname a:TocLink\endcsname{10}{x10-960006.5}{QQ2-10-100}{Methods}}{245}\relax 
+\doTocEntry\tocsubsection{6.5.1}{\csname a:TocLink\endcsname{10}{x10-970006.5.1}{QQ2-10-101}{System preparations}}{245}\relax 
+\doTocEntry\tocsubsection{6.5.2}{\csname a:TocLink\endcsname{10}{x10-980006.5.2}{QQ2-10-102}{Adaptive sampling simulations}}{246}\relax 
+\doTocEntry\tocsubsection{6.5.3}{\csname a:TocLink\endcsname{10}{x10-990006.5.3}{QQ2-10-103}{Folding@home simulations}}{247}\relax 
+\doTocEntry\tocsubsection{6.5.4}{\csname a:TocLink\endcsname{10}{x10-1000006.5.4}{QQ2-10-104}{Markov state models}}{248}\relax 
+\doTocEntry\tocsubsection{6.5.5}{\csname a:TocLink\endcsname{10}{x10-1010006.5.5}{QQ2-10-105}{Spike/ACE2 binding competency}}{248}\relax 
+\doTocEntry\tocsubsection{6.5.6}{\csname a:TocLink\endcsname{10}{x10-1020006.5.6}{QQ2-10-106}{Cryptic pockets and solvent accessible surface area}}{249}\relax 
+\doTocEntry\tocsubsection{6.5.7}{\csname a:TocLink\endcsname{10}{x10-1030006.5.7}{QQ2-10-107}{Sequence conservation}}{249}\relax 
+\doTocEntry\tocsection{6.6}{\csname a:TocLink\endcsname{10}{x10-1040006.6}{QQ2-10-108}{Acknowledgements}}{250}\relax 
+\doTocEntry\tocsection{6.7}{\csname a:TocLink\endcsname{10}{x10-1050006.7}{QQ2-10-109}{Disclosures}}{251}\relax 
+\doTocEntry\tocchapter{7}{\csname a:TocLink\endcsname{11}{x11-1060007}{QQ2-11-110}{Antagonism between substitutions in $\beta $-lactamase explains a path not taken in the evolution of bacterial drug resistance}}{253}\relax 
+\doTocEntry\tocsection{7.1}{\csname a:TocLink\endcsname{11}{x11-1070007.1}{QQ2-11-111}{Abstract}}{254}\relax 
+\doTocEntry\tocsection{7.2}{\csname a:TocLink\endcsname{11}{x11-1080007.2}{QQ2-11-112}{Introduction}}{255}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-108002}{}{\numberline {7.1}{\ignorespaces $\beta $-Lactamase mechanism.}}}{259}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-108004}{}{\numberline {7.2}{\ignorespaces Structures of antibiotics and CTX-M-14 $\beta $-lactamase.}}}{262}\relax 
+\doTocEntry\tocsection{7.3}{\csname a:TocLink\endcsname{11}{x11-1090007.3}{QQ2-11-113}{Results}}{265}\relax 
+\doTocEntry\tocsubsection{7.3.1}{\csname a:TocLink\endcsname{11}{x11-1100007.3.1}{QQ2-11-114}{Ceftazidime resistance levels of P167S/D240G double mutant are reduced compared with single mutants.}}{265}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{11}{x11-110002}{}{\numberline {7.1}{\ignorespaces MICs for E. coli containing CTX-M-14 wild type, mutants, and no $\beta -$lactamase control}}}{268}\relax 
+\doTocEntry\tocsubsection{7.3.2}{\csname a:TocLink\endcsname{11}{x11-1110007.3.2}{QQ2-11-115}{Antibiotic hydrolysis by the P167S/D240G double mutant is reduced compared with single mutants.}}{269}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{11}{x11-111002}{}{\numberline {7.2}{\ignorespaces Enzyme kinetic parameters of CTX-M-14 $\beta $-lactamase and mutant enzymes}}}{271}\relax 
+\doTocEntry\tocsubsection{7.3.3}{\csname a:TocLink\endcsname{11}{x11-1120007.3.3}{QQ2-11-116}{P167S/D240G double mutant exhibits reduced stability compared with single mutants}}{273}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-112002}{}{\numberline {7.3}{\ignorespaces Thermal stability of WT and mutant $\beta $-lactamases, as measured by CD.}}}{276}\relax 
+\doTocEntry\tocsubsection{7.3.4}{\csname a:TocLink\endcsname{11}{x11-1130007.3.4}{QQ2-11-117}{Steady-state levels of the P167S/D240G enzyme in E. coli are reduced compared with single mutants.}}{277}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-113002}{}{\numberline {7.4}{\ignorespaces Steady-state protein levels of WT CTX-M-14 and mutant $\beta $-lactamases.}}}{280}\relax 
+\doTocEntry\tocsubsection{7.3.5}{\csname a:TocLink\endcsname{11}{x11-1140007.3.5}{QQ2-11-118}{X-ray structures of P167S/D240G apo, E166A/D240G/CAZ, and E166A/P167S/D240G/CAZ acyl-enzyme complexes reveal alternate conformations of the $\Omega $-loop.}}{281}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-114002}{}{\numberline {7.5}{\ignorespaces Structures of the active-site region of WT CTX-M14 $\beta $-lactamase, as well as P167S, D240G, and P167S/D240G mutant enzymes in the apo form.}}}{284}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-114004}{}{\numberline {7.6}{\ignorespaces Normalized B-factors for the 103–106 loop and the 164–179 $\Omega $-loop in the CTX-M enzyme structures.}}}{288}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-114006}{}{\numberline {7.7}{\ignorespaces Structures of the active-site region of CTX-M-14 mutant $\beta $-lactamase acyl-enzyme complexes with ceftazidime.}}}{291}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-114008}{}{\numberline {7.8}{\ignorespaces Structures of the active-site region of CTX-M-14 mutant $\beta $-lactamase acyl-enzyme complexes with ceftazidime.}}}{295}\relax 
+\doTocEntry\tocsubsection{7.3.6}{\csname a:TocLink\endcsname{11}{x11-1150007.3.6}{QQ2-11-119}{Molecular dynamics simulations reveal that conformational heterogeneity of the $\Omega $-loop is greater in the single mutants than in the WT or double mutant.}}{296}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-115002}{}{\numberline {7.9}{\ignorespaces The conformational heterogeneity of the $\Omega $-loop is greater in the single mutants than in the WT or double mutant.}}}{300}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{11}{x11-115004}{}{\numberline {7.10}{\ignorespaces Conformational changes between inactive and active forms of the acyl-enzyme.}}}{303}\relax 
+\doTocEntry\tocsection{7.4}{\csname a:TocLink\endcsname{11}{x11-1160007.4}{QQ2-11-120}{Discussion}}{305}\relax 
+\doTocEntry\tocsection{7.5}{\csname a:TocLink\endcsname{11}{x11-1170007.5}{QQ2-11-121}{Methods}}{311}\relax 
+\doTocEntry\tocsubsection{7.5.1}{\csname a:TocLink\endcsname{11}{x11-1180007.5.1}{QQ2-11-122}{Bacterial strains and plasmids.}}{311}\relax 
+\doTocEntry\tocsubsection{7.5.2}{\csname a:TocLink\endcsname{11}{x11-1190007.5.2}{QQ2-11-123}{Site-directed mutagenesis.}}{312}\relax 
+\doTocEntry\tocsubsection{7.5.3}{\csname a:TocLink\endcsname{11}{x11-1200007.5.3}{QQ2-11-124}{Minimum inhibitory concentration determinations.}}{313}\relax 
+\doTocEntry\tocsubsection{7.5.4}{\csname a:TocLink\endcsname{11}{x11-1210007.5.4}{QQ2-11-125}{Immunoblotting.}}{314}\relax 
+\doTocEntry\tocsubsection{7.5.5}{\csname a:TocLink\endcsname{11}{x11-1220007.5.5}{QQ2-11-126}{Protein purification.}}{315}\relax 
+\doTocEntry\tocsubsection{7.5.6}{\csname a:TocLink\endcsname{11}{x11-1230007.5.6}{QQ2-11-127}{Determination of thermal stabilities.}}{317}\relax 
+\doTocEntry\tocsubsection{7.5.7}{\csname a:TocLink\endcsname{11}{x11-1240007.5.7}{QQ2-11-128}{Steady-state enzyme kinetic parameters.}}{317}\relax 
+\doTocEntry\tocsubsection{7.5.8}{\csname a:TocLink\endcsname{11}{x11-1250007.5.8}{QQ2-11-129}{Protein crystallization and structure determination.}}{318}\relax 
+\doTocEntry\tocsubsection{7.5.9}{\csname a:TocLink\endcsname{11}{x11-1260007.5.9}{QQ2-11-130}{Molecular dynamics simulations.}}{320}\relax 
+\doTocEntry\tocsection{7.6}{\csname a:TocLink\endcsname{11}{x11-1270007.6}{QQ2-11-131}{Author contributions}}{321}\relax 
+\doTocEntry\tocsection{7.7}{\csname a:TocLink\endcsname{11}{x11-1280007.7}{QQ2-11-132}{Acknowledgments}}{321}\relax 
+\doTocEntry\tocsection{7.8}{\csname a:TocLink\endcsname{11}{x11-1290007.8}{QQ2-11-133}{Additional information.}}{322}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{11}{x11-129002}{}{\numberline {7.3}{\ignorespaces Abbreviations used in chapter 2}}}{324}\relax 
+\doTocEntry\tocchapter{8}{\csname a:TocLink\endcsname{12}{x12-1300008}{QQ2-12-134}{Conclusions}}{327}\relax 
+\doTocEntry\tocsection{8.1}{\csname a:TocLink\endcsname{12}{x12-1310008.1}{QQ2-12-135}{Main findings}}{328}\relax 
+\doTocEntry\tocsection{8.2}{\csname a:TocLink\endcsname{12}{x12-1320008.2}{QQ2-12-136}{Future directions}}{331}\relax 
+\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{13}{x13-133000A}{QQ2-13-137}{Supplementary Material on the CARDS method}}{337}\relax 
+\doTocEntry\tocsection{A.1}{\csname a:TocLink\endcsname{13}{x13-134000A.1}{QQ2-13-138}{Supplementary Methods}}{337}\relax 
+\doTocEntry\tocsubsection{A.1.1}{\csname a:TocLink\endcsname{13}{x13-135000A.1.1}{QQ2-13-139}{Molecular dynamics simulations}}{337}\relax 
+\doTocEntry\tocsubsection{A.1.2}{\csname a:TocLink\endcsname{13}{x13-136000A.1.2}{QQ2-13-140}{Sensitivity analysis}}{338}\relax 
+\doTocEntry\tocsection{A.2}{\csname a:TocLink\endcsname{13}{x13-137000A.2}{QQ2-13-141}{Supplementary Figures}}{339}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137002}{}{\numberline {A.1}{\ignorespaces CARDS sensitivity analysis}}}{341}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137004}{}{\numberline {A.2}{\ignorespaces Distribution of ordered and disordered times for a single dihedral across a single simulation trajectory.}}}{344}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137006}{}{\numberline {A.3}{\ignorespaces The average ordered and disordered times for CAP}}}{347}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137008}{}{\numberline {A.4}{\ignorespaces Residues with separable dihedrals into disordered regimes}}}{350}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137010}{}{\numberline {A.5}{\ignorespaces The top 5% of residues (orange sticks) with disorder-mediated communication to the cAMP-binding pocket}}}{353}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137012}{}{\numberline {A.6}{\ignorespaces The top 2% of backbone-side-chain hubs}}}{356}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{13}{x13-137014}{}{\numberline {A.7}{\ignorespaces Change in global communication upon the S62F mutation.}}}{359}\relax 
+\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{14}{x14-138000B}{QQ2-14-142}{Supplementary figures highlighting the mechanism of GDP release}}{363}\relax 
+\doTocEntry\tocsection{B.1}{\csname a:TocLink\endcsname{14}{x14-139000B.1}{QQ2-14-143}{Supplementary Figures}}{363}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139002}{}{\numberline {B.1}{\ignorespaces Free-energy surface from metadynamics simulations of GDP release for the full G$\alpha $q (blue) and truncated form (green, without the last five C-terminal residues).}}}{365}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139004}{}{\numberline {B.2}{\ignorespaces Overlay of representative structures of G$\alpha $q when bound to GDP (blue) or across the rate-limiting step (orange).}}}{368}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139006}{}{\numberline {B.3}{\ignorespaces Changes in the structure (left) and disorder (right) of specific regions across the rate-limiting step.}}}{371}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139008}{}{\numberline {B.4}{\ignorespaces Distribution of distances between the side-chains of K275$^{G.s5hg.1}$ and D155$^{H.hdhe.5}$ for the GDP-bound state (blue), across the rate-limiting step (orange), and upon GDP dissociation (black).}}}{374}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139010}{}{\numberline {B.5}{\ignorespaces Implied timescales for the Markov state model.}}}{377}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139012}{}{\numberline {B.6}{\ignorespaces Probability distribution of the distance between Leu349$^{G.H5.16}$ on H5 and Phe194$^{G.S2.6}$ on S2 to monitor the tilting motion of H5 upon GDP release when bound to GDP (blue), across the rate-limiting step (orange), and upon GDP dissociation (black).}}}{380}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139014}{}{\numberline {B.7}{\ignorespaces H5 vertical motion is sampled across GDP release simulations.}}}{383}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{14}{x14-139016}{}{\numberline {B.1}{\ignorespaces Measurements comparing tilting and translation of H5 across PDB structures and MD simulation.\relax }}}{386}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139018}{}{\numberline {B.8}{\ignorespaces Allosteric network connecting hNs1 contacts to the P-loop and switch 1 via S4.}}}{389}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139020}{}{\numberline {B.9}{\ignorespaces Global communication of each residue in the Ras-like domain mapped onto the structure of G$\alpha $q, colored based on the scale (right). }}}{392}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{14}{x14-139022}{}{\numberline {B.10}{\ignorespaces Probability distributions of the twist angle between S1 and S3.}}}{395}\relax 
+\doTocEntry\tocappendix{C}{\csname a:TocLink\endcsname{15}{x15-140000C}{QQ2-15-144}{Supplementary Material to "Discovery of a cryptic allosteric site in Ebola's 'undruggable' VP35 protein"}}{399}\relax 
+\doTocEntry\tocsection{C.1}{\csname a:TocLink\endcsname{15}{x15-141000C.1}{QQ2-15-145}{Supplementary Material}}{399}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141002}{}{\numberline {C.1}{\ignorespaces FTMap results for the main cryptic pocket highlighting an example protein structure and hotspots where a variety of small organic probes form energetically favorable interactions.}}}{401}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141004}{}{\numberline {C.2}{\ignorespaces Purely structural correlations dominate the eVP35 allosteric network.}}}{404}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141006}{}{\numberline {C.3}{\ignorespaces Motion of helix 1 sometimes exposes C247 to solvent.}}}{407}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141008}{}{\numberline {C.4}{\ignorespaces A representative time trace from a thiol labeling experiment }}}{410}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141010}{}{\numberline {C.5}{\ignorespaces Thiol labeling of a C247S/C275S variant that only has cysteines in the main cryptic pocket.}}}{413}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141012}{}{\numberline {C.6}{\ignorespaces Observed labeling rates at 100 $\mu $M DTNB for a set of variants.}}}{416}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{15}{x15-141014}{}{\numberline {C.1}{\ignorespaces Characterization of the folding/unfolding of VP35’s IID}}}{419}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{15}{x15-141016}{}{\numberline {C.2}{\ignorespaces Intrinsic labeling rates (k$_{int}$) for each cysteine residue.}}}{422}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141018}{}{\numberline {C.7}{\ignorespaces RNA sequences used in fluorescence polarization binding assays.}}}{425}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{15}{x15-141020}{}{\numberline {C.8}{\ignorespaces Implied timescales test for the VP35 IID MSM.}}}{428}\relax 
+\doTocEntry\tocappendix{D}{\csname a:TocLink\endcsname{16}{x16-142000D}{QQ2-16-146}{Supplementary Material on the SARS-CoV-2 nucleocapsid protein}}{431}\relax 
+\doTocEntry\tocsection{D.1}{\csname a:TocLink\endcsname{16}{x16-143000D.1}{QQ2-16-147}{Supplementary Methods}}{431}\relax 
+\doTocEntry\tocsubsection{D.1.1}{\csname a:TocLink\endcsname{16}{x16-144000D.1.1}{QQ2-16-148}{Sequence analysis}}{431}\relax 
+\doTocEntry\tocsubsection{D.1.2}{\csname a:TocLink\endcsname{16}{x16-145000D.1.2}{QQ2-16-149}{Simulation Methods}}{435}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-146000D.1.2}{QQ2-16-150}{Monte Carlo simulations}}{435}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-147000D.1.2}{QQ2-16-151}{Molecular dynamics simulations}}{437}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-148000D.1.2}{QQ2-16-152}{Sequential MD/MC sampling approach}}{438}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-149000D.1.2}{QQ2-16-153}{Coarse-grained Polymer Simulations}}{439}\relax 
+\doTocEntry\tocsubsection{D.1.3}{\csname a:TocLink\endcsname{16}{x16-150000D.1.3}{QQ2-16-154}{Protein expression, purification, and labeling.}}{440}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-151000D.1.3}{QQ2-16-155}{Plasmid construct design.}}{440}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-152000D.1.3}{QQ2-16-156}{Protein Expression and Purification.}}{442}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-153000D.1.3}{QQ2-16-157}{Fluorescent Dye Labeling.}}{443}\relax 
+\doTocEntry\tocsubsection{D.1.4}{\csname a:TocLink\endcsname{16}{x16-154000D.1.4}{QQ2-16-158}{Single Molecule Spectroscopy}}{444}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-155000D.1.4}{QQ2-16-159}{Experimental setup and procedure.}}{444}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-156000D.1.4}{QQ2-16-160}{FRET efficiency histograms. }}{446}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-157000D.1.4}{QQ2-16-161}{Fluorescence lifetimes and anisotropies analysis.}}{448}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-158000D.1.4}{QQ2-16-162}{Fluorescence Correlation Spectroscopy (FCS) analysis.}}{451}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-159000D.1.4}{QQ2-16-163}{Nanosecond Fluorescence Correlation Spectroscopy.}}{454}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-160000D.1.4}{QQ2-16-164}{Polymer models of distance distributions.}}{455}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-161000D.1.4}{QQ2-16-165}{Binding of denaturant and folding.}}{459}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-162000D.1.4}{QQ2-16-166}{Polymer model of electrostatic interactions.}}{461}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{16}{x16-163000D.1.4}{QQ2-16-167}{Salt dependence of NTD, LINK, and CTD conformations.}}{463}\relax 
+\doTocEntry\tocsubsection{D.1.5}{\csname a:TocLink\endcsname{16}{x16-164000D.1.5}{QQ2-16-168}{Testing protein oligomerization.}}{464}\relax 
+\doTocEntry\tocsubsection{D.1.6}{\csname a:TocLink\endcsname{16}{x16-165000D.1.6}{QQ2-16-169}{Protein Crosslinking Methods.}}{465}\relax 
+\doTocEntry\tocsubsection{D.1.7}{\csname a:TocLink\endcsname{16}{x16-166000D.1.7}{QQ2-16-170}{NativePAGE Methods.}}{466}\relax 
+\doTocEntry\tocsection{D.2}{\csname a:TocLink\endcsname{16}{x16-167000D.2}{QQ2-16-171}{Supplementary Figures}}{469}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{16}{x16-167002}{}{\numberline {D.1}{\ignorespaces Fit parameters to denaturant binding model. \relax }}}{471}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{16}{x16-167004}{}{\numberline {D.2}{\ignorespaces Fit parameters of Higgs \& Joanny theory\relax }}}{474}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{16}{x16-167006}{}{\numberline {D.3}{\ignorespaces Scaling exponents\relax }}}{477}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{16}{x16-167008}{}{\numberline {D.4}{\ignorespaces All-atom simulation summary\relax }}}{480}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167010}{}{\numberline {D.1}{\ignorespaces Sequence alignment of the coronavirus N-terminal domain (NTD).}}}{483}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167012}{}{\numberline {D.2}{\ignorespaces Sequence alignment of the coronavirus RNA binding domain (RBD).}}}{486}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167014}{}{\numberline {D.3}{\ignorespaces Sequence alignment of the coronavirus linker (LINK).}}}{489}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167016}{}{\numberline {D.4}{\ignorespaces Sequence alignment of the coronavirus dimerization domain.}}}{492}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167018}{}{\numberline {D.5}{\ignorespaces Sequence alignment of the coronavirus C-terminal domain (CTD)}}}{495}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167020}{}{\numberline {D.6}{\ignorespaces Histograms of transfer efficiency distributions across denaturant concentrations for NTD, LINK, and CTD constructs.}}}{498}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167022}{}{\numberline {D.7}{\ignorespaces Dependence of fluorescence lifetime on transfer efficiency.}}}{501}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167024}{}{\numberline {D.8}{\ignorespaces Mean transfer efficiency and width of NTD, LINK, and CTD across denaturant.}}}{504}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167026}{}{\numberline {D.9}{\ignorespaces Fit of NTD construct with two populations.}}}{507}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167028}{}{\numberline {D.10}{\ignorespaces Interdye distances of NTD, LINK, CTD in presence of salt (KCl).}}}{510}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167030}{}{\numberline {D.11}{\ignorespaces Chain dynamics measured via ns-FCS.}}}{513}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167032}{}{\numberline {D.12}{\ignorespaces Turbidity experiments plotted against RNA/protein ratio.}}}{516}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167034}{}{\numberline {D.13}{\ignorespaces Testing SARS-CoV-2 N protein oligomerization.}}}{519}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167036}{}{\numberline {D.14}{\ignorespaces Distributions of inter-residue distance from ABSINTH simulations vs. excluded volume simulations.}}}{522}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167038}{}{\numberline {D.15}{\ignorespaces Scaling maps for IDR-only simulations.}}}{525}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{16}{x16-167040}{}{\numberline {D.16}{\ignorespaces Distributions for the radius of gyration ($R_g$) of for IDR-only simulations.}}}{528}\relax 
+\doTocEntry\tocappendix{E}{\csname a:TocLink\endcsname{17}{x17-168000E}{QQ2-17-172}{Supplementary Material on "Antagonism between substitutions in $\beta $-lactamase explains a path not taken in the evolution of bacterial drug resistance"}}{531}\relax 
+\doTocEntry\tocsection{E.1}{\csname a:TocLink\endcsname{17}{x17-169000E.1}{QQ2-17-173}{Supplementary Data}}{531}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{17}{x17-169002}{}{\numberline {E.1}{\ignorespaces Table S1. X-ray crystallography data collection and refinement statistics for CTX-M-14 mutant enzymes. *Values in parentheses represent the highest-resolution bin.\relax }}}{533}\relax 
+\doTocEntry\tocsection{E.2}{\csname a:TocLink\endcsname{17}{x17-170000E.2}{QQ2-17-174}{Supplementary Figures}}{534}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{17}{x17-170002}{}{\numberline {E.1}{\ignorespaces The $\beta $3 loop and Asn104 contact CAZ in the single mutants.}}}{536}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{17}{x17-170004}{}{\numberline {E.2}{\ignorespaces Ser237 makes contacts with the imino group of ceftazidime.}}}{539}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{17}{x17-170006}{}{\numberline {E.3}{\ignorespaces MD simulations of the closed conformation of P167S/D240G capture an open conformation of the $\Omega $-loop.}}}{542}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{17}{Q1-17-175}{}{References}}{545}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{18}{x18-171000E.2}{QQ2-18-176}{Bibliography}}{547}\relax 
+\doTocEntry\tocappendix{E}{\csname a:TocLink\endcsname{19}{x19-172000E}{QQ2-19-177}{\ignorespaces Curriculum Vitae}}{662}\relax 

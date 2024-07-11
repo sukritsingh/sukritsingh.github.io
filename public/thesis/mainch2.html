@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>2 Quantifying allosteric communication via both concerted structural changes and conformational
+disorder</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<!-- html,xhtml,2,mathml --> 
+<meta name="src" content="main.tex" /> 
+<link rel="stylesheet" type="text/css" href="main.css" /> 
+ 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML" 
+></script> 
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+ 
+<script async defer src="http://hypothes.is/embed.js"></script><link rel="stylesheet" type="text/css" href="css/scale.css" /> 
+<script type="text/javascript" src="js/fw.js"></script> 
+<script type="text/javascript" src="js/sidebar.js"></script> 
+<script type="text/javascript" src="js/bib.js"></script></head><body 
+>
+<!--l. 3--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch3.html" >next</a>] [<a 
+href="mainch1.html" >prev</a>] [<a 
+href="mainch1.html#tailmainch1.html" >prev-tail</a>] [<a 
+href="#tailmainch2.html">tail</a>] [<a 
+href="main" >up</a>] </p></div>
+<h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;2</span><br /><a 
+ id="x6-140002"></a>Quantifying allosteric communication via both concerted structural changes and
+conformational disorder</h2>
+<div class="chapterTOCS">
+<br />&#x00A0;<span class="sectionToc" >2.1 <a 
+href="mainch2.html#x6-150002.1">Abstract</a></span>
+<br />&#x00A0;<span class="sectionToc" >2.2 <a 
+href="mainch2.html#x6-160002.2">Introduction</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >2.3 <a 
+href="mainch2.html#x6-170002.3">Theory and methods</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.3.1 <a 
+href="mainch2.html#x6-180002.3.1" id="QQ2-6-30">Molecular Dynamics simulations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.3.2 <a 
+href="mainch2.html#x6-190002.3.2" id="QQ2-6-30">Assignment of dihedrals to rotameric states</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.3.3 <a 
+href="mainch2.html#x6-200002.3.3" id="QQ2-6-30">Assignment of snapshots to dynamical states</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.3.4 <a 
+href="mainch2.html#x6-210002.3.4" id="QQ2-6-30">Calculation of structural, disorder-mediated, and holistic correlations</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.3.5 <a 
+href="mainch2.html#x6-220002.3.5" id="QQ2-6-30">Calculation of net communication to a target site</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.3.6 <a 
+href="mainch2.html#x6-230002.3.6" id="QQ2-6-30">Calculation of global communication</a></span>
+
+<br />&#x00A0;<span class="sectionToc" >2.4 <a 
+href="mainch2.html#x6-240002.4">Results and discussion</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.4.1 <a 
+href="mainch2.html#x6-250002.4.1" id="QQ2-6-30">Many dihedrals have the potential for disorder-mediated communication</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.4.2 <a 
+href="mainch2.html#x6-260002.4.2" id="QQ2-6-30">Disorder-mediated correlations dominate communication between the CBDs</a></span>
+&#x00A0;&#x00A0;<span class="subsectionToc" >2.4.3 <a 
+href="mainch2.html#x6-270002.4.3" id="QQ2-6-31">Disorder-mediated communication is enhanced in the S62F variant</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >2.4.4 <a 
+href="mainch2.html#x6-280002.4.4" id="QQ2-6-32">Side-chain-side-chain and backbone-side-chain correlations
+dominate allosteric communication in CAP</a></span>
+<br />&#x00A0;&#x00A0;<span class="subsectionToc" >2.4.5 <a 
+href="mainch2.html#x6-290002.4.5" id="QQ2-6-33">Locating communication hotspots identifies key functional sites</a></span>
+<br />&#x00A0;<span class="sectionToc" >2.5 <a 
+href="mainch2.html#x6-300002.5">Conclusion</a></span>
+<br />&#x00A0;<span class="sectionToc" >2.6 <a 
+href="mainch2.html#x6-310002.6">Acknowledgements</a></span>
+</div>
+<!--l. 12--><p class="noindent" ><span 
+class="ptmri7t-x-x-120">The work in this chapter is published in: Singh, S., and Bowman, G.R., Quantifying allosteric</span>
+<span 
+class="ptmri7t-x-x-120">communication via both concerted structural changes and conformational disorder with CARDS.</span>
+<span 
+class="ptmri7t-x-x-120">Journal of Chemical Theory and Computation. 13:1507-1517, 2017. PMID: 28282132., Copyright</span>
+<span 
+class="ptmri7t-x-x-120">2018 American Chemical Society </span><span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSingh:2017hh">90</a>]</span>
+</p>
+<h3 class="sectionHead"><span class="titlemark">2.1    </span> <a 
+ id="x6-150002.1"></a>Abstract</h3>
+<!--l. 15--><p class="noindent" >Allosteric (i.e. long-range) communication within proteins is crucial for many biological processes,
+such as the activation of signaling cascades in response to specific stimuli. However, the physical basis
+for this communication remains unclear. Existing computational methods for identifying
+allostery focus on the role of concerted structural changes, but recent experimental work
+demonstrates that disorder is also an important factor. Here, we introduce the Correlation of All
+Rotameric and Dynamical States (CARDS) framework for quantifying correlations between
+                                                                                      
+                                                                                      
+both the structure and disorder of different regions of a protein. To quantify disorder, we
+draw inspiration from methods for quantifying &#8220;dynamic heterogeneity&#8221; from chemical
+physics to classify segments of a dihedral&#8217;s time evolution as being in either ordered or
+disordered regimes. To demonstrate the utility of this approach, we apply CARDS to the
+Catabolite Activator Protein (CAP), a transcriptional activator that is regulated by Cyclic
+Adenosine MonoPhosphate (cAMP) binding. We find that CARDS captures allosteric
+communication between the two cAMP-Binding Domains (CBDs). Importantly, CARDS
+reveals that this coupling is dominated by disorder-mediated correlations, consistent with
+NMR experiments that establish allosteric coupling between the CBDs occurs without a
+concerted structural change. CARDS also recapitulates an enhanced role for disorder in the
+communication between the DNA-Binding Domains (DBDs) and CBDs in the S62F variant of CAP.
+Finally, we demonstrate that using CARDS to find communication hotspots identifies regions
+of CAP that are in allosteric communication without foreknowledge of their identities.
+Therefore, we expect CARDS to be of great utility for both understanding and predicting
+allostery.
+</p><!--l. 17--><p class="noindent" >
+</p>
+<h3 class="sectionHead"><span class="titlemark">2.2    </span> <a 
+ id="x6-160002.2"></a>Introduction</h3>
+<!--l. 18--><p class="noindent" >Despite its fundamental importance, understanding of the physical mechanisms of allosteric
+communication remains incomplete. For example, significant effort has gone into studying how
+G-Protein Coupled Receptors (GPCRs) allosterically transmit extracellular signals to intracellular
+binding partners<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XRosenbaum:2009id">91</a>]</span>. However, understanding of this process is still insufficient for the routine
+design of drugs that allosterically modulate GPCRs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XShoichet:2012fm">92</a>]</span>.
+                                                                                      
+                                                                                      
+</p><!--l. 20--><p class="noindent" >Models of allostery have typically focused on concerted structural changes<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XGuo:2016hv">93</a>]</span>. For example, the
+classic induced fit model postulates that ligand binding to one subunit of a protein causes a
+conformational change in other subunits<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKoshland:1959ft">94</a>,&#x00A0;<a 
+href="mainli4.html#XKoshlandJr:1966ffa">95</a>]</span>. The conformational selection model also focuses
+on structural changes, positing that ligand binding to one subunit stabilizes an alternative
+(but pre-existing) structure of other subunits<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMonod:1965io">96</a>]</span>. Extensive work establishes there is
+often a role for conformational selection<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XChangeux:2011fv">97</a>]</span>, though there is clearly a continuum between
+extreme versions of induced-fit and conformational selection<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XCsermely:2010cv">98</a>,&#x00A0;<a 
+href="mainli4.html#XSilva:2011ct">99</a>,&#x00A0;<a 
+href="mainli4.html#XHammes:2009im">100</a>]</span>. This conclusion
+implies allostery can be inferred from proteins&#8217; equilibrium fluctuations even in the absence
+of an allosteric perturbation. Inspired by this implication, numerous methods have been
+developed to infer allosteric communication from structural fluctuations observed in molecular
+simulations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XIchiye:1991db">85</a>,&#x00A0;<a 
+href="mainli4.html#Xand:1999bo">101</a>,&#x00A0;<a 
+href="mainli4.html#XPratulKAgarwal:2002dp">102</a>,&#x00A0;<a 
+href="mainli4.html#XAgarwal:2002ema">103</a>,&#x00A0;<a 
+href="mainli4.html#XRod:2003vm">104</a>,&#x00A0;<a 
+href="mainli4.html#XLange:2006gv">105</a>,&#x00A0;<a 
+href="mainli4.html#XWhitley:2009uq">106</a>,&#x00A0;<a 
+href="mainli4.html#XWeinkam:2012jf">107</a>,&#x00A0;<a 
+href="mainli4.html#XLenaerts:2008kn">108</a>,&#x00A0;<a 
+href="mainli4.html#XMcClendon:2009gd">86</a>,&#x00A0;<a 
+href="mainli4.html#XDubay:2011ey">109</a>,&#x00A0;<a 
+href="mainli4.html#XFeher:2014cx">83</a>,&#x00A0;<a 
+href="mainli4.html#XFenwick:2014fc">110</a>,&#x00A0;<a 
+href="mainli4.html#XCui:2008cc">111</a>,&#x00A0;<a 
+href="mainli4.html#XElber:2011dj">112</a>,&#x00A0;<a 
+href="mainli4.html#XVanWart:2014dc">113</a>,&#x00A0;<a 
+href="mainli4.html#XMalmstrom:2015kp">114</a>,&#x00A0;<a 
+href="mainli4.html#XChu:2005gh">115</a>,&#x00A0;<a 
+href="mainli4.html#XRavindranathan:2005ff">116</a>,&#x00A0;<a 
+href="mainli4.html#XWeinkam:2013fj">117</a>,&#x00A0;<a 
+href="mainli4.html#XLiu:2012em">118</a>,&#x00A0;<a 
+href="mainli4.html#XZhang2012">119</a>]</span>.
+</p><!--l. 22--><p class="noindent" >While concerted structural changes are clearly important for allostery, there is mounting evidence that
+conformational disorder has an important role to play, and can even lead to allosteric communication
+in the absence of concerted structural ,transitions<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XGuo:2016hv">93</a>,&#x00A0;<a 
+href="mainli4.html#XKern:2003fv">120</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2011by">64</a>,&#x00A0;<a 
+href="mainli4.html#XHilser:2007je">121</a>,&#x00A0;<a 
+href="mainli4.html#XBurger:2016gy">122</a>,&#x00A0;<a 
+href="mainli4.html#XHaliloglu:2015dj">123</a>,&#x00A0;<a 
+href="mainli4.html#XHenzlerWildman:2007jb">124</a>,&#x00A0;<a 
+href="mainli4.html#XHilser:2012em">125</a>]</span>. The
+importance of allostery without conformational change first appeared in a model where ligand binding
+perturbs the entropy of a distant site rather than its preferred structure<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XCooper:1984tb">87</a>]</span>. Since then, NMR and ITC
+experiments on Catabolite Activator Protein (CAP) have established allosteric communication
+without conformational change exists in nature<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XWand:2013dz">19</a>,&#x00A0;<a 
+href="mainli4.html#XPopovych:2006js">88</a>,&#x00A0;<a 
+href="mainli4.html#XJakob:2014cp">126</a>]</span>. CAP is a homodimeric
+transcription factor whose DNA-binding affinity increases upon binding of cAMP to the
+cAMP-Binding Domains (CBDs)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHarman:2001td">127</a>,&#x00A0;<a 
+href="mainli4.html#XHeyduk:1989wb">128</a>]</span>. In wild-type CAP, cAMP binding allosterically
+induces the DNA-Binding Domains (DBDs) to swivel around the central hinge region into a
+DNA-binding conformation (Fig. <a 
+href="#x6-16001r1">2.1<!--tex4ht:ref: fig:cap-intro-figure --></a>)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSchultz:1991uh">129</a>,&#x00A0;<a 
+href="mainli4.html#XSeok:2014cs">130</a>]</span>. There is also negative coupling between the
+two CBDs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHarman:2001td">127</a>,&#x00A0;<a 
+href="mainli4.html#XHeyduk:1989wb">128</a>,&#x00A0;<a 
+href="mainli4.html#XPopovych:2009iu">131</a>]</span>. A combination of NMR and ITC measurements reveal that
+binding of cAMP to one CBD reduces the cAMP-binding affinity of the second CBD without
+changing its structure<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPopovych:2006js">88</a>,&#x00A0;<a 
+href="mainli4.html#XPopovych:2009iu">131</a>]</span>. Additional experiments reveal that binding of cAMP
+activates the S62F variant of CAP without causing a conformational change in the hinge or
+DBDs<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTzeng:2009im">63</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2012cu">132</a>]</span>.
+                                                                                      
+                                                                                      
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-16001r1"></a>
+                                                                                      
+                                                                                      
+<!--l. 27--><p class="noindent" ><img 
+src="Chapter3/cap-intro-fig.png" alt="PIC"  
+width="325" height="131"  />
+<a 
+ id="x6-16002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.1:  </span><span  
+class="content">Structures  of  CAP  in  apo  and  holo  forms.  <span 
+class="ptmb7t-x-x-120">A.  </span>Structure  of  apo-CAP,  with
+cAMP-binding  domains  (CBDs)  and  DNA-binding  domains  (DBDs)  indicated  by  brackets.
+Residues  that  make  up  the  hinge  region  are  colored  in  red.  <span 
+class="ptmb7t-x-x-120">B.  </span>Structure  of  holo-CAP  with
+cAMP ligands (spheres) bound to the CBD regions. The same hinge residues are colored in red.</span></div><!--tex4ht:label?: x6-16001r2.2 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 33--><p class="noindent" >While the importance of disorder is gaining widespread acceptance, the field lacks systematic methods
+for identifying allosteric communication in the absence of conformational change. For example, NMR
+has yet to uncover how these signals are transmitted. COREX/BEST<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHilser:2007je">121</a>,&#x00A0;<a 
+href="mainli4.html#XHilser:1998cj">133</a>,&#x00A0;<a 
+href="mainli4.html#XHilser:1996ft">134</a>]</span>, other
+coarse-grained models<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XWeinkam:2012jf">107</a>]</span>, and normal modes<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMarcos:2011dr">135</a>]</span> provide valuable insights but miss essential
+subtleties, such as important side-chain motions. Using molecular dynamics simulations to measure
+the mutual information between the orientations of different dihedral angles captures the reduction in
+uncertainty (measured with an entropy metric) about the structure of one dihedral given knowledge of
+another<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLenaerts:2008kn">108</a>,&#x00A0;<a 
+href="mainli4.html#XMcClendon:2009gd">86</a>,&#x00A0;<a 
+href="mainli4.html#XDubay:2011ey">109</a>]</span>, but does not capture phenomena like changes in the rotameric state of one
+dihedral increasing the conformational heterogeneity of a distant site. Approaches for inferring
+allosteric coupling from sequence covariation<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLockless:1999uf">82</a>,&#x00A0;<a 
+href="mainli4.html#XSuel:2003ca">136</a>]</span> are agnostic to the mechanism underlying
+this communication and cannot explain how it occurs. A method for identifying timing correlations
+has promise for capturing disorder-mediated coupling<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XLin:2016gi">89</a>]</span>. For example, application of
+this approach to side-chain degrees of freedom in CAP successfully identified hotspots
+for allosteric communication. It also demonstrated that disorder-mediated correlations
+give rise to long-range communication, while purely structural correlations are limited
+to short-ranged communication. However, timing correlations do not integrate structural
+and dynamical correlations into a holistic measure of communication that can capture
+the continuum of possibilities between purely structural and purely disorder-mediated
+coupling.
+</p><!--l. 35--><p class="noindent" >Here, we introduce the CARDS (Correlation of all Rotameric and Dynamical States) methodology for
+quantifying the roles of both concerted structural changes and conformational disorder. CARDS is
+based on our observation that a single degree of freedom (e.g. a dihedral angle) can transition between
+&#8220;ordered&#8221; regimes, wherein it undergoes small fluctuations within a single structural state, and
+&#8220;disordered&#8221; regimes wherein it undergoes bursts of transitions between different structural states
+(Fig. <a 
+href="#x6-17001r2">2.2<!--tex4ht:ref: fig:cards-workflow-fig --></a>). Similar &#8220;dynamic heterogeneity&#8221;<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XEdiger:2000ed">137</a>,&#x00A0;<a 
+href="mainli4.html#XGlotzer:2000fy">138</a>,&#x00A0;<a 
+href="mainli4.html#XRichert:2002fa">139</a>]</span> has been observed in the physics of
+glasses, where it has been shown that a single degree of freedom&#8217;s local environment can either
+                                                                                      
+                                                                                      
+facilitate dynamics by flattening out the effective free energy surface that degree of freedom
+experiences or freeze out dynamics<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMerolle:2005kx">140</a>,&#x00A0;<a 
+href="mainli4.html#XHedges:2007fw">141</a>,&#x00A0;<a 
+href="mainli4.html#XKeys:2011ut">142</a>]</span>. CARDS identifies ordered and disordered
+regimes based on two kinetic signatures: the average time a degree of freedom persists within a
+structural state and the typical timescale for transitions between structural states. For many dihedrals,
+we observe that the typical time that elapses between structural transitions, which is dominated by
+segments of a trajectory in disordered regimes, is orders of magnitude smaller than the typical
+persistence time in a state. Based on these kinetic signatures, CARDS assigns segments of
+trajectories to dynamical states (i.e. ordered and disordered regimes). CARDS then quantifies
+correlations between the structural and dynamical states of different dihedrals. Specifically, we
+employ the mutual information to assess how much better one can predict the structural
+and dynamical states of one dihedral given knowledge of the structural and dynamical
+states of another dihedral. To demonstrate the utility of CARDS, we assess whether it can
+identify allosteric communication in the absence of concerted structural changes observed in
+CAP.
+</p>
+<h3 class="sectionHead"><span class="titlemark">2.3    </span> <a 
+ id="x6-170002.3"></a>Theory and methods</h3>
+<!--l. 39--><p class="noindent" >CARDS captures all forms of correlated fluctuations, including concerted structural changes,
+correlations between the conformational disorder of different degrees of freedom, and correlations
+between the structure of one degree of freedom and the conformational disorder of another. As in
+other recent work, we focus on dihedral angles, as they are natural degrees of freedom for describing
+protein structure and dynamics and are easily decomposed into a small number of rotameric
+states<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMcClendon:2009gd">86</a>,&#x00A0;<a 
+href="mainli4.html#XDubay:2011ey">109</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-17001r2"></a>
+                                                                                      
+                                                                                      
+<!--l. 43--><p class="noindent" ><img 
+src="Chapter3/cards-workflow-fig.png" alt="PIC"  
+width="361" height="526"  />
+<a 
+ id="x6-17002"></a>
+<br />     </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.2:         </span><span  
+class="content">Workflow         for         identifying         ordered         and         disordered
+regimes.          <span 
+class="ptmb7t-x-x-120">A.          </span>An          example          of          the          time-evolution          of          a
+<!--l. 45--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mn>1</mn></mrow></msub 
+></math>
+angle. The core of each rotameric state is shaded green and the buffer zones between them
+are white. <span 
+class="ptmb7t-x-x-120">B. </span>Assignment of each snapshot in the trajectory to rotameric states. <span 
+class="ptmb7t-x-x-120">C. </span>Transition
+indicator  function  identifying  where  the  dihedral  changes  states.  Examples  of  ordered
+(<!--l. 45--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math>)
+and disordered (<!--l. 45--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math>)
+times are labeled. <span 
+class="ptmb7t-x-x-120">D. </span>Assignment of each snapshot in the trajectory to dynamical states (e.g.
+ordered and disordered regimes).</span></div><!--tex4ht:label?: x6-17001r2.3 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h4 class="subsectionHead"><span class="titlemark">2.3.1    </span> <a 
+ id="x6-180002.3.1"></a>Molecular Dynamics simulations</h4>
+<!--l. 50--><p class="noindent" >We ran three 500 ns simulations with our previously published protocol<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHart:2016kb">9</a>]</span> (see SI for
+details). Briefly, we placed PDB ID 4N9H<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSeok:2014cs">130</a>]</span> in a dodecahedron box and solvated it
+with TIP3P explicit solvent<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XJorgensen:1983fl">143</a>]</span> extending 1 nm beyond the protein in any dimension.
+We used PyMOL<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDeLano:2010wf">144</a>]</span> to mutate Ser62 to Phe to create a starting structure for the S62F
+variant. For each system, we ran simulations with the Gromacs software package<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XVanDerSpoel:2005hz">145</a>]</span>
+using the Amber03 force field<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XDuan:2003gt">146</a>]</span>. This combination of software and parameters was
+selected because it has proven reliable in our past studies of both protein folding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBowman:2011bc">55</a>]</span> and
+structural fluctuations within folded proteins<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHart:2016kb">9</a>,&#x00A0;<a 
+href="mainli4.html#XBowman:2015dh">147</a>,&#x00A0;<a 
+href="mainli4.html#XBowman:2015da">56</a>]</span>. As described in the Results
+section, our microsecond timescale simulations are sufficient to recapitulate much of what is
+known from experiments about allostery in CAP. The correlation coefficient between the
+couplings obtained from any individual simulation and the combination of three simulations is
+0.64<!--l. 51--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">&#177;</mo></math>0.02,
+suggesting that hundreds of nanoseconds of simulation may be sufficient to discover gross patterns of
+communication but are insufficient to obtain converged results. The correlation coefficient between the
+coupling obtained from any pair of simulations and the combination of three simulations is
+0.79<!--l. 51--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">&#177;</mo></math>0.02,
+suggesting that 1-1.5 microseconds of simulation give more reproducible results. Taken together
+with our past work, we conclude that a few microseconds of simulation are adequate to
+demonstrate the utility of our new method and, likely, to gain valuable insights into many
+systems.
+                                                                                      
+                                                                                      
+</p><!--l. 53--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.3.2    </span> <a 
+ id="x6-190002.3.2"></a>Assignment of dihedrals to rotameric states</h4>
+<!--l. 54--><p class="noindent" >Dihedral angles were calculated with MDTraj <span class="cite">&#x00A0;[<a 
+href="mainli4.html#XMcGibbon:2015fv">148</a>]</span> and assigned to discrete rotameric states (e.g. gauche+, gauche-,
+and trans for most <!--l. 54--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03C7;</mi></math>
+angles and cis or trans states for backbone dihedrals). Transition-Based Assignment (TBA) is used to
+distinguish lasting transitions from transient fluctuations<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHummer:2004kb">149</a>,&#x00A0;<a 
+href="mainli4.html#XBolhuis:2002ew">150</a>,&#x00A0;<a 
+href="mainli4.html#XBuchete:2008hb">151</a>,&#x00A0;<a 
+href="mainli4.html#XSchutte:2011gs">152</a>]</span>. TBA prevents
+over-counting of transitions (e.g. due to fluctuations at a barrier peak where a simulation repeatedly
+crosses a hard cutoff between rotameric states) by defining a core region within each rotameric state
+and buffer zones between them. A dihedral is only considered to have changed rotameric states if
+it transitions from the core of one state to the core of another state, passing completely
+through the buffer zone between cores (Fig. <a 
+href="#x6-17001r2">2.2<!--tex4ht:ref: fig:cards-workflow-fig --></a>A and <a 
+href="#x6-17001r2">2.2<!--tex4ht:ref: fig:cards-workflow-fig --></a>B). A dihedral that starts in one
+core, enters a buffer zone, and then returns to its initial core is said to have remained in
+the initial rotameric state. We define the core of a rotameric state as a region of width W
+centered between the boundaries between rotamers. We present results using a core width of
+90&#176;, but our results are robust to variations in the core width ranging from 60&#176;to 90&#176;(Fig.
+<a 
+href="mainap1.html#x13-137001r1">A.1<!--tex4ht:ref: fig:cards-pearsonr-fig --></a>A)
+</p><!--l. 56--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.3.3    </span> <a 
+ id="x6-200002.3.3"></a>Assignment of snapshots to dynamical states</h4>
+<!--l. 57--><p class="noindent" >CARDS assigns snapshots to ordered and disordered regimes based on two
+variables that describe the dynamics of the trajectory: the mean ordered time
+(<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math>) and mean
+                                                                                      
+                                                                                      
+disordered time (<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math>).
+An ordered time (<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math>)
+is the time from any time-point to the next time where a transition occurs and a disordered time
+(<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math>) is the
+time between two consecutive transitions (Fig. <a 
+href="#x6-17001r2">2.2<!--tex4ht:ref: fig:cards-workflow-fig --></a>C). These times are called persistence and exchange
+times in the condensed matter physics literature<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XHedges:2007fw">141</a>,&#x00A0;<a 
+href="mainli4.html#XKeys:2011ut">142</a>,&#x00A0;<a 
+href="mainli4.html#XJung:2005jk">153</a>]</span>. For many dihedrals, we observe that
+<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow><mo 
+class="MathClass-rel">&#x226A;</mo><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></math> because
+(<span 
+class="tcrm-1200">&#x2329;</span><!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math><span 
+class="tcrm-1200">&#x232A;</span>)
+is dominated by the short times between transitions in disordered regimes, whereas
+<span 
+class="tcrm-1200">&#x2329;</span><!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math><span 
+class="tcrm-1200">&#x232A; </span>is
+heavily influenced by the lengthy times without any transitions in ordered regimes. To calculate these
+times, CARDS first identifies the time points where a dihedral transitions between two different rotameric
+states (Fig. <a 
+href="#x6-17001r2">2.2<!--tex4ht:ref: fig:cards-workflow-fig --></a>C), referred to as the transition indicator function. The method then extract the complete set
+of <!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math> and
+<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math> values
+in the trajectory. Next, CARDS classifies each segment of a trajectory between two consecutive
+transitions as being in an ordered or disordered regime based on whether the length of the segment
+<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>t</mi></math> between the
+transitions is more consistent with the distribution of ordered or disordered times (Fig. <a 
+href="#x6-17001r2">2.2<!--tex4ht:ref: fig:cards-workflow-fig --></a>D). We find that
+transitions within ordered and disordered regimes are roughly Poisson processes with different characteristic
+times (<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></math>
+and<span 
+class="tcrm-1200">&#x2329;</span><!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math><span 
+class="tcrm-1200">&#x232A;</span>,
+respectively), see Fig. <a 
+href="mainap1.html#x13-137003r2">A.2<!--tex4ht:ref: fig:cards-timescale-dists-fig --></a>. Therefore, CARDS determines if a segment of a trajectory of length
+<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>t</mi></math> between
+two consecutive transitions is more consistent with an ordered or disordered regime using the likelihood
+ratio (<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>L</mi></math>):
+</p><table class="equation"><tr><td> <a 
+ id="x6-20001r1"></a>
+                                                                                      
+                                                                                      
+<!--l. 58--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                           <mi 
+>L</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mfrac><mrow 
+><msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+<mrow 
+><msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></mfrac> <mo 
+class="MathClass-rel">=</mo> <mfrac><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow>   <mfrac><mrow 
+><mn>1</mn></mrow>
+<mrow 
+><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></mrow></mfrac></mrow><mo 
+class="MathClass-close">)</mo></mrow><msup><mrow 
+><mi 
+>e</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo>  <mfrac><mrow 
+><mi 
+>t</mi></mrow>
+<mrow 
+><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></mrow></mfrac></mrow></msup 
+></mrow> 
+<mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow>   <mfrac><mrow 
+><mn>1</mn></mrow>
+<mrow 
+><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></mrow></mfrac></mrow><mo 
+class="MathClass-close">)</mo></mrow><msup><mrow 
+><mi 
+>e</mi></mrow><mrow 
+><mo 
+class="MathClass-bin">-</mo>  <mfrac><mrow 
+><mi 
+>t</mi></mrow>
+<mrow 
+><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></mrow></mfrac></mrow></msup 
+></mrow></mfrac>
+</math></td><td class="eq-no">(2.1)</td></tr></table>
+<!--l. 61--><p class="noindent" >where <!--l. 61--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math> is the probability the
+segment is disordered and <!--l. 61--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>P</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math>
+is the probability it is ordered. Taking inspiration from the interpretation of Bayes
+factors<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XKass:2012bb">154</a>]</span>, CARDS classifies a segment of a trajectory as being disordered if
+<!--l. 61--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>L</mi> <mo 
+class="MathClass-rel">&#x003E;</mo> <mn>3</mn><mo 
+class="MathClass-punc">.</mo><mn>0</mn></math>,
+otherwise the trajectory segment is classified as being in an ordered regime. Our results are robust to
+varying this cutoff from 1.5 to 5 (Fig. <a 
+href="mainap1.html#x13-137001r1">A.1<!--tex4ht:ref: fig:cards-pearsonr-fig --></a>B).
+</p><!--l. 63--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.3.4    </span> <a 
+ id="x6-210002.3.4"></a>Calculation of structural, disorder-mediated, and holistic correlations</h4>
+<!--l. 64--><p class="noindent" >The primary objective of CARDS is to calculate the total correlation between different dihedrals,
+including both their rotameric state and dynamical state (e.g. whether the dihedral is in an ordered or
+disordered regime at a given time). Towards this end, we define the holistic correlation
+(<!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>H</mi></mrow></msub 
+></math>) between
+dihedrals <!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+and <!--l. 64--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math> as </p><table class="equation"><tr><td>
+<a 
+ id="x6-21001r2"></a>
+                                                                                      
+                                                                                      
+<!--l. 65--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+              <msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>H</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover>
+</math></td><td class="eq-no">(2.2)</td></tr></table>
+<!--l. 69--><p class="noindent" >where <!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>
+is the normalized mutual information between the structure (i.e. rotameric state) of dihedral
+<!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the structure
+of dihedral <!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>,
+<!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>
+is the normalized mutual information between the structure of dihedral
+<!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the dynamical
+state of dihedral <!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>,
+<!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>s</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math> is the
+normalized mutual information between the dynamical state of dihedral X and the structure of dihedral Y,
+and <!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>d</mi></mrow></msub 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>
+is the normalized mutual information between the dynamical state of dihedral
+<!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math> and the dynamical
+state of dihedral <!--l. 69--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math>.
+The mutual information (I) is: </p><table class="equation"><tr><td> <a 
+ id="x6-21002r3"></a>
+                                                                                      
+                                                                                      
+<!--l. 70--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                        <mi 
+>I</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">-</mo><munder class="msub"><mrow 
+><mo  
+>&#x2211;</mo>
+   </mrow><mrow 
+><mi 
+>x</mi><mo 
+class="MathClass-rel">&#x2208;</mo><mi 
+>X</mi></mrow></munder 
+><munder class="msub"><mrow 
+><mo  
+> &#x2211;</mo>
+   </mrow><mrow 
+><mi 
+>y</mi><mo 
+class="MathClass-rel">&#x2208;</mo><mi 
+>Y</mi> </mrow></munder 
+>  <mfrac><mrow 
+><mi 
+>P</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>y</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+<mrow 
+><mi 
+>P</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mi 
+>P</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>y</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></mfrac>
+</math></td><td class="eq-no">(2.3)</td></tr></table>
+<!--l. 73--><p class="noindent" >where <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi> <mo 
+class="MathClass-rel">&#x2208;</mo> <mi 
+>X</mi></math> refers to the set of
+possible states that dihedral <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+can adopt, <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> is the
+probability that dihedral <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+adopts state <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>, and
+<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>p</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>y</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> is the joint probability
+that dihedral <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>X</mi></math>
+adopts state <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math> and
+dihedral <!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> </math> adopts state
+<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>y</mi></math>. We define the normalized
+mutual information (<!--l. 73--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><mi 
+>I</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>)
+as </p><table class="equation"><tr><td> <a 
+ id="x6-21003r4"></a>
+<!--l. 74--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" class="equation">
+                                 <mover accent="false" 
+class="mml-overline"><mrow><mi 
+>I</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-rel">=</mo>  <mfrac><mrow 
+><mi 
+>I</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+<mrow 
+><mi 
+>C</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></mfrac>
+</math></td><td class="eq-no">(2.4)</td></tr></table>
+<!--l. 77--><p class="noindent" >where <!--l. 77--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>C</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>X</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>Y</mi> </mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+is the maximum possible mutual information between two dihedrals, called the channel
+                                                                                      
+                                                                                      
+capacity<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xwitten2002data">155</a>]</span>. Using this normalized mutual information allows for a direct comparison
+between the different components of the holistic correlation by correcting for the fact that the
+largest possible mutual information between different types of dihedrals will vary based
+on how many different states there are. For example, a side-chain dihedral has three
+possible rotameric states but only two possible dynamical states, so structural correlations
+(<!--l. 77--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>s</mi></mrow></msub 
+></math>) can be as large as
+<!--l. 77--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>l</mi><mi 
+>o</mi><mi 
+>g</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>3</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> while the correlations
+between dynamical states (<!--l. 77--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>d</mi></mrow></msub 
+></math>)
+can only reach as high as <!--l. 77--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>l</mi><mi 
+>o</mi><mi 
+>g</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>2</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>.
+</p><!--l. 79--><p class="noindent" >In addition to the above, we define the disorder-mediated correlation
+(<!--l. 79--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>D</mi><mi 
+>M</mi></mrow></msub 
+></math>)
+as all forms of correlation between two dihedrals that rely, at least in part, on disorder
+(<!--l. 79--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>s</mi></mrow></msub 
+></mrow><mo 
+accent="true" stretchy="true">-</mo></mover> <mo 
+class="MathClass-bin">+</mo> <mover accent="false" 
+class="mml-overline"><mrow><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+accent="true" stretchy="true">-</mo></mover></math>). This construct
+is useful for assessing the importance of disorder relative to existing methods based purely on concerted structural
+changes (<!--l. 79--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>s</mi><mi 
+>s</mi></mrow></msub 
+></math>).
+We use bootstrapping to measure the uncertainty in our estimates of all the components of the holistic
+correlation to ensure any comparisons we make are statistically sound. Specifically, we draw 20
+random samples of our trajectories, with replacement, and calculate the structural and
+disorder-mediated correlations between all pairs of residues. We conclude that disorder-mediated
+communication dominates if the average disorder-mediated communication minus the standard
+deviation across all our bootstrap samples is greater than the mean structural correlation plus the
+standard deviation.
+</p><!--l. 81--><p class="noindent" >
+</p>
+                                                                                      
+                                                                                      
+<h4 class="subsectionHead"><span class="titlemark">2.3.5    </span> <a 
+ id="x6-220002.3.5"></a>Calculation of net communication to a target site</h4>
+<!--l. 82--><p class="noindent" >We are often interested in calculating how much influence a particular residue has over another site,
+such as an active site or ligand-binding site. To calculate the communication between a reference
+residue and some target site, we take the average mutual information between two sets of dihedrals: 1)
+all dihedrals in the reference residue and its nearest neighbors and 2) all dihedrals in the target site. We
+define the nearest neighbors of a reference residue as all residues with atoms that fall within 3 &#197;
+of any atom in the reference residue. Varying this cutoff does not alter our results (Fig.
+<a 
+href="mainap1.html#x13-137001r1">A.1<!--tex4ht:ref: fig:cards-pearsonr-fig --></a>C). Including both a reference residue and its nearest neighbors accounts for the fact that
+mutating the reference residue will directly change the environment of all neighboring
+residues.
+</p><!--l. 84--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.3.6    </span> <a 
+ id="x6-230002.3.6"></a>Calculation of global communication</h4>
+<!--l. 85--><p class="noindent" >In addition to identifying residues that have strong correlations to a specific target site, it would also be
+valuable to identify residues that generally appear to play an important role in allosteric
+networks. Towards this end, we define the global communication strength of a residue as
+the sum of its holistic correlations to all other residues. For these calculations, we also
+include neighboring residues, as in our calculation of the net communication to a target
+site.
+</p><!--l. 87--><p class="noindent" >
+                                                                                      
+                                                                                      
+</p>
+<h3 class="sectionHead"><span class="titlemark">2.4    </span> <a 
+ id="x6-240002.4"></a>Results and discussion</h3>
+<!--l. 88--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.4.1    </span> <a 
+ id="x6-250002.4.1"></a>Many dihedrals have the potential for disorder-mediated communication</h4>
+<!--l. 89--><p class="noindent" >For a dihedral to have ordered and disordered regimes,
+<span 
+class="tcrm-1200">&#x2329;</span><!--l. 89--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></math><span 
+class="tcrm-1200">&#x232A; </span>must be significantly
+larger than <span 
+class="tcrm-1200">&#x2329;</span><!--l. 89--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></math><span 
+class="tcrm-1200">&#x232A;</span>. We reasoned
+that determining if <!--l. 89--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>o</mi><mi 
+>r</mi><mi 
+>d</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow><mo 
+class="MathClass-rel">&#x2265;</mo> <mn>3</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo><mrow ><mo 
+class="MathClass-open">&#x27E8;</mo><mrow><msub><mrow 
+><mi 
+>&#x03C4;</mi></mrow><mrow 
+><mi 
+>d</mi><mi 
+>i</mi><mi 
+>s</mi></mrow></msub 
+></mrow><mo 
+class="MathClass-close">&#x27E9;</mo></mrow></math>
+is a reasonable heuristic for identifying dihedrals with separable ordered and disordered regimes based
+on the likelihood ratio defined in Eq. <a 
+href="#x6-20001r1">2.1<!--tex4ht:ref: likelihood-ratio-eq --></a>. Dihedrals that do not meet this criterion are classified as
+entirely being in ordered regimes and, therefore, are only capable of having structural correlations
+with other dihedrals.
+</p><!--l. 91--><p class="noindent" >Based on the criterion defined above, we find that 556 of the 1584 dihedrals in CAP have separable
+ordered and disordered regimes and, therefore, are capable of disorder-mediated communication with
+other dihedrals (Fig. <a 
+href="mainap1.html#x13-137005r3">A.3<!--tex4ht:ref: fig:cards-avgtimes-2dhist-fig --></a>). Mapping these dihedrals to the apo structure of CAP highlights a number of
+interesting patterns (Fig. <a 
+href="#x6-25001r3">2.3<!--tex4ht:ref: fig:cap-disordered-resis-fig --></a>). First of all, CARDS reveals that many side-chain dihedrals buried in
+CAP&#8217;s core are capable of disorder-mediated communication. This finding helps to rectify the
+apparent contradiction between the common physical intuition that proteins&#8217; cores should be rigid due
+to their tight packing and the observation that there is substantial conformational heterogeneity within
+proteins&#8217; cores<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFraser:2011jf">156</a>,&#x00A0;<a 
+href="mainli4.html#Xbowman2014extensive">57</a>]</span>. That is, dihedrals within a protein&#8217;s core are commonly locked in a single
+rotameric state for extended periods of time but rare fluctuations create room for conformational
+changes. Backbone dihedrals that are capable of disorder-mediated communication tend
+                                                                                      
+                                                                                      
+to reside on the protein&#8217;s surface. Notably, a number of these backbone dihedrals are in
+<!--l. 91--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03B2;</mi></math>-sheets
+that contact cAMP. However, there are also backbone dihedrals within the core that are capable of
+disorder-mediated communication. For example, we find backbone dihedrals within the central hinge
+region that are capable of disorder-mediated communication. This observation is noteworthy because
+the hinge region undergoes a large conformational change upon activation of CAP (Fig.
+<a 
+href="#x6-16001r1">2.1<!--tex4ht:ref: fig:cap-intro-figure --></a>)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XPopovych:2009iu">131</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2009im">63</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2012cu">132</a>]</span>. We find that similar patterns emerge when we vary the cutoff for determining
+whether a dihedral has separable ordered and disordered regimes (Fig. <a 
+href="mainap1.html#x13-137007r4">A.4<!--tex4ht:ref: fig:cards-disord-resis-cutoff --></a>). In the future it will be
+interesting to examine whether separate proteins, or homologous members of a family, have similar
+proportions and patterns of dihedrals that are separable into ordered and disordered regimes. However,
+given the opportunity to only analyze a limited number of sufficiently sampled datasets so
+far<span class="cite">&#x00A0;[<span 
+class="ptmb7t-x-x-120">?</span>,&#x00A0;<a 
+href="mainli4.html#XSun:2018kx">48</a>,&#x00A0;<a 
+href="mainli4.html#Xporter_conformational_2020">10</a>]</span>.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-25001r3"></a>
+                                                                                      
+                                                                                      
+<!--l. 95--><p class="noindent" ><img 
+src="Chapter3/cap-disordered-residues-fig.png" alt="PIC"  
+width="325" height="177"  />
+<a 
+ id="x6-25002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.3:  </span><span  
+class="content">Residues  whose  dihedrals  are  capable  of  disorder-mediated  communication.
+<span 
+class="ptmb7t-x-x-120">A.  </span>Residues  with  at  least  one  backbone  dihedral  that  is  capable  of  disorder-mediated
+communication (orange). <span 
+class="ptmb7t-x-x-120">B. </span>Residues with at least one side-chain dihedral that is capable of
+disorder-mediated communication (green).</span></div><!--tex4ht:label?: x6-25001r2.4 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h4 class="subsectionHead"><span class="titlemark">2.4.2    </span> <a 
+ id="x6-260002.4.2"></a>Disorder-mediated correlations dominate communication between the CBDs</h4>
+<!--l. 102--><p class="noindent" >Given experimental evidence for allosteric communication between the CBDs without a concerted
+structural change<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTzeng:2009im">63</a>]</span>, we expect the disorder-mediated component of the holistic correlation between
+these sites to be larger than the purely structural component. To test this prediction, we simulated apo CAP
+for 1.5 <!--l. 102--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s
+and calculated the net communication of every residue to one of the cAMP-binding sites. Specifically,
+we defined the target site as all residues with heavy atoms within 6&#197;of one of the two cAMP
+molecules in the holo crystal structure (PDB ID 1CGP)<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSchultz:1991uh">129</a>]</span>. The residues in this target site
+are 30, 36, 49, 61-62, 64, 69-86, and 99 from chain A and residues 122-129 from chain
+B.
+</p><!--l. 104--><p class="noindent" >As predicted, CARDS successfully identifies that there is communication between the two CBDs. Fig.
+<a 
+href="#x6-26001r4">2.4<!--tex4ht:ref: fig:cap-targetsite-fig --></a>A shows the holistic correlations to a single cAMP-binding site. Unsurprisingly, the residues with
+the strongest correlations to this set of residues reside within the same CBD. However, there is also
+strong communication between the target site and residues lining the other cAMP-binding
+pocket. There are also strong correlations on the central hinge region and the interface
+between the CBDs and DBDs that may be responsible for allosteric coupling between these
+domains.
+</p><!--l. 106--><p class="noindent" >To determine the relative importance of disorder-mediated communication and purely structural
+correlations, we broke the holistic communication into structural and disorder-mediated
+components. Furthermore, we used bootstrapping to estimate the uncertainty in each of these
+components.
+</p>
+                                                                                      
+                                                                                      
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-26001r4"></a>
+                                                                                      
+                                                                                      
+<!--l. 110--><p class="noindent" ><img 
+src="Chapter3/cap-targetsite-fig.png" alt="PIC"  
+width="325" height="151"  />
+<a 
+ id="x6-26002"></a>
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.4:    </span><span  
+class="content">Communication    to    a    single    CBD.    <span 
+class="ptmb7t-x-x-120">A.    </span>Holistic    mutual    information
+(<!--l. 112--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>I</mi></mrow><mrow 
+><mi 
+>H</mi></mrow></msub 
+></math>)
+of  each  residue  to  the  residues  lining  a  single  cAMP-binding  pocket  (shown  in  sticks).
+<span 
+class="ptmb7t-x-x-120">B.   </span>Residues   whose   communication   to   the   cAMP-binding   pocket   is   dominated   by
+disorder-mediated communication (orange sticks). Residues lining the target cAMP-binding
+pocket are in blue sticks.</span></div><!--tex4ht:label?: x6-26001r2.4 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<!--l. 116--><p class="noindent" >Identifying residues where disorder-mediated communication to the target cAMP-binding site is larger
+than purely structural correlations automatically identifies a number of residues in the second
+cAMP-binding site (Fig. <a 
+href="#x6-26001r4">2.4<!--tex4ht:ref: fig:cap-targetsite-fig --></a>B, Fig. <a 
+href="mainap1.html#x13-137009r5">A.5<!--tex4ht:ref: fig:cards-top5percentresis --></a>). This finding demonstrates that CARDS recapitulates the
+experimental finding that communication betwen the two CBDs does not primarily occur through
+concerted structural changes<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTzeng:2009im">63</a>]</span>. CARDS also identifies disorder-dominated communication within
+a single CBD. Furthermore, the Pearson correlation coefficient between structural and
+disorder-mediated communication is 0.44. This result indicates there are some similarities between
+patterns of allosteric coupling that could be observed by focusing entirely on structural
+correlations and those identified by CARDS, but that considering disorder provides additional
+information.
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.4.3    </span> <a 
+ id="x6-270002.4.3"></a>Disorder-mediated communication is enhanced in the S62F variant</h4>
+<!--l. 119--><p class="noindent" >The S62F variant of CAP is still activated by cAMP binding<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTzeng:2009im">63</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2012cu">132</a>,&#x00A0;<a 
+href="mainli4.html#XDai:2004ea">157</a>,&#x00A0;<a 
+href="mainli4.html#XAiba:1985ui">158</a>]</span>. However, NMR
+studies have revealed that the conformation of the DBDs does not change upon cAMP binding. Rather,
+NMR and ITC experiments suggest an important role for conformational entropy, with the DBDs only
+changing conformation in the presence of both cAMP and DNA<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XTzeng:2009im">63</a>,&#x00A0;<a 
+href="mainli4.html#XTzeng:2012cu">132</a>]</span>. Therefore, we expect an
+increase in disorder-mediated communication between the CBDs and DBDs in the S62F variant,
+compared to wild-type CAP.
+</p><!--l. 121--><p class="noindent" >To determine the effect of the S62F variant, we also ran 1.5
+<!--l. 121--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&#x03BC;</mi></math>s of
+simulation of this variant. Then we calculated the holistic communication to a single cAMP-binding
+site, as described for wild-type CAP.
+                                                                                      
+                                                                                      
+</p><!--l. 123--><p class="noindent" >As expected, we observe significant increases in disorder-mediated communication between the target
+CBD and the DBDs. There are particularly large increases in disorder-mediated correlations in regions
+of known importance for CAP activation, such as the central hinge region and along the interfaces
+between the CBDs and DBDs (Fig. <a 
+href="#x6-27001r5">2.5<!--tex4ht:ref: fig:cap-s62f-deltaMI-fig --></a>A). At the same time, there are some decreases
+in disorder-mediated communication within the CBDs. There are also changes in purely
+structural correlations. These changes often follow the same qualitative trends as the changes in
+disorder-mediated communication. However, the magnitudes of any increases in purely structural
+correlations are considerably smaller than the increases in disorder-mediated correlations.
+Furthermore, reductions in structural correlations are often larger than any decreases in
+disorder-mediated communication.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-27001r5"></a>
+                                                                                      
+                                                                                      
+<!--l. 127--><p class="noindent" ><img 
+src="Chapter3/cap-s62f-deltaMI-fig.png" alt="PIC"  
+width="361" height="167"  />
+<a 
+ id="x6-27002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.5: </span><span  
+class="content">Change in coupling to a single CBD pocket upon the S62F mutation. <span 
+class="ptmb7t-x-x-120">A. </span>Change in
+disorder-mediated communication of each residue to the single cAMP-binding pocket depicted
+in Fig. <a 
+href="#x6-26001r4">2.4<!--tex4ht:ref: fig:cap-targetsite-fig --></a>. <span 
+class="ptmb7t-x-x-120">B. </span>Change in structural communication of each residue to the same cAMP-binding
+pocket.  Red  indicates  increased  communication  in  S62F  compared  to  wild-type,  and  blue
+indicates decreased communication.</span></div><!--tex4ht:label?: x6-27001r2.4 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h4 class="subsectionHead"><span class="titlemark">2.4.4    </span> <a 
+ id="x6-280002.4.4"></a>Side-chain-side-chain and backbone-side-chain correlations dominate allosteric
+communication in CAP</h4>
+<!--l. 134--><p class="noindent" >To begin understanding the relative importance of different types of degrees of freedom, we plotted
+the matrix of correlations between every pair of dihedrals (Fig. <a 
+href="#x6-28001r6">2.6<!--tex4ht:ref: fig:cap-bb-sc-matrix-fig --></a>A). The upper triangle represents
+purely structural correlations, while the lower triangle represents purely disorder-mediated
+correlations. Side-chain and backbone dihedrals are also grouped together to enable comparisons
+between the relative strengths of backbone-backbone, backbone-side-chain and side-chain-side-chain
+correlations. Inspection of the matrix of all pairwise correlations immediately reveals that
+side-chain-side-chain correlations dominate allosteric communication in CAP. This observation is
+consistent with previous reports that side-chain degrees of freedom are more variable than the
+backbone<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XFraser:2011jf">156</a>,&#x00A0;<a 
+href="mainli4.html#Xbowman2014extensive">57</a>,&#x00A0;<a 
+href="mainli4.html#XKurplus:1983ts">159</a>,&#x00A0;<a 
+href="mainli4.html#Xbrooks2006advances">160</a>,&#x00A0;<a 
+href="mainli4.html#XDepristo:2004tb">161</a>,&#x00A0;<a 
+href="mainli4.html#XWand:1996hr">162</a>,&#x00A0;<a 
+href="mainli4.html#XLindorffLarsen:2005bi">163</a>,&#x00A0;<a 
+href="mainli4.html#XIgumenova:2006hw">164</a>,&#x00A0;<a 
+href="mainli4.html#XDubay:2009gv">165</a>]</span>. Backbone-backbone correlations are far
+rarer, and we find that disorder-mediated correlations between backbone dihedrals are more
+common than structural correlations. We also find a small number of backbone dihedrals
+that appear to be hubs of communication that are coupled to the side-chains of a large
+fraction of the residues in CAP. These hubs appear as lines in the backbone-side-chain
+quadrants of the matrix in Fig. <a 
+href="#x6-28001r6">2.6<!--tex4ht:ref: fig:cap-bb-sc-matrix-fig --></a>A. Mapping the strongest (top 5%) backbone hubs to the
+structure reveals that they cluster in two regions: the phosphate-binding cassette (PBC) of each
+CBD and the interface between the CBDs and DBDs, including the central hinge (Fig.
+<a 
+href="#x6-28001r6">2.6<!--tex4ht:ref: fig:cap-bb-sc-matrix-fig --></a>B). Using an even stricter cutoff (top 2%) only identifies residues along the CBD-DBD
+interface and within the central hinge (Fig. <a 
+href="mainap1.html#x13-137011r6">A.6<!--tex4ht:ref: fig:cards-top2percenthubs --></a>), further emphasizing their importance in the
+allosteric network. This result suggests that perturbations to these functionally important
+regions (e.g. cAMP binding) can influence the behavior of the entire protein, and vice
+versa.
+                                                                                      
+                                                                                      
+</p><!--l. 138--><p class="noindent" >It is also possible that the assumed Poissonian distribution of dihedral timescales may impact the
+degree of measured communication. While these are long-tailed distributions, it is not clear if they are
+truly Poissonian, and proving this behavior may prove a non-trivial task. While we already observe
+that our measurements are robust to the choice of Likelihood Ratio cutoff (Figure <a 
+href="mainap1.html#x13-137001r1">A.1<!--tex4ht:ref: fig:cards-pearsonr-fig --></a>). It will
+be worth exploring whether or not other exponential distributions can be used to more
+appropriately model the probability of being ordered or disordered when computing a likelihood
+ratio.
+</p><!--l. 140--><p class="noindent" >More importantly, using a different binning strategy than 3-state or 2-state designations can improve
+measurements of allosteric coupling. These rotameric state designations are based on classic alkane
+stereochemistry, and assume flat prior. Given the chemical diversity of amino acids, it is possible
+that some dihedrals will never explore all rotameric states. For example a phenylalanine
+<!--l. 140--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msub><mrow 
+><mi 
+>&#x03C7;</mi></mrow><mrow 
+><mn>2</mn></mrow></msub 
+></math> will
+not explore all three possible rotameric states due to the aromatic ring on the sidechain. One possible
+avenue to improve the measurement of dihedral communication is to incorporate established rotamer
+libraries into the rotameric state decomposition<span class="cite">&#x00A0;[<a 
+href="mainli4.html#Xchaudhury_pyrosetta:_2010">166</a>,&#x00A0;<a 
+href="mainli4.html#Xshapovalov_smoothed_2011">167</a>]</span>. Using library-based designations,and
+their standard error measurements to define buffer region widths, would correct the currently-used flat
+prior. This would increase the reliability of measurement of dihedral communication while still
+allowing us to assess the role of side-chain dihedrals against backbone dihedrals in communication.
+However, it is important to note that the current binning strategy being used is robust when assessed
+with metrics such as bootstrapping or Excess Mutual Information. Excess Mutual Information has
+been shown as a robust way of detecting noise in measuring allosteric communication,
+and major dihedral communication patterns are still evident after this correction<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XBowman:2012jd">47</a>]</span>.
+Consistently, we observe that communication measurements remain significant (ie. not within error
+of zero) (see Appendix <a 
+href="mainap2.html#x14-138000B">B<!--tex4ht:ref: ch:cards-supp-info --></a> and Figure <a 
+href="mainap1.html#x13-137001r1">A.1<!--tex4ht:ref: fig:cards-pearsonr-fig --></a>). It is worth noting that utilizing this naive,
+residue-independent binning system is already capable of making measurable predictions of protein
+allostery<span class="cite">&#x00A0;[<a 
+href="mainli4.html#XSun:2018kx">48</a>,&#x00A0;<a 
+href="mainli4.html#XCruz2020vp35">54</a>]</span>.
+</p>
+                                                                                      
+                                                                                      
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-28001r6"></a>
+                                                                                      
+                                                                                      
+<!--l. 144--><p class="noindent" ><img 
+src="Chapter3/cap-bb-sc-matrix-fig.png" alt="PIC"  
+width="433" height="175"  />
+<a 
+ id="x6-28002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.6:  </span><span  
+class="content">Hubs  of  backbone-side-chain  communication  in  wild-type  CAP.  <span 
+class="ptmb7t-x-x-120">A.  </span>Mutual
+information between every pair of dihedrals in wild-type CAP. The upper triangle of the matrix
+(above the green diagonal) represents structural communication and the lower triangle (below
+the green diagonal) represents disorder-mediated communication. The pink and cyan squares
+encompass the regions of the matrix that capture backbone-side-chain communication that is
+mediated by disorder-mediated and structural coupling, respectively. <span 
+class="ptmb7t-x-x-120">B. </span>Structure of wild type
+CAP  highlighting  the  residues  that  are  the  strongest  hubs  (top  5%)  of  backbone-side-chain
+communication (red sticks).</span></div><!--tex4ht:label?: x6-28001r2.4 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h4 class="subsectionHead"><span class="titlemark">2.4.5    </span> <a 
+ id="x6-290002.4.5"></a>Locating communication hotspots identifies key functional sites</h4>
+<!--l. 151--><p class="noindent" >The coincidence of backbone dihedrals that are hubs of communication and key functional sites
+suggests that CARDS may be capable of predicting the locations of such sites. Indeed, if
+evolution has selected for communication between particular sites, then one might expect
+residues in these sites to have stronger coupling to other regions of a protein than typical
+residues.
+</p><!--l. 153--><p class="noindent" >To detect strongly communicating residues, we ranked each residue based on the sum of its
+correlations to all other residues in the protein. This measure of global communication will highlight
+two types of hotspots: 1) hubs with correlations to many residues and 2) residues that have strong
+correlations to a few residues.
+</p><!--l. 155--><p class="noindent" >Coloring each residue in the <!--l. 155--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>a</mi><mi 
+>p</mi><mi 
+>o</mi></math>
+structure according to its global communication highlights that the central hinge region and the helices
+between the two cAMP-binding sites are key mediators of allosteric communication in CAP (Fig. <a 
+href="#x6-29001r7">2.7<!--tex4ht:ref: fig:cap-global-mi-fig --></a>).
+There are also hotspot residues in other parts of the cAMP-binding sites and along the interfaces
+between the CBDs and DBDs. These are precisely the regions that were identified by assessing
+communication to a single cAMP-binding site, providing evidence that CARDS can indeed identify
+key functional sites without foreknowledge of their locations. This conclusion is further supported by
+the fact that the central hinge region has even stronger communication in the S62F variant (Fig.
+<a 
+href="mainap1.html#x13-137013r7">A.7<!--tex4ht:ref: fig:cap-deltaglobalMI --></a>).
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                      
+                                                                                      
+<a 
+ id="x6-29001r7"></a>
+                                                                                      
+                                                                                      
+<!--l. 159--><p class="noindent" ><img 
+src="Chapter3/cap-global-mi-fig.png" alt="PIC"  
+width="228" height="222"  />
+<a 
+ id="x6-29002"></a>
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.7: </span><span  
+class="content">Global communication strength of each residue in apo CAP.</span></div><!--tex4ht:label?: x6-29001r2.4 -->
+                                                                                      
+                                                                                      
+</div><hr class="endfigure" />
+<h3 class="sectionHead"><span class="titlemark">2.5    </span> <a 
+ id="x6-300002.5"></a>Conclusion</h3>
+<!--l. 165--><p class="noindent" >CARDS provides a means to integrate concerted structural changes and disorder-mediated correlations
+into a holistic view of allostery. Application of this approach to wild-type CAP and the S62F
+variant demonstrates the method&#8217;s ability to identify allosteric coupling in the absence
+of concerted structural changes. Specifically, we showed that examining the coupling of
+every residue to a known cAMP binding site naturally highlights regions of the protein that
+are known to be impacted by cAMP binding, such as the second cAMP binding site and
+the central hinge region connecting the CBDs and DBDs. Decomposing the correlations
+between these sites into disorder-mediated and purely structural components demonstrates an
+important role for disorder-mediated coupling in the absence of concerted structural changes.
+Our global communication metric also provides a means to identify important functional
+sites without foreknowledge of their existence and locations. For example, this metric
+identifies the central hinge region&#8212;which undergoes the largest conformational change
+upon activation&#8212;and the cAMP binding pockets as important components of the allosteric
+network in CAP. Therefore, CARDS should be a powerful means to identify allosteric
+networks in systems that have not been studied as thoroughly as CAP. Taken together, we
+expect CARDS to be of great utility for understanding allostery in systems where it is
+already known to occur, as well as for predicting allostery in systems where it has yet to be
+observed.
+</p><!--l. 167--><p class="noindent" >
+                                                                                      
+                                                                                      
+</p>
+<h3 class="sectionHead"><span class="titlemark">2.6    </span> <a 
+ id="x6-310002.6"></a>Acknowledgements</h3>
+<!--l. 168--><p class="noindent" >This work was funded by NSF CAREER Award MCB-1552471. G.R.B. holds a Career Award at the Scientific
+Interface from the Burroughs Wellcome Fund and a Packard Fellowship for Science and Engineering from
+The David <!--l. 168--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>&amp;</mi></math>
+Lucile Packard Foundation. We are also grateful to NVIDIA Corporation for the GTX Titan X used to
+run preliminary simulations. Finally, thanks to Kelsey C. Schuster and David Chandler, who,
+in collaboration with G.R.B., first demonstrated that proteins&#8217; side-chains have dynamic
+heterogeneity.
+                                                                                      
+                                                                                      
+</p>
+<!--l. 4--><div class="crosslinks"><p class="noindent">[<a 
+href="mainch3.html" >next</a>] [<a 
+href="mainch1.html" >prev</a>] [<a 
+href="mainch1.html#tailmainch1.html" >prev-tail</a>] [<a 
+href="mainch2.html" >front</a>] [<a 
+href="main.html#mainch2.html" >up</a>] </p></div>
+<!--l. 4--><p class="noindent" ><a 
+ id="tailmainch2.html"></a></p> 
+</body></html> 

@@ -1,0 +1,436 @@
+\begin{thebibliography}{10}
+
+\bibitem{Cruz2020vp35}
+Matthew~A. Cruz, Thomas~E. Frederick, Sukrit Singh, Neha Vithani, Maxwell~I.
+  Zimmerman, Justin~R. Porter, Katelyn~E. Moeder, Gaya~K. Amarasinghe, and
+  Gregory~R. Bowman.
+\newblock Discovery of a cryptic allosteric site in ebola{\textquoteright}s
+  {\textquoteleft}undruggable{\textquoteright} vp35 protein using simulations
+  and experiments.
+\newblock {\em bioRxiv}, 2020.
+
+\bibitem{hopkins_druggable_2002}
+Andrew~L. Hopkins and Colin~R. Groom.
+\newblock The druggable genome.
+\newblock {\em Nature Reviews Drug Discovery}, 1(9):727--730, September 2002.
+
+\bibitem{arkin_small-molecule_2004}
+Michelle~R. Arkin and James~A. Wells.
+\newblock Small-molecule inhibitors of protein–protein interactions:
+  progressing towards the dream.
+\newblock {\em Nature Reviews Drug Discovery}, 3(4):301--317, April 2004.
+
+\bibitem{johnson_computational_2017}
+David~K. Johnson and John Karanicolas.
+\newblock Computational screening and design for compounds that disrupt
+  protein-protein interactions.
+\newblock {\em Current Topics in Medicinal Chemistry}, 17(23):2703--2714,
+  August 2017.
+
+\bibitem{Knoverek:2018kk}
+Catherine~R Knoverek, Gaya~K Amarasinghe, and Gregory~R Bowman.
+\newblock {Advanced Methods for Accessing Protein Shape-Shifting Present New
+  Therapeutic Opportunities}.
+\newblock {\em Trends in biochemical sciences}, December 2018.
+
+\bibitem{vajda_cryptic_2018}
+Sandor Vajda, Dmitri Beglov, Amanda~E Wakefield, Megan Egbert, and Adrian
+  Whitty.
+\newblock Cryptic binding sites on proteins: definition, detection, and
+  druggability.
+\newblock {\em Current Opinion in Chemical Biology}, 44:1--8, June 2018.
+
+\bibitem{hardy_searching_2004}
+Jeanne~A Hardy and James~A Wells.
+\newblock Searching for new allosteric sites in enzymes.
+\newblock {\em Current Opinion in Structural Biology}, 14(6):706--715, December
+  2004.
+
+\bibitem{erlanson_site-directed_2000}
+D.~A. Erlanson, A.~C. Braisted, D.~R. Raphael, M.~Randal, R.~M. Stroud, E.~M.
+  Gordon, and J.~A. Wells.
+\newblock Site-directed ligand discovery.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  97(17):9367--9372, August 2000.
+
+\bibitem{ostrem_k-rasg12c_2013}
+Jonathan~M. Ostrem, Ulf Peters, Martin~L. Sos, James~A. Wells, and Kevan~M.
+  Shokat.
+\newblock K-{Ras}({G12c}) inhibitors allosterically control {GTP} affinity and
+  effector interactions.
+\newblock {\em Nature}, 503(7477):548--551, November 2013.
+
+\bibitem{keedy_expanded_2018}
+Daniel~A Keedy, Zachary~B Hill, Justin~T Biel, Emily Kang, T~Justin
+  Rettenmaier, José Brandão-Neto, Nicholas~M Pearce, Frank von Delft, James~A
+  Wells, and James~S Fraser.
+\newblock An expanded allosteric network in {PTP1B} by multitemperature
+  crystallography, fragment screening, and covalent tethering.
+\newblock {\em eLife}, 7:e36307, June 2018.
+
+\bibitem{Bowman:2012jd}
+Gregory~R Bowman and Phillip~L Geissler.
+\newblock {Equilibrium fluctuations of a single folded protein reveal a
+  multitude of potential cryptic allosteric sites}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(29):11681--11686, July 2012.
+
+\bibitem{Porter:2019hv}
+Justin~R Porter, Katelyn~E Moeder, Carrie~A Sibbald, Maxwell~I Zimmerman,
+  Kathryn~M Hart, Michael~J Greenberg, and Gregory~R Bowman.
+\newblock {Cooperative Changes in Solvent Exposure Identify Cryptic Pockets,
+  Switches, and Allosteric Coupling.}
+\newblock {\em Biophysical Journal}, 116(5):818--830, March 2019.
+
+\bibitem{johnson_druggable_2013}
+David~K. Johnson and John Karanicolas.
+\newblock Druggable protein interaction sites are more predisposed to surface
+  pocket formation than the rest of the protein surface.
+\newblock {\em PLoS Computational Biology}, 9(3):e1002951, March 2013.
+
+\bibitem{oleinikovas_understanding_2016}
+Vladimiras Oleinikovas, Giorgio Saladino, Benjamin~P. Cossins, and Francesco~L.
+  Gervasio.
+\newblock Understanding cryptic pocket formation in protein targets by enhanced
+  sampling simulations.
+\newblock {\em Journal of the American Chemical Society}, 138(43):14257--14263,
+  November 2016.
+
+\bibitem{cimermancic_cryptosite:_2016}
+Peter Cimermancic, Patrick Weinkam, T.~Justin Rettenmaier, Leon Bichmann,
+  Daniel~A. Keedy, Rahel~A. Woldeyes, Dina Schneidman-Duhovny, Omar~N.
+  Demerdash, Julie~C. Mitchell, James~A. Wells, James~S. Fraser, and Andrej
+  Sali.
+\newblock Cryptosite: expanding the druggable proteome by characterization and
+  prediction of cryptic binding sites.
+\newblock {\em Journal of Molecular Biology}, 428(4):709--719, February 2016.
+
+\bibitem{schmidt_cosolvent-enhanced_2019}
+Denis Schmidt, Markus Boehm, Christopher~L. McClendon, Rubben Torella, and
+  Holger Gohlke.
+\newblock Cosolvent-enhanced sampling and unbiased identification of cryptic
+  pockets suitable for structure-based drug design.
+\newblock {\em Journal of Chemical Theory and Computation}, 15(5):3331--3343,
+  May 2019.
+
+\bibitem{cuchillo_collective_2015}
+Rémi Cuchillo, Kevin Pinto-Gil, and Julien Michel.
+\newblock A collective variable for the rapid exploration of protein
+  druggability.
+\newblock {\em Journal of Chemical Theory and Computation}, 11(3):1292--1307,
+  March 2015.
+
+\bibitem{ghanakota_moving_2016}
+Phani Ghanakota and Heather~A. Carlson.
+\newblock Moving beyond active-site detection: mixmd applied to allosteric
+  systems.
+\newblock {\em The Journal of Physical Chemistry B}, 120(33):8685--8695, August
+  2016.
+
+\bibitem{wassman_computational_2013}
+Christopher~D. Wassman, Roberta Baronio, Özlem Demir, Brad~D. Wallentine,
+  Chiung-Kuang Chen, Linda~V. Hall, Faezeh Salehi, Da-Wei Lin, Benjamin~P.
+  Chung, G.~Wesley~Hatfield, A.~Richard~Chamberlin, Hartmut Luecke, Richard~H.
+  Lathrop, Peter Kaiser, and Rommie~E. Amaro.
+\newblock Computational identification of a transiently open {L1}/{S3} pocket
+  for reactivation of mutant p53.
+\newblock {\em Nature Communications}, 4(1):1407, June 2013.
+
+\bibitem{schames_discovery_2004}
+Julie~R. Schames, Richard~H. Henchman, Jay~S. Siegel, Christoph~A. Sotriffer,
+  Haihong Ni, and J.~Andrew McCammon.
+\newblock Discovery of a novel binding trench in hiv integrase.
+\newblock {\em Journal of Medicinal Chemistry}, 47(8):1879--1881, April 2004.
+
+\bibitem{keshwara_toward_2017}
+Rohan Keshwara, Reed~F. Johnson, and Matthias~J. Schnell.
+\newblock Toward an effective ebola virus vaccine.
+\newblock {\em Annual Review of Medicine}, 68(1):371--386, January 2017.
+
+\bibitem{mulangu_randomized_2019}
+Sabue Mulangu, Lori~E. Dodd, Richard~T. Davey, Olivier Tshiani~Mbaya, Michael
+  Proschan, Daniel Mukadi, Mariano Lusakibanza~Manzo, Didier Nzolo, Antoine
+  Tshomba~Oloma, Augustin Ibanda, Rosine Ali, Sinaré Coulibaly, Adam~C.
+  Levine, Rebecca Grais, Janet Diaz, H.~Clifford Lane, Jean-Jacques
+  Muyembe-Tamfum, and {the PALM Writing Group}.
+\newblock A randomized, controlled trial of ebola virus disease therapeutics.
+\newblock {\em New England Journal of Medicine}, 381(24):2293--2303, December
+  2019.
+
+\bibitem{messaoudi_filovirus_2015}
+Ilhem Messaoudi, Gaya~K. Amarasinghe, and Christopher~F. Basler.
+\newblock Filovirus pathogenesis and immune evasion: insights from {Ebola}
+  virus and {Marburg} virus.
+\newblock {\em Nature Reviews Microbiology}, 13(11):663--676, November 2015.
+
+\bibitem{cardenas_ebola_2006}
+Washington~B. Cárdenas, Yueh-Ming Loo, Michael Gale, Amy~L. Hartman,
+  Christopher~R. Kimberlin, Luis Martínez-Sobrido, Erica~Ollmann Saphire, and
+  Christopher~F. Basler.
+\newblock Ebola virus vp35 protein binds double-stranded rna and inhibits
+  alpha/beta interferon production induced by rig-i signaling.
+\newblock {\em Journal of Virology}, 80(11):5168--5178, June 2006.
+
+\bibitem{basler_ebola_2003}
+Christopher~F. Basler, Andrea Mikulasova, Luis Martinez-Sobrido, Jason Paragas,
+  Elke Mühlberger, Mike Bray, Hans-Dieter Klenk, Peter Palese, and Adolfo
+  García-Sastre.
+\newblock The ebola virus vp35 protein inhibits activation of interferon
+  regulatory factor 3.
+\newblock {\em Journal of Virology}, 77(14):7945--7956, July 2003.
+
+\bibitem{hartman_c-terminal_2004}
+Amy~L. Hartman, Jonathan~S. Towner, and Stuart~T. Nichol.
+\newblock A {C}-terminal basic amino acid motif of {Zaire} ebolavirus {VP35} is
+  essential for type {I} interferon antagonism and displays high identity with
+  the {RNA}-binding domain of another interferon antagonist, the {NS1} protein
+  of influenza {A} virus.
+\newblock {\em Virology}, 328(2):177--184, October 2004.
+
+\bibitem{leung_structure_2009}
+D.~W. Leung, N.~D. Ginder, D.~B. Fulton, J.~Nix, C.~F. Basler, R.~B. Honzatko,
+  and G.~K. Amarasinghe.
+\newblock Structure of the {Ebola} {VP35} interferon inhibitory domain.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(2):411--416, January 2009.
+
+\bibitem{leung_structural_2010}
+Daisy~W Leung, Kathleen~C Prins, Dominika~M Borek, Mina Farahbakhsh, JoAnn~M
+  Tufariello, Parameshwaran Ramanan, Jay~C Nix, Luke~A Helgeson, Zbyszek
+  Otwinowski, Richard~B Honzatko, Christopher~F Basler, and Gaya~K Amarasinghe.
+\newblock Structural basis for {dsRNA} recognition and interferon antagonism by
+  {Ebola} {VP35}.
+\newblock {\em Nature Structural \& Molecular Biology}, 17(2):165--172,
+  February 2010.
+
+\bibitem{edwards_differential_2016}
+Megan~R. Edwards, Gai Liu, Chad~E. Mire, Suhas Sureshchandra, Priya Luthra,
+  Benjamin Yen, Reed~S. Shabman, Daisy~W. Leung, Ilhem Messaoudi, Thomas~W.
+  Geisbert, Gaya~K. Amarasinghe, and Christopher~F. Basler.
+\newblock Differential regulation of interferon responses by ebola and marburg
+  virus vp35 proteins.
+\newblock {\em Cell Reports}, 14(7):1632--1640, February 2016.
+
+\bibitem{hartman_reverse_2006}
+Amy~L. Hartman, Jason~E. Dover, Jonathan~S. Towner, and Stuart~T. Nichol.
+\newblock Reverse genetic generation of recombinant zaire ebola viruses
+  containing disrupted irf-3 inhibitory domains results in attenuated virus
+  growth in vitro and higher levels of irf-3 activation without inhibiting
+  viral transcription or replication.
+\newblock {\em Journal of Virology}, 80(13):6430--6440, July 2006.
+
+\bibitem{prins_mutations_2010}
+Kathleen~C. Prins, Sebastien Delpeut, Daisy~W. Leung, Olivier Reynard,
+  Valentina~A. Volchkova, St.~Patrick Reid, Parameshwaran Ramanan,
+  Washington~B. Cárdenas, Gaya~K. Amarasinghe, Viktor~E. Volchkov, and
+  Christopher~F. Basler.
+\newblock Mutations abrogating vp35 interaction with double-stranded rna render
+  ebola virus avirulent in guinea pigs.
+\newblock {\em Journal of Virology}, 84(6):3004--3015, March 2010.
+
+\bibitem{prins_basic_2010}
+Kathleen~C. Prins, Jennifer~M. Binning, Reed~S. Shabman, Daisy~W. Leung,
+  Gaya~K. Amarasinghe, and Christopher~F. Basler.
+\newblock Basic residues within the ebolavirus vp35 protein are required for
+  its viral polymerase cofactor function.
+\newblock {\em Journal of Virology}, 84(20):10581--10591, October 2010.
+
+\bibitem{brown_silico_2014}
+Craig~S. Brown, Michael~S. Lee, Daisy~W. Leung, Tianjiao Wang, Wei Xu, Priya
+  Luthra, Manu Anantpadma, Reed~S. Shabman, Lisa~M. Melito, Karen~S. MacMillan,
+  Dominika~M. Borek, Zbyszek Otwinowski, Parameshwaran Ramanan, Alisha~J.
+  Stubbs, Dayna~S. Peterson, Jennifer~M. Binning, Marco Tonelli, Mark~A. Olson,
+  Robert~A. Davey, Joseph~M. Ready, Christopher~F. Basler, and Gaya~K.
+  Amarasinghe.
+\newblock In silico derived small molecules bind the filovirus vp35 protein and
+  inhibit its polymerase cofactor activity.
+\newblock {\em Journal of Molecular Biology}, 426(10):2045--2058, May 2014.
+
+\bibitem{glanzer_silico_2016}
+Jason~G. Glanzer, Brendan~M. Byrne, Aaron~M. McCoy, Ben~J. James, Joshua~D.
+  Frank, and Greg~G. Oakley.
+\newblock In silico and in vitro methods to identify ebola virus {VP35}-{dsRNA}
+  inhibitors.
+\newblock {\em Bioorganic \& Medicinal Chemistry}, 24(21):5388--5392, November
+  2016.
+
+\bibitem{zimmerman_fast_2015}
+Maxwell~I. Zimmerman and Gregory~R. Bowman.
+\newblock Fast conformational searches by balancing exploration/exploitation
+  trade-offs.
+\newblock {\em Journal of Chemical Theory and Computation}, 11(12):5747--5757,
+  December 2015.
+
+\bibitem{pande_everything_2010}
+Vijay~S. Pande, Kyle Beauchamp, and Gregory~R. Bowman.
+\newblock Everything you wanted to know about {Markov} {State} {Models} but
+  were afraid to ask.
+\newblock {\em Methods}, 52(1):99--105, September 2010.
+
+\bibitem{prinz_markov_2011}
+Jan-Hendrik Prinz, Hao Wu, Marco Sarich, Bettina Keller, Martin Senne, Martin
+  Held, John~D. Chodera, Christof Schütte, and Frank Noé.
+\newblock Markov models of molecular kinetics: {Generation} and validation.
+\newblock {\em The Journal of Chemical Physics}, 134(17):174105, May 2011.
+
+\bibitem{bowman_network_2010}
+Gregory~R Bowman, Xuhui Huang, and Vijay~S Pande.
+\newblock Network models for molecular kinetics and their initial applications
+  to human health.
+\newblock {\em Cell Research}, 20(6):622--630, June 2010.
+
+\bibitem{Hruska:2018ec}
+Eugen Hruska, Jayvee~R Abella, Feliks N{\"u}ske, Lydia~E Kavraki, and Cecilia
+  Clementi.
+\newblock {Quantitative comparison of adaptive sampling methods for protein
+  dynamics.}
+\newblock {\em The Journal of chemical physics}, 149(24):244119, December 2018.
+
+\bibitem{Beglov:2018dm}
+Dmitri Beglov, David~R Hall, Amanda~E Wakefield, Lingqi Luo, Karen~N Allen,
+  Dima Kozakov, Adrian Whitty, and Sandor Vajda.
+\newblock {Exploring the structural origins of cryptic sites on proteins.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 115(15):E3416--E3425, March 2018.
+
+\bibitem{ngan_ftmap:_2012}
+C.~H. Ngan, T.~Bohnuud, S.~E. Mottarella, D.~Beglov, E.~A. Villar, D.~R. Hall,
+  D.~Kozakov, and S.~Vajda.
+\newblock {FTMAP}: extended protein mapping with user-selected probe molecules.
+\newblock {\em Nucleic Acids Research}, 40(W1):W271--W275, July 2012.
+
+\bibitem{kozakov_ftmap_2015}
+Dima Kozakov, Laurie~E Grove, David~R Hall, Tanggis Bohnuud, Scott~E
+  Mottarella, Lingqi Luo, Bing Xia, Dmitri Beglov, and Sandor Vajda.
+\newblock The {FTMap} family of web servers for determining and characterizing
+  ligand-binding hot spots of proteins.
+\newblock {\em Nature Protocols}, 10(5):733--755, May 2015.
+
+\bibitem{Singh:2017hh}
+Sukrit Singh and Gregory~R Bowman.
+\newblock {Quantifying allosteric communication via both concerted structural
+  changes and conformational disorder with CARDS.}
+\newblock {\em Journal of Chemical Theory and Computation}, page
+  acs.jctc.6b01181, March 2017.
+
+\bibitem{bernstein_structural_2011}
+R.~Bernstein, K.~L. Schmidt, P.~B. Harbury, and S.~Marqusee.
+\newblock Structural and kinetic mapping of side-chain exposure onto the
+  protein energy landscape.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  108(26):10532--10537, June 2011.
+
+\bibitem{Bowman:2015dh}
+Gregory~R Bowman, Eric~R Bolin, Kathryn~M Hart, Brendan~C Maguire, and Susan
+  Marqusee.
+\newblock {Discovery of multiple hidden allosteric sites by combining Markov
+  state models and experiments.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 112(9):2734--2739, March 2015.
+
+\bibitem{liu_sensitive_2017}
+Gai Liu, Peter~J. Nash, Britney Johnson, Colette Pietzsch, Ma. Xenia~G. Ilagan,
+  Alexander Bukreyev, Christopher~F. Basler, Terry~L. Bowlin, Donald~T. Moir,
+  Daisy~W. Leung, and Gaya~K. Amarasinghe.
+\newblock A sensitive in vitro high-throughput screen to identify pan-filoviral
+  replication inhibitors targeting the vp35–np interface.
+\newblock {\em ACS Infectious Diseases}, 3(3):190--198, March 2017.
+
+\bibitem{keck_ssbdna_2012}
+Alexander~G. Kozlov, Roberto Galletto, and Timothy~M. Lohman.
+\newblock Ssb–dna binding monitored by fluorescence intensity and anisotropy.
+\newblock In James~L. Keck, editor, {\em Single-{Stranded} {DNA} {Binding}
+  {Proteins}}, pages 55--83. Humana Press, Totowa, NJ, 2012.
+
+\bibitem{ramanan_structural_2012}
+P.~Ramanan, M.~R. Edwards, R.~S. Shabman, D.~W. Leung, A.~C. Endlich-Frazier,
+  D.~M. Borek, Z.~Otwinowski, G.~Liu, J.~Huh, C.~F. Basler, and G.~K.
+  Amarasinghe.
+\newblock Structural basis for {Marburg} virus {VP35}-mediated immune evasion
+  mechanisms.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(50):20661--20666, December 2012.
+
+\bibitem{VanDerSpoel:2005hz}
+David Van Der~Spoel, Erik Lindahl, Berk Hess, Gerrit Groenhof, Alan~E Mark, and
+  Herman J~C Berendsen.
+\newblock {GROMACS: fast, flexible, and free.}
+\newblock {\em Journal of computational chemistry}, 26(16):1701--1718, December
+  2005.
+
+\bibitem{Duan:2003gt}
+Yong Duan, Chun Wu, Shibasish Chowdhury, Mathew~C Lee, Guoming Xiong, Wei
+  Zhang, Rong Yang, Piotr Cieplak, Ray Luo, Taisung Lee, James Caldwell, Junmei
+  Wang, and Peter Kollman.
+\newblock {A point-charge force field for molecular mechanics simulations of
+  proteins based on condensed-phase quantum mechanical calculations.}
+\newblock {\em Journal of computational chemistry}, 24(16):1999--2012, December
+  2003.
+
+\bibitem{Jorgensen:1983fl}
+William~L Jorgensen, Jayaraman Chandrasekhar, Jeffry~D Madura, Roger~W Impey,
+  and Michael~L Klein.
+\newblock {Comparison of simple potential functions for simulating liquid
+  water}.
+\newblock {\em The Journal of Chemical Physics}, 79(2):926--935, July 1983.
+
+\bibitem{Hart:2016kb}
+Kathryn~M Hart, Chris M~W Ho, Supratik Dutta, Michael~L Gross, and Gregory~R
+  Bowman.
+\newblock {Modelling proteins' hidden conformations to predict antibiotic
+  resistance.}
+\newblock {\em Nature communications}, 7:12965, October 2016.
+
+\bibitem{Beauchamp:2011he}
+Kyle~A Beauchamp, Gregory~R Bowman, Thomas~J Lane, Lutz Maibaum, Imran~S Haque,
+  and Vijay~S Pande.
+\newblock {MSMBuilder2: Modeling Conformational Dynamics at the Picosecond to
+  Millisecond Scale.}
+\newblock {\em Journal of Chemical Theory and Computation}, 7(10):3412--3419,
+  October 2011.
+
+\bibitem{porter2018enspara}
+J.~R. Porter, M.~I. Zimmerman, and G.~R. Bowman.
+\newblock Enspara: Modeling molecular ensembles with scalable data structures
+  and parallel computing.
+\newblock {\em The Journal of Chemical Physics}, 150(4):044108, 2019.
+
+\bibitem{shrake_environment_1973}
+A.~Shrake and J.A. Rupley.
+\newblock Environment and exposure to solvent of protein atoms. {Lysozyme} and
+  insulin.
+\newblock {\em Journal of Molecular Biology}, 79(2):351--371, September 1973.
+
+\bibitem{McGibbon:2015fv}
+Robert~T McGibbon, Kyle~A Beauchamp, Matthew~P Harrigan, Christoph Klein,
+  Jason~M Swails, Carlos~X Hern{\'a}ndez, Christian~R Schwantes, Lee-Ping Wang,
+  Thomas~J Lane, and Vijay~S Pande.
+\newblock {MDTraj: A Modern Open Library for the Analysis of Molecular Dynamics
+  Trajectories.}
+\newblock {\em Biophysical Journal}, 109(8):1528--1532, October 2015.
+
+\bibitem{Frey:2007hs}
+Brendan~J Frey and Delbert Dueck.
+\newblock {Clustering by Passing Messages Between Data Points}.
+\newblock {\em Science}, 315(5814):972--976, February 2007.
+
+\bibitem{Sun:2018kx}
+Xianqiang Sun, Sukrit Singh, Kendall Blumer, and Gregory~R Bowman.
+\newblock {Simulation of spontaneous G protein activation reveals a new
+  intermediate driving GDP unbinding}.
+\newblock {\em eLife}, 7, October 2018.
+
+\bibitem{Dianati:2016bt}
+Navid Dianati.
+\newblock {Unwinding the hairball graph: Pruning algorithms for weighted
+  complex networks.}
+\newblock {\em Physical review. E}, 93(1):012304, January 2016.
+
+\bibitem{zimmerman_prediction_2017}
+Maxwell~I. Zimmerman, Kathryn~M. Hart, Carrie~A. Sibbald, Thomas~E. Frederick,
+  John~R. Jimah, Catherine~R. Knoverek, Niraj~H. Tolia, and Gregory~R. Bowman.
+\newblock Prediction of new stabilizing mutations based on mechanistic insights
+  from markov state models.
+\newblock {\em ACS Central Science}, 3(12):1311--1321, December 2017.
+
+\end{thebibliography}

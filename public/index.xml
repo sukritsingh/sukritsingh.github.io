@@ -1,0 +1,401 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sukrit Singh, PhD – Sukrit Singh, PhD</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sukrit Singh, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+    <item>
+      <title>2024 Update Post</title>
+      <link>http://localhost:1313/blog/2024-update-post/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2024-update-post/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Now that it&amp;rsquo;s 2024 I realized I should probably sit down and write out some life updates
+and what is going on! This will just be a set of updates on what I&amp;rsquo;ve been up to professionally
+in the last few years:&lt;/p&gt;
+&lt;h2&gt;TLDR: Stay tuned for more papers and work, but I think I&amp;rsquo;ll be going on the faculty&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tldr-stay-tuned-for-more-papers-and-work-but-i-think-ill-be-going-on-the-faculty&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tldr-stay-tuned-for-more-papers-and-work-but-i-think-ill-be-going-on-the-faculty&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;job search in the fall. Let me know if you know anybody hiring, and feel free to
+check out my &lt;a href=&#34;https://sites.google.com/site/sukritsingh92/about#h.xydjej2td3t4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;research&lt;/a&gt;!&lt;/p&gt;
+&lt;h2&gt;Papers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;papers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#papers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve contributed to quite a few works over the last couple of years (check out my Google Scholar
+if you&amp;rsquo;re interested), but the big highlight is that I&amp;rsquo;ve been lucky enough to publish my
+first co-corresponding author paper! This was work driven by superstar graduate student Ivy Zhang
+who helped drive and develop code to do Free Energy Calculations on mutations, as well as
+parsing how we can assess sampling within this mutations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1021/acs.jctc.3c00333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Identifying and overcoming the sampling challenges in relative binding free energy calculations of a model protein:protein complex., J. Chem. Theory Comput., July 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The other highlight was that I was the lead computational author in a study where we identified
+and mechanistically parsed drug-resistant mutations in the leukemia target Menin. This work was
+particularly exciting to me as it served as a proof of concept for many of the tools and ideas I
+am excited about further developing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1038/s41586-023-05755-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MEN1 mutations mediate clinical resistance to Menin inhibition. Nature, 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Awards&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;awards&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#awards&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Thanks to the massive help and support of my co-mentors John and Markus, I was able to secure
+independent funding for the first time in the form of a couple of fellowships!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&#34;https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-22-035.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2024 National Cancer Institute (NCI) Pathway to Independence Award for Outstanding Early Stage Postdoctoral Researchers:&lt;/a&gt; this
+transition to independence award gives me some independent funding to complete my postdoctoral training
+and will award me a larger sum of money upon starting my own independent grant funding! The wild part
+of this application process was that each institution was only allowed to nominate &lt;em&gt;one&lt;/em&gt; person.
+In other words I had to first win an internal competition followed by the full competition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.damonrunyon.org/news/entries/6716/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2022 Damon Runyon Quantitative Biology Fellowship:&lt;/a&gt;
+This 2022 award was the a huge support for me obtaining independent funding in the future (including
+the K99 award above!) It focuses on awarding quantitative biologists and computational-oriented folks
+like me a chance at getting hybrid training in wet-lab an dry-lab biology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I was also lucky enough not only to present my work at the NCI Junior Investigators meeting
+in 2023, I was also awarded Best Talk! This one was particularly fun for me as it was my
+first time presenting to a room full of folks who come from very diverse cancer-oriented backgrounds.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Miscellaneous ones listed here&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;miscellaneous-ones-listed-here&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#miscellaneous-ones-listed-here&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I&amp;rsquo;m still involved in the social media of &lt;a href=&#34;https://x.com/foldingathome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Folding@home&lt;/a&gt;, albeit
+less so nowadays due to other priorities&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I&amp;rsquo;ve now become one of the maintainers for &lt;a href=&#34;https://github.com/mdtraj/mdtraj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MDTraj&lt;/a&gt;, a repository
+for analyzing large molecular dynamics simulation datasets at scale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lastly, I spent a bit of time thinking about how to better embed trajectories into HTML, and with the
+help of &lt;a href=&#34;https://github.com/hmacdope&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo MacDermott-Opeskin&lt;/a&gt; I was lucky enough to be able to
+achieve this goal! &lt;a href=&#34;https://github.com/hmacdope/minimal_molview/tree/main&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Minimal_molview&lt;/a&gt; is a library that allows one to embed interactive protein visualizations into webpages by generating the
+protein in an HTML format. A sample is below:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;http://localhost:1313/molview/quick-flip-morph.html&#34; style=&#34;width: 100%; height: 500px; border: none;&#34;&gt;&lt;/iframe&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>My Dissertation!</title>
+      <link>http://localhost:1313/blog/2024-my-dissertation/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2024-my-dissertation/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This page links to all the available copies of my PhD Dissertation!
+My full thesis itself is available in multiple forms! My complete dissertation is available online (in a scrollable/navigable form) at &lt;a href=&#34;http://localhost:1313/thesis/index.html&#34; &gt;https://sukritsingh.github.io/thesis&lt;/a&gt;. You can also reach it by clicking the buttons below&lt;/p&gt;
+&lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/thesis/index.html&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253&#34;/&gt;&lt;/svg&gt;Online HTML version&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://drive.google.com/file/u/0/d/1KojmGnTLbxvbzhmp2CPWQEs4D2wEDyZE/view&#34;
+      target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z&#34;/&gt;&lt;/svg&gt;PDF version&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I&amp;rsquo;m super happy (and lucky) that all the main thesis chapters (except for Introduction and Conclusion) of my thesis are available as published works (either in journals or as preprints for now).&lt;/p&gt;
+&lt;p&gt;If you are interested in the papers themselves that these thesis chapters come from, here are some links:
+Chapter 2: &lt;a href=&#34;https://pubs.acs.org/doi/full/10.1021/acs.jctc.6b01181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Singh and Bowman, JCTC, 2017&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chapter 3: &lt;a href=&#34;https://elifesciences.org/articles/38465&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sun and Singh, et al., eLife, 2018&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chapter 4: &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/2020.02.09.940510v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cruz and Frederick, et al., 2020&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chapter 5: &lt;a href=&#34;https://www.nature.com/articles/s41467-021-21953-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cubuk et al, Biorxiv, 2020&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chapter 6: &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/2020.06.27.175430v3.full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zimmerman et al, Biorxiv, 2020&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chapter 7: &lt;a href=&#34;https://www.jbc.org/article/S0021-9258%2817%2950270-7/fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brown et al, JBC, 2020&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Signaling in action</title>
+      <link>http://localhost:1313/blog/2018-signaling-in-action/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2018-signaling-in-action/</guid>
+      <description>
+        
+        
+        &lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;title&gt;Image with Captions and Markdown&lt;/title&gt;
+    &lt;style&gt;
+        .image-container {
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        .caption {
+            font-size: 14px;
+            color: #000; /* Black text */
+            background-color: #fff; /* White background */
+            border: 0px solid #000; /* Black border */
+            padding: 5px;
+            display: inline-block;
+            margin-top: 1px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;h2&gt;TL;DR:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tldr&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tldr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Our paper in eLife modeling G protein activation is out!
+Check it out &lt;a href=&#34;https://elifesciences.org/articles/38465&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A brief summary of our paper was also published as an &lt;a href=&#34;https://elifesciences.org/digests/38465/calling-all-neighbors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eLife digest&lt;/a&gt;!&lt;/p&gt;
+&lt;h2&gt;Introduction and Significance&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction-and-significance&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction-and-significance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To communicate and respond to our environment (i.e. via vision, smell, or taste), our cells rely on signaling cascades made up of groups of proteins that activate and deactivate one another, much like a circuit.&lt;/p&gt;
+&lt;p&gt;Many cascades in our body involve heterotrimeric G proteins, which have three components  named G-alpha (Gα), G-beta (Gβ), and G-gamma (Gγ). Gα is a critical member of this trio, acting as a switch that turns on upon receiving a signal from a membrane protein receptor. This switch-like behavior of Gα is critical for life; both overactive and under-active Gα proteins have been linked to cancer, heart disease, and other disorders. However, no current therapies target Gα, despite the fact that roughly 40% of drugs on the market target other components of G-protein signaling cascades.&lt;/p&gt;
+&lt;body&gt;
+    &lt;div class=&#34;image-container&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/blog/figures-visuals/2018-gpcr-fig1.png&#34; alt=&#34;Original image&#34; width=&#34;500&#34;&gt;
+        &lt;div class=&#34;caption&#34;&gt;&lt;strong&gt;Structural view of G protein signaling.&lt;/strong&gt; a heterotrimeric G protein inside the cell (bottom) bound to the well known G protein coupled receptor (GPCR, orange). 
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;p&gt;Understanding the structural changes governing the switch-like behavior of Gα would shed light into how signals are transmitted within our cells. When Gα is off, it is bound to the small molecule Guanosine diphosphate (GDP). To turn on, Gα must release GDP to bind Guanosine triphosphate (GTP). However, the details of GDP release from Gα, the critical step of Gα activation, remain unclear. This is the focus of our paper - what atomic motions and molecular changes drive GDP release during the process of Gα activation?&lt;/p&gt;
+&lt;body&gt;
+    &lt;div class=&#34;image-container&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/blog/figures-visuals/2018-gpcr-fig2.png&#34; alt=&#34;Original image&#34; width=&#34;500&#34;&gt;
+        &lt;div class=&#34;caption&#34;&gt;&lt;strong&gt;Structure of Gα labelled.&lt;/strong&gt; GDP (lime green) binds between the two domains.  
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;h2&gt;Combining powerful computational methods let us observe GDP release using unbiased simulations:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;combining-powerful-computational-methods-let-us-observe-gdp-release-using-unbiased-simulations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#combining-powerful-computational-methods-let-us-observe-gdp-release-using-unbiased-simulations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Simulations act as a “computational microscope,” capturing how Gα moves and changes shape. However, they can be computationally intensive, and so capturing a process that takes milliseconds like GDP unbinding can be difficult. In fact, GDP release is such a slow process that modeling it has never been done before!&lt;/p&gt;
+&lt;p&gt;By combining a myriad of computational approaches, we were able to model GDP release. We used a variant of &amp;ldquo;adaptive seeding&amp;rdquo;, where we ran biased simulations using a methodology named &amp;ldquo;Metadynamics&amp;rdquo; that pushed GDP out of it&amp;rsquo;s binding pocket. These Metadynamics simulations, while observing GDP unbinding, are biased simulations, and so we cannot extract mechanistic information easily from these simulations. What we CAN do is seed unbiased simulations from these biased simulations (like in our workflow below).&lt;/p&gt;
+&lt;p&gt;This effort was made possible through the generous donations of citizen scientists through the Folding@home distributed computing platform, who volunteered to run simulations on their personal computers. Their collective contributions generated data on Gα that would have taken approximately 150 years to collect on a typical desktop computer.&lt;/p&gt;
+&lt;body&gt;
+    &lt;div class=&#34;image-container&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/blog/figures-visuals/2018-gpcr-fig3.png&#34; alt=&#34;Original image&#34; width=&#34;500&#34;&gt;
+        &lt;div class=&#34;caption&#34;&gt;&lt;strong&gt;Workflow of modeling GDP release using &#34;adaptive seeding&#34;.&lt;/strong&gt; Starting from the top left, we use Metadynamics to run biased simulations where we push GDP out of the bound state. We then take these simulations and pick states along them (dots on arrows) to seed unbiased MD simulations, which we then stitched together into a Markov state model.  
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;h2&gt;Our model of GDP release unified decades of literature research:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;our-model-of-gdp-release-unified-decades-of-literature-research&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-model-of-gdp-release-unified-decades-of-literature-research&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By focusing analysis to secondary structure elements and residues that are shared across all Gα homologs, this model likely captures a universal ‘skeleton’ of changes involved in Gαq activation, expanding upon a previously proposed universal mechanism for Gαq activation. The consistency of this model with a wide variety of structural and biochemical data suggests that it is a promising foundation for future efforts to understand the determinants of GPCR-Gαq interaction specificity, how mutations cause aberrant signaling and disease, and how small molecule inhibitors modulate Gαq activation.&lt;/p&gt;
+&lt;body&gt;
+    &lt;div class=&#34;image-container&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/blog/figures-visuals/2018-gpcr-fig4.png&#34; alt=&#34;Original image&#34; width=&#34;500&#34;&gt;
+        &lt;div class=&#34;caption&#34;&gt;&lt;strong&gt;Changes in the allosteric network of Gαq drive GDP release.&lt;/strong&gt; Structure of the the ras-like domain of Gαq while bound to GDP (blue) and after its rate-limiting step of GDP release (orange). Major structural changes are marked using labelled arrows, and communication from the GPCR-binding region to GDP binding site is marked using dashed arrows.   
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Biophysical Society 2018 takeaways</title>
+      <link>http://localhost:1313/blog/2018-bps-summary/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2018-bps-summary/</guid>
+      <description>
+        
+        
+        &lt;p&gt;With another Biophysical Society meeting over, I can&amp;rsquo;t help but bask in reflection at all the glorious science I got to see. More and more, biophysics is bridging the gap between basic science and translational research, where back-to-back speakers can be discussing a novel protein that nobody yet understands, followed by a speaker applying physical methods and imaging to better identify cells and tumors!&lt;/p&gt;
+&lt;p&gt;Reposting this image again because it&amp;rsquo;s so applicable:
+&lt;img src=&#34;http://localhost:1313/blog/figures-visuals/biophysics-everywhere.jpg&#34; alt=&#34;BPS 2018&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In reflection, I wanted to post some thoughts/takeaways I had:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Phase separation is still an exciting new phenomena we don&amp;rsquo;t understand.&lt;/strong&gt; It still boggles my mind to this day that molecules inside our cells undergo Liquid-Liquid Phase Separation (LLPS) behavior. What struck me the most is that we are not just seeing where they are important for function (à la la stress granules and the nucleolus) but also how LLPS can be a sign that something is broken. Simon Alberti presented excellent work showing how ALS mutations in certain FUS family proteins result in LLPS, which over long timescales could act as nucleation points for fibril formation normally associated with the disease. There&amp;rsquo;s so much more to learn about this fascinating phenomena and it&amp;rsquo;s importance to biology!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lipids remain a mystery.&lt;/strong&gt; I attended the &amp;ldquo;Lipid modified GTPases&amp;rdquo; symposium as a newcomer to the role of lipids in G protein signalling, and I am in awe of the role lipids can play in enhancing signalling sensitivity, and in lipid heterogeneity! There are so many emergent properties of lipid bilayers we don&amp;rsquo;t fully understand yet that it feels like there is a bit of a Gold Rush happening right now; No matter where we turn we are discovering some new critical aspect of lipids. They aren&amp;rsquo;t just important for &amp;ldquo;compartmentalization&amp;rdquo; but rather play important roles in regulating behavior and dynamics of signaling proteins!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;On a humorous personal note: I saw my qualifying exam project!&lt;/strong&gt; At the Washington University biophysics program, our qualifying exam consists of an &amp;ldquo;off-topic&amp;rdquo; oral presentation given on a subject not related to our thesis project (designed this way so our lab cannot just walk us through the qual with their expertise). I presented mine on using XFELs and powerful x-rays to study metalloenzymes and the redox cycle they undergo when carrying out electron/proton transport. &lt;a href=&#34;https://www2.lbl.gov/vkyachan/jyano.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Junko Yano&lt;/a&gt; at Lawrence Berkeley national lab presented an awesome symposium talk with that exact approach to study photosystem II! She took it even a step further showing that not only can XFELs be used to study the redox cycle of metal binding sites of enzymes, but with modern engineering advances, she also collected diffraction patterns at each of these redox states. That means we can both know the redox state of a metal, and observe what the metal binding site looks like! With that kind of insight, Dr. Yano was able to start understanding the transport &amp;ldquo;channel&amp;rdquo; inside of a protein and which residues may play a role!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are so many other methods and findings I&amp;rsquo;m excited about, but for the sake of brevity and not writing a book chapter, I&amp;rsquo;ll stop at 3.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>The Value of a Creative Hobby</title>
+      <link>http://localhost:1313/blog/2017-creative-venture/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2017-creative-venture/</guid>
+      <description>
+        
+        
+        &lt;p&gt;So before I dive into the main subject of this post, I figured it might be time for a couple of personal updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;m a fourth year now! Holy cow! Time is certainly flying.&lt;/li&gt;
+&lt;li&gt;I  got to help out on a project with &lt;a href=&#34;https://sites.wustl.edu/wencewiczlab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tim Wencewicz&amp;rsquo;s&lt;/a&gt;
+group studying how Wildfire Toxin (AKA Tabtoxinine-β-Lactam) inhibits bacterial glutamine synthetase, opening new doors for antibiotic design! The paper was recently accepted in &lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.biochem.7b00838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biochemistry&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So with that out of the way:&lt;/p&gt;
+&lt;p&gt;I found myself doing a bit of introspection lately, and I began to ponder how science is inarguably a creative venture - there&amp;rsquo;s an inherent creativity to observing phenomena and following that thread to ask and answer new questions about the universe. I don&amp;rsquo;t want to draw too many obvious parallels to how artists do the same with society, since that would be waxing poetic a bit too strongly, so I&amp;rsquo;ll leave that as an exercise to the reader.&lt;/p&gt;
+&lt;p&gt;However, like any creative venture, science can take a drain. At some point it&amp;rsquo;s important to recognize when you&amp;rsquo;re not able to ask questions or see the patterns in data that you would normally catch. Of course not recognizing that and pushing yourself further is how burnout happens, which is an &lt;a href=&#34;https://www.nature.com/naturecareers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;oft-discussed&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/nj7654-375a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;problem&lt;/a&gt; in &lt;a href=&#34;https://www.nature.com/articles/nj7497-557b&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;science&lt;/a&gt;. Self-care is important!&lt;/p&gt;
+&lt;p&gt;Self-care can come in many forms, be it sports or sometimes just Netflix-binging, or any combination thereof. In my case, I enjoy gaming, both video and tabletop games. Specifically, I play &amp;ldquo;Dungeons and Dragons&amp;rdquo; (this should surprise nobody). And it was in thinking about D&amp;amp;D that I began to appreciate it&amp;rsquo;s impact on me as a scientist.&lt;/p&gt;
+&lt;p&gt;I started off playing D&amp;amp;D with my friends in college, and while we still play occasionally, I&amp;rsquo;ve also started playing as Game Master (or Dungeon Master) for a group here in St. Louis. Being a GM is a wholly different creative ball-game, one that has had a huge impact on me. A GM is a world-builder and represents the whole universe for their players. You have to design the world, the enemy, the characters, and the conflicts. You have to think about the rules of the game, and make sure your players don&amp;rsquo;t  go on a power-trip but experience a storyline. In your own way, you get to be your own story-teller, but without all the &amp;ldquo;editing of prose&amp;rdquo;. As a bonus: You don&amp;rsquo;t have to do all the creative thinking! Your players will try and do things that you never thought would be a good idea; By a roll of the dice they will succeed or fail, leading to further hilarity and spectacular story-building that you can leap off.&lt;/p&gt;
+&lt;p&gt;Yes, being a GM gives me break from science, and it provides a bit of escapism that is sorely needed nowadays (&lt;em&gt;cough&lt;/em&gt; Trump &lt;em&gt;cough&lt;/em&gt;), but it&amp;rsquo;s done more than that for me as a scientist. Having to move from one creative venture to another as a break is fun! It gives you a chance to engage in something that requires your attention and creative thinking, but carries none of the weight or pressure of academia/deadlines/science. You just get to build a world that&amp;rsquo;s fun for a small group of people to interact with. By playing in this little creative playground of yours, you still get to keep those creative juices flowing, and you&amp;rsquo;ve tackled a &amp;ldquo;problem&amp;rdquo; in your own way(Namely, how do I tell my characters the story of X). Afterwards, you can return to the scientific problem you&amp;rsquo;ve been tackling with a fresh mind, but you don&amp;rsquo;t have to warm up any creative juices since you were already in that mode.&lt;/p&gt;
+&lt;p&gt;Along with just keeping that creativity fresh and alive, it&amp;rsquo;s made me a more confident presenter. A GM is a story-teller, and someone who has to present situations, describe conflicts, and do a bit of amateur voice acting. To do that means you have to be able to construct a narrative, figure out the most important details for your players to retain, and then present it in a manner that they understand (Basically, &amp;ldquo;knowing your audience&amp;rdquo;). These skills are inherently transferable to making a scientific presentation!&lt;/p&gt;
+&lt;p&gt;But above all else, I just think D&amp;amp;D is freaking fun. There&amp;rsquo;s something inherently fun about sitting around with a small group of friends over some drinks and doing a bit of &amp;ldquo;group story telling&amp;rdquo;. You don&amp;rsquo;t even have awkward silences, since the adventure always goes on! I&amp;rsquo;m not going to go into how having this other network outside of science is a bonus, but I do want to highlight again how playing D&amp;amp;D, or really dabbling in any creative venture, is a great bonus for a scientist, since in your own fun way you&amp;rsquo;re keeping those creative juices flowing and becoming a better presenter for it, even while taking a break!&lt;/p&gt;
+&lt;p&gt;At this point I think I&amp;rsquo;ve espoused enough about the values of a creative hobby. Your venture doesn&amp;rsquo;t have to be D&amp;amp;D, nor does it have to be something big or something you do every day(I mean sometimes we just have to binge Netflix and turn your brain off).  But keep in mind, we all used to play pretend growing up as a kid, isn&amp;rsquo;t it fun to be able to still do it for small doses at a time?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Gibbs 2017 Takeaways</title>
+      <link>http://localhost:1313/blog/2017-gibbs/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2017-gibbs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;So this is long past overdue, but I wanted to write up some thoughts I had on Gibbs 2017, and how much fun it was to attend!! Attending a smaller conference like Gibbs always incredibly fun, not only are you getting a chance to see the same people again and reconnect, but it is a lot easier to bug faculty and try and improve your own visibility!&lt;/p&gt;
+&lt;p&gt;So anyways, without further ado, here is a very abridged list of my Gibbs 2017 highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I got to chair the session on &amp;ldquo;Binding Equilibria and Allostery&amp;rdquo;! I had no idea what to expect, but it actually turned out to be really fun!&lt;/li&gt;
+&lt;li&gt;There were some great talks by Sarah Bondos and others highlighting how Liquid-Liquid Phase Separation (LLPS) has a bigger role to play in biology biophysics than we might have thought previously. Carlos Castañeda presented some really interesting work looking at phase separation and the role it can play in oligomerization and Alzheimer&amp;rsquo;s disease!&lt;/li&gt;
+&lt;li&gt;Sarah Bondos&amp;rsquo; also highlighted an important reminder: That sometimes science comes from unexpected things. She told a great story how she only noticed fibril formation and LLPS because she left a drop hanging from her column overnight!! Sometimes we just have to keep our eyes open on the small things we do!&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CARDS paper published!</title>
+      <link>http://localhost:1313/blog/2017-cards-paper/</link>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2017-cards-paper/</guid>
+      <description>
+        
+        
+        &lt;p&gt;After a decent amount of revision: the CARDS paper has officially been accepted!!!&lt;/p&gt;
+&lt;p&gt;If anybody is interested in reading it, they can check it out &lt;a href=&#34;https://pubs.acs.org/doi/full/10.1021/acs.jctc.6b01181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
+Now the fun comes! I&amp;rsquo;m excited to start applying all kinds of fun analyses
+to structure+disordered states, as well as testing CARDS on all kinds of new systems.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re reading this and are interested in using CARDS,
+shoot me an email or a message somewhere and we can get that ball rolling!
+I&amp;rsquo;m always excited to see what patterns CARDS can find!&lt;/p&gt;
+&lt;p&gt;Along with CARDS, I&amp;rsquo;ve also been lucky enough to help out on a number of projects that are
+currently being written up, or have come out recently!
+One is a &lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/14767058.2016.1241763&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project from my undergrad&lt;/a&gt;,
+but other papers are more relevant to my current work. One applies &lt;a href=&#34;https://pubs.rsc.org/is/content/articlelanding/2017/cc/c6cc09882g#!divAbstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;docking models to rationalize differences in inhibitor activity&lt;/a&gt;,
+and another is a combination of structural biology, functional assays, and molecular
+dynamics to elucidate &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0969212616303033&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the mechanism of allostery in an Apoptosis Inducing Factor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In light of finally having both a first author publication AND other papers as a contributing author, I also decided to go ahead and make my &lt;a href=&#34;https://scholar.google.com/citations?user=1IHMXzcAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar&lt;/a&gt; profile public!&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s to more biophysical fun in the future!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Biophysical Society 2017 Takeaways</title>
+      <link>http://localhost:1313/blog/2017-bps-takeaways/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2017-bps-takeaways/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Last week I had a fun time in NOLA (New Orleans) at the Biophysical Society Annual Meeting! It was my first big conference and it was absolutely fabulous to see so much new and exciting work done from all kinds of different fields/approaches.  It kinda got me even more excited about biophysics - it felt like there were so many things that biophysical theory can be applicable to, from cancer to small peptide design, all the way to material engineering!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/figures-visuals/biophysics-everywhere.jpg&#34; alt=&#34;BPS 2017&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;With so many topics out there, I thought I&amp;rsquo;d highlight some of the really cool/exciting directions that biophysicists seem to be going in:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Phase transitions.&lt;/strong&gt; Turns out membraneless organelles and phase separation via biomolecules are more and more prevalent than anybody ever thought. Only now are we even starting to see connections to disease states, and maybe soon we&amp;rsquo;ll start seeing even more biomedical relevance! Thanks to work by Ashutosh Chilkoti at Duke , we can even engineer phase transitioning peptides! For more information about membraneless organelles, Tanja Mittag at St. Jude has done a lot of ground breaking work showing biomedical and disease implications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Membrane proteins.&lt;/strong&gt; Everyone&amp;rsquo;s working on it. Everyone&amp;rsquo;s excited about it, and thanks to how far we&amp;rsquo;ve come with modern techniques, we&amp;rsquo;re finally approaching the point where we can try and obtain large amounts of membrane proteins for all kinds of studies. Who knows, with the combination of modern tools and machine learning (&lt;em&gt;cough&lt;/em&gt; Bil Clemons &lt;em&gt;cough&lt;/em&gt;), we may get to the point someday where expressing membrane proteins is as easy as soluble ones! In particular, Ion Channels are getting even more attention than before, and there were a few great talks on G-Protein Coupled Receptors from the MacCammon lab!&lt;/li&gt;
+&lt;li&gt;On a more fundamental physics stage - there was some significant discussion on &lt;strong&gt;the role of dispersion energies and their role in getting more accurate force fields&lt;/strong&gt; and more atomic molecular simulations. As a reminder: non-bonded atom energies are split into electrostatics and van Der Waals (vdw) interactions. The vdw term is often represented by the Lennard-Jones potential:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;$$V(r) = 4\varepsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^{6} \right]$$&lt;/p&gt;
+&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$V(r)$ is the potential energy as a function of the distance $r$ between the particles.&lt;/li&gt;
+&lt;li&gt;$\varepsilon$ is the depth of the potential well.&lt;/li&gt;
+&lt;li&gt;$\sigma$ is the finite distance at which the inter-particle potential is zero.&lt;/li&gt;
+&lt;li&gt;$r$ is the distance between the particles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The σ6 represents the attractive forces between atoms, also known as the dispersion term. And by tweaking that many people have managed to reparameterize force fields to better capture bulk solvent properties (like Osmotic Potential), but also a force field better able to capture both folded and Intrinsically disordered proteins. Personally, I sometimes am unable to distinguish if this is done out of convenience (because it’s a single uncomplicated parameter) or if there is also some physical insight behind why the dispersion terms need fixing. Either way, I&amp;rsquo;m excited to see where future work goes!&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;There are tons, tons of software packages out there to analyze MD Simulations (outside of MDTraj), and the best part is that many of them are available for free and in Python for the scientific community to use. I haven&amp;rsquo;t had a chance to play with them all yet, but they all bring something new to the proverbial tool belt of a computational biophysicist:
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mdanalysis.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MDAnalysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bahargroup.org/prody/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ProDy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;There are far too many to discuss, but many people have generated cool new ways to look at networks of communication within protein dynamics, and understand allosteric communication and its effects (I&amp;rsquo;m particularly excited about these, seeing as they are incredibly relevant and supplementary to my own work!)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>10 things I learned about science</title>
+      <link>http://localhost:1313/blog/2016-ten-lessons/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016-ten-lessons/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Science is a cruel mistress, especially when you first start your life as a research trainee. However the skills and &amp;ldquo;scar tissue&amp;rdquo; gained can be useful. In the last 6 months following my qualifying exam, some of the tricks I picked up while preparing for it have come in handy, and I&amp;rsquo;ve even picked up a few more since then. Here they all are in a nice and catchy &amp;ldquo;Top 10&amp;rdquo; format, in no specific order. Some of them might seem obvious, but it can be surprising how often the obvious things get overlooked in science.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;If you think of a cool new idea, there&amp;rsquo;s a 95% chance it&amp;rsquo;s already been published.&lt;/strong&gt; This is a good thing, it means you&amp;rsquo;re on the right track, and now you can follow the trail of those who came before you&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The principle of elimination is a powerful tool.&lt;/strong&gt; Don&amp;rsquo;t just think of experiments to support your model, think of experiments that eliminate other possibilities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;There are more applicable experimental methods out there than one might realize.&lt;/strong&gt; For any scientific question, it can be easier to find techniques to probe the question than to come up with possible hypotheses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Always think about what the output of your method means.&lt;/strong&gt; Every method has limitations in how you can interpret the data. Even if your data supports your hypothesis, some methods may convolute or wash out the other rare possibilities, and you could miss some really interesting stuff.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If you feel like you&amp;rsquo;ve hit a wall, pace and percolate.&lt;/strong&gt; Just get up and walk away for a little while.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t just write in the passive voice.&lt;/strong&gt; This is a personal one for me because I feel like so much of my science education beat into me that the only way to write about science was in the passive voice. I&amp;rsquo;ve come to realize that it really depends on the type of writeup, the audience, and your topic. Your voice can change depending on what you&amp;rsquo;re writing. Be flexible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speaking of flexibility - be flexible with your focus.&lt;/strong&gt; Some directions will not work, and other directions, while interesting, may have more cost than benefit. Write all your cool ideas down for later, and aim for the lower hanging fruits first. Focus your time on building the pieces that will help your current story, and be ready for that story to change day to day.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It will never hurt to cite more people.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collect textbooks, both old and new, from any and all fields.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If you have friends in different fields, talk to each other about projects and ideas.&lt;/strong&gt; Sometimes a different perspective can kickstart a whole new project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This list might get updated as time goes on, and it may not be &amp;ldquo;10 things&amp;rdquo; after a while, but these serve as a nice reminder of the simple things that can help.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Viruses paper published</title>
+      <link>http://localhost:1313/blog/2015-viruses-paper-published/</link>
+      <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015-viruses-paper-published/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A paper I helped with during my time in the Fremont lab (where I rotated for 3 months) just got published! It&amp;rsquo;s introducing a new structural domain (Poxvirus Immune Evasion, or PIE)  used in immune system evasion, and the evolutionary tree connecting each type of PIE protein.&lt;/p&gt;
+&lt;p&gt;You can check it out &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4584292/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>My first blog post</title>
+      <link>http://localhost:1313/blog/2015-first-blog-post/</link>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015-first-blog-post/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This is my first post! I don&amp;rsquo;t have anything particularly interesting to post at the moment
+so here&amp;rsquo;s some &lt;a href=&#34;https://www.google.com/search?q=puppies&amp;amp;source=lnms&amp;amp;sa=X&amp;amp;ei=KcVgVbDWK5HboATI1YGwBA&amp;amp;ved=0CAcQ_AUoAQ&amp;amp;biw=1280&amp;amp;bih=594&amp;amp;udm=2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;puppies&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

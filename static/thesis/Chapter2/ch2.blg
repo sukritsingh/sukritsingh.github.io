@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ch2.aux
+The style file: unsrt.bst
+Database file #1: ../References.bib
+Warning--empty author in bonomo_kinetics_2007
+You've used 62 entries,
+            1791 wiz_defined-function locations,
+            836 strings with 17963 characters,
+and the built_in function-call counts, 17679 in all, are:
+= -- 1539
+> -- 965
+< -- 1
++ -- 345
+- -- 283
+* -- 1701
+:= -- 2840
+add.period$ -- 185
+call.type$ -- 62
+change.case$ -- 61
+chr.to.int$ -- 0
+cite$ -- 63
+duplicate$ -- 567
+empty$ -- 1570
+format.name$ -- 283
+if$ -- 3689
+int.to.chr$ -- 0
+int.to.str$ -- 62
+missing$ -- 62
+newline$ -- 311
+num.names$ -- 63
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 207
+stack$ -- 0
+substring$ -- 1744
+swap$ -- 71
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 179
+width$ -- 64
+write$ -- 679
+(There was 1 warning)

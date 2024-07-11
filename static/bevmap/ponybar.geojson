@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954314,
+          40.7697624
+        ]
+      },
+      "properties": {
+        "name": "Pony Bar",
+        "Neighborhood": "UES",
+        "Flavor1": "4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95701,
+          40.76379
+        ]
+      },
+      "properties": {
+        "name": "Center of the World",
+        "Neighborhood": "UES",
+        "Flavor1": "4.0"
+      }
+    }
+  ]
+}

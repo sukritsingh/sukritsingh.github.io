@@ -1,0 +1,82 @@
+baseURL: https://sukritsingh.github.io
+languageCode: en-us
+title: Sukrit Singh, PhD
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: "Blog"
+      url: "/blog/"
+      weight: 1
+    - name: "Gaming"
+      url: "/gaming/"
+      weight: 2
+    - name: "Research"
+      url: "/research/"
+      weight: 3
+    - name: "Side Projects"
+      url: "/side-projects/"
+      weight: 4
+    - name: Search
+      params:
+        type: search
+
+params:
+  navbar:
+    displayTitle: True
+    width: full
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: full
+
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: true
+    width: full
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # # Search
+  # # flexsearch is enabled by default
+  # search:
+  #   enable: true
+  #   type: flexsearch
+
+  #   flexsearch:
+  #     # index page by: content | summary | heading | title
+  #     index: content
+  #     # full | forward | reverse | strict
+  #     # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+  #     tokenize: forward
+
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
