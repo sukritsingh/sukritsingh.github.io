@@ -8,9 +8,9 @@ Now that it's 2024 I realized I should probably sit down and write out some life
 and what is going on! This will just be a set of updates on what I've been up to professionally
 in the last few years:
 
-## TLDR: Stay tuned for more papers and work, but I think I'll be going on the faculty
-job search in the fall. Let me know if you know anybody hiring, and feel free to 
-check out my [research](https://sites.google.com/site/sukritsingh92/about#h.xydjej2td3t4)!
+## TLDR: Stay tuned for more papers and work, but I think I'll be going on the faculty job search in the fall. 
+Let me know if you know anybody hiring, and feel free to 
+check out my [research](/research/)!
 
 ## Papers
 I've contributed to quite a few works over the last couple of years (check out my Google Scholar
