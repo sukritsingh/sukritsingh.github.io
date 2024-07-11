@@ -6,9 +6,9 @@ date: 2024-07-11
 
 # My publications
 
-I have published in a variety of journals, listed below. Click on each year to see the relevant publications. 
+My bibliography is embedded below using Bibase. Click on each year to see the relevant publications. 
 
-Feel free to also check out my Google Scholar profile for a more up-to-date list of publications.
+Feel free to also check out my Google Scholar profile (below) for a more up-to-date list of publications.
 
 {{< card link="https://scholar.google.com/citations?user=1IHMXzcAAAAJ&hl" 
 title="Go to my Google Scholar"
