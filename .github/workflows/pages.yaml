@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -57,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://sukritsingh.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
