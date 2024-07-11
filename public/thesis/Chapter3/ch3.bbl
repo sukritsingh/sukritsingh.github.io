@@ -1,0 +1,599 @@
+\begin{thebibliography}{10}
+
+\bibitem{Singh:2017hha}
+Sukrit Singh and Gregory~R Bowman.
+\newblock {Quantifying allosteric communication via both concerted structural
+  changes and conformational disorder with CARDS.}
+\newblock {\em Journal of Chemical Theory and Computation},
+  13(4):acs.jctc.6b01181--1517, March 2017.
+
+\bibitem{Rosenbaum:2009id}
+Daniel~M Rosenbaum, S{\o}ren G~F Rasmussen, and Brian~K Kobilka.
+\newblock {The structure and function of G-protein-coupled receptors}.
+\newblock {\em Nature}, 459(7245):356--363, May 2009.
+
+\bibitem{Shoichet:2012fm}
+Brian~K Shoichet and Brian~K Kobilka.
+\newblock {Structure-based drug screening for G-protein-coupled receptors}.
+\newblock {\em Trends in pharmacological sciences}, 33(5):268--272, May 2012.
+
+\bibitem{Guo:2016hv}
+Jingjing Guo and Huan-Xiang Zhou.
+\newblock {Protein Allostery and Conformational Dynamics}.
+\newblock {\em Chemical Reviews}, 116(11):6503--6515, February 2016.
+
+\bibitem{Koshland:1959ft}
+D~E Koshland.
+\newblock {Enzyme flexibility and enzyme action}.
+\newblock {\em Journal of Cellular Physiology}, 54(S1):245--258, December 1959.
+
+\bibitem{KoshlandJr:1966ffa}
+D~E Koshland~Jr, G~Nemethy, and D~Filmer.
+\newblock {Comparison of Experimental Binding Data and Theoretical Models in
+  Proteins Containing Subunits *}.
+\newblock {\em Biochemistry}, 5(1):365--385, January 1966.
+
+\bibitem{Monod:1965io}
+Jacque Monod, Jeffries Wyman, and Jean-Pierre Changeux.
+\newblock {On the nature of allosteric transitions: A plausible model}.
+\newblock {\em Journal of Molecular Biology}, 12(1):88--118, May 1965.
+
+\bibitem{Changeux:2011fv}
+Jean-Pierre Changeux and Stuart Edelstein.
+\newblock {Conformational selection or induced fit? 50 years of debate
+  resolved.}
+\newblock {\em F1000 biology reports}, 3(19):19, 2011.
+
+\bibitem{Csermely:2010cv}
+Peter Csermely, Robin Palotai, and Ruth Nussinov.
+\newblock {Induced fit, conformational selection and independent dynamic
+  segments: an extended view of binding events}.
+\newblock {\em Trends in biochemical sciences}, 35(10):539--546, October 2010.
+
+\bibitem{Silva:2011ct}
+Daniel-Adriano Silva, Gregory~R Bowman, Alejandro Sosa-Peinado, and Xuhui
+  Huang.
+\newblock {A role for both conformational selection and induced fit in ligand
+  binding by the LAO protein.}
+\newblock {\em PLoS Computational Biology}, 7(5):e1002054, May 2011.
+
+\bibitem{Hammes:2009im}
+Gordon~G Hammes, Yu-Chu Chang, and Terrence~G Oas.
+\newblock {Conformational selection or induced fit: a flux description of
+  reaction mechanism.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 106(33):13737--13741, August 2009.
+
+\bibitem{Ichiye:1991db}
+Toshiko Ichiye and Martin Karplus.
+\newblock {Collective motions in proteins: A covariance analysis of atomic
+  fluctuations in molecular dynamics and normal mode simulations}.
+\newblock {\em Proteins}, 11(3):205--217, November 1991.
+
+\bibitem{and:1999bo}
+Jennifer L~Radkiewicz and and III Charles L~Brooks.
+\newblock {Protein Dynamics in Enzymatic Catalysis:  Exploration of
+  Dihydrofolate Reductase}.
+\newblock {\em Journal of the American Chemical Society}, 122(2):225--231,
+  December 1999.
+
+\bibitem{PratulKAgarwal:2002dp}
+{Pratul K Agarwal}, Salomon~R Billeter, , and Sharon Hammes-Schiffer.
+\newblock {\em {Nuclear Quantum Effects and Enzyme Dynamics in Dihydrofolate
+  Reductase Catalysis}}, volume 106.
+\newblock American Chemical Society, February 2002.
+
+\bibitem{Agarwal:2002ema}
+Pratul~K Agarwal, Salomon~R Billeter, P~T~Ravi Rajagopalan, Stephen~J Benkovic,
+  and Sharon Hammes-Schiffer.
+\newblock {Network of coupled promoting motions in enzyme catalysis.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  99(5):2794--2799, March 2002.
+
+\bibitem{Rod:2003vm}
+Thomas~H Rod, Jennifer~L Radkiewicz, and Charles~L Brooks~III.
+\newblock {Correlated motion and the effect of distal mutations in
+  dihydrofolate reductase.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  100(12):6980--6985, June 2003.
+
+\bibitem{Lange:2006gv}
+Oliver~F Lange and Helmut Grubm{\"u}ller.
+\newblock {Generalized correlation for biomolecular dynamics.}
+\newblock {\em Proteins}, 62(4):1053--1061, March 2006.
+
+\bibitem{Whitley:2009uq}
+Matthew~J Whitley and Andrew~L Lee.
+\newblock {Frameworks for understanding long-range intra-protein
+  communication.}
+\newblock {\em Current protein {\&} peptide science}, 10(2):116--127, April
+  2009.
+
+\bibitem{Weinkam:2012jf}
+Patrick Weinkam, Jaume Pons, and Andrej Sali.
+\newblock {Structure-based model of allostery predicts coupling between distant
+  sites.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 109(13):4875--4880, March 2012.
+
+\bibitem{Lenaerts:2008kn}
+Tom Lenaerts, Jesper Ferkinghoff-Borg, Francois Stricher, Luis Serrano, Joost
+  W~H Schymkowitz, and Frederic Rousseau.
+\newblock {Quantifying information transfer by protein domains: analysis of the
+  Fyn SH2 domain structure.}
+\newblock {\em BMC structural biology}, 8(1):43, 2008.
+
+\bibitem{McClendon:2009gd}
+Christopher~L McClendon, Gregory Friedland, David~L Mobley, Homeira Amirkhani,
+  and Matthew~P Jacobson.
+\newblock {Quantifying Correlations Between Allosteric Sites in Thermodynamic
+  Ensembles.}
+\newblock {\em Journal of Chemical Theory and Computation}, 5(9):2486--2502,
+  September 2009.
+
+\bibitem{Dubay:2011ey}
+Kateri~H Dubay, Jacques~P Bothma, and Phillip~L Geissler.
+\newblock {Long-range intra-protein communication can be transmitted by
+  correlated side-chain fluctuations alone.}
+\newblock {\em PLoS Computational Biology}, 7(9):e1002168, September 2011.
+
+\bibitem{Feher:2014cx}
+Victoria~A Feher, Jacob~D Durrant, Adam~T Van~Wart, and Rommie~E Amaro.
+\newblock {Computational approaches to mapping allosteric pathways.}
+\newblock 25:98--103, April 2014.
+
+\bibitem{Fenwick:2014fc}
+R~Bryn Fenwick, Laura Orellana, Santi Esteban-Mart{\'\i}n, Modesto Orozco, and
+  Xavier Salvatella.
+\newblock {Correlated motions are a fundamental property of $\beta$-sheets.}
+\newblock {\em Nature communications}, 5:4070, June 2014.
+
+\bibitem{Cui:2008cc}
+Qiang Cui and Martin Karplus.
+\newblock {Allostery and cooperativity revisited.}
+\newblock {\em Protein Science}, 17(8):1295--1307, August 2008.
+
+\bibitem{Elber:2011dj}
+Ron Elber.
+\newblock {Simulations of allosteric transitions.}
+\newblock 21(2):167--172, April 2011.
+
+\bibitem{VanWart:2014dc}
+Adam~T Van~Wart, Jacob Durrant, Lane Votapka, and Rommie~E Amaro.
+\newblock {Weighted Implementation of Suboptimal Paths (WISP): An Optimized
+  Algorithm and Tool for Dynamical Network Analysis.}
+\newblock {\em Journal of Chemical Theory and Computation}, 10(2):511--517,
+  February 2014.
+
+\bibitem{Malmstrom:2015kp}
+Robert~D Malmstrom, Alexandr~P Kornev, Susan~S Taylor, and Rommie~E Amaro.
+\newblock {Allostery through the computational microscope: cAMP activation of a
+  canonical signalling domain.}
+\newblock {\em Nature communications}, 6:7588, July 2015.
+
+\bibitem{Chu:2005gh}
+Jhih-Wei Chu and Gregory~A Voth.
+\newblock {Allostery of actin filaments: molecular dynamics simulations and
+  coarse-grained analysis.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  102(37):13111--13116, September 2005.
+
+\bibitem{Ravindranathan:2005ff}
+Krishna~Pratap Ravindranathan, Emilio Gallicchio, and Ronald~M Levy.
+\newblock {Conformational equilibria and free energy profiles for the
+  allosteric transition of the ribose-binding protein.}
+\newblock {\em Journal of Molecular Biology}, 353(1):196--210, October 2005.
+
+\bibitem{Weinkam:2013fj}
+Patrick Weinkam, Yao~Chi Chen, Jaume Pons, and Andrej Sali.
+\newblock {Impact of mutations on the allosteric conformational equilibrium.}
+\newblock {\em Journal of Molecular Biology}, 425(3):647--661, February 2013.
+
+\bibitem{Liu:2012em}
+Ying Liu and Ivet Bahar.
+\newblock {Sequence evolution correlates with structural dynamics.}
+\newblock {\em Molecular biology and evolution}, 29(9):2253--2263, September
+  2012.
+
+\bibitem{Zhang2012}
+Liqun Zhang, Sabine Bouguet-Bonnet, and Matthias Buck.
+\newblock {\em Combining NMR and Molecular Dynamics Studies for Insights into
+  the Allostery of Small GTPase--Protein Interactions}, pages 235--259.
+\newblock Springer New York, New York, NY, 2012.
+
+\bibitem{Kern:2003fv}
+Dorothee Kern and Erik~RP Zuiderweg.
+\newblock {The role of dynamics in allosteric regulation}.
+\newblock 13(6):748--757, December 2003.
+
+\bibitem{Tzeng:2011by}
+Shiou-Ru Tzeng and Charalampos~G Kalodimos.
+\newblock {Protein dynamics and allostery: an NMR view.}
+\newblock 21(1):62--67, February 2011.
+
+\bibitem{Hilser:2007je}
+Vincent~J Hilser and E~Brad Thompson.
+\newblock {Intrinsic disorder as a mechanism to optimize allosteric coupling in
+  proteins.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(20):8311--8315, May 2007.
+
+\bibitem{Burger:2016gy}
+Virginia~M Burger, Diego~O Nolasco, and Collin~M Stultz.
+\newblock {Expanding the Range of Protein Function at the Far End of the
+  Order-Structure Continuum.}
+\newblock {\em Journal of Biological Chemistry}, 291(13):6706--6713, March
+  2016.
+
+\bibitem{Haliloglu:2015dj}
+Turkan Haliloglu and Ivet Bahar.
+\newblock {Adaptability of protein structures to enable functional interactions
+  and evolutionary implications.}
+\newblock 35:17--23, December 2015.
+
+\bibitem{HenzlerWildman:2007jb}
+Katherine Henzler-Wildman and Dorothee Kern.
+\newblock {Dynamic personalities of proteins.}
+\newblock {\em Nature}, 450(7172):964--972, December 2007.
+
+\bibitem{Hilser:2012em}
+Vincent~J Hilser, James~O Wrabl, and Hesam~N Motlagh.
+\newblock {Structural and energetic basis of allostery.}
+\newblock {\em Annual review of biophysics}, 41(1):585--609, 2012.
+
+\bibitem{Cooper:1984tb}
+A~Cooper and D~T Dryden.
+\newblock {Allostery without conformational change. A plausible model.}
+\newblock {\em European biophysics journal : EBJ}, 11(2):103--109, 1984.
+
+\bibitem{Wand:2013dz}
+A~Joshua Wand.
+\newblock {The dark energy of proteins comes to light: conformational entropy
+  and its role in protein function revealed by NMR relaxation.}
+\newblock 23(1):75--81, February 2013.
+
+\bibitem{Popovych:2006js}
+Nataliya Popovych, Shangjin Sun, Richard~H Ebright, and Charalampos~G
+  Kalodimos.
+\newblock {Dynamically driven protein allostery}.
+\newblock {\em Nature Structural {\&} Molecular Biology}, 13(9):831--838,
+  September 2006.
+
+\bibitem{Jakob:2014cp}
+Ursula Jakob, Richard Kriwacki, and Vladimir~N Uversky.
+\newblock {Conditionally and transiently disordered proteins: awakening cryptic
+  disorder to regulate protein function.}
+\newblock {\em Chemical Reviews}, 114(13):6779--6805, July 2014.
+
+\bibitem{Harman:2001td}
+James~G Harman.
+\newblock {Allosteric regulation of the cAMP receptor protein}.
+\newblock {\em Biochimica et Biophysica Acta (BBA) - Protein Structure and
+  Molecular Enzymology}, 1547(1):1--17, May 2001.
+
+\bibitem{Heyduk:1989wb}
+T~Heyduk and J~C Lee.
+\newblock {Escherichia coli cAMP receptor protein: evidence for three protein
+  conformational states with different promoter binding affinities.}
+\newblock {\em Biochemistry}, 28(17):6914--6924, August 1989.
+
+\bibitem{Schultz:1991uh}
+S~C Schultz, G~C Shields, and T~A Steitz.
+\newblock {Crystal structure of a CAP-DNA complex: the DNA is bent by 90
+  degrees.}
+\newblock {\em Science}, 253(5023):1001--1007, August 1991.
+
+\bibitem{Seok:2014cs}
+Seung-Hyeon Seok, Hookang Im, Hyung-Sik Won, Min-Duk Seo, Yoo-Sup Lee, Hye-Jin
+  Yoon, Min-Jeong Cha, Jin-Young Park, and Bong-Jin Lee.
+\newblock {Structures of inactive CRP species reveal the atomic details of the
+  allosteric transition that discriminates cyclic nucleotide second
+  messengers.}
+\newblock {\em Acta crystallographica. Section D, Biological crystallography},
+  70(Pt 6):1726--1742, June 2014.
+
+\bibitem{Popovych:2009iu}
+Nataliya Popovych, Shiou-Ru Tzeng, Marco Tonelli, Richard~H Ebright, and
+  Charalampos~G Kalodimos.
+\newblock {Structural basis for cAMP-mediated allosteric control of the
+  catabolite activator protein.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 106(17):6927--6932, April 2009.
+
+\bibitem{Tzeng:2009im}
+Shiou-Ru Tzeng and Charalampos~G Kalodimos.
+\newblock {Dynamic activation of an allosteric regulatory protein}.
+\newblock {\em Nature}, 462(7271):368--372, November 2009.
+
+\bibitem{Tzeng:2012cu}
+Shiou-Ru Tzeng and Charalampos~G Kalodimos.
+\newblock {Protein activity regulation by conformational entropy}.
+\newblock {\em Nature}, 488(7410):236--240, August 2012.
+
+\bibitem{Hilser:1998cj}
+V~J Hilser, D~Dowdy, T~G Oas, and E~Freire.
+\newblock {The structural distribution of cooperative interactions in proteins:
+  analysis of the native state ensemble.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  95(17):9903--9908, August 1998.
+
+\bibitem{Hilser:1996ft}
+V~J Hilser and E~Freire.
+\newblock {Structure-based calculation of the equilibrium folding pathway of
+  proteins. Correlation with hydrogen exchange protection factors.}
+\newblock {\em Journal of Molecular Biology}, 262(5):756--772, October 1996.
+
+\bibitem{Marcos:2011dr}
+Enrique Marcos, Ramon Crehuet, and Ivet Bahar.
+\newblock {Changes in dynamics upon oligomerization regulate substrate binding
+  and allostery in amino acid kinase family members.}
+\newblock {\em PLoS Computational Biology}, 7(9):e1002201, September 2011.
+
+\bibitem{Lockless:1999uf}
+S~W Lockless and R~Ranganathan.
+\newblock {Evolutionarily conserved pathways of energetic connectivity in
+  protein families.}
+\newblock {\em Science}, 286(5438):295--299, October 1999.
+
+\bibitem{Suel:2003ca}
+G{\"u}rol~M S{\"u}el, Steve~W Lockless, Mark~A Wall, and Rama Ranganathan.
+\newblock {Evolutionarily conserved networks of residues mediate allosteric
+  communication in proteins.}
+\newblock {\em Nature structural biology}, 10(1):59--69, January 2003.
+
+\bibitem{Lin:2016gi}
+Milo~M Lin.
+\newblock {Timing Correlations in Proteins Predict Functional Modules and
+  Dynamic Allostery.}
+\newblock {\em Journal of the American Chemical Society}, page jacs.5b08814,
+  April 2016.
+
+\bibitem{Ediger:2000ed}
+M~D Ediger.
+\newblock {Spatially heterogeneous dynamics in supercooled liquids.}
+\newblock {\em Annual review of physical chemistry}, 51(1):99--128, 2000.
+
+\bibitem{Glotzer:2000fy}
+Sharon~C Glotzer.
+\newblock {Spatially heterogeneous dynamics in liquids: insights from
+  simulation}.
+\newblock {\em Journal of Non-Crystalline Solids}, 274(1-3):342--355, September
+  2000.
+
+\bibitem{Richert:2002fa}
+Ranko Richert.
+\newblock {Heterogeneous dynamics in liquids: fluctuations in space and time}.
+\newblock {\em Journal of Physics: Condensed Matter}, 14(23):R703--R738, June
+  2002.
+
+\bibitem{Merolle:2005kx}
+Mauro Merolle, Juan~P Garrahan, and David Chandler.
+\newblock {Space-time thermodynamics of the glass transition.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  102(31):10837--10840, August 2005.
+
+\bibitem{Hedges:2007fw}
+Lester~O Hedges, Lutz Maibaum, David Chandler, and Juan~P Garrahan.
+\newblock {Decoupling of exchange and persistence times in atomistic models of
+  glass formers.}
+\newblock 127(21):211101, December 2007.
+
+\bibitem{Keys:2011ut}
+Aaron~S Keys, Lester~O Hedges, Juan~P Garrahan, Sharon~C Glotzer, and David
+  Chandler.
+\newblock {Excitations Are Localized and Relaxation Is Hierarchical in
+  Glass-Forming Liquids}.
+\newblock {\em Physical Review X}, 1(2):021013, November 2011.
+
+\bibitem{Hart:2016kb}
+Kathryn~M Hart, Chris M~W Ho, Supratik Dutta, Michael~L Gross, and Gregory~R
+  Bowman.
+\newblock {Modelling proteins' hidden conformations to predict antibiotic
+  resistance.}
+\newblock {\em Nature communications}, 7:12965, October 2016.
+
+\bibitem{Jorgensen:1983fl}
+William~L Jorgensen, Jayaraman Chandrasekhar, Jeffry~D Madura, Roger~W Impey,
+  and Michael~L Klein.
+\newblock {Comparison of simple potential functions for simulating liquid
+  water}.
+\newblock {\em The Journal of Chemical Physics}, 79(2):926--935, July 1983.
+
+\bibitem{DeLano:2010wf}
+W~L DeLano.
+\newblock {\em {The PyMOL Molecular Graphics System, Ver. 1.3}}.
+\newblock Schr{\"o}dinger, 2010.
+
+\bibitem{VanDerSpoel:2005hz}
+David Van Der~Spoel, Erik Lindahl, Berk Hess, Gerrit Groenhof, Alan~E Mark, and
+  Herman J~C Berendsen.
+\newblock {GROMACS: fast, flexible, and free.}
+\newblock {\em Journal of computational chemistry}, 26(16):1701--1718, December
+  2005.
+
+\bibitem{Duan:2003gt}
+Yong Duan, Chun Wu, Shibasish Chowdhury, Mathew~C Lee, Guoming Xiong, Wei
+  Zhang, Rong Yang, Piotr Cieplak, Ray Luo, Taisung Lee, James Caldwell, Junmei
+  Wang, and Peter Kollman.
+\newblock {A point-charge force field for molecular mechanics simulations of
+  proteins based on condensed-phase quantum mechanical calculations.}
+\newblock {\em Journal of computational chemistry}, 24(16):1999--2012, December
+  2003.
+
+\bibitem{Bowman:2011bc}
+Gregory~R Bowman, Vincent~A Voelz, and Vijay~S Pande.
+\newblock {Taming the complexity of protein folding.}
+\newblock 21(1):4--11, February 2011.
+
+\bibitem{Bowman:2015dh}
+Gregory~R Bowman, Eric~R Bolin, Kathryn~M Hart, Brendan~C Maguire, and Susan
+  Marqusee.
+\newblock {Discovery of multiple hidden allosteric sites by combining Markov
+  state models and experiments.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 112(9):2734--2739, March 2015.
+
+\bibitem{Bowman:2015da}
+Gregory~R Bowman.
+\newblock {Accurately modeling nanosecond protein dynamics requires at least
+  microseconds of simulation}.
+\newblock {\em Journal of computational chemistry}, pages n/a--n/a, June 2015.
+
+\bibitem{McGibbon:2015fv}
+Robert~T McGibbon, Kyle~A Beauchamp, Matthew~P Harrigan, Christoph Klein,
+  Jason~M Swails, Carlos~X Hern{\'a}ndez, Christian~R Schwantes, Lee-Ping Wang,
+  Thomas~J Lane, and Vijay~S Pande.
+\newblock {MDTraj: A Modern Open Library for the Analysis of Molecular Dynamics
+  Trajectories.}
+\newblock {\em Biophysical Journal}, 109(8):1528--1532, October 2015.
+
+\bibitem{Hummer:2004kb}
+Gerhard Hummer.
+\newblock {From transition paths to transition states and rate coefficients.}
+\newblock {\em The Journal of Chemical Physics}, 120(2):516--523, January 2004.
+
+\bibitem{Bolhuis:2002ew}
+Peter~G Bolhuis, David Chandler, Christoph Dellago, and Phillip~L Geissler.
+\newblock {Transition path sampling: throwing ropes over rough mountain passes,
+  in the dark.}
+\newblock {\em Annual review of physical chemistry}, 53(1):291--318, 2002.
+
+\bibitem{Buchete:2008hb}
+Nicolae-Viorel Buchete and Gerhard Hummer.
+\newblock {Coarse master equations for peptide folding dynamics.}
+\newblock {\em The Journal of Physical Chemistry B}, 112(19):6057--6069, May
+  2008.
+
+\bibitem{Schutte:2011gs}
+Christof Sch{\"u}tte, Frank No{\'e}, Jianfeng Lu, Marco Sarich, and Eric
+  Vanden-Eijnden.
+\newblock {Markov state models based on milestoning.}
+\newblock {\em The Journal of Chemical Physics}, 134(20):204105, May 2011.
+
+\bibitem{Jung:2005jk}
+YounJoon Jung, Juan~P Garrahan, and David Chandler.
+\newblock {Dynamical exchanges in facilitated models of supercooled liquids.}
+\newblock 123(8):084509, August 2005.
+
+\bibitem{Kass:2012bb}
+Robert~E Kass and Adrian~E Raftery.
+\newblock {Bayes Factors}.
+\newblock {\em Journal of the American Statistical Association}, February 2012.
+
+\bibitem{witten2002data}
+Ian~H Witten and Eibe Frank.
+\newblock Data mining: practical machine learning tools and techniques with
+  java implementations.
+\newblock {\em Acm Sigmod Record}, 31(1):76--77, 2002.
+
+\bibitem{Fraser:2011jf}
+James~S Fraser, Henry van~den Bedem, Avi~J Samelson, P~Therese Lang, James~M
+  Holton, Nathaniel Echols, and Tom Alber.
+\newblock {Accessing protein conformational ensembles using room-temperature
+  X-ray crystallography.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 108(39):16247--16252, September 2011.
+
+\bibitem{bowman2014extensive}
+Gregory~R Bowman and Phillip~L Geissler.
+\newblock Extensive conformational heterogeneity within protein cores.
+\newblock {\em The Journal of Physical Chemistry B}, 118(24):6417--6423, 2014.
+
+\bibitem{Dai:2004ea}
+Jiayin Dai, Shwu-Hwa Lin, Carly Kemmis, Anita~J Chin, and J~Ching Lee.
+\newblock {Interplay between site-specific mutations and cyclic nucleotides in
+  modulating DNA recognition by Escherichia coli cyclic AMP receptor protein.}
+\newblock {\em Biochemistry}, 43(28):8901--8910, July 2004.
+
+\bibitem{Aiba:1985ui}
+H~Aiba, T~Nakamura, H~Mitani, and H~Mori.
+\newblock {Mutations that alter the allosteric nature of cAMP receptor protein
+  of Escherichia coli.}
+\newblock {\em The EMBO Journal}, 4(12):3329--3332, December 1985.
+
+\bibitem{Kurplus:1983ts}
+M~Kurplus and J~A McCammon.
+\newblock {Dynamics of proteins: elements and function}.
+\newblock {\em Annual review of biochemistry}, 1983.
+
+\bibitem{brooks2006advances}
+Charles~L Brooks, Martin Karplus, and B~Montgomery Pettitt.
+\newblock {\em Advances in chemical physics, volume 71: Proteins: A theoretical
+  perspective of dynamics, structure, and thermodynamics}.
+\newblock Wiley-Blackwell, 2006.
+
+\bibitem{Depristo:2004tb}
+Mark~A Depristo, Paul I~W de~Bakker, and Tom~L Blundell.
+\newblock {Heterogeneity and Inaccuracy in Protein Structures Solved by X-Ray
+  Crystallography}.
+\newblock {\em Structure}, 12(5):831--838, May 2004.
+
+\bibitem{Wand:1996hr}
+A~J Wand, J~L Urbauer, R~P McEvoy, and R~J Bieber.
+\newblock {Internal dynamics of human ubiquitin revealed by 13C-relaxation
+  studies of randomly fractionally labeled protein.}
+\newblock {\em Biochemistry}, 35(19):6116--6125, May 1996.
+
+\bibitem{LindorffLarsen:2005bi}
+Kresten Lindorff-Larsen, Robert~B Best, Mark~A Depristo, Christopher~M Dobson,
+  and Michele Vendruscolo.
+\newblock {Simultaneous determination of protein structure and dynamics}.
+\newblock {\em Nature}, 433(7022):128--132, January 2005.
+
+\bibitem{Igumenova:2006hw}
+Tatyana~I Igumenova, Kendra~King Frederick, and A~Joshua Wand.
+\newblock {Characterization of the fast dynamics of protein amino acid side
+  chains using NMR relaxation in solution.}
+\newblock {\em Chemical Reviews}, 106(5):1672--1699, May 2006.
+
+\bibitem{Dubay:2009gv}
+Kateri~H Dubay and Phillip~L Geissler.
+\newblock {Calculation of proteins' total side-chain torsional entropy and its
+  influence on protein-ligand interactions.}
+\newblock {\em Journal of Molecular Biology}, 391(2):484--497, August 2009.
+
+\bibitem{Abraham:2015gj}
+Mark~James Abraham, Teemu Murtola, Roland Schulz, Szil{\'a}rd P{\'a}ll,
+  Jeremy~C Smith, Berk Hess, and Erik Lindahl.
+\newblock {GROMACS: High performance molecular simulations through multi-level
+  parallelism from laptops to supercomputers}.
+\newblock {\em SoftwareX}, 1-2:19--25, September 2015.
+
+\bibitem{Hess:2008fl}
+Berk Hess.
+\newblock {P-LINCS:  A Parallel Linear Constraint Solver for Molecular
+  Simulation.}
+\newblock {\em Journal of Chemical Theory and Computation}, 4(1):116--122,
+  January 2008.
+
+\bibitem{Feenstra:1999ue}
+K~A Feenstra, B~Hess, and HJC Berendsen.
+\newblock {Improving e_ciency of large timescale molecular dynamics simulations
+  of hydrogen-rich systems}.
+\newblock {\em J Comput Chem}, 20(8):786--798, June 1999.
+
+\bibitem{Essmann:1995gi}
+Ulrich Essmann, Lalith Perera, Max~L Berkowitz, Tom Darden, Hsing Lee, and
+  Lee~G Pedersen.
+\newblock {A smooth particle mesh Ewald method}.
+\newblock {\em The Journal of Chemical Physics}, 103(19):8577--8593, November
+  1995.
+
+\bibitem{Bussi:2007cs}
+Giovanni Bussi, Davide Donadio, and Michele Parrinello.
+\newblock {Canonical sampling through velocity rescaling}.
+\newblock {\em The Journal of Chemical Physics}, 126(1):014101, January 2007.
+
+\bibitem{Berendsen:1984fm}
+H~J~C Berendsen, J~P~M Postma, W~F van Gunsteren, A~DiNola, and J~R Haak.
+\newblock {Molecular dynamics with coupling to an external bath}.
+\newblock {\em The Journal of Chemical Physics}, 81(8):3684--3690, October
+  1984.
+
+\bibitem{Parrinello:1981it}
+M~Parrinello and A~Rahman.
+\newblock {Polymorphic transitions in single crystals: A new molecular dynamics
+  method}.
+\newblock {\em Journal of Applied physics}, 52(12):7182--7190, December 1981.
+
+\end{thebibliography}

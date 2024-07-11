@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -7,5 +8,23 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+=======
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sukrit Singh, PhD – Tags</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Sukrit Singh, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+>>>>>>> 72eba3fca3f6fd904397ab3a4e9b7b1f22becfae
   </channel>
 </rss>

@@ -1,0 +1,17 @@
+\BOOKMARK [0][-]{chapter.1}{Simulation of spontaneous G protein activation reveals a new intermediate driving GDP unbinding}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Abstract}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Introduction}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Results and Discussion}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.3.1}{Capturing G-protein activation and GDP release in atomic detail}{section.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.3.2}{Tilting of H5 helps induce GDP release}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.3}{Identification of the allosteric network that triggers GDP release}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.4}{H1 and -sheets are communication hubs}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.5}{GDP release alters the structure and dynamics of the G-binding site}{section.1.3}% 9
+\BOOKMARK [1][-]{section.1.4}{Conclusion}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{Materials and Methods}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.5.1}{Molecular dynamics simulations of GDP unbinding}{section.1.5}% 12
+\BOOKMARK [2][-]{subsection.1.5.2}{Identifying the allosteric network with CARDS}{section.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.5.3}{Markov state model construction}{section.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.5.4}{Quantifying conformational disorder}{section.1.5}% 15
+\BOOKMARK [2][-]{subsection.1.5.5}{Identification of the rate-limiting step for GDP release}{section.1.5}% 16
+\BOOKMARK [1][-]{section.1.6}{Acknowledgements}{chapter.1}% 17

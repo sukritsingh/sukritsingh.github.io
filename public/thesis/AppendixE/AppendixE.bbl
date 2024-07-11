@@ -1,0 +1,332 @@
+\begin{thebibliography}{10}
+
+\bibitem{cubuk_sars-cov-2_2020}
+Jasmine Cubuk, Jhullian~J. Alston, J.~Jeremías Incicco, Sukrit Singh,
+  Melissa~D. Stuchell-Brereton, Michael~D. Ward, Maxwell~I. Zimmerman, Neha
+  Vithani, Daniel Griffith, Jason~A. Wagoner, Gregory~R. Bowman, Kathleen~B.
+  Hall, Andrea Soranno, and Alex~S. Holehouse.
+\newblock The {SARS}-{CoV}-2 nucleocapsid protein is dynamic, disordered, and
+  phase separates with {RNA}.
+\newblock preprint, Biophysics, June 2020.
+
+\bibitem{Holehouse2020-rl}
+Alex~S Holehouse and Shahar Sukenik.
+\newblock Controlling structural bias in intrinsically disordered proteins
+  using solution space scanning.
+\newblock {\em J. Chem. Theory Comput.}, 16(3):1794--1805, March 2020.
+
+\bibitem{Dosztanyi2005-bo}
+Zsuzsanna Doszt{\'a}nyi, Veronika Csizmok, Peter Tompa, and Istv{\'a}n Simon.
+\newblock {IUPred}: web server for the prediction of intrinsically unstructured
+  regions of proteins based on estimated energy content.
+\newblock {\em Bioinformatics}, 21(16):3433--3434, August 2005.
+
+\bibitem{Holehouse2017-sx}
+Alex~S Holehouse, Rahul~K Das, James~N Ahad, Mary O~G Richardson, and Rohit~V
+  Pappu.
+\newblock {CIDER}: Resources to analyze {Sequence-Ensemble} relationships of
+  intrinsically disordered proteins.
+\newblock {\em Biophys. J.}, 112(1):16--21, January 2017.
+
+\bibitem{Das2016-ri}
+Rahul~K Das, Yongqi Huang, Aaron~H Phillips, Richard~W Kriwacki, and Rohit~V
+  Pappu.
+\newblock Cryptic sequence features within the disordered protein p27kip1
+  regulate cell cycle signaling.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 113(20):5616--5621, May 2016.
+
+\bibitem{Martin2020-yc}
+Erik~W Martin, Alex~S Holehouse, Ivan Peran, Mina Farag, J~Jeremias Incicco,
+  Anne Bremer, Christy~R Grace, Andrea Soranno, Rohit~V Pappu, and Tanja
+  Mittag.
+\newblock Valence and patterning of aromatic residues determine the phase
+  behavior of prion-like domains.
+\newblock {\em Science}, 367(6478):694--699, February 2020.
+
+\bibitem{Sherry2017-sr}
+Kathryn~P Sherry, Rahul~K Das, Rohit~V Pappu, and Doug Barrick.
+\newblock Control of transcriptional activity by design of charge patterning in
+  the intrinsically disordered {RAM} region of the notch receptor.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 114(44):E9243--E9252, October
+  2017.
+
+\bibitem{McGibbon:2015fv}
+Robert~T McGibbon, Kyle~A Beauchamp, Matthew~P Harrigan, Christoph Klein,
+  Jason~M Swails, Carlos~X Hern{\'a}ndez, Christian~R Schwantes, Lee-Ping Wang,
+  Thomas~J Lane, and Vijay~S Pande.
+\newblock {MDTraj: A Modern Open Library for the Analysis of Molecular Dynamics
+  Trajectories.}
+\newblock {\em Biophysical Journal}, 109(8):1528--1532, October 2015.
+
+\bibitem{Vitalis2009-gh}
+Andreas Vitalis and Rohit~V Pappu.
+\newblock {ABSINTH}: A new continuum solvation model for simulations of
+  polypeptides in aqueous solutions.
+\newblock {\em J. Comput. Chem.}, 30(5):673--699, April 2009.
+
+\bibitem{Ortega2018-oa}
+Esther Ortega, Srinivasan Rengachari, Ziad Ibrahim, Naghmeh Hoghoughi, Jonathan
+  Gaucher, Alex~S Holehouse, Saadi Khochbin, and Daniel Panne.
+\newblock Transcription factor dimerization activates the p300
+  acetyltransferase.
+\newblock {\em Nature}, 562(7728):538--544, October 2018.
+
+\bibitem{Shirts:2000du}
+M~Shirts and V~S Pande.
+\newblock {COMPUTING: Screen Savers of the World Unite!}
+\newblock {\em Science}, 290(5498):1903--1904, December 2000.
+
+\bibitem{Zimmerman2020covid-pocket}
+Maxwell~I. Zimmerman, Justin~R. Porter, Michael~D. Ward, Sukrit Singh, Neha
+  Vithani, Artur Meller, Upasana~L. Mallimadugula, Catherine~E. Kuhn,
+  Jonathan~H. Borowsky, Rafal~P. Wiewiora, Matthew F.~D. Hurley, Aoife~M
+  Harbison, Carl~A Fogarty, Joseph~E. Coffland, Elisa Fadda, Vincent~A. Voelz,
+  John~D. Chodera, and Gregory~R. Bowman.
+\newblock Citizen scientists create an exascale computer to combat covid-19.
+\newblock {\em bioRxiv}, 2020.
+
+\bibitem{waterhouse_swiss-model:_2018}
+Andrew Waterhouse, Martino Bertoni, Stefan Bienert, Gabriel Studer, Gerardo
+  Tauriello, Rafal Gumienny, Florian~T Heer, Tjaart~A P de Beer, Christine
+  Rempfer, Lorenza Bordoli, Rosalba Lepore, and Torsten Schwede.
+\newblock {SWISS}-{MODEL}: homology modelling of protein structures and
+  complexes.
+\newblock {\em Nucleic Acids Research}, 46(W1):W296--W303, July 2018.
+
+\bibitem{Takeda2008-wl}
+Mitsuhiro Takeda, Chung-Ke Chang, Teppei Ikeya, Peter G{\"u}ntert, Yuan-Hsiang
+  Chang, Yen-Lan Hsu, Tai-Huang Huang, and Masatsune Kainosho.
+\newblock Solution structure of the c-terminal dimerization domain of {SARS}
+  coronavirus nucleocapsid protein solved by the {SAIL-NMR} method.
+\newblock {\em J. Mol. Biol.}, 380(4):608--622, July 2008.
+
+\bibitem{Zinzula2020-mi}
+Luca Zinzula, Massimiliano~Orsini Nagy, and Andreas Bracher.
+\newblock 1.45 angstrom resolution crystal structure of c-terminal dimerization
+  domain of nucleocapsid phosphoprotein from {SARS-CoV-2} ({PDB}: {6YUN}).
+\newblock {\em Protein Data Bank}, May 2020.
+
+\bibitem{Holehouse2015-rg}
+Alex~S Holehouse, Kanchan Garai, Nicholas Lyle, Andreas Vitalis, and Rohit~V
+  Pappu.
+\newblock Quantitative assessments of the distinct contributions of polypeptide
+  backbone amides versus side chain groups to chain expansion via chemical
+  denaturation.
+\newblock {\em J. Am. Chem. Soc.}, 137(8):2984--2995, March 2015.
+
+\bibitem{Abraham2015-ea}
+Mark~James Abraham, Teemu Murtola, Roland Schulz, Szil{\'a}rd P{\'a}ll,
+  Jeremy~C Smith, Berk Hess, and Erik Lindahl.
+\newblock {GROMACS}: High performance molecular simulations through multi-level
+  parallelism from laptops to supercomputers.
+\newblock {\em SoftwareX}, 1--2:19--25, 2015.
+
+\bibitem{Duan:2003gt}
+Yong Duan, Chun Wu, Shibasish Chowdhury, Mathew~C Lee, Guoming Xiong, Wei
+  Zhang, Rong Yang, Piotr Cieplak, Ray Luo, Taisung Lee, James Caldwell, Junmei
+  Wang, and Peter Kollman.
+\newblock {A point-charge force field for molecular mechanics simulations of
+  proteins based on condensed-phase quantum mechanical calculations.}
+\newblock {\em Journal of computational chemistry}, 24(16):1999--2012, December
+  2003.
+
+\bibitem{Jorgensen:1983fl}
+William~L Jorgensen, Jayaraman Chandrasekhar, Jeffry~D Madura, Roger~W Impey,
+  and Michael~L Klein.
+\newblock {Comparison of simple potential functions for simulating liquid
+  water}.
+\newblock {\em The Journal of Chemical Physics}, 79(2):926--935, July 1983.
+
+\bibitem{Feenstra:1999ue}
+K~A Feenstra, B~Hess, and HJC Berendsen.
+\newblock {Improving e_ciency of large timescale molecular dynamics simulations
+  of hydrogen-rich systems}.
+\newblock {\em J Comput Chem}, 20(8):786--798, June 1999.
+
+\bibitem{Hess:2008fl}
+Berk Hess.
+\newblock {P-LINCS:  A Parallel Linear Constraint Solver for Molecular
+  Simulation.}
+\newblock {\em Journal of Chemical Theory and Computation}, 4(1):116--122,
+  January 2008.
+
+\bibitem{Bussi:2007cs}
+Giovanni Bussi, Davide Donadio, and Michele Parrinello.
+\newblock {Canonical sampling through velocity rescaling}.
+\newblock {\em The Journal of Chemical Physics}, 126(1):014101, January 2007.
+
+\bibitem{zimmerman_fast_2015}
+Maxwell~I. Zimmerman and Gregory~R. Bowman.
+\newblock Fast conformational searches by balancing exploration/exploitation
+  trade-offs.
+\newblock {\em Journal of Chemical Theory and Computation}, 11(12):5747--5757,
+  December 2015.
+
+\bibitem{Zimmerman:2018jn}
+Maxwell~I Zimmerman, Justin~R Porter, Xianqiang Sun, Roseane~R Silva, and
+  Gregory~R Bowman.
+\newblock {Choice of Adaptive Sampling Strategy Impacts State Discovery,
+  Transition Probabilities, and the Apparent Mechanism of Conformational
+  Changes.}
+\newblock {\em Journal of Chemical Theory and Computation},
+  q-bio.BM:acs.jctc.8b00500, October 2018.
+
+\bibitem{zimmerman_prediction_2017}
+Maxwell~I. Zimmerman, Kathryn~M. Hart, Carrie~A. Sibbald, Thomas~E. Frederick,
+  John~R. Jimah, Catherine~R. Knoverek, Niraj~H. Tolia, and Gregory~R. Bowman.
+\newblock Prediction of new stabilizing mutations based on mechanistic insights
+  from markov state models.
+\newblock {\em ACS Central Science}, 3(12):1311--1321, December 2017.
+
+\bibitem{porter2018enspara}
+J.~R. Porter, M.~I. Zimmerman, and G.~R. Bowman.
+\newblock Enspara: Modeling molecular ensembles with scalable data structures
+  and parallel computing.
+\newblock {\em The Journal of Chemical Physics}, 150(4):044108, 2019.
+
+\bibitem{Holehouse2019-cj}
+Alex~S Holehouse and Rohit~V Pappu.
+\newblock {PIMMS} (0.24 pre-beta), December 2019.
+
+\bibitem{Bieler2012-nm}
+Noah~S Bieler, Tuomas P~J Knowles, Daan Frenkel, and Robert V{\'a}cha.
+\newblock Connecting macroscopic observables and microscopic assembly events in
+  amyloid formation using coarse grained simulations.
+\newblock {\em PLoS Comput. Biol.}, 8(10):e1002692, October 2012.
+
+\bibitem{Boeynaems2019-ja}
+Steven Boeynaems, Alex~S Holehouse, Venera Weinhardt, Denes Kovacs, Joris
+  Van~Lindt, Carolyn Larabell, Ludo Van Den~Bosch, Rhiju Das, Peter~S Tompa,
+  Rohit~V Pappu, and Aaron~D Gitler.
+\newblock Spontaneous driving forces give rise to {protein-RNA} condensates
+  with coexisting phases and complex material properties.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 116(16):7889--7898, April
+  2019.
+
+\bibitem{Fichthorn1991-wl}
+Kristen~A Fichthorn and W~H Weinberg.
+\newblock Theoretical foundations of dynamical monte carlo simulations.
+\newblock {\em J. Chem. Phys.}, 95(2):1090--1096, July 1991.
+
+\bibitem{Saric2016-le}
+An{\dj}ela {\v S}ari{\'c}, Alexander~K Buell, Georg Meisl, Thomas C~T Michaels,
+  Christopher~M Dobson, Sara Linse, Tuomas P~J Knowles, and Daan Frenkel.
+\newblock Physical determinants of the self-replication of protein fibrils.
+\newblock {\em Nat. Phys.}, 12(9):874--880, July 2016.
+
+\bibitem{Schuler2002-hf}
+Benjamin Schuler, Everett~A Lipman, and William~A Eaton.
+\newblock Probing the free-energy surface for protein folding with
+  single-molecule fluorescence spectroscopy.
+\newblock {\em Nature}, 419:743, October 2002.
+
+\bibitem{Chung2016-fp}
+Hoi~Sung Chung, John~M Louis, and Irina~V Gopich.
+\newblock Analysis of fluorescence lifetime and energy transfer efficiency in
+  {Single-Molecule} photon trajectories of {Fast-Folding} proteins.
+\newblock {\em J. Phys. Chem. B}, 120(4):680--699, February 2016.
+
+\bibitem{Nettels2007-lf}
+Daniel Nettels, Irina~V Gopich, Armin Hoffmann, and Benjamin Schuler.
+\newblock Ultrafast dynamics of protein collapse from single-molecule photon
+  statistics.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 104(8):2655--2660, February
+  2007.
+
+\bibitem{Nettels2008-jk}
+Daniel Nettels, Armin Hoffmann, and Benjamin Schuler.
+\newblock Unfolded protein and peptide dynamics investigated with
+  single-molecule {FRET} and correlation spectroscopy from picoseconds to
+  seconds.
+\newblock {\em J. Phys. Chem. B}, 112(19):6137--6146, May 2008.
+
+\bibitem{Gopich2009-ow}
+Irina~V Gopich, Daniel Nettels, Benjamin Schuler, and Attila Szabo.
+\newblock Protein dynamics from single-molecule fluorescence intensity
+  correlation functions.
+\newblock {\em J. Chem. Phys.}, 131(9):095102, September 2009.
+
+\bibitem{Schafer2012-bh}
+Lothar Sch{\"a}fer.
+\newblock {\em Excluded Volume Effects in Polymer Solutions: as Explained by
+  the Renormalization Group}.
+\newblock Springer Science \& Business Media, December 2012.
+
+\bibitem{Zheng2018-ej}
+Wenwei Zheng, G{\"u}l~H Zerze, Alessandro Borgia, Jeetain Mittal, Benjamin
+  Schuler, and Robert~B Best.
+\newblock Inferring properties of disordered chains from {FRET} transfer
+  efficiencies.
+\newblock {\em J. Chem. Phys.}, 148(12):123329, March 2018.
+
+\bibitem{Rubinstein2003-fa}
+M~Rubinstein and Ralph~H Colby.
+\newblock {\em Polymer Physics}.
+\newblock Oxford University Press, New York, 2003.
+
+\bibitem{Muller-Spath2010-oy}
+Sonja M{\"u}ller-Sp{\"a}th, Andrea Soranno, Verena Hirschfeld, Hagen Hofmann,
+  Stefan R{\"u}egger, Luc Reymond, Daniel Nettels, and Benjamin Schuler.
+\newblock Charge interactions can dominate the dimensions of intrinsically
+  disordered proteins.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 107(33):14609--14614, August
+  2010.
+
+\bibitem{Soranno2012-jn}
+Andrea Soranno, Brigitte Buchli, Daniel Nettels, Ryan~R Cheng, Sonja
+  M{\"u}ller-Sp{\"a}th, Shawn~H Pfeil, Armin Hoffmann, Everett~A Lipman,
+  Dmitrii~E Makarov, and Benjamin Schuler.
+\newblock Quantifying internal friction in unfolded and intrinsically
+  disordered proteins with single-molecule spectroscopy.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 109(44):17800--17806, October
+  2012.
+
+\bibitem{Soranno2017-bi}
+Andrea Soranno, Andrea Holla, Fabian Dingfelder, Daniel Nettels, Dmitrii~E
+  Makarov, and Benjamin Schuler.
+\newblock Integrated view of internal friction in unfolded proteins from
+  single-molecule {FRET}, contact quenching, theory, and simulations.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 114(10):E1833--E1839, March
+  2017.
+
+\bibitem{Higgs1991-rl}
+Paul~G Higgs and Jean‐fran{\c c}ois Joanny.
+\newblock Theory of polyampholyte solutions.
+\newblock {\em J. Chem. Phys.}, 94(2):1543--1554, January 1991.
+
+\bibitem{Chang2009-vd}
+Chung-Ke Chang, Yen-Lan Hsu, Yuan-Hsiang Chang, Fa-An Chao, Ming-Chya Wu,
+  Yu-Shan Huang, Chin-Kun Hu, and Tai-Huang Huang.
+\newblock Multiple nucleic acid binding sites and intrinsic disorder of severe
+  acute respiratory syndrome coronavirus nucleocapsid protein: implications for
+  ribonucleocapsid protein packaging.
+\newblock {\em J. Virol.}, 83(5):2255--2264, March 2009.
+
+\bibitem{Zeng2020-cw}
+Weihong Zeng, Guangfeng Liu, Huan Ma, Dan Zhao, Yunru Yang, Muziying Liu, Ahmed
+  Mohammed, Changcheng Zhao, Yun Yang, Jiajia Xie, Chengchao Ding, Xiaoling Ma,
+  Jianping Weng, Yong Gao, Hongliang He, and Tengchuan Jin.
+\newblock Biochemical characterization of {SARS-CoV-2} nucleocapsid protein.
+\newblock {\em Biochem. Biophys. Res. Commun.}, 527(3):618--623, June 2020.
+
+\bibitem{Sauer2014-ux}
+Markus Sauer and Hannes Neuweiler.
+\newblock {PET-FCS}: probing rapid structural fluctuations of proteins and
+  nucleic acids by single-molecule fluorescence quenching.
+\newblock {\em Methods Mol. Biol.}, 1076:597--615, 2014.
+
+\bibitem{Haenni2013-xz}
+Dominik Haenni, Franziska Zosel, Luc Reymond, Daniel Nettels, and Benjamin
+  Schuler.
+\newblock Intramolecular distances and dynamics from the combined photon
+  statistics of single-molecule {FRET} and photoinduced electron transfer.
+\newblock {\em J. Phys. Chem. B}, 117(42):13015--13028, October 2013.
+
+\bibitem{Meng2013-qi}
+Wenli Meng, Nicholas Lyle, Bowu Luan, Daniel~P Raleigh, and Rohit~V Pappu.
+\newblock Experiments and simulations show how long-range contacts can form in
+  expanded unfolded proteins with negligible secondary structure.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 110(6):2123--2128, February
+  2013.
+
+\end{thebibliography}

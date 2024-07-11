@@ -1,0 +1,424 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+    \chapter{Simulation of spontaneous G protein activation reveals a new intermediate driving GDP unbinding}
+    \label{ch:GDPrelease}
+    \graphicspath{{Chapter4/}}
+    \captionsetup{labelfont=bf}
+
+\textit{This chapter is adapted from the following publication:}
+
+\textit{Sun, X.$^*$ and Singh, S.$^*$, Blumer, K.J., and Bowman, G.R., Simulation of spontaneous G protein activation reveals a new intermediate driving GDP unbinding. eLife, 7, October 2018, https://doi.org/10.7554/eLife.38465.001} \cite{Sun:2018kx}
+\textit{$^*$Authors contributed equally to this work}
+
+    \section{Abstract}
+        Activation of heterotrimeric G proteins is a key step in many signaling cascades. However, a complete mechanism for this process, which requires allosteric communication between binding sites that are $\sim$30 \AA{} apart, remains elusive. We construct an atomically detailed model of G protein activation by combining three powerful computational methods: metadynamics, Markov state models (MSMs), and CARDS analysis of correlated motions. We uncover a mechanism that is consistent with a wide variety of structural and biochemical data. Surprisingly, the rate-limiting step for GDP release correlates with tilting rather than translation of the GPCR-binding helix 5. $\beta$-Strands 1-3 and helix 1 emerge as hubs in the allosteric network that links conformational changes in the GPCR-binding site to disordering of the distal nucleotide-binding site and consequent GDP release. Our approach and insights provide foundations for understanding disease-implicated G protein mutants, illuminating slow events in allosteric networks, and examining unbinding processes with slow off-rates.
+			
+	\section{Introduction}
+        Heterotrimeric G proteins are molecular switches that play pivotal roles in signaling processes from vision to olfaction and neurotransmission\cite{Oldham:2006ui,Oldham:2008cr,Johnston:2007ir}. By default, a G protein adopts an inactive state in which guanosine diphosphate (GDP) binds between the Ras-like and helical domains of the $\alpha$-subunit (G$\alpha$, Fig. \ref{fig:ch4-fig1}). A dimer consisting of the $\beta$- and $\gamma$-subunits (G$\beta\gamma$) also binds G$\alpha$. G protein-coupled receptors (GPCRs) trigger G protein activation by binding G$\alpha$ and stimulating GDP release, followed by GTP binding to G$\alpha$ and dissociation of G$\alpha$ from G$\beta\gamma$. G$\alpha$ and $\beta\gamma$ then interact with effectors that trigger downstream cellular responses. G$\alpha$ returns to the inactive state by hydrolyzing GTP to GDP and rebinding G$\beta\gamma$. Given the central role G$\alpha$ plays, a common G$\alpha$ numbering scheme (CGN) has been established to facilitate discussion of the activation mechanisms of different G$\alpha$ homologs\cite{Flock:2015dj}. For example, the notation Lys52$^{G.H1.1}$ indicates that Lys52 is the first residue in helix 1 (H1) of the Ras-like domain (also called the GTPase domain, or G). S6 refers to $\beta$-strand 6 and s6h5 refers to the loop between S6 and H5.
+
+    \begin{figure}[!htb] %Positioning code for figure
+        \centering
+        \includegraphics[width=3.5in]{ch4-fig1.png}
+        \caption[Structure of G$\alpha$q with key secondary structure elements labeled according to the Common G$\alpha$ Numbering (CGN) system.]
+            {Structure of G$\alpha$q with key secondary structure elements labeled according to the Common G$\alpha$ Numbering (CGN) system. The coloring scheme highlights the GPCR binding interface (gray), GDP phosphate-binding regions (pink), GDP nucleotide-binding regions (green), $\beta$-sheets (blue), and switch 2 (orange).}
+        \label{fig:ch4-fig1}
+    \end{figure}
+
+        Strikingly, the GPCR- and nucleotide-binding sites of G$\alpha$ are $\sim$30 \AA{} apart (Fig. \ref{fig:ch4-fig1}), but the allosteric mechanism coupling these sites to evoke GDP release remains incompletely understood\cite{Oldham:2008cr}. Biochemical and structural studies have elucidated some key steps, but the entire process has yet to be described in atomic detail. Early studies of G$\alpha$ subunits revealed structures of the GDP- and GTP-bound states, as well as the transition state for GTP hydrolysis\cite{Sunahara:1997tg,Leipe:2002ky,Westfield:2011ef}. The high similarity of these structures and the binding of GDP or GTP deep in the protein’s core suggests that activation occurs by adoption of other conformational states that allow GDP release\cite{Lambright:1994gd}. One intermediate in G protein activation was suggested by the first crystal structure of a GPCR-bound G protein in which the Ras-like and helical domains of G$\alpha$ are hinged apart and GDP has dissociated\cite{Rasmussen:2011kp}. Structural analysis has led to the proposal of a universal mechanism for G protein activation\cite{Flock:2015dj}. In this model, GPCR binding induces translation of H5 away from H1, which increases disorder in H1 and the P-loop (or Walker A motif\cite{Leipe:2002ky}) to facilitate GDP release. However, there is evidence that additional intermediates may be involved in G$\alpha$ activation\cite{Oldham:2008cr,Westfield:2011ef,Liang:2017cz,Hilger:2018en},and the functional importance of this conformational ensemble has been previously suggested\cite{Furness:2016it}. Furthermore, mutagenesis and nuclear magnetic resonance (NMR) studies have suggested important roles for other structural elements\cite{Toyama:2017gy,Sun:2015gj,Goricanec:2016hl}.
+
+        Molecular dynamics simulations promise to capture the entire mechanism of G protein activation and synthesize the wealth of experimental data on this process. Methodological advances now enable simulations to capture millisecond timescale processes for proteins with less than 100 residues\cite{LindorffLarsen:2011gl}. For example, it is now possible to capture the binding or release of small molecules\cite{Buch:2011bm,Bowman:2012jd,Silva:2011ct,Plattner:2015br,Tiwary:2015hw} and peptides\cite{Plattner:2017fs,Zhou:2017bh} from small proteins. Impressive simulations on the ANTON supercomputer have revealed critical conformational dynamics of G proteins in their inactive and active states, elucidating the role of domain opening in GDP unbinding\cite{Dror:2015bg,Yao:2016kw}. However, even this specialized hardware could not capture the entire process of G protein activation and GDP release due to the size of the G$\alpha$ subunit ($>$300 residues) and the slow kinetics of GDP dissociation ($\sim{}$10$^{-3}$ min$^{-1}$)\cite{Chidiac:1999jh,Ross:2008jm,Mukhopadhyay:1999dp}.
+
+        Here, we introduce an approach to capture rare or long-timescale events, such as GDP release, and reveal the mechanism of G$\alpha$ activation. As a test of this methodology, we apply it to G$\alpha$q, which has one of the slowest GDP release rates\cite{Chidiac:1999jh} and is frequently mutated in uveal melanoma\cite{VanRaamsdonk:2009kv,VanRaamsdonk:2010iy}. To highlight aspects of the activation mechanism that we propose are general to all G proteins, we focus our analysis on the behavior of secondary structure elements and amino acids that are conserved across G$\alpha$ domains. Our approach first combines two powerful sampling methods, metadynamics\cite{Laio:2002ft} and Markov state models (MSMs)\cite{Bowman:2013uj}, to observe GDP release and identify the rate-limiting step for this slow process. Then we use our recently developed CARDS method\cite{Singh:2017hh}, which quantifies correlations between both the structure and disorder of different regions of a protein, to identify the allosteric network connecting the GPCR- and nucleotide-binding sites. The resulting model is consistent with a wealth of experimental data and leads to a number of predictions, described below. Taken together, our results provide the most comprehensive model of G protein activation to date. Based on this success, we expect our approach to be valuable for studying other rare events, including conformational changes and unbinding processes. 
+
+	
+    \section{Results and Discussion}
+    \subsection{Capturing G-protein activation and GDP release in atomic detail}
+        We reasoned that studying the mechanism of spontaneous GDP release from a truncated form of G$\alpha$q would be representative of the mechanism of GPCR-mediated activation of the heterotrimeric G protein while minimizing the computational cost of our simulations. This hypothesis was inspired by previous work demonstrating that a protein’s spontaneous fluctuations are representative of the conformational changes required for the protein to perform its function \cite{Boehr:2006jd,Fraser:2009gv,Changeux:2011fv}. Therefore, we hypothesized that GPCRs stabilize conformational states that G proteins naturally, albeit infrequently, adopt in the absence of a receptor. We chose to focus on G$\alpha$ since it forms substantial interactions with GPCRs, compared to the relatively negligible interactions between GPCRs and G protein $\beta$ and $\gamma$ subunits. This view is supported by the fact that GPCRs and ‘mini’ G proteins, essentially composed of just the Ras-like domain of G$\alpha$, recapitulate many features of GPCR-G protein interactions\cite{Carpenter:2016gr}. We also reasoned that truncating the last five residues of G$\alpha$q would facilitate the activation process. These residues contact G$\alpha$ in some GDP-bound structures but not in GPCR-bound structures\cite{Lambright:1996en,Noel:1993dc}, and removing these residues promotes GDP release due to a reduced GDP-binding affinity\cite{Denker:1992uj,EthanPMarin:2002fr}. Taken together, such evidence suggests that the last five residues of G$\alpha$q help stabilize the inactive state and that removing them would accelerate activation. In support of this hypothesis, we find that the energetic barrier to GDP release is lower in metadynamics simulations of the truncated variant than for full-length G$\alpha$q (Figure \ref{fig:ch4-fig2-supp1}). These simulations, and those described hereafter, were initiated from an X-ray structure of the G$\alpha$q heterotrimer bound to GDP and an inhibitor of nucleotide exchange\cite{Nishimura:2010gt}; G$\beta\gamma$ and the inhibitor were excluded from all simulations.
+
+        To observe G-protein activation, we developed a variant of adaptive seeding\cite{Huang:2009bx} capable of capturing slow processes like ligand unbinding that are beyond reach of conventional simulation methods. First, we use metadynamics\cite{Tiwary:2015hw,Laio:2002ft,Dama:2014ef} to facilitate broad sampling of conformational space by biasing simulations to sample conformations with different distances between GDP and G$\alpha$q. Doing so forces GDP release to occur but provides limited mechanistic information because adding a biasing force can distort the system’s kinetics or cause the simulations to sample high-energy conformations that are not representative of behavior at thermal equilibrium. To overcome these limitations, we chose starting conformations along release pathways observed by metadynamics as starting points for standard molecular dynamics simulations, together yielding an aggregate simulation time of 122.6 $\mu$s. These simulations should quickly relax away from high-energy conformations and provide more accurate kinetics. Then we use these simulations to build an MSM (Source data 1). MSMs are adept at extracting both thermodynamic and kinetic information from many standard simulations that, together, cover larger regions of conformational space than any individual simulation\cite{Bowman:2013uj}. Related approaches have successfully captured the dynamics of small model systems\cite{Biswas:2018hc} and RNA polymerase\cite{Zhang:2016ex}.
+
+        This protocol enabled us to capture the entire mechanism of G-protein activation, including GDP release and the rate-limiting step for this process. Identifying the rate-limiting step for this process is of great value because GDP release is the rate-limiting step for G-protein activation and downstream signaling. Therefore, the key structural and dynamical changes responsible for activation should be apparent from the rate-limiting conformational transition for this dissociation process.
+
+        To identify the rate-limiting step, we applied transition path theory\cite{Noe:2009en,Weinan:2006vr} to find the highest flux paths from bound structures resembling the GDP-bound crystal structure to fully dissociated conformations. Then, we identified the least probable steps along the 10 highest flux release pathways (Figure \ref{fig:ch4-fig2}A and Figure \ref{fig:ch4-fig2-supp2}), which represent the rate-limiting step of release. By comparing the structures before and after the rate-limiting step, we define the bound state as all conformations where the distance from the center of mass of GDP’s phosphates to the center of mass of three residues on H1 that contact the GDP $\beta$-phosphate (Lys52$^{G.H1.1}$, Ser53$^{G.H1.2}$, and Thr54$^{G.H1.3}$) is less than 8 \AA{}. Consistent with this definition, this distance remains less than 8 \AA{} throughout the entirety of 35.3 $\mu$s of GDP-bound simulations.
+
+        \begin{figure}[H] %Positioning code for figure
+            \centering
+            \includegraphics[width=4.7in]{ch4-fig2.png}
+            \caption[Structural and dynamical changes during the rate limiting step for GDP release.]
+                {Structural and dynamical changes during the rate limiting step for GDP release. \textbf{A.} Overlay of representative structures before (blue) and after (orange) the rate limiting step. \textbf{B.} Change in conformational disorder (Shannon entropy) across the rate-limiting step, according to the color scale on the right. \textbf{C.} Histograms of inter-domain distances before (top, blue) and after (middle, orange) the rate limiting step, along with the inter-domain distance distribution after GDP is released (bottom, black). Inter-domain distance is measured using residues analogous to those used in DEER experiments\cite{Dror:2015bg}, Leu97$^{H.HA.29}$ in the helical domain and Glu250$^{G.H3.4}$ on H3. \textbf{D.} Distribution of distances between Glu49$^{G.s1h1.4}$ and Arg183$^{G.hfs2.2}$ (left) before (blue) and after (orange) the rate-limiting step, as well as after GDP release (black). Representative structures of the interacting residues are also shown (right).}
+            \label{fig:ch4-fig2}
+        \end{figure}
+
+        The conformational changes we observe during the rate-limiting step are consistent with previous structural and biochemical work. For example, we observe that the Ras-like and helical domains separate (Figure \ref{fig:ch4-fig2}C), as observed in DEER experiments\cite{VanEps:2011hb} and previous simulations\cite{Dror:2015bg}. This finding is consistent with the intuition that these domains must separate to sterically permit GDP release, and that this separation is driven by the disruption of multiple inter-domain interactions. For example, we note a disrupted salt bridge between K275$^{G.s5hg.1}$ and D155$^{H.hdhe.5}$ (Figure \ref{fig:ch4-fig2-supp4}), previously identified in structural studies\cite{Flock:2015dj}. Domain opening is accompanied by disruption of a key salt bridge between Glu49$^{G.s1h1.4}$ of the P-loop and Arg183$^{G.hfs2.2}$ of switch 1 (Figure \ref{fig:ch4-fig2}D), as well as an increase in the disorder of many of the surrounding residues (Figure \ref{fig:ch4-fig2}B and Figure \ref{fig:ch4-fig2-supp3}A), consistent with the proposal that this salt bridge stabilizes the closed, GDP-bound state\cite{Liang:2017cz}.
+
+        While domain opening is necessary for GDP release, previous simulations suggest it is insufficient for unbinding\cite{Dror:2015bg}. Indeed, we also see that this opening is necessary but not sufficient for GDP unbinding, as the Ras-like and helical domains often separate prior to release (Figure \ref{fig:ch4-fig2}C). Notably, the Ras-like and helical domains only separate by $\sim$10 \AA{} during the rate-limiting step. In contrast, these domains separate by 56 \AA{} in the first structure of a GPCR-G-protein complex. This result suggests that GDP release may have occurred long before a G protein adopts the sort of widely opened conformations observed in crystallographic structures\cite{Rasmussen:2011kp}.
+
+    \subsection{Tilting of H5 helps induce GDP release}
+        We also observe less expected conformational changes associated with GDP release. The most striking is tilting of H5 by about 26° (Figure \ref{fig:ch4-fig3}A, and Figure \ref{fig:ch4-fig3-supp1}). We find that H5 tilting correlates strongly with the distance between GDP and G$\alpha$q along the highest flux dissociation pathway (Figure \ref{fig:ch4-fig3}B and \ref{tab:galpha-struc-compares}). In particular, substantial tilting of H5 is coincident with the rate-limiting step for GDP release. This tilting contrasts with X-ray structures and the universal mechanism, in which H5 is proposed to translate along its helical axis towards the GPCR, initiating the process of GDP release (Figure \ref{fig:ch4-fig3}A). During our simulations we also observe translation of H5, but it is not correlated with the rate-limiting step of GDP release (Figure \ref{fig:ch4-fig3}C, Figure \ref{fig:ch4-fig3-supp2}). Therefore, we are not merely missing an important role for translation due to insufficient sampling.
+
+        The potential importance of H5 tilting is supported by other structural data. For example, a crystal structure of rhodopsin\cite{Choe:2011cb} with a C-terminal fragment from H5 of G$\alpha$t shows a similar degree of tilting (Figure \ref{fig:ch4-fig3}A). Also, the tilt of H5 varies in crystal structures of the $\beta$2AR-Gs complex \cite{Rasmussen:2011kp}, two different GLP-1 receptor-Gs complexes\cite{Liang:2017cz,Zhang:2017gu}, and an A2AR-mini-Gs complex\cite{Carpenter:2016gr}. The potential relevance of tilting has also been acknowledged by a number of recent works\cite{Flock:2015dj,Rasmussen:2011kp,Oldham:2006kn} including four recently published structures of receptor-G-protein complexes across which H5 also shows a broad range of tilting and translational motion\cite{Koehl:2018fv,DraperJoyce:2018il,GarciaNafria:2018hu,Kang:2018kq}. Interestingly, the tilting and translation we observe falls within the observed range of tilting and translational motions that H5 undergoes in available GPCR-G protein complex structures\cite{Rasmussen:2011kp,Koehl:2018fv,DraperJoyce:2018il,GarciaNafria:2018hu,Kang:2018kq}, providing support that conformational selection plays an important role (\ref{tab:galpha-struc-compares}). Finally, H5 is translated toward the GPCR in the A2AR-mini-Gs structure but GDP remains bound\cite{Carpenter:2016gr}. The authors of that study originally suggested that one of the mutations in mini-Gs decouples H5 translation from GDP release. However, given that we see GDP release without H5 translation in our simulations, it is also possible that amino acid substitutions required to create mini-Gs instead mitigate H5 tilting. Both of these models are consistent with the fact that some of the mutations in mini-Gs stabilize the GDP-bound state\cite{Sun:2015gj}.
+
+        \begin{figure}[H] %Positioning code for figure
+            \centering
+            \includegraphics[width=4in]{ch4-fig3.png}
+            \caption[Tilting of H5 is correlated with GDP release but translation of H5 is not.]
+                {Tilting of H5 is correlated with GDP release but translation of H5 is not. \textbf{A.} Displacements of H5 relative to the GDP-bound crystal structure (blue). The three other orientations of H5 come from the rate-limiting step in our model (orange), the co-crystal structure of G$\alpha$s and $\beta$2AR (green, PDB ID 3SN6 \cite{Rasmussen:2011kp}), and the co-crystal structure of a C-terminal fragment of G$\alpha$t and rhodopsin (magenta, PDB ID 3PQR \cite{Choe:2011cb}). The black arrows highlight the change in orientation of the long axis of each helix. A representative GPCR (gray) and G$\alpha$ (white) structure are shown for reference. \textbf{B.} GDP release distance across the highest flux pathway, defined as the distance from the GDP $\beta$-phosphate to the center of mass between residues Lys52$^{G.H1.1}$, Ser53$^{G.H1.2}$, and Thr54$^{G.H1.3}$ on H1. The state marking the rate-limiting step is highlighted by the blue dashed line. \textbf{C.} H5 motion across the highest flux pathway. The distances measured here representing H5 motion are taken from the same states as in B. H5 tilting (orange) is measured by the distance between Leu349$^{G.H5.16}$ and Tyr325$^{G.S6.2}$. Likewise, H5 vertical motion (green) is measured by the distance between Thr334$^{G.H5.1}$ and Phe341$^{G.H5.8}$. The rate-limiting step is marked with the blue dashed line, extended down from B.}
+            \label{fig:ch4-fig3}
+        \end{figure}
+
+        We propose that tilting of H5 is an early step in the GDP release process, which is followed by upward translation of this helix to form a GPCR-G protein complex primed to bind GTP. This hypothesis stems from our observation that tilting of H5 is coincident with the rate-limiting step for GDP release, while translation of H5 only becomes stable after GDP dissociates (Figure \ref{fig:ch4-fig3}C). This model is consistent with previous suggestions that G-protein activation occurs through a series of sequential interactions with a GPCR \cite{Oldham:2008cr,Rasmussen:2011kp}. Another possibility is that any displacement of H5, whether tilting or translation, may be sufficient to trigger GDP release.
+
+    \subsection{Identification of the allosteric network that triggers GDP release}
+        While conformational changes of H5 are important for G$\alpha$ activation, other regions could also play a role\cite{Hilger:2018en,Sun:2015gj}. However, it is not straightforward to determine what other structural elements contribute to activation or their importance relative to H5. Our hypothesis that spontaneous motions of a protein encode functionally relevant conformational changes suggests that the coupling between the GPCR- and nucleotide-binding sites of G$\alpha$ should be present in simulations of the inactive protein; This provides a means to identify key elements of this allosteric network. To test this hypothesis, we ran 35.3 $\mu$s of simulation of GDP-G$\alpha$q. Then we applied the CARDS method\cite{Singh:2017hh} to detect correlations between both the structure and dynamical states of every pair of dihedral angles. Structural states are determined by assigning dihedral angles to the three dominant rotameric states for side-chains (gauche+, gauche-, and trans) and the two dominant rotameric states for backbone dihedrals (cis and trans). Dynamical states are determined by whether a dihedral angle remains in a single rotameric state (ordered) or rapidly transitions between multiple rotameric states (disordered). These pairwise correlations serve as a basis for quantifying the correlation of every residue to a target site, such as the GPCR-binding site. Combining these correlations with structural and dynamical changes in our model of GDP release provides a basis for inferring how perturbations to the GPCR-binding site are transmitted to the nucleotide-binding site. We focus our analysis on the most direct routes for communication between the GPCR- and nucleotide-binding sites by following correlated motions that emanate from structural elements that directly contact GPCRs until they reach the GDP-binding site. There are correlations between many other elements of G$\alpha$q, including parts of the helical domain, that branch off of this allosteric network. Such correlations may be important for aspects of G$\alpha$ function besides activation, but are beyond the scope of the present study, which focuses on how GPCR-binding impacts nucleotide release.
+
+        To understand how H5 tilting triggers GDP release, we first identified structural elements with strong coupling to H5 and then worked our way outward in repeated iterations until we reached the nucleotide-binding site (Figure \ref{fig:ch4-fig4}). This analysis reveals that tilting of H5 directly communicates with and impacts the conformational preferences of the s6h5 loop, which contacts the nucleobase of GDP (Figure \ref{fig:ch4-fig4} and Figure \ref{fig:ch4-fig5}). During the rate-limiting step, these contacts are broken and there is increased disorder in the s6h5 loop, particularly Ala331 of the TCAT motif (Figure \ref{fig:ch4-fig5} and Figure \ref{fig:ch4-fig2-supp3}B). The importance of the TCAT motif in our model is consistent with its conservation and the fact that mutating it accelerates GDP release\cite{Iiri:1994kw,Posner:1998gj,Thomas:1993wv}. Based on our model, we propose these mutations accelerate release by weakening shape complementarity with GDP.
+
+        \begin{figure}[!htb] %Positioning code for figure
+            \centering
+            \includegraphics[width=\linewidth]{ch4-fig4.png}
+            \caption[Allosteric network connecting H5 motion to the nucleotide binding-site via s6h5.]
+                {Allosteric network connecting H5 motion to the nucleotide binding-site via s6h5. CARDS data showing communication per residue to a target site (dashed box) is plotted (left) and mapped onto the structure of G$\alpha$q (right) for \textbf{(A)} H5, \textbf{(B)} s6h5, \textbf{(C)} HG, \textbf{(D)} H1, and \textbf{(E)} the P-loop. Arrows indicate regions of importance with significant communication to the target site.}
+            \label{fig:ch4-fig4}
+        \end{figure}
+
+        \begin{figure}[!htb] %Positioning code for figure
+            \centering
+            \includegraphics[width=5in]{ch4-fig5.png}
+            \caption[Change in the s6h5 loop conformation across the rate-limiting step.]
+                {Change in the s6h5 loop conformation across the rate-limiting step. Distribution of distances (left) from GDP’s $\beta$-phosphate to Ala331$^{G.s6h5.3}$ on the s6h5 loop before (blue) and after (orange) the rate-limiting step, as well as after GDP release (black). Representative structures of the s6h5 loop (right) are shown for before (top right, blue) and after (bottom right, orange) the rate limiting step.}
+            \label{fig:ch4-fig5}
+        \end{figure}
+
+        We also observe an important role for communication from H5 to H1, consistent with the universal mechanism. In particular, H1 is strongly coupled with the s6h5 loop (Figure \ref{fig:ch4-fig4}B), which is sensitive to displacement of H5. In the rate-limiting step, s6h5 moves away from H1, contributing to an increase in disorder of H1 and the P-loop (Figure \ref{fig:ch4-fig2-supp3}A and Figure \ref{fig:ch4-fig2-supp3}B). Increased disorder in a set of residues that directly contact the GDP phosphates (Glu49$^{G.s1h1.4}$, Ser50$^{G.s1h1.5}$, Gly51$^{G.s1h1.6}$, Lys52$^{G.H1.1}$, and Ser53$^{G.H1.2}$) likely contributes to a reduced affinity for GDP (Figure \ref{fig:ch4-fig2-supp3}A). Increased disorder in these residues also contributes to disruption of the salt bridge between Glu49$^{G.s1h1.4}$ of the Ras-like domain and Arg183$^{G.hfs2.2}$ of the helical domain, facilitating inter-domain separation.
+
+        We further note that the s6h5 loop impacts the nucleotide-binding site through allosteric coupling with the HG helix, which also contacts GDP via Lys275$^{G.s5hg.1}$ and Asp277$^{G.HG.2}$ (Figures \ref{fig:ch4-fig4}E and \ref{fig:ch4-fig6}). The disorder of both of these residues increases during the rate-limiting step, consistent with observations of increased mobility in HG upon receptor-mediated activation (Oldham and Hamm, 2008). There are also correlations between the P-loop and Lys275$^{G.s5hg.1}$ on Helix G (Figure \ref{fig:ch4-fig4}E), which result from the disruption of a key salt bridge between Lys275$^{G.s5hg.1}$ and Glu49$^{G.s1h1.4}$ on the P-loop during the rate-limiting step (Figure \ref{fig:ch4-fig6}). Lys275$^{G.s5hg.1}$ is conserved across all G$\alpha$ families, suggesting it plays an important role in the stability or function of the protein. However, attempts to experimentally examine the role of this residue by mutating Lys275$^{G.s5hg.1}$ have resulted in aggregation\cite{Sun:2015gj}. Our simulations suggest Lys275$^{G.s5hg.1}$ plays an important role in stabilizing the GDP-bound state and that breaking the salt bridge with Glu49$^{G.s1h1.4}$ facilitates GDP release. This finding demonstrates the utility of our atomistic simulations, as we can examine the role of residues that are difficult to probe experimentally.
+
+        \begin{figure}[H] %Positioning code for figure
+            \centering
+            \includegraphics[width=3.3in]{ch4-fig6.png}
+            \caption[Probability distributions of the distance between the side-chains of Lys275$^{G.s5hg.1}$ and Glu49$^{G.s1h1.4}$.]
+                {Probability distributions of the distance between the side-chains of Lys275$^{G.s5hg.1}$ and Glu49$^{G.s1h1.4}$. Distributions were computed for the bound (blue), rate-limiting step (orange), and dissociated (black) states. Representative structures (above) for the bound (left, blue) and rate-limiting step (right, orange) are included with residues as sticks.}
+            \label{fig:ch4-fig6}
+        \end{figure}
+
+    \subsection{H1 and $\beta$-sheets are communication hubs}
+        To identify other important structural elements in the allosteric network underlying G protein activation, we followed correlated motions emanating from other sites that are known to interact directly with GPCRs, including the hNs1 loop, the h3s5 loop, and the h4s6 loop\cite{Oldham:2008cr}. We find that h3s5 and h4s6 are largely isolated, suggesting they play a role in forming a stable GPCR-G protein complex but not in the allosteric mechanism that triggers GDP release. This finding is consistent with sequence analysis suggesting these structural elements are important determinants of the specificity of GPCR-G$\alpha$ interactions\cite{Flock:2017bm}. In contrast, the hNs1 loop has strong correlations with $\beta$-strands S1-S3 (Figure \ref{fig:ch4-fig7}). These strands, in turn, communicate with H1, switch 1, and the P-loop.
+
+        \begin{figure}[!htb] %Positioning code for figure
+            \centering
+            \includegraphics[width=5.6in]{ch4-fig7.png}
+            \caption[Allosteric network connecting hNs1 motion to the nucleotide-binding site via the β-sheets.]
+                {CARDS data showing communication per residue to a target site (dashed box) is plotted (left) and mapped onto the structure of G$\alpha$q (right) for \textbf{(A)} hNs1, \textbf{(B)} S1, \textbf{(C)} S3, \textbf{(D)} S2, and \textbf{(E)} H1. Arrows indicate regions of importance with significant communication to the target site.}
+            \label{fig:ch4-fig7}
+        \end{figure}
+
+        Integrating our correlation analysis with structural insight from the rate-limiting step described above suggests an important role for S1-S3 in a complex allosteric network that couples the GPCR- and nucleotide-binding sites (Figures \ref{fig:ch4-fig7} and \ref{fig:ch4-fig8}, Figure \ref{fig:ch4-fig7-supp1}). S2 and S3 twist relative to S1 and away from H1 (Figures \ref{fig:ch4-fig2}A and \ref{fig:ch4-fig9}, Figure \ref{fig:ch4-fig9-supp1}). This twisting disrupts stacking between Phe194$^{G.S2.6}$ on S2 and His63$^{G.H1.12}$ on H1 and increases disorder of side-chains in H1 (Figures \ref{fig:ch4-fig2}B and \ref{fig:ch4-fig9}, Figure \ref{fig:ch4-fig2-supp3}C). Increased disorder in H1 is also a crucial component of the proposed universal mechanism, but in that model translation of H5 is the key trigger for changes in H1. The role for the $\beta$-sheets in our model is consistent with previous work identifying interactions between S2 and H1\cite{Flock:2015dj}, NMR experiments showing chemical exchange in the methyls of S1-S3 upon receptor binding\cite{Toyama:2017gy}, and mutational data. In particular, Flock et al. have previously noted the important interaction between residues Phe194$^{G.S2.6}$ and His63$^{G.H1.12}$ \cite{Flock:2015dj}.
+
+        \begin{figure}[!htb] %Positioning code for figure
+            \centering
+            \includegraphics[width=3.16in]{ch4-fig8.png}
+            \caption[Allosteric network connecting the GPCR- and nucleotide-binding interfaces.]
+                {Allosteric network connecting the GPCR- and nucleotide-binding interfaces. The coloring scheme corresponds to that used in \ref{fig:ch4-fig1}, highlighting the GPCR binding interface (gray), GDP phosphate-binding regions (pink), GDP nucleotide-binding regions (green), and the $\beta$-sheets (blue).}
+            \label{fig:ch4-fig8}
+        \end{figure}
+
+        \begin{figure}[!htb] %Positioning code for figure
+            \centering
+            \includegraphics[width=3.16in]{ch4-fig9.png}
+            \caption[$\pi$–stacking between S2 and H1 is disrupted during the rate-limiting step.]
+                {$\pi$–stacking between S2 and H1 is disrupted during the rate-limiting step. Distribution of the $\chi_{1}$ angle (bottom) of Phe194$^{G.S2.6}$ on S2 before (blue) and after (orange) the rate-limiting step, as well as after GDP release (black). Representative structures of Phe194$^{G.S2.6}$ and His63$^{G.H1.12}$ (top) corresponding to before and after the rate-limiting step are also shown.}
+            \label{fig:ch4-fig9}
+        \end{figure}
+
+        The importance of H1 and $\beta$-strands S1-S3 is underscored by mapping the global communication of every residue onto a structure of G$\alpha$ (Figure \ref{fig:ch4-fig8-supp1}). The global communication of a residue is the sum of its correlations to every other residue and is a useful metric for identifying residues that are important players in allosteric networks\cite{Singh:2017hh}. Interestingly, these $\beta$-strands and H1 have higher global communication than H5 and the s6h5 loop. This suggests that H1 and the $\beta$-sheets integrate conformational information from multiple sources, including the hNs1 loop, and not just H5. The importance of the $\beta$-sheets and H1 for allosteric communication is consistent with their conservation\cite{Sun:2015gj}, which may not simply reflect the role they play in protein folding and stability, as had been suggested previously\cite{Sun:2015gj,Hatley:2003co}.
+    \clearpage
+
+
+    \subsection{GDP release alters the structure and dynamics of the G$\beta$-binding site}
+        We also find that switch 2 has strong correlations with the nucleotide-binding site, especially switch 1 (Figure \ref{fig:ch4-fig7-supp1}). Given that switch 2 is a major component of the interface between G$\alpha$ and G$\beta$, this communication could enable GDP release to trigger dissociation of G$\alpha$ from G$\beta\gamma$. Examining the rate-limiting step for GDP release reveals that switch 2 shifts towards the nucleotide-binding site (Figure \ref{fig:ch4-fig10}) and exhibits increased conformational disorder (Figure \ref{fig:ch4-fig2}B and Figure \ref{fig:ch4-fig2-supp3}). These findings are consistent with previous kinetic studies postulating that switch 2 dynamics are impacted prior to GDP release\cite{Herrmann:2004gp}.
+
+        \begin{figure}[!htb] %Positioning code for figure
+            \centering
+            \includegraphics[width=4in]{ch4-fig10.png}
+            \caption[Switch 2 moves towards GDP across the rate-limiting step.]
+                {Switch 2 moves towards GDP across the rate-limiting step. Distance distribution (left) of Gly207$^{G.s3h2.1}$ to GDP before (blue) and after (orange) the rate-limiting step, as well as after GDP release (black). Representative structures of Switch 2 motion are shown (right).}
+            \label{fig:ch4-fig10}
+        \end{figure}
+
+    \section{Conclusion}
+        We have succeeded in simulating G protein activation, including both the allosteric coupling between the GPCR- and nucleotide-binding sites of G$\alpha$q and consequent unbinding of GDP. Our results reveal a previously unobserved intermediate that defines the rate-limiting step for GDP release and, ultimately, G protein activation. Our model synthesizes a wealth of experimental data and previous analyses. For example, we identify an important role for coupling from H5 to the s6h5 loop and H1 that is consistent with a previously proposed universal mechanism for G protein activation. However, we also find that this allosteric network incorporates the hNs1 loop, $\beta$-strands S1-S3, and the HG helix. Strands S1-S3 and H1 serve as hubs in this network, simultaneously integrating information from both H5 and the hNs1 loop. Our observation is consistent with previous postulates that information flows from H5 and hNs1 to H1\cite{Preininger:2013if}. It is important to note that our model was extracted using simulations of G$\alpha$q, and so some correlations or changes in conformation and dynamics may apply only to G$\alpha$q. However, by focusing our analysis on secondary structure elements and residues that are shared across all G$\alpha$ homologs, our model likely captures a universal ‘skeleton’ of changes involved in G$\alpha$ activation, expanding upon a previously proposed universal mechanism for G$\alpha$ activation\cite{Flock:2015dj}. The consistency of our model with a wide variety of structural and biochemical data suggests that it is a promising foundation for future efforts to understand the determinants of GPCR-G$\alpha$ interaction specificity, how mutations cause aberrant signaling and disease, and how small molecule inhibitors modulate G$\alpha$ activation. Our model also adds weight to the growing appreciation for the fact that a protein’s spontaneous fluctuations encode considerable information about its functional dynamics\cite{Koehl:2018fv,DraperJoyce:2018il,GarciaNafria:2018hu,Kang:2018kq}. Construction of our model was enabled by a powerful combination of simulation methods, namely metadynamics and MSMs. In the future, we expect this methodology will prove valuable for understanding other slow conformational changes and unbinding processes.
+
+
+	\section{Materials and Methods}
+    \subsection{Molecular dynamics simulations of GDP unbinding}
+        \subsubsection{System preparation}
+            We used the crystal structure of G$\alpha$ from the heterotrimeric G$\alpha$q protein (PDB entry 3AH8) as the initial structure to set up our simulations\cite{Nishimura:2010gt}. The first 36 residues were removed prior to simulation, as they come from G$\alpha$i, along with the G$\beta$ and G$\gamma$ subunits which were removed to minimize the system size and maximize our chances of observing GDP release\cite{Oldham:2008cr}.
+
+            The protein structure was solvated in a dodecahedron box of TIP3P water\cite{Jorgensen:1983fl} that extended 1 nm beyond the protein in every dimension. A single Mg2+ ion was added coordinating the phosphate groups of GDP as its presence accelerates GDP release\cite{Zhang:2000cy}. Thereafter, Na+ and Cl$-$ were added to produce a neutral system at 0.15 M NaCl. The final system consists of one GDP, one G$\alpha$q, 57 Cl$^{-1}$, 64 Na$^{+1}$, one Mg$^{2+}$, and 18696 TIP3P water molecules, for a total of 61,893 atoms.
+
+            Molecular dynamics (MD) simulations were carried out using Gromacs\cite{Abraham:2015gj,VanDerSpoel:2005hz} and the AMBER03 force field\cite{Duan:2003gt}. The force field parameters of GDP were obtained from the AMBER Parameter Database (http://research.bmh.manchester.ac.uk/bryce/amber)\cite{Meagher:2003be}. The system was energy minimized with the steepest descent algorithm for 50,000 steps until the maximum force fell below 100 kJ/mol/nm using a step size of 0.02 nm and a cut-off distance of 0.9 nm for the neighbor list, electrostatic interactions and van der Waals interactions. Afterward, the solvent was relaxed by a NVT simulation of 100 ps with the constraint of 1000 kJ/mol/nm applied to the protein heavy atoms and 2 fs as the time step. In this relaxation simulation, the temperature of the system is constrained to 300 K using V-rescale thermostat (with a time constant of 0.1 ps)\cite{Bussi:2007cs}. A cut-off distance of 1 nm was used for the van der Waals, short-range electrostatic interactions. Periodic boundary conditions are applied to x, y and z directions. The Particle-Mesh-Ewald method is employed to recover the long-range electrostatic interactions with 0.16 nm as the grid spacing and with a fourth order spline\cite{Kolafa:2006jh}. All the bonds connecting to hydrogens are constrained using LINCS algorithm\cite{Hess:2008fl}. After the NVT relaxation, the system further underwent an NPT simulation for one ns with the time step of 2 fs for equilibration. The simulation parameters here are kept the same as the NVT relaxation except for the application of Parrinello-Rahman barostat for pressure coupling\cite{Parrinello:1981it}. After these equilibration runs, the constraint on heavy atoms were removed for all subsequent production runs. Virtual sites were used to allow for a 4 fs time-step\cite{Feenstra:1999ue}. We then applied a three-step protocol to simulate GDP release.
+        \subsubsection{Step one: MD simulations of the GDP-bound state}
+            We performed 100 parallel simulations of the GDP bound state on the Folding@home\cite{Shirts:2000du} distributed computing environment for an aggregate simulation time of 35.3 $\mu$s.
+
+        \subsubsection{Step two: Metadynamics simulations}
+            We subsequently ran metadynamics simulations\cite{Laio:2002ft,Tribello:2014eb} initiated from conformations generated in step one to actively promote GDP release. Starting conformations were selected from step one by clustering protein conformations into 625 states using a hybrid K-center/K-medoids method\cite{Beauchamp:2011he} with a 2 \AA cutoff. The 10 most populated states included conformations with large inter-domain separation distances between the Ras-like and AH domains as measured by the angle formed between the $\alpha$-carbon atoms of Leu97$^{H.HA.29}$, Asn82$^{H.HA.14}$, Ile258$^{G.H3.12}$, and Glu250$^{G.H3.4}$. This inter-domain angle ranged from $-$30° to 0°. From these states, three representative structures were chosen with inter-domain angles of $-$6° (Conf. 1),$-$10° (Conf. 2), and $-$26.6° (Conf. 3) as starting conformations for metadynamics simulations, which were run on PLUMED\cite{Tribello:2014eb}. We defined two collective variables for our metadynamics simulations: 1) the distance between GDP’s phosphate groups and the backbone of Lys52$^{G.H1.1}$-Thr54$^{G.H1.3}$ in G$\alpha$q subunit (CV1), and 2) the RMSD of GDP to the starting conformation (CV2).
+
+            In metadynamics, a history-dependent biased potential VG(S,t) is added to the two selected CVs.
+
+            \begin{equation}\label{metadyn-eq}
+            V_{G}(S,t)=\int_{0}^{t}{(dt'\omega\exp{(-\sum_{i=1}^{d}\frac{(S_{i}(R)-S_{i}(R(t')))^2}{2\sigma_{i}^{2}})})}
+            \end{equation}
+
+            where $t$ represents time, $S$ are collective variables, $\omega$ is the energy rate and $\sigma_{i}$ controls the width of the Gaussian for the ith collective variable. Summing up the Gaussians allows us to obtain the biased potential $V_{G}$. The free energy $-F(S)$ is derived by the assumption,
+
+            \begin{equation}\label{limit-metadyn-eq}
+            \lim_{t\rightarrow\infty}{(S,t)}\sim-F(S)
+            \end{equation}
+
+            The metadynamics simulations were repeated three times for each selected representative structure using different Gaussian widths (\ref{tab:metadyn-table}). We set the Gaussian height to 1.5 kJ/mol.
+
+            \begin{table}[]
+            \centering
+            \caption{Details of metadynamics simulations}
+            \label{tab:metadyn-table}
+            \begin{tabular}{|l|l|l|l|}
+            \hline
+            \multicolumn{1}{|c|}{{\textbf{Starting conformation}}} &
+            \multicolumn{1}{c|}{{\textbf{Width of CV1 (\AA)}}} &
+            \multicolumn{1}{c|}{{\textbf{Width of CV2 (\AA)}}} &
+            \multicolumn{1}{c|}{{\textbf{Number of conformations selected}}} \\ \hline
+
+            { \textbf{1}} & { {0.1}}  & { {0.1}}  & {{171}} \\ \hline
+
+            { \textbf{1}} & { {0.08}} & { {0.03}} & { {132}} \\ \hline
+
+            { \textbf{1}} & { {0.03}} & { {0.01}} & { {504}} \\ \hline
+
+            { \textbf{2}} & { {0.1}}  & { {0.1}}  & { {145}} \\ \hline
+
+            { \textbf{2}} & { {0.08}} & { {0.03}} & { {141}} \\ \hline
+
+            { \textbf{2}} & { {0.03}} & { {0.01}} & { {320}} \\ \hline
+
+            { \textbf{3}} & { {0.1}}  & { {0.1}}  & { {198}} \\ \hline
+
+            { \textbf{3}} & { {0.08}} & { {0.03}} & { {186}} \\ \hline
+
+            { \textbf{3}} & { {0.03}} & { {0.01}} & { {288}} \\ \hline
+            \end{tabular}
+            \end{table}
+
+            We observed the release of GDP from G$\alpha$ in the metadynamics simulations and obtained the free-energy landscape for the release. We then applied the string method\cite{Maragliano:2006kg} to detect potential release pathways and use these conformations as the seeds for simulations in step 3. We can use the function $\chi(\alpha)$ to represent $\chi(C1,C2)$ which showing the minimum free-energy path. We thus have
+            \begin{equation}\label{free-energy-path-eq}
+            \frac{dZ(\alpha)}{d\alpha}=\sum^{n}_{k=1}\frac{\partial\theta_{i}(\chi(\alpha))}{\partial\chi_{k}}\frac{d\chi_{k}}{d\alpha}
+            \end{equation}
+            which is parallel to
+            \begin{equation}\label{parallel-to-eq}
+            \sum^{n}_{k=1}\frac{\partial\theta(\chi(\alpha))}{\partial\chi_{k}}\frac{dF(\chi_{k})}{d\chi_{k}} = \sum^{n}_{j,k=1}\frac{\partial\theta_{i}(\chi(\alpha))}{\partial\chi_{k}}\frac{\partial\theta_{j}(\chi(\alpha))}{\partial\chi_{k}}\frac{dF(z(\alpha))}{dZ(\alpha)}}
+            \end{equation}
+            The average of the tensor 
+            \begin{equation}\label{tensor-eq}
+            \sum^{n}_{j,k=1}\frac{\partial\theta_{i}(\chi(\alpha))}{\partial\chi_{k}}\frac{\partial\theta_{j}(\chi(\alpha))}{\partial\chi_{k}}
+            \end{equation}
+            can be represented as
+            \begin{equation}\label{rep-tensor-as-eq}
+            M_{ij}(z)=\Omega^{-1}e^{\beta F(z)}\int_{\rm I\!R ^{N}}\sum^{n}_{k=1}\frac{\partial\theta_{i}(\chi(\alpha))}{\partial\chi_{k}}\frac{\partial\theta_{j}(\chi(\alpha))}{\partial\chi_{k}}e^{-\beta F(z)}
+            \end{equation}
+            \begin{equation}\label{rep-tensor-as-2-eq}
+            \prod^{N}_{v=1}\delta(z_{v}-\theta_{v}(\chi))d\chi
+            \end{equation}
+            The points determining the minimum free-energy path along the surface satisfy
+            \begin{equation}\label{mfep-satisfy-eq}
+            0=(M_{ij}(z)\Delta F(z(\alpha)))^{\perp}
+            \end{equation}
+
+            We applied this method\cite{Maragliano:2007bz,Maragliano:2014jj} to obtain a minimum free energy path, extracting 2085 conformations along potential GDP release pathways. Notably, we only observed the transition from the bound state and the unbound state for one time in a single metadynamics simulation. This implies that the predicted free-energy surface from metadynamics cannot be used to describe the release events accurately. In spite of this, we can still use the conformations along the release pathway explored by metadynamics to seed unbiased parallel MD simulations.
+
+        \subsubsection{Step three: Metadynamics-seeded MD simulation of GDP release}
+            Lastly, we carried out unbiased MD simulations initiated from the 2085 conformations obtained from metadynamics using the Folding@home platform \cite{Shirts:2000du}. A total of 122.6 $\mu$s of simulation was generated in this step. All the following analyses are based on unbiased MD simulations.
+
+    \subsection{Identifying the allosteric network with CARDS}
+        To determine how the GPCR- and GDP-binding regions communicate with one another, we applied the CARDS\cite{Singh:2017hh} methodology to simulations of the GDP-bound state of G$\alpha$q. CARDS measures communication between every pair of dihedrals via both correlated changes in structural motions and dynamical behavior. Structural states are captured by discretizing backbone $\phi$ and $\psi$ dihedrals into two structural states (cis and trans), while side-chain $\chi$ angles are placed into three states (gauche+, gauche-, and trans). Every dihedral is also parsed into dynamical states, capturing whether the dihedral is stable in a single state (ordered), or rapidly transitioning between multiple states (disordered). These dynamical states are identified using two kinetic signatures of dihedral motion: the average time a dihedral persists in a structural state (an ordered timescale), and the typical timescale for transitions between structural states (a disordered timescale). Parsing into dynamical states utilizes a two-step process by (i) calculating the distribution or ordered and disordered times from the simulations and (ii) assigning each period of time between two consecutive transitions into ordered and disordered states based on which distribution the time between two transitions is most consistent with.
+
+        From these states, a holistic communication ($I_{H}(X,Y)$) is computed for every pair of dihedrals $X$ and $Y$:
+        \begin{equation}\label{holistic-mut-inf-eq}
+            % \binom{n}{k} = \frac{n!}{k!(n-k)!}
+            I_{H}(X,Y) = \overline{I_{ss}(X,Y)}+\overline{I_{dd}(X,Y)}+\overline{I_{ds}(X,Y)}+\overline{I_{sd}(X,Y)}
+        \end{equation}
+        where $\overline{I_{ss}(X,Y)}$is the normalized mutual information between the structure (i.e., rotameric state) of dihedral $X$ and the structure of dihedral $Y$, $\overline{I_{ds}(X,Y)}$ is the normalized mutual information between the structure of dihedral $X$ and the dynamical state of dihedral $Y$, $\overline{I_sd}(X,Y)$ is the normalized mutual information between the dynamical state of dihedral $X$ and the structure of dihedral $Y$, and $\overline{I_{dd}(X,Y)}$ is the normalized mutual information between the dynamical state of dihedral $X$ and the dynamical state of dihedral $Y$. The Mutual Information ($I$) is
+        \begin{equation}\label{mut-inf-eq}
+            I(X,Y) = -\sum_{x \in X}\sum_{y \in Y} {{\frac{P(x,y)}{P(x)P(y)}}}
+        \end{equation}
+        where $x \in X$ refers to the set of possible states that dihedral $X$ can adopt, $p(x)$ is the probability that dihedral $X$ adopts state $x$, and $p(x,y)$ is the joint probability that dihedral $X$ adopts state $x$ and dihedral $Y$ adopts state $y$. Normalized mutual information is computed using the maximum possible mutual information for any specific mode of communication.
+        
+        From the pairwise correlation for every dihedral-pair, we extracted how much each individual residue communicates with a target site of interest via bootstrapping with 10 random samples with replacement. After locating the group of residues communicating most strongly with a specific target site, we set this newly identified group as the new target site; The iteration of this process allows us to identify a pathway of communication from one region of interest to another. Here, we set the GPCR contact sites as our initial target sites. We then iteratively used this approach to identify pathways connecting these contact sites with the GDP-binding site of G$\alpha$q.
+
+    \subsection{Markov state model construction}
+        We clustered G$\alpha$q conformations and GDP binding states separately and combined the assignments to build a Markov State Model using MSMbuilder \cite{Beauchamp:2011he,Bowman:2009cb} and enspara\cite{porter2018enspara}. First, we clustered protein conformations into 5040 states using a hybrid k-center/k-medoids method with 1.8 \AA{} cutoff. Then we clustered the GDP-binding state into 321 states using the automatic partitioning algorithm (APM)\cite{Sheong:2015jd} with a residence time of 2 ns. By combining the assignments from protein conformations and the GDP-binding states, we obtained a total of 221,965 states. The implied timescales of this MSM show Markovian behavior with a lag time of 5 ns\cite{Swope:2004gx}. (Figure  \ref{fig:ch4-fig2-supp5}). Analyses of distances, angles, and dihedrals of interest were carried out using bootstrapping with ten random samples, with replacement. Results were insensitive to varying the number of bootstrapped samples between 5 and 30. Histograms were generated using 100 bins.
+
+    \subsection{Quantifying conformational disorder}
+        The disorder of every residue was measured by computing Shannon entropy\cite{Shannon:1948iy} of each dihedral as they are natural degrees of freedom for describing protein dynamics. Shannon entropy ($H$) is defined as
+        \begin{equation}\label{mut-inf-eq}
+            H(X)=-\sum_{x\in X}p(x)log(p(x))
+            % I(X,Y) = -\sum_{x \in X}\sum_{y \in Y} {{\frac{P(x,y)}{P(x)P(y)}}}
+        \end{equation}
+        where $x \in X$ refers to the set of possible states that dihedral $X$ can adopt and $p(x)$ is the probability that dihedral $X$ adopts state $x$. Dihedral angles were calculated using MDTraj (McGibbon et al., 2015) and assigned to discrete rotameric states as described above using CARDS. The entropy of a single residue was computed by summing up the entropies of its dihedrals, and normalized by the residue’s maximum possible Shannon entropy. This maximum possible Shannon entropy, using a flat distribution for the appropriate number of bins, is referred to as the 'channel capacity' and has been used to normalize other information-theoretic metrics\cite{Singh:2017hh}. Summing entropies within a residue establishes an upper bound on the degree of motion for a single residue, while ignoring intra-residue correlations between dihedrals.
+
+    \subsection{Identification of the rate-limiting step for GDP release}
+        We used transition path theory (TPT) \cite{Noe:2009en,Weinan:2006vr} to find the highest flux paths from the bound state to the unbound state\cite{Metzner:2009jl}. The bound state was defined as all clusters that satisfied two criteria: (i) GDP is within 6 \AA{} of the backbone atoms of Lys52$^{G.H1.1}$-Thr54$^{G.H1.1}$, and (ii) GDP has an RMSD $<0.5 \AA$ to its crystallographic conformation. The unbound state was defined as all clusters with GDP $> 55 \AA$ from the binding pocket. The rate-limiting step was identified by finding the bottleneck in the highest flux paths. To obtain this, we first calculate the flux between states $i$ and $j$ along any possible unbinding path using
+        \[
+            f(x)= 
+        \begin{cases}
+            \pi_{i}q_{i}^{-}T_{ij}q^{+}_{j},& \text{if } i\neq j\\
+            0,              & \text{if } {i = j}
+        \end{cases}
+        \]
+        where $q^{+}$ is the committor probability from the bound to the unbound state, and $q_{i}^{-}$ is $1-q^{+}_{i}$; $\pi_{i}$ is the weighted probability, and $T_{ij}$ is the transition matrix. The highest flux paths can be identified by maximizing the fluxes between the bound states and the unbound states using
+        \begin{equation}\label{highest-flux-path-eq}
+            c(w)=\min{(f^{+}_{i_{l}i_{l+1}}|l=1\ldots n_{w}-1)}
+            % I(X,Y) = -\sum_{x \in X}\sum_{y \in Y} {{\frac{P(x,y)}{P(x)P(y)}}}
+        \end{equation}
+        where $i_{l}$ are intermediate states. From this, the slowest step was extracted as the minimum flux step of the highest flux release pathway.
+  
+	\section{Acknowledgements}
+        We thank TE Frederick and TD Todd for their helpful discussion and insight. We are grateful to the Folding@home users for computing resources. 
+		
+	% \section{Supplemental Material}
+	% 	\renewcommand{\thetable}{\arabic{chapter}.S\arabic{table}}
+ %    	\setcounter{table}{0}
+    	
+ %    	\renewcommand{\thefigure}{\arabic{chapter}.S\arabic{figure}}
+ %    	\setcounter{figure}{0}
+
+    	
+	% 	% \newpage
+	% 	\singlespacing
+	%     \setlength{\tabcolsep}{5pt}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=4in]{ch4-fig2-supp1.png}
+ %            \caption[Free-energy surface from metadynamics simulations of GDP release for the full G$\alpha$q (blue) and truncated form (green, without the last five C-terminal residues).]
+ %                {Free-energy surface from metadynamics simulations of GDP release for the full G$\alpha$q (blue) and truncated form (green, without the last five C-terminal residues). Both sets of simulations were run for the same amount of time with identical collective variables. The rate-limiting step as identified from the highest flux pathway is marked with a dashed line. The free-energy difference between the GDP-bound states of the two systems is marked with a bracket.}
+ %            \label{fig:ch4-fig2-supp1}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=4in]{ch4-fig2-supp2.png}
+ %            \caption[Overlay of representative structures of G$\alpha$q when bound to GDP (blue) or across the rate-limiting step (orange).]
+ %                {Overlay of representative structures of G$\alpha$q when bound to GDP (blue) or across the rate-limiting step (orange).}
+ %            \label{fig:ch4-fig2-supp2}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=5.5in]{ch4-fig2-supp3.png}
+ %            \caption[Changes in the structure (left) and disorder (right) of specific regions across the rate-limiting step.]
+ %                {Changes in the structure (left) and disorder (right) of specific regions across the rate-limiting step. \textbf{(A)} Residues that contact the phosphates of GDP, including the salt bridge between Glu49$^{G.s1h1.4}$ and Arg183$^{G.hfs2.2}$, \textbf{(B)} the s6h5 loop, \textbf{(C)} the $\pi - \pi$ stacking interaction between Phe194$^{G.S2.6}$ and His63$^{G.H1.12}$, and \textbf{(D)} switch 2.}
+ %            \label{fig:ch4-fig2-supp3}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=3.5in]{ch4-fig2-supp4.png}
+ %            \caption[Distribution of distances between the side-chains of K275$^{G.s5hg.1}$ and D155$^{H.hdhe.5}$ for the GDP-bound state (blue), across the rate-limiting step (orange), and upon GDP dissociation (black).]
+ %                {Distribution of distances between the side-chains of K275$^{G.s5hg.1}$ and D155$^{H.hdhe.5}$ for the GDP-bound state (blue), across the rate-limiting step (orange), and upon GDP dissociation (black).}
+ %            \label{fig:ch4-fig2-supp4}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=3.16in]{ch4-fig2-supp5.png}
+ %            \caption[Implied timescales for the Markov state model.]
+ %                {Implied timescales for the Markov state model. \textbf{(A)} Top 10 implied timescales for the 5040 states of G$\alpha$. \text{(B)} Top 10 implied timescales for the final 221965 states.}
+ %            \label{fig:ch4-fig2-supp5}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=2.5in]{ch4-fig3-supp1.png}
+ %            \caption[Probability distribution of the distance between Leu349$^{G.H5.16}$ on H5 and Phe194$^{G.S2.6}$ on S2 to monitor the tilting motion of H5 upon GDP release when bound to GDP (blue), across the rate-limiting step (orange), and upon GDP dissociation (black).]
+ %                {Probability distribution of the distance between Leu349$^{G.H5.16}$ on H5 and Phe194$^{G.S2.6}$ on S2 to monitor the tilting motion of H5 upon GDP release when bound to GDP (blue), across the rate-limiting step (orange), and upon GDP dissociation (black). In the GDP bound state (blue), such a distance is peaked at 15 \AA. Across the rate-limiting step (orange), tilting motion of H5 upon GDP release occurs with a peak in distance at 12.5 \AA.}
+ %            \label{fig:ch4-fig3-supp1}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=3.16in]{ch4-fig3-supp2.png}
+ %            \caption[H5 vertical motion is sampled across GDP release simulations.]
+ %                {H5 vertical motion is sampled across GDP release simulations. At each point, the combined population (represented by the color scale) of that state is shown using both GDP-bound and intermediate stages of the GDP release pathway. H5 vertical motion was measured by computing the distance between Thr334$^{G.H5.1}$ on the s6h5 loop and Phe341$^{G.H5.8}$ on H5. GDP release distance was measured as the distance from GDP $\beta$-phosphate to the center of mass between residues Lys52$^{G.H1.1}$, Ser53$^{G.H1.2}$, and Thr54$^{G.H1.3}$ on H1.}
+ %            \label{fig:ch4-fig3-supp2}
+ %        \end{figure}
+
+
+	% 	% \setcounter{table}{1} 
+ %        \begin{table}[]
+ %        \centering
+ %        \caption{Measurements comparing tilting and translation of H5 across PDB structures and MD simulation.}
+ %        \label{tab:galpha-struc-compares}
+ %        \begin{tabular}{|l|l|l|l|l|l|}
+ %        \hline
+ %        Construct description &
+ %          PDB ID &
+ %          \begin{tabular}[c]{@{}l@{}}H5 Tilting \\ Distance (\AA)\end{tabular} &
+ %          \begin{tabular}[c]{@{}l@{}}H5 Vertical \\ translation distance (\AA)\end{tabular} &
+ %          \begin{tabular}[c]{@{}l@{}}H5 Tilting \\ residues used\end{tabular} &
+ %          \begin{tabular}[c]{@{}l@{}}H5 Translation\\  residues used\end{tabular} \\ \hline
+ %        G$\alpha$q-GDP       & 3AH8 & 13.5 & 10.6 & Tyr325 to Leu349 & Thr334 to Phe341 \\ \hline
+ %        {\begin{tabular}[c]{@{}l@{}}G$\alpha$q after rate\\ limiting step from MD\end{tabular}} &
+ %          {N/A} &
+ %          {15.1} &
+ %          {11.1} &
+ %          {Tyr325 to Leu349} &
+ %          {Thr334 to Phe341} \\ \hline
+
+ %        G$\alpha$i-GDP       & 1GP2 & 10.3 & 10.2 & Tyr320 to Ile343 & Thr329 to Phe336 \\ \hline
+
+ %        G$\alpha$i-µOR       & 6DDF & 14.6 & 13.0 & Tyr320 to Ile343 & Thr329 to Phe336 \\ \hline
+
+ %        G$\alpha$i-A1AR      & 6D9H & 13.8 & 10.1 & Tyr321 to Ile344 & Thr330 to Phe327 \\ \hline
+
+ %        G$\alpha$i-Rhodopsin & 6CMO & 15.8 & 10.7 & Tyr320 to Ile343 & Thr329 to Phe336 \\ \hline
+
+ %        G$\alpha$o-5HT1B     & 6G79 & 13.1 & 14.2 & Tyr310 to Ile333 & Thr319 to Phe326 \\ \hline
+
+ %        G$\alpha$s-B2AR      & 3SN6 & 12.8 & 14.6 & Tyr360 to Ile383 & Thr369 to Phe376 \\ \hline
+ %        \end{tabular}
+ %        \end{table}%The table above does not make a link or count in the list of figures, so I had to make a blank table with just the caption.
+	% 	% \begin{table*}[!h]
+	% 	% \caption{Panther protein class description for proteins in \autoref{tab:4_ProteinExpression}.}
+	% 	% \end{table*}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=5.6in]{ch4-fig7-supp1.png}
+ %            \caption[Allosteric network connecting hNs1 contacts to the P-loop and switch 1 via S4.]
+ %                {Allosteric network connecting hNs1 contacts to the P-loop and switch 1 via S4. CARDS data showing communication per residue to a target site (dashed box) is plotted (left) and mapped onto the structure of G$\alpha$q (right) for \textbf{(A)} hNs1, \textbf{(B)} S1 \textbf{(C)} S4 \textbf{(D)} the P-loop and \textbf{(E)} Switch 1. Arrows indicate important regions with significant communication to the target site.}
+ %            \label{fig:ch4-fig7-supp1}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=5in]{ch4-fig8-supp1.png}
+ %            \caption[Global communication of each residue in the Ras-like domain mapped onto the structure of G$\alpha$q, colored based on the scale (right). ]
+ %                {Global communication of each residue in the Ras-like domain mapped onto the structure of G$\alpha$q, colored based on the scale (right). The helical domain (gray) is shown for orientation.}
+ %            \label{fig:ch4-fig8-supp1}
+ %        \end{figure}
+
+ %        \begin{figure}[!htb] %Positioning code for figure
+ %            \centering
+ %            \includegraphics[width=5in]{ch4-fig9-supp1.png}
+ %            \caption[Probability distributions of the twist angle between S1 and S3.]
+ %                {Probability distributions of the twist angle between S1 and S3. The dihedral angle is computed by taking the dihedral angle between the CA atoms of Leu45$^{G.S1.7}$, Leu40$^{G.S1.2}$, Val199$^{G.S3.1}$, and Asp205$^{G.S3.7}$, so that the angle measured represents S1/S3 twisting at the GPCR facing side. Twist was computed for GDP bound(blue), intermediate(orange), and GDP dissociated states(black).}
+ %            \label{fig:ch4-fig9-supp1}
+ %        \end{figure}
+
+
+
+ %    \bibliography{../References}
+ %    \bibliographystyle{unsrt}
+
+		
+\end{document}

@@ -1,0 +1,148 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: AppendixE.aux
+The style file: unsrt.bst
+Database file #1: References.bib
+Repeated entry---line 30305 of file References.bib
+ : @article{Zinzula2020-mi
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31023 of file References.bib
+ : @article{Fichthorn1991-wl
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31035 of file References.bib
+ : @article{Boeynaems2019-ja
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31073 of file References.bib
+ : @article{Haenni2013-xz
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31089 of file References.bib
+ : @article{Takeda2008-wl
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31147 of file References.bib
+ : @article{Nettels2007-lf
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31161 of file References.bib
+ : @article{Bieler2012-nm
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31175 of file References.bib
+ : @article{Sherry2017-sr
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31230 of file References.bib
+ : @article{Holehouse2020-rl
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31243 of file References.bib
+ : @article{Soranno2017-bi
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31303 of file References.bib
+ : @article{Saric2016-le
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31358 of file References.bib
+ : @misc{Holehouse2019-cj
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31387 of file References.bib
+ : @article{Higgs1991-rl
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31424 of file References.bib
+ : @article{Zinzula2020-mi
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31492 of file References.bib
+ : @article{Vitalis2009-gh
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31553 of file References.bib
+ : @article{Holehouse2015-rg
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31593 of file References.bib
+ : @article{Muller-Spath2010-oy
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31609 of file References.bib
+ : @article{Abraham2015-ea
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31623 of file References.bib
+ : @article{Zheng2018-ej
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31637 of file References.bib
+ : @book{Rubinstein2003-fa
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31671 of file References.bib
+ : @article{Martin2020-yc
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31687 of file References.bib
+ : @article{Chang2009-vd
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31704 of file References.bib
+ : @article{Zeng2020-cw
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31749 of file References.bib
+ : @article{Sauer2014-ux
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31761 of file References.bib
+ : @article{Soranno2012-jn
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+You've used 48 entries,
+            1791 wiz_defined-function locations,
+            787 strings with 16316 characters,
+and the built_in function-call counts, 13529 in all, are:
+= -- 1025
+> -- 925
+< -- 0
++ -- 325
+- -- 277
+* -- 1320
+:= -- 2282
+add.period$ -- 143
+call.type$ -- 48
+change.case$ -- 47
+chr.to.int$ -- 0
+cite$ -- 48
+duplicate$ -- 425
+empty$ -- 1153
+format.name$ -- 277
+if$ -- 2834
+int.to.chr$ -- 0
+int.to.str$ -- 48
+missing$ -- 48
+newline$ -- 242
+num.names$ -- 48
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 1074
+swap$ -- 47
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 99
+width$ -- 50
+write$ -- 524
+(There were 25 error messages)

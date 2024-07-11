@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .landing-page div {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
