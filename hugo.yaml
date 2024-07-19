@@ -26,12 +26,15 @@ menu:
     - name: "Research"
       url: "/research/"
       weight: 2
+    - name: "Publications"
+      url: "/research/publications"
+      weight: 3
     - name: "Side Projects"
       url: "/side-projects/"
-      weight: 3
+      weight: 4
     - name: "Gaming"
       url: "/gaming/"
-      weight: 4
+      weight: 5
     - name: Search
       params:
         type: search
