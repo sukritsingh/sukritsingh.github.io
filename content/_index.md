@@ -45,15 +45,17 @@ description: "My website"
 {{< /cards >}}
 
 
-## Additional roles:
+## Current roles:
+- I am currently a [__NCI Early Stage K99/R00 Postdoctoral Research Fellow__](https://reporter.nih.gov/search/0mHoWT0-FkizAAPVRMhuqw/project-details/10794822) and [__Damon Runyon Quantitative Biology Fellow__](https://www.damonrunyon.org/news/entries/6716/) at [Memorial Sloan-Kettering Cancer Center](https://www.mskcc.org/) jointly mentored by [John Chodera](https://choderalab.org) and [Markus Seeliger](https://you.stonybrook.edu/mseeligerlab/). 
 - I am a maintainer of the [MDTraj](http://mdtraj.readthedocs.io) python package, which is a widely used tool for analyzing molecular dynamics simulations.
 - I help with science communication efforts as a team member of the [Folding@home](https://foldingathome.org) project. This includes
 helping out with the twitter page as well as the [twitch stream](https://twitch.tv/foldingathomedotorg).
 
-## Education: 
+## Education and Previous Roles: 
 - PhD in [__Computational and Molecular Biophysics__](https://dbbs.wustl.edu/programs/biochemistry-biophysics-structural-biology/) with [Greg Bowman](https://bowmanlab.seas.upenn.edu/)
-    - My thesis work developed approaches to parse protein allostery (how distant amino-acids impact one another) from MD simulations to explain biological mechanism 
+    - Supported by a Millipore-Sigma Fellowship, my thesis work developed approaches to parse protein allostery (how distant amino-acids impact one another) from MD simulations to explain biological mechanism 
     at [Washington University in St. Louis](https://biochem.wustl.edu/) ([Greg is now at UPenn](https://bowmanlab.seas.upenn.edu/)). 
+    - Through Greg's lab, I was also a memeber of the [Folding@home](https://foldingathome.org) project, particularly through the [COVID Moonshot](https://covid.postera.ai/covid) and [exascale computing](https://www.nature.com/articles/s41557-021-00707-0) effort.
 
 - Bachelor's (BA) double majoring in __Chemistry and Biology__ 
 from [Washington University in St. Louis](https://wustl.edu/) 
