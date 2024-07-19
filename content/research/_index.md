@@ -7,13 +7,13 @@ I study how mutations can biophysically impact human health and how protein stru
 
 A list of my publications can be found [here](/research/publications/).
 
-## Background
+## Background: Individually occurring clinical variants are too rare for statistical prediction
 Up to 40% of tumor diagnoses encounter therapeutic resistance in some form, spanning  treatment insensitivity to compensatory mechanisms and more. Modern clinical genomics and precision oncology approaches, pairing optimally effective inhibitors with specific tumor profiles, have helped us link mutations to cancer therapy resistance.
 
 However, across many sequencing efforts a common phenomena emerges: __Individually occurring clinical variants 
-are too infrequent to be able to statistically infer their impact on a tumor.__ Many mutations occur too rarely to know whether the mutation is activating, directly impacts therapy resistance and sensitivity, or has no impact.
+are too infrequent to statistically infer their impact on a tumor.__ In other words, many mutations occur too rarely to know whether the mutation is activating, directly impacts therapy resistance and sensitivity, or has no impact.
 
-__My research focuses on bridging this gap by using biophysics to provide mechanistic information describing clinically observed variants.__ In doing so, I want to build towards __physics-based biomarker identification__ that will enableus to efficiently identify the appropriate treatment for a patient that may have a drug-resistant mutation.
+__My research focuses on bridging this gap using biophysics to provide mechanistic information describing clinically observed variants.__ In doing so, I want to build towards __physics-based biomarker identification__ that will enableus to efficiently identify the appropriate treatment for a patient that may have a drug-resistant mutation.
 
 Structure-based biophysical models promise to help predict the impact of mutations on protein function, as considering the ensemble of structures a protein adopts can provide the necessary mechanistic insight to assess the impact of mutations on function.
 
