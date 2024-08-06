@@ -11,10 +11,12 @@ description: "My website"
         <h2 style="font-size: 24px;">About me</h2>
         <p style="font-size: 18px;">
         I am a <a href="https://www.damonrunyon.org/news/entries/6716/" style="font-size: 18px;">Damon Runyon Quantitative Biology</a> 
-        and <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-22-035.html" style="font-size: 18px;">NCI Early Stage K99/R00 </a> Postdoctoral Research Fellow at Memorial Sloan-Kettering Cancer Center (MSKCC). I work with <a href="https://choderalab.org" style="font-size: 18px;">John Chodera </a> (with joint mentorship from <a href="https://you.stonybrook.edu/mseeligerlab/" style="font-size: 18px;">Markus Seeliger</a>) studying protein dynamics and their relevance in therapeutic resistance. See <a href="/research/" style="font-size: 18px;">my research page</a> for details.
+        and <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-22-035.html" style="font-size: 18px;">NCI Early Stage K99/R00 </a> Postdoctoral Research Fellow at Memorial Sloan-Kettering Cancer Center (MSKCC). I work with <a href="https://choderalab.org" style="font-size: 18px;">John Chodera </a> (with joint mentorship from <a href="https://you.stonybrook.edu/mseeligerlab/" style="font-size: 18px;">Markus Seeliger</a>) studying protein dynamics and their relevance in therapeutic resistance.<br> See <a href="/research/" style="font-size: 18px;">my research page</a> for details.
         </p>
     </div>
 </div>
+
+## I am on the job market for independent faculty positions. Reach out!
 
 ## Contact me
 {{< cards >}}
