@@ -2,10 +2,15 @@
 title: 
 ---
 
-# Building towards physics-based biomarker identification
-I study how mutations can biophysically impact human health and how protein structural ensembles arise and change upon mutation.
+## NOTE: I am on the job market for independent faculty positions. Reach out!
 
-A list of my publications can be found [here](/research/publications/).
+# Building physics driven biomarker pairing 
+My research seeks to establish mechanism-based biomarker pairing; ranking drug options based on **sensitivity, selectivity, and resistance**.
+Rankings will derive from biophysical models built with frontier computational technologies and high throughput experiments that predict the functional impact of patient mutations.
+
+[![image](/research/figures-visuals/research-overview-figure.png)](/research/)
+
+A list of my publications can be found [here](/research/publications/). Read below to see a more details about my research interests.
 
 ## Background: Individually occurring clinical variants are too rare for statistical prediction
 Up to 40% of tumor diagnoses encounter therapeutic resistance in some form, spanning  treatment insensitivity to compensatory mechanisms and more. Modern clinical genomics and precision oncology approaches, pairing optimally effective inhibitors with specific tumor profiles, have helped us link mutations to cancer therapy resistance.
