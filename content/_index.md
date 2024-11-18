@@ -24,25 +24,33 @@ description: "My website"
   title="Email me at sukrit.singh[at]choderalab.org" 
   icon="mail"
   >}}
-  {{< card link="https://x.com/sukritsingh92" 
-  title="Follow me on twitter/X @sukritsingh92"
-  icon="x-twitter"
+  {{< card link="https://bsky.app/profile/sukritsingh92.bsky.social" 
+  title="Follow me on BlueSky @sukritsingh92.bsky.social"
+  icon="device-mobile"
+  >}}
+  {{< card link="https://drive.google.com/file/d/0B22FZczSEqmuWjByenV3TlR6eGM/view?usp=drive_link&resourcekey=0-iKMmxoYZcUAOccXgSOQn1g" 
+  title="My Full CV"
+  icon="academic-cap"
+  >}}
+  {{< card link="https://www.github.com/sukritsingh/" 
+  title="Check out my code on Github @sukritsingh"
+  icon="github"
+  >}}
+  {{< card link="https://scholar.google.com/citations?user=1IHMXzcAAAAJ&hl" 
+  title="Check out my publications on Google Scholar"
+  icon="book-open"
   >}}
   {{< card link="https://www.linkedin.com/in/sukrit-singh-9797587b/" 
   title="Connect with me on LinkedIn"
   icon="linkedin"
   >}}
-  {{< card link="https://www.github.com/sukritsingh/" 
-  title="Follow me on Github @sukritsingh"
-  icon="github"
+  {{< card link="https://www.discord.gg/foldingathome" 
+  title="Chat with me on the Folding@home discord!"
+  icon="discord"
   >}}
-  {{< card link="https://scholar.google.com/citations?user=1IHMXzcAAAAJ&hl" 
-  title="Check out my Google Scholar"
-  icon="book-open"
-  >}}
-  {{< card link="https://drive.google.com/file/d/0B22FZczSEqmuWjByenV3TlR6eGM/view?usp=drive_link&resourcekey=0-iKMmxoYZcUAOccXgSOQn1g" 
-  title="My Full CV"
-  icon="academic-cap"
+  {{< card link="https://x.com/sukritsingh92" 
+  title="Follow me on twitter/X @sukritsingh92"
+  icon="x-twitter"
   >}}
 {{< /cards >}}
 
