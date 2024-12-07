@@ -22,15 +22,20 @@ __My research focuses on bridging this gap using biophysics to provide mechanist
 
 Structure-based biophysical models promise to help predict the impact of mutations on protein function, as considering the ensemble of structures a protein adopts can provide the necessary mechanistic insight to assess the impact of mutations on function.
 
+There are a multitude of mechanisms through which mutations can induce resistance. For example, mutations can directly alter the binding affinity of a ligand to a protein, or they can alter the conformational ensemble a protein adopts.
+<div style="text-align: center;">
+<img src="/research/figures-visuals/mechanisms-figure.png" alt="mechanisms-image" width="900">
+</div>
 
+__My research integrates frontier computational models with biophysical experiments to classify and predict impact of mutations on drug binding, protein activity, and protein conformational ensembles.__
 <div style="text-align: center;">
 <img src="/research/figures-visuals/summary-image.001.jpeg" alt="example-image" width="900">
 </div>
 
-__I approach this problem at three levels:__
+## __I approach this problem at three levels:__
 
-## 1. Parse molecular mechanisms of treatment resistance, susceptibility, and selectivity upon mutation
-__(AKA What is the mechanism through which mutations cause treatment resistance?)__
+## 1. Identify and classify mechanisms of mutation-induced resistance and sensitivity upon mutation
+__(AKA What are the mechanisms through which mutations cause treatment resistance?)__
 
 A clinical mutation may induce resistance by directly decreasing drug binding affinity, increasing protein activity, alter signaling pathways by perturbing protein-protein interactions, or retuning a target's inhibitor sensitivity profile. I combine computation and experimental approaches to study mutation-induced mechanisms through which small-molecule inhibitor resistance may arise. This enables me to build towards models of ligand resistance, susceptibility, and selectivity.
 
@@ -40,8 +45,23 @@ For example: We can study the impact of mutations on ligand binding using [Alche
 <img src="/research/figures-visuals/alchemical-mutation.gif" alt="mutation-image" width="550">
 </div>
 
-## 2. Predict how protein mutations alter conformational ensembles using physics-based models 
-__(AKA How do protein mutations alter conformational states, populations, and transitions?)__ 
+My work pairs these computational approaches with experimental validation to study how mutations may alter protein-ligand interactions. I am currently working to scale up a classic [fluorescence assay from Nick Levinson's group]() to exploit turn-on fluorescence to rapidly and consistently measure kinase-inhibitor binding in a label free manner. For example, the below plot shows fluorescence spectra of p38α kinase with increasing concentrations of Ponatinib, a clinically used kinase inhibitor. 
+<div style="text-align: center;">
+<img src="/research/figures-visuals/2024-june-27_Ponatinib-24well_raw-spectra.png" alt="expt-image" width="700">
+</div>
+
+Taking slices from this emission spectra gives me the following dose response curve:
+<div style="text-align: center;">
+<img src="/research/figures-visuals/2024-06-27_Ponatinib_480nm-fluorescence_corrected.png" alt="expt-curve-image" width="700">
+</div>
+
+I collect these data in a high-throughput manner using liquid handlers and plate readers to rapidly assess kinase-inhibitor pairs, or variant-inhibitor pairs:
+<div style="text-align: center;">
+<img src="/research/figures-visuals/Time Lapse-Src Bos-12494.gif" alt="lab-automation-gif" width="900">
+</div>
+
+## 2. Predict how protein mutations alter conformational ensembles using physics-based models to alter activity
+__(AKA How do protein mutations alter conformational states, populations, and transitions to cause resistance?)__ 
 
 Mutation-induced therapy resistance is driven by changes in the conformational ensemble a protein adopts. To mechanistically model the impact of mutations on protein function, activity, and therapeutic resistance, I leverage long timescale molecular dynamics in conjunction with biophysical experimentation to study how mutations may directly impact protein ensembles. 
 
