@@ -5,7 +5,7 @@ description: "My website"
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
     <div style="flex: 1; min-width: 350px;">
-        <img src="/images/singh-sukrit-headshot.jpg" alt="Headshot" style="max-width: 100%; height: auto; border-radius: 50%;">
+        <img src="/images/singh-sukrit-headshot-2025.jpg" alt="Headshot" style="max-width: 100%; height: auto; border-radius: 50%;">
     </div>
     <div style="flex: 2; min-width: 250px;">
         <h2 style="font-size: 24px;">About me</h2>
@@ -26,7 +26,7 @@ description: "My website"
   >}}
   {{< card link="https://bsky.app/profile/sukritsingh92.bsky.social" 
   title="Follow me on BlueSky @sukritsingh92.bsky.social"
-  icon="device-mobile"
+  icon="bluesky"
   >}}
   {{< card link="https://drive.google.com/file/d/0B22FZczSEqmuWjByenV3TlR6eGM/view?usp=drive_link&resourcekey=0-iKMmxoYZcUAOccXgSOQn1g" 
   title="My Full CV"
