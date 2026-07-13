@@ -1,0 +1,7 @@
+# Optional: build_geojson.py needs only the Python standard library (>=3.8).
+# This env just pins an interpreter for reproducibility.
+name: bevmap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11

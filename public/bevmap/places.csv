@@ -1,0 +1,69 @@
+name,type,neighborhood,address,lat,lon,score1,score2,score3
+Pony Bar,Bar,Upper East Side,,40.7697624,-73.954314,4.1,4.3,4.5
+Center of the World,Bar,Upper East Side,,40.76379,-73.95701,4.5,4.8,4.9
+Obica Mozzarella Bar,Bar,Flatiron,,40.7400479,-73.9893474,4.5,4.6,4.8
+Patent Pending,Bar,Flatiron,,40.7452186,-73.9902413,4.5,4.7,3.5
+Live Axe,Bar,Chinatown,,40.71769,-74.00147,4.7,4.7,4.0
+Lena LES,Bar,Lower East Side,,40.7191105,-73.9915999,4.7,4.3,3.4
+Attaboy,Bar,Lower East Side,,40.71889,-73.99144,4.8,4.8,4.6
+The Gray Mare,Bar,Bowery,,40.71889,-73.99144,4.8,4.5,4.0
+Please Don't Tell,Bar,Bowery,,40.7271211,-73.983769,4.7,4.5,4.0
+William Barnacle Tavern,Bar,Bowery,,40.72764,-73.98576,4.8,4.5,4.6
+The Belfry,Bar,Gramercy Park,,40.73273,-73.9863,4.8,4.0,3.6
+Oscar Wilde,Bar,Gramercy Park,,40.7451365,-73.9900429,3.8,3.0,2.6
+Valerie,Bar,Midtown,,40.7562438,-73.9812159,4.2,4.0,4.0
+The Hunterian,Bar,Upper East Side,,40.7661197,-73.955822,3.5,3.0,3.0
+Horn's Hook Tavern,Bar,Upper East Side,,40.7747898,-73.9511428,3.8,3.0,4.5
+The Penrose,Bar,Upper East Side,,40.7754854,-73.953238,4.2,3.0,4.5
+Pisticci,Bar,Upper East Side,,40.8141743,-73.9603481,4.5,4.0,4.0
+Dive 106,Bar,Upper West Side,,40.8007289,-73.9657309,3.5,3.0,4.5
+Moonrise Izakaya,Bar,Upper West Side,,40.7953361,-73.9696591,4.5,4.0,3.7
+Caledonia UWS,Bar,Upper West Side,,40.7841279,-73.9778793,4.5,4.3,4.2
+Dive 75,Bar,Upper West Side,,40.7795716,-73.9776088,4.2,3.6,3.0
+Terravita,Bar,Washington Heights,,40.8480741,-73.9380293,4.4,4.4,4.0
+Bar 180,Bar,Washington Heights,,40.8497987,-73.936359,4.5,4.5,4.5
+NR,Bar,Upper East Side,,40.7700616,-73.9550189,4.8,4.0,4.8
+Caledonia UES,Bar,Upper East Side,,40.7763,-73.95315,4.8,4.0,4.8
+Union Square Cafe,Bar,Gramercy Park,,40.7377576,-73.9878579,4.8,4.2,3.8
+William Barnacle Tavern,Bar,East Village,,40.7276,-73.98577,4.4,4.2,3.8
+Uptown Garrison,Bar,Washington Heights,,40.85135,-73.93932,4.8,4.5,4.4
+Gramercy Tavern,Bar,Gramercy Park,,40.7383894,-73.988414,4.9,4.9,4.6
+Joey's Yardarm,Bar,Racine,,42.73211,-87.78729,3.8,3.5,3.0
+The Five Lamps,Bar,Upper East Side,,40.77422,-73.94804,3.8,4.0,3.4
+Calico,Bar,Washington DC,,38.90647,-77.02501,4.5,3.8,3.0
+Le Cheile,Bar,Washington Heights,,40.8514544,-73.9400045,4.8,4.2,4.0
+Saggio,Bar,Washington Heights,,40.85137,-73.93958,4.2,4.2,3.5
+The Long Pour,Bar,Tribeca,,40.72966,-73.98716,3.2,3.4,3.0
+The Hamilton,Bar,Morningside Heights,,40.8027402,-73.9642554,4.2,3.8,3.0
+Clinton Hall,Bar,Midtown East,,40.75577,-73.96898,1.0,1.8,2.0
+Thyme Bar,Bar,Flatiron District,,40.74174,-73.99051,4.9,4.8,5.0
+Bar Essen,Bar,Upper East Side,,40.76957,-73.95443,4.0,3.8,3.0
+The Dead Poet,Bar,Upper West Side,,40.7849421,-73.9772607,4.5,4.5,4.0
+Finnegan's Wake,Bar,Upper East Side,,40.7686775,-73.9556375,4.0,4.0,3.5
+Jojo's by Jean Gorges,Bar,Upper East Side,,40.7651273,-73.9656648,4.5,4.5,4.0
+The Jeffrey Craft Beer and Bites,Bar,Upper East Side,,40.76099,-73.96308,4.2,4.2,3.5
+Barrel 79,Bar,Washington Heights,,40.84116,-73.93771,4.4,4.4,4.0
+Fort Washington Public House,Bar,Washington Heights,,40.8389092,-73.9410005,4.4,4.5,3.5
+Bird in Hand,Bar,Harlem,,40.8273279,-73.9501284,4.2,4.3,4.8
+Matto,Coffee,Upper East Side,,40.7654726,-73.9581504,4.0,4.0,4.0
+Buunni Coffee,Coffee,Washington Heights,,40.8551761,-73.9377454,4.0,4.0,4.0
+Forever Coffee Bar,Coffee,Washington Heights,,40.85019,-73.93654,4.5,4.0,3.6
+Cafe Bark,Coffee,Washington Heights,,40.8514351,-73.939853,4.5,4.0,4.6
+Patent Pending,Coffee,Flatiron,,40.7452186,-73.9902413,4.0,4.8,3.5
+The Alley,Coffee,NoHo,,40.7295053,-73.9911197,4.6,3.8,4.5
+Sunburst Espresso Cafe,Coffee,Gramercy Park,,40.7359816,-73.98546,4.7,3.6,4.2
+Gregory's Coffee,Coffee,Upper East Side,,40.76566,-73.95781,4.7,2.6,3.9
+The Hungarian Pastry Shop,Coffee,Morningside Heights,,40.8035851,-73.9636651,4.7,4.6,3.4
+Taszo Specialty Espresso Bar,Coffee,Washington Heights,,40.8345127,-73.945255,4.7,4.3,3.5
+The Plug,Coffee,Washington Heights,,40.83941,-73.93793,4.7,4.6,3.5
+Buunni Cafe Bridge,Coffee,Washington Heights,,40.84902,-73.93914,4.0,4.3,4.2
+Halo Bistro Cafe,Coffee,Washington Heights,,40.8547,-73.93332,3.4,3.4,3.8
+787 Coffee,Coffee,Chelsea,,40.7401,-74.0015,4.8,4.8,4.4
+Pony Bar,happyHour,Upper East Side,,40.7697624,-73.954314,4.4,4.2,3.8
+NR,happyHour,Upper East Side,,40.7700616,-73.9550189,4.8,4.5,3.2
+City Swiggers,happyHour,Upper East Side,,40.7773359,-73.9509133,4.5,na,4.0
+Greats of Craft,happyHour,Midtown East,,40.75636,-73.96464,4.3,3.0,3.6
+Blind Tiger,happyHour,West Village,,40.7318556,-74.0032442,4.5,4.0,4.0
+Uptown Garrison,happyHour,Washington Heights,,40.85135,-73.93932,4.5,4.5,4.5
+Hibernia,happyHour,Hell's Kitchen,,40.7636531,73.9890998,3.5,3.5,3.5
+Le Cheile,happyHour,Washington Heights,,40.8514544,-73.9400045,4.4,4.2,4.0

@@ -13,9 +13,9 @@
       "properties": {
         "name": "Pony Bar",
         "Neighborhood": "Upper East Side",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "4.4",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "3.8"
       }
     },
@@ -31,9 +31,9 @@
       "properties": {
         "name": "NR",
         "Neighborhood": "Upper East Side",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "4.8",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "3.2"
       }
     },
@@ -49,9 +49,9 @@
       "properties": {
         "name": "City Swiggers",
         "Neighborhood": "Upper East Side",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "4.5",
-        "Score2":"na",
+        "Score2": "na",
         "Score3": "4.0"
       }
     },
@@ -67,9 +67,9 @@
       "properties": {
         "name": "Greats of Craft",
         "Neighborhood": "Midtown East",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "4.3",
-        "Score2":"3.0",
+        "Score2": "3.0",
         "Score3": "3.6"
       }
     },
@@ -85,9 +85,9 @@
       "properties": {
         "name": "Blind Tiger",
         "Neighborhood": "West Village",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "4.5",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.0"
       }
     },
@@ -103,9 +103,9 @@
       "properties": {
         "name": "Uptown Garrison",
         "Neighborhood": "Washington Heights",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "4.5",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.5"
       }
     },
@@ -121,9 +121,9 @@
       "properties": {
         "name": "Hibernia",
         "Neighborhood": "Hell's Kitchen",
-        "Type":"happyHour",
+        "Type": "happyHour",
         "Score1": "3.5",
-        "Score2":"3.5",
+        "Score2": "3.5",
         "Score3": "3.5"
       }
     },
@@ -139,9 +139,9 @@
       "properties": {
         "name": "Le Cheile",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "happyHour",
         "Score1": "4.4",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "4.0"
       }
     }

@@ -13,9 +13,9 @@
       "properties": {
         "name": "Matto",
         "Neighborhood": "Upper East Side",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.0",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.0"
       }
     },
@@ -31,9 +31,9 @@
       "properties": {
         "name": "Buunni Coffee",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.0",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.0"
       }
     },
@@ -49,9 +49,9 @@
       "properties": {
         "name": "Forever Coffee Bar",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.5",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "3.6"
       }
     },
@@ -60,16 +60,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9398530,
+          -73.939853,
           40.8514351
         ]
       },
       "properties": {
         "name": "Cafe Bark",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.5",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.6"
       }
     },
@@ -85,9 +85,9 @@
       "properties": {
         "name": "Patent Pending",
         "Neighborhood": "Flatiron",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.0",
-        "Score2":"4.8",
+        "Score2": "4.8",
         "Score3": "3.5"
       }
     },
@@ -103,9 +103,9 @@
       "properties": {
         "name": "The Alley",
         "Neighborhood": "NoHo",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.6",
-        "Score2":"3.8",
+        "Score2": "3.8",
         "Score3": "4.5"
       }
     },
@@ -114,16 +114,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9854600,
+          -73.98546,
           40.7359816
         ]
       },
       "properties": {
         "name": "Sunburst Espresso Cafe",
         "Neighborhood": "Gramercy Park",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.7",
-        "Score2":"3.6",
+        "Score2": "3.6",
         "Score3": "4.2"
       }
     },
@@ -139,9 +139,9 @@
       "properties": {
         "name": "Gregory's Coffee",
         "Neighborhood": "Upper East Side",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.7",
-        "Score2":"2.6",
+        "Score2": "2.6",
         "Score3": "3.9"
       }
     },
@@ -157,9 +157,9 @@
       "properties": {
         "name": "The Hungarian Pastry Shop",
         "Neighborhood": "Morningside Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.7",
-        "Score2":"4.6",
+        "Score2": "4.6",
         "Score3": "3.4"
       }
     },
@@ -168,16 +168,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9452550,
+          -73.945255,
           40.8345127
         ]
       },
       "properties": {
         "name": "Taszo Specialty Espresso Bar",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.7",
-        "Score2":"4.3",
+        "Score2": "4.3",
         "Score3": "3.5"
       }
     },
@@ -193,9 +193,9 @@
       "properties": {
         "name": "The Plug",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.7",
-        "Score2":"4.6",
+        "Score2": "4.6",
         "Score3": "3.5"
       }
     },
@@ -211,9 +211,9 @@
       "properties": {
         "name": "Buunni Cafe Bridge",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.0",
-        "Score2":"4.3",
+        "Score2": "4.3",
         "Score3": "4.2"
       }
     },
@@ -229,9 +229,9 @@
       "properties": {
         "name": "Halo Bistro Cafe",
         "Neighborhood": "Washington Heights",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "3.4",
-        "Score2":"3.4",
+        "Score2": "3.4",
         "Score3": "3.8"
       }
     },
@@ -247,9 +247,9 @@
       "properties": {
         "name": "787 Coffee",
         "Neighborhood": "Chelsea",
-        "Type":"Coffee",
+        "Type": "Coffee",
         "Score1": "4.8",
-        "Score2":"4.8",
+        "Score2": "4.8",
         "Score3": "4.4"
       }
     }
