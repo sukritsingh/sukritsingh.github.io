@@ -13,9 +13,9 @@
       "properties": {
         "name": "Pony Bar",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.1",
-        "Score2":"4.3",
+        "Score2": "4.3",
         "Score3": "4.5"
       }
     },
@@ -31,9 +31,9 @@
       "properties": {
         "name": "Center of the World",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.8",
+        "Score2": "4.8",
         "Score3": "4.9"
       }
     },
@@ -49,9 +49,9 @@
       "properties": {
         "name": "Obica Mozzarella Bar",
         "Neighborhood": "Flatiron",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.6",
+        "Score2": "4.6",
         "Score3": "4.8"
       }
     },
@@ -67,9 +67,9 @@
       "properties": {
         "name": "Patent Pending",
         "Neighborhood": "Flatiron",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.7",
+        "Score2": "4.7",
         "Score3": "3.5"
       }
     },
@@ -85,9 +85,9 @@
       "properties": {
         "name": "Live Axe",
         "Neighborhood": "Chinatown",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.7",
-        "Score2":"4.7",
+        "Score2": "4.7",
         "Score3": "4.0"
       }
     },
@@ -97,15 +97,15 @@
         "type": "Point",
         "coordinates": [
           -73.9915999,
-           40.7191105
+          40.7191105
         ]
       },
       "properties": {
         "name": "Lena LES",
         "Neighborhood": "Lower East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.7",
-        "Score2":"4.3",
+        "Score2": "4.3",
         "Score3": "3.4"
       }
     },
@@ -115,15 +115,15 @@
         "type": "Point",
         "coordinates": [
           -73.99144,
-           40.71889
+          40.71889
         ]
       },
       "properties": {
         "name": "Attaboy",
         "Neighborhood": "Lower East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.8",
+        "Score2": "4.8",
         "Score3": "4.6"
       }
     },
@@ -133,15 +133,15 @@
         "type": "Point",
         "coordinates": [
           -73.99144,
-           40.71889
+          40.71889
         ]
       },
       "properties": {
         "name": "The Gray Mare",
         "Neighborhood": "Bowery",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.0"
       }
     },
@@ -150,16 +150,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9837690,
+          -73.983769,
           40.7271211
         ]
       },
       "properties": {
         "name": "Please Don't Tell",
         "Neighborhood": "Bowery",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.7",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.0"
       }
     },
@@ -175,9 +175,9 @@
       "properties": {
         "name": "William Barnacle Tavern",
         "Neighborhood": "Bowery",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.6"
       }
     },
@@ -193,9 +193,9 @@
       "properties": {
         "name": "The Belfry",
         "Neighborhood": "Gramercy Park",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "3.6"
       }
     },
@@ -211,9 +211,9 @@
       "properties": {
         "name": "Oscar Wilde",
         "Neighborhood": "Gramercy Park",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.8",
-        "Score2":"3.0",
+        "Score2": "3.0",
         "Score3": "2.6"
       }
     },
@@ -229,9 +229,9 @@
       "properties": {
         "name": "Valerie",
         "Neighborhood": "Midtown",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.0"
       }
     },
@@ -240,16 +240,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9558220,
+          -73.955822,
           40.7661197
         ]
       },
       "properties": {
         "name": "The Hunterian",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.5",
-        "Score2":"3.0",
+        "Score2": "3.0",
         "Score3": "3.0"
       }
     },
@@ -265,9 +265,9 @@
       "properties": {
         "name": "Horn's Hook Tavern",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.8",
-        "Score2":"3.0",
+        "Score2": "3.0",
         "Score3": "4.5"
       }
     },
@@ -276,16 +276,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9532380,
+          -73.953238,
           40.7754854
         ]
       },
       "properties": {
         "name": "The Penrose",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"3.0",
+        "Score2": "3.0",
         "Score3": "4.5"
       }
     },
@@ -301,9 +301,9 @@
       "properties": {
         "name": "Pisticci",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.0"
       }
     },
@@ -319,9 +319,9 @@
       "properties": {
         "name": "Dive 106",
         "Neighborhood": "Upper West Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.5",
-        "Score2":"3.0",
+        "Score2": "3.0",
         "Score3": "4.5"
       }
     },
@@ -337,9 +337,9 @@
       "properties": {
         "name": "Moonrise Izakaya",
         "Neighborhood": "Upper West Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "3.7"
       }
     },
@@ -355,9 +355,9 @@
       "properties": {
         "name": "Caledonia UWS",
         "Neighborhood": "Upper West Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.3",
+        "Score2": "4.3",
         "Score3": "4.2"
       }
     },
@@ -373,9 +373,9 @@
       "properties": {
         "name": "Dive 75",
         "Neighborhood": "Upper West Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"3.6",
+        "Score2": "3.6",
         "Score3": "3.0"
       }
     },
@@ -391,9 +391,9 @@
       "properties": {
         "name": "Terravita",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.4",
-        "Score2":"4.4",
+        "Score2": "4.4",
         "Score3": "4.0"
       }
     },
@@ -402,16 +402,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9363590,
+          -73.936359,
           40.8497987
         ]
       },
       "properties": {
         "name": "Bar 180",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.5"
       }
     },
@@ -427,9 +427,9 @@
       "properties": {
         "name": "NR",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.8"
       }
     },
@@ -445,9 +445,9 @@
       "properties": {
         "name": "Caledonia UES",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "4.8"
       }
     },
@@ -463,9 +463,9 @@
       "properties": {
         "name": "Union Square Cafe",
         "Neighborhood": "Gramercy Park",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "3.8"
       }
     },
@@ -481,9 +481,9 @@
       "properties": {
         "name": "William Barnacle Tavern",
         "Neighborhood": "East Village",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.4",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "3.8"
       }
     },
@@ -499,9 +499,9 @@
       "properties": {
         "name": "Uptown Garrison",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.4"
       }
     },
@@ -510,16 +510,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9884140,
+          -73.988414,
           40.7383894
         ]
       },
       "properties": {
         "name": "Gramercy Tavern",
         "Neighborhood": "Gramercy Park",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.9",
-        "Score2":"4.9",
+        "Score2": "4.9",
         "Score3": "4.6"
       }
     },
@@ -535,9 +535,9 @@
       "properties": {
         "name": "Joey's Yardarm",
         "Neighborhood": "Racine",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.8",
-        "Score2":"3.5",
+        "Score2": "3.5",
         "Score3": "3.0"
       }
     },
@@ -553,9 +553,9 @@
       "properties": {
         "name": "The Five Lamps",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.8",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "3.4"
       }
     },
@@ -571,9 +571,9 @@
       "properties": {
         "name": "Calico",
         "Neighborhood": "Washington DC",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"3.8",
+        "Score2": "3.8",
         "Score3": "3.0"
       }
     },
@@ -589,9 +589,9 @@
       "properties": {
         "name": "Le Cheile",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.8",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "4.0"
       }
     },
@@ -607,9 +607,9 @@
       "properties": {
         "name": "Saggio",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "3.5"
       }
     },
@@ -625,9 +625,9 @@
       "properties": {
         "name": "The Long Pour",
         "Neighborhood": "Tribeca",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "3.2",
-        "Score2":"3.4",
+        "Score2": "3.4",
         "Score3": "3.0"
       }
     },
@@ -643,9 +643,9 @@
       "properties": {
         "name": "The Hamilton",
         "Neighborhood": "Morningside Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"3.8",
+        "Score2": "3.8",
         "Score3": "3.0"
       }
     },
@@ -661,9 +661,9 @@
       "properties": {
         "name": "Clinton Hall",
         "Neighborhood": "Midtown East",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "1.0",
-        "Score2":"1.8",
+        "Score2": "1.8",
         "Score3": "2.0"
       }
     },
@@ -679,9 +679,9 @@
       "properties": {
         "name": "Thyme Bar",
         "Neighborhood": "Flatiron District",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.9",
-        "Score2":"4.8",
+        "Score2": "4.8",
         "Score3": "5.0"
       }
     },
@@ -697,9 +697,9 @@
       "properties": {
         "name": "Bar Essen",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.0",
-        "Score2":"3.8",
+        "Score2": "3.8",
         "Score3": "3.0"
       }
     },
@@ -715,9 +715,9 @@
       "properties": {
         "name": "The Dead Poet",
         "Neighborhood": "Upper West Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.0"
       }
     },
@@ -733,9 +733,9 @@
       "properties": {
         "name": "Finnegan's Wake",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.0",
-        "Score2":"4.0",
+        "Score2": "4.0",
         "Score3": "3.5"
       }
     },
@@ -751,9 +751,9 @@
       "properties": {
         "name": "Jojo's by Jean Gorges",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.5",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "4.0"
       }
     },
@@ -769,9 +769,9 @@
       "properties": {
         "name": "The Jeffrey Craft Beer and Bites",
         "Neighborhood": "Upper East Side",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"4.2",
+        "Score2": "4.2",
         "Score3": "3.5"
       }
     },
@@ -787,9 +787,9 @@
       "properties": {
         "name": "Barrel 79",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.4",
-        "Score2":"4.4",
+        "Score2": "4.4",
         "Score3": "4.0"
       }
     },
@@ -805,9 +805,9 @@
       "properties": {
         "name": "Fort Washington Public House",
         "Neighborhood": "Washington Heights",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.4",
-        "Score2":"4.5",
+        "Score2": "4.5",
         "Score3": "3.5"
       }
     },
@@ -823,9 +823,9 @@
       "properties": {
         "name": "Bird in Hand",
         "Neighborhood": "Harlem",
-        "Type":"Bar",
+        "Type": "Bar",
         "Score1": "4.2",
-        "Score2":"4.3",
+        "Score2": "4.3",
         "Score3": "4.8"
       }
     }
