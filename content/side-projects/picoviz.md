@@ -12,10 +12,10 @@ Click on the links to view the visualizations in a new tab. A sample visualizati
 ## Sample Visualization: A kinase undergoing a "DFG-flip"
 
 Give it a moment to load. Use your cursor to click and drag to rotate the molecule.
-<iframe src="/picoviz/dfg-flip-spheres.html" style="width: 100%; height: 500px; border: none;"></iframe>
+<iframe src="/picoviz-website/dfg-flip-spheres.html" style="width: 100%; height: 500px; border: none;"></iframe>
 
-## Other interactive visualizations
+## Other sample interactive visualizations
 
-- [Menin + Revumenib ligand](/picoviz/menin-revumenib.html)
-- [Abl kinase DFG-flip](/picoviz/dfg-flip_high.html)
-- [Abl kinase DFG-flip with spheres](/picoviz/dfg-flip-spheres.html)
+- [Menin + Revumenib ligand](/picoviz-website/menin-revumenib.html)
+- [Abl kinase DFG-flip](/picoviz-website/dfg-flip_high.html)
+- [Abl kinase DFG-flip with spheres](/picoviz-website/dfg-flip-spheres.html)
