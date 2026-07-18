@@ -101,5 +101,30 @@ Contributions are welcome!&lt;/p&gt;
       </description>
     </item>
     
+    <item>
+      <title>PicoViz - a lightweight online molecular viewer</title>
+      <link>http://localhost:1313/side-projects/picoviz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/side-projects/picoviz/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;PicoViz Visualizations&lt;/h1&gt;&lt;p&gt;This page contains links to visualizations created using &lt;a href=&#34;https://github.com/sukritsingh/PicoViz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PicoViz&lt;/a&gt;&lt;br&gt;
+Contributions are welcome!&lt;/p&gt;
+&lt;p&gt;Click on the links to view the visualizations in a new tab. A sample visualization is below.&lt;/p&gt;
+&lt;h2&gt;Sample Visualization: A kinase undergoing a &amp;ldquo;DFG-flip&amp;rdquo;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sample-visualization-a-kinase-undergoing-a-dfg-flip&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sample-visualization-a-kinase-undergoing-a-dfg-flip&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Give it a moment to load. Use your cursor to click and drag to rotate the molecule.&lt;/p&gt;
+&lt;iframe src=&#34;http://localhost:1313/picoviz/dfg-flip-spheres.html&#34; style=&#34;width: 100%; height: 500px; border: none;&#34;&gt;&lt;/iframe&gt;
+&lt;h2&gt;Other interactive visualizations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;other-interactive-visualizations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#other-interactive-visualizations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/picoviz/menin-revumenib.html&#34; &gt;Menin + Revumenib ligand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/picoviz/dfg-flip_high.html&#34; &gt;Abl kinase DFG-flip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/picoviz/dfg-flip-spheres.html&#34; &gt;Abl kinase DFG-flip with spheres&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
