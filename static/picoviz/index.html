@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PicoViz examples</title>
+<style>
+  body { font-family: -apple-system, Helvetica, Arial, sans-serif; margin: 40px auto;
+         max-width: 820px; line-height: 1.5; color: #222; padding: 0 16px; }
+  h1 { margin-bottom: 4px; }
+  .sub { color: #666; margin-top: 0; }
+  ul { padding-left: 20px; }
+  li { margin: 12px 0; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; }
+  .size { color: #2a7; font-weight: 600; }
+  .frame { width: 100%; height: 480px; border: 1px solid #ddd; border-radius: 8px; margin-top: 24px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #ddd; } code { background: #333; }
+    .frame { border-color: #444; } .sub { color: #999; }
+  }
+</style>
+</head>
+<body>
+  <h1>PicoViz examples</h1>
+  <p class="sub">Lightweight, self-contained molecular visualizations — ribbons, spheres,
+     surfaces, and trajectories with no 3DMol.js and no CDN.</p>
+  <ul>
+    <li><a href="menin-revumenib.html">Menin + Revumenib</a> — spectrum ribbon cartoon,
+        ligand sticks, and a translucent molecular surface with a label.
+        <span class="size">177 KB</span> <span class="sub">(vs 594 KB with 3DMol.js)</span></li>
+    <li><a href="dfg-flip.html">Abl kinase DFG-flip</a> — 126-frame trajectory, spectrum ribbon
+        with PHE157 highlighted as sticks.
+        <span class="size">4.6 MB</span> <span class="sub">(vs 45.6 MB with 3DMol.js)</span></li>
+    <li><a href="dfg-flip-spheres.html">Abl kinase DFG-flip (spheres)</a> — 126-frame trajectory,
+        gray ribbon with PHE157 as green spheres.
+        <span class="size">4.6 MB</span> <span class="sub">(vs 45.6 MB with 3DMol.js)</span></li>
+  </ul>
+  <p>Higher-detail builds (same data, more polygons, ~no size change):
+     <a href="menin-revumenib_ultra.html">menin (ultra)</a> ·
+     <a href="dfg-flip_high.html">DFG-flip (high)</a>.</p>
+  <p>Drag to rotate, scroll to zoom, right-drag to pan. Trajectories play automatically; use the
+     slider to scrub. Generate your own with
+     <code>picoviz build input.xtc --top top.pdb -o out.html</code>.</p>
+  <iframe class="frame" src="menin-revumenib.html" title="Menin + Revumenib"></iframe>
+</body>
+</html>
