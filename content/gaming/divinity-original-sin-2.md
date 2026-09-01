@@ -77,3 +77,15 @@ CAREFUL. POTENTIAL SPOILERS BELOW.
 - The amount of preparation/foresight you can have in exploring the map is incredible. What's even cooler is how much the game rewards you taking the time to explore your options, and thinking about best tactical approach to an encounter
 - Speaking of encounters, this talking well which trades epic items for 150 gold is *really* exploitable - not sure if that's on purpose or not. 
 - HOLY SHIT GIANT WORM 
+
+2026 Update: I have beaten the game at long last a couple of times. I think all I want to briefly say
+at this point the following things about this game: 
+
+1. There are fewer games as mechanically crunchy, and environmentally dense, as DOS2. The 
+amount of options you have to approach any combat or scenario is mind-boggling.
+2. This game respects cheese in many ways. It doesn't punish you for being clever, and 
+it lets you get away with things that should normally soft-lock you. 
+3. A key part above is the lack of soft-locking. You can truly go through this game as 
+*you* want. You are not beholden to a single path (and only rarely are you really punished for going off the rails).
+4. The characters are so memorable and the dialogue really brings them to life. There are 
+few games that tackle such dark themes in as memorable or as mature a fashion. 

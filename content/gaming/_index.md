@@ -12,20 +12,26 @@ You're welcome to check out my Steam or Xbox Live profiles, but I mostly play on
 Sometimes, to help raise awareness, a few friends and I will stream our game nights on the [Folding@home twitch stream](twitch.tv/foldingathomedotorg). 
 We are affiliate status, so you can donate to the F@h research efforts, and all your donations/subs will go directly towards supporting science!
 
-## What am I playing right now: 
+## An (incomplete) list of games I am playing or have finished (that stuck with me): 
 
 | Game                     | Status                              |
 |--------------------------|-------------------------------------|
-| Another Crab's Treasure  | Completed (Coming soon!)            |
-| Divinity Original Sin 2  | In progress                         |
-| Elden Ring               | In progress                         |
+| Expedition 33            | Completed                           |
+| Divinity Original Sin 2  | Completed                           |
+| Hades 1                  | Completed                           |
+| Spiderman 1 and 2        | Completed                           |
+| Baldur's Gate 3          | Completed                           |
 | Hades 2                  | In progress                         |
-| Baldur's Gate 3          | Completed and Playing (Coming Soon) |
-
+| Halo 1: Campaign Evolved | In progress                         |
+| Oblivion Remake          | In progress                         |
 
 ## My reviews and thoughts: 
 
 {{< cards >}}
+  {{< card link="/gaming/baldurs-gate-3/" 
+  title="Baldur's Gate 3"
+  icon="desktop-computer"
+  >}}
   {{< card link="/gaming/divinity-original-sin-2/" 
   title="Divinity: Original Sin2 - Live thoughts"
   icon="desktop-computer"
