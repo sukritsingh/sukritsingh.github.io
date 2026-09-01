@@ -16,7 +16,10 @@ description: "My website"
     </div>
 </div>
 
-## I am on the job market for independent faculty positions. Reach out!
+# The Singh Lab is coming in 2027 -- Reach out if you want to join!
+![reach out to join us!](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
+
+
 
 ## Contact me
 {{< cards >}}

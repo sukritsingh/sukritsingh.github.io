@@ -2,9 +2,16 @@
 title: 
 ---
 
-## NOTE: I am on the job market for independent faculty positions. Reach out!
+# NOTE: Singh Lab coming in 2027. Reach out if you want to join us, fund us, or collab!
+![reach out to join us!](/images/singhlab_dynamics_lockup_knockout_transparent.gif)
 
-# Building physics driven biomarker pairing 
+# NOTE: The page below is outdated (before my job search).
+
+# Instead, check out our lab website: [singhlab.bio](https://singhlab.bio)
+
+------------------------------ 
+
+## Deprecated: Building physics driven biomarker pairing 
 My research seeks to establish mechanism-based biomarker pairing; ranking drug options based on **sensitivity, selectivity, and resistance**.
 Rankings will derive from biophysical models built with frontier computational technologies and high throughput experiments that predict the functional impact of patient mutations.
 
