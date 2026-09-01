@@ -3,10 +3,10 @@
 // Change shortcut key to cmd+k on Mac, iPad or iPhone.
 document.addEventListener("DOMContentLoaded", function () {
   if (/iPad|iPhone|Macintosh/.test(navigator.userAgent)) {
-    // select the kbd element under the .search-wrapper class
-    const keys = document.querySelectorAll(".search-wrapper kbd");
+    // select the kbd element under the .hextra-search-wrapper class
+    const keys = document.querySelectorAll(".hextra-search-wrapper kbd");
     keys.forEach(key => {
-      key.innerHTML = '<span class="hx-text-xs">⌘</span>K';
+      key.innerHTML = '<span class="hx:text-xs">⌘</span>K';
     });
   }
 });
@@ -19,8 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 (function () {
   const searchDataURL = '/en.search-data.json';
+  const resultsFoundTemplate = '%d results found';
 
-  const inputElements = document.querySelectorAll('.search-input');
+  const inputElements = document.querySelectorAll('.hextra-search-input');
   for (const el of inputElements) {
     el.addEventListener('focus', init);
     el.addEventListener('keyup', search);
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     el.addEventListener('input', handleInputChange);
   }
 
-  const shortcutElements = document.querySelectorAll('.search-wrapper kbd');
+  const shortcutElements = document.querySelectorAll('.hextra-search-wrapper kbd');
 
   function setShortcutElementsOpacity(opacity) {
     shortcutElements.forEach(el => {
@@ -43,12 +44,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Get the search wrapper, input, and results elements.
   function getActiveSearchElement() {
-    const inputs = Array.from(document.querySelectorAll('.search-wrapper')).filter(el => el.clientHeight > 0);
+    const inputs = Array.from(document.querySelectorAll('.hextra-search-wrapper')).filter(el => el.clientHeight > 0);
     if (inputs.length === 1) {
       return {
         wrapper: inputs[0],
-        inputElement: inputs[0].querySelector('.search-input'),
-        resultsElement: inputs[0].querySelector('.search-results')
+        inputElement: inputs[0].querySelector('.hextra-search-input'),
+        resultsElement: inputs[0].querySelector('.hextra-search-results')
       };
     }
     return undefined;
@@ -101,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const { resultsElement } = getActiveSearchElement();
     if (!resultsElement) return { result: undefined, index: -1 };
 
-    const result = resultsElement.querySelector('.active');
+    const result = resultsElement.querySelector('.hextra-search-active');
     if (!result) return { result: undefined, index: -1 };
 
     const index = parseInt(result.dataset.index, 10);
@@ -114,10 +115,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!resultsElement) return;
 
     const { result: activeResult } = getActiveResult();
-    activeResult && activeResult.classList.remove('active');
+    activeResult && activeResult.classList.remove('hextra-search-active');
     const result = resultsElement.querySelector(`[data-index="${index}"]`);
     if (result) {
-      result.classList.add('active');
+      result.classList.add('hextra-search-active');
       result.focus();
     }
   }
@@ -141,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function hideSearchResults() {
     const { resultsElement } = getActiveSearchElement();
     if (!resultsElement) return;
-    resultsElement.classList.add('hx-hidden');
+    resultsElement.classList.add('hx:hidden');
   }
 
   // Handle keyboard events.
@@ -194,18 +195,16 @@ document.addEventListener("DOMContentLoaded", function () {
   async function preloadIndex() {
     const tokenize = 'forward';
 
-    const isCJK = () => {
-      const lang = document.documentElement.lang || "en";
-      return lang.startsWith("zh") || lang.startsWith("ja") || lang.startsWith("ko");
-    }
-
-    const encodeCJK = (str) => str.replace(/[\x00-\x7F]/g, "").split("");
-    const encodeDefault = (str) => (""+str).toLocaleLowerCase().split(/[\p{Z}\p{S}\p{P}\p{C}]+/u);
-    const encodeFunction = isCJK() ? encodeCJK : encodeDefault;
+    // https://github.com/TryGhost/Ghost/pull/21148
+    const regex = new RegExp(
+      `[\u{4E00}-\u{9FFF}\u{3040}-\u{309F}\u{30A0}-\u{30FF}\u{AC00}-\u{D7A3}\u{3400}-\u{4DBF}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B73F}\u{2B740}-\u{2B81F}\u{2B820}-\u{2CEAF}\u{2CEB0}-\u{2EBEF}\u{30000}-\u{3134F}\u{31350}-\u{323AF}\u{2EBF0}-\u{2EE5F}\u{F900}-\u{FAFF}\u{2F800}-\u{2FA1F}]|[0-9A-Za-zа-я\u00C0-\u017F\u0400-\u04FF\u0600-\u06FF\u0980-\u09FF\u1E00-\u1EFF\u0590-\u05FF]+`,
+      'mug'
+    );
+    const encode = (str) => { return ('' + str).toLowerCase().match(regex) ?? []; }
 
     window.pageIndex = new FlexSearch.Document({
       tokenize,
-      encode: encodeFunction,
+      encode,
       cache: 100,
       document: {
         id: 'id',
@@ -216,13 +215,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.sectionIndex = new FlexSearch.Document({
       tokenize,
-      encode: encodeFunction,
+      encode,
       cache: 100,
       document: {
         id: 'id',
         store: ['title', 'content', 'url', 'display', 'crumb'],
         index: "content",
-        tag: 'pageId'
+        tag: [{
+          field: "pageId"
+        }]
       }
     });
 
@@ -235,14 +236,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const urlParts = route.split('/').filter(x => x != "" && !x.startsWith('#'));
 
       let crumb = '';
-      let searchUrl = '/'
+      let searchUrl = '/';
       for (let i = 0; i < urlParts.length; i++) {
         const urlPart = urlParts[i];
         searchUrl += urlPart + '/'
 
         const crumbData = data[searchUrl];
         if (!crumbData) {
-          console.warn('Excluded page', searchUrl, '- will not be included for search result breadcrumb for', route);
+          console.debug('Excluded page', searchUrl, '- will not be included for search result breadcrumb for', route);
           continue;
         }
 
@@ -314,9 +315,12 @@ document.addEventListener("DOMContentLoaded", function () {
     while (resultsElement.firstChild) {
       resultsElement.removeChild(resultsElement.firstChild);
     }
-    resultsElement.classList.remove('hx-hidden');
+    resultsElement.classList.remove('hx:hidden');
 
-    const pageResults = window.pageIndex.search(query, 5, { enrich: true, suggest: true })[0]?.result || [];
+    // Configurable search limits with sensible defaults
+    const maxPageResults = parseInt('20', 10);
+    const maxSectionResults = parseInt('10', 10);
+    const pageResults = window.pageIndex.search(query, maxPageResults, { enrich: true, suggest: true })[0]?.result || [];
 
     const results = [];
     const pageTitleMatches = {};
@@ -325,12 +329,13 @@ document.addEventListener("DOMContentLoaded", function () {
       const result = pageResults[i];
       pageTitleMatches[i] = 0;
 
-      // Show the top 5 results for each page
-      const sectionResults = window.sectionIndex.search(query, 5, { enrich: true, suggest: true, tag: `page_${result.id}` })[0]?.result || [];
+      const sectionResults = window.sectionIndex.search(query,
+        { enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
       let isFirstItemOfPage = true
       const occurred = {}
 
-      for (let j = 0; j < sectionResults.length; j++) {
+      const nResults = Math.min(sectionResults.length, maxSectionResults);
+      for (let j = 0; j < nResults; j++) {
         const { doc } = sectionResults[j]
         const isMatchingTitle = doc.display !== undefined
         if (isMatchingTitle) {
@@ -382,32 +387,56 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!resultsElement) return;
 
     if (!results.length) {
-      resultsElement.innerHTML = `<span class="no-result">No results found.</span>`;
+      resultsElement.innerHTML = `<span class="hextra-search-no-result">No results found.</span>`;
+      // Announce no results to screen readers
+      const wrapper = resultsElement.closest('.hextra-search-wrapper');
+      const statusEl = wrapper ? wrapper.querySelector('.hextra-search-status') : null;
+      if (statusEl) {
+        statusEl.textContent = 'No results found.';
+      }
       return;
     }
 
-    // Highlight the query in the result text.
-    function highlightMatches(text, query) {
-      const escapedQuery = query.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
-      const regex = new RegExp(escapedQuery, 'gi');
-      return text.replace(regex, (match) => `<span class="match">${match}</span>`);
-    }
+    // Append text with highlighted matches using safe text nodes.
+    function appendHighlightedText(container, text, query) {
+      if (!text) return;
+      if (!query) {
+        container.textContent = text;
+        return;
+      }
 
-    // Create a DOM element from the HTML string.
-    function createElement(str) {
-      const div = document.createElement('div');
-      div.innerHTML = str.trim();
-      return div.firstChild;
+      const escapedQuery = query.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
+      if (!escapedQuery) {
+        container.textContent = text;
+        return;
+      }
+
+      const regex = new RegExp(escapedQuery, 'gi');
+      let lastIndex = 0;
+      let match;
+      while ((match = regex.exec(text)) !== null) {
+        if (match.index > lastIndex) {
+          container.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+        }
+        const span = document.createElement('span');
+        span.className = 'hextra-search-match';
+        span.textContent = match[0];
+        container.appendChild(span);
+        lastIndex = match.index + match[0].length;
+      }
+      if (lastIndex < text.length) {
+        container.appendChild(document.createTextNode(text.slice(lastIndex)));
+      }
     }
 
     function handleMouseMove(e) {
       const target = e.target.closest('a');
       if (target) {
-        const active = resultsElement.querySelector('a.active');
+        const active = resultsElement.querySelector('a.hextra-search-active');
         if (active) {
-          active.classList.remove('active');
+          active.classList.remove('hextra-search-active');
         }
-        target.classList.add('active');
+        target.classList.add('hextra-search-active');
       }
     }
 
@@ -415,23 +444,47 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 0; i < results.length; i++) {
       const result = results[i];
       if (result.prefix) {
-        fragment.appendChild(createElement(`
-          <div class="prefix">${result.prefix}</div>`));
+        const prefix = document.createElement('div');
+        prefix.className = 'hextra-search-prefix';
+        prefix.textContent = result.prefix;
+        fragment.appendChild(prefix);
       }
-      let li = createElement(`
-        <li>
-          <a data-index="${i}" href="${result.route}" class=${i === 0 ? "active" : ""}>
-            <div class="title">`+ highlightMatches(result.children.title, query) + `</div>` +
-        (result.children.content ?
-          `<div class="excerpt">` + highlightMatches(result.children.content, query) + `</div>` : '') + `
-          </a>
-        </li>`);
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.dataset.index = i;
+      link.href = result.route;
+      if (i === 0) {
+        link.classList.add('hextra-search-active');
+      }
+
+      const title = document.createElement('div');
+      title.className = 'hextra-search-title';
+      appendHighlightedText(title, result.children.title, query);
+      link.appendChild(title);
+
+      if (result.children.content) {
+        const excerpt = document.createElement('div');
+        excerpt.className = 'hextra-search-excerpt';
+        appendHighlightedText(excerpt, result.children.content, query);
+        link.appendChild(excerpt);
+      }
+
+      li.appendChild(link);
       li.addEventListener('mousemove', handleMouseMove);
       li.addEventListener('keydown', handleKeyDown);
-      li.querySelector('a').addEventListener('click', finishSearch);
+      link.addEventListener('click', finishSearch);
       fragment.appendChild(li);
     }
     resultsElement.appendChild(fragment);
     resultsElement.dataset.count = results.length;
+
+    // Announce results count to screen readers
+    const wrapper = resultsElement.closest('.hextra-search-wrapper');
+    const statusEl = wrapper ? wrapper.querySelector('.hextra-search-status') : null;
+    if (statusEl) {
+      statusEl.textContent = results.length > 0
+        ? resultsFoundTemplate.replace('%d', results.length.toString())
+        : 'No results found.';
+    }
   }
 })();
