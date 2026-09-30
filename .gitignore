@@ -4,4 +4,6 @@ _drafts/
 grimoire.sublime*
 .sass-cache/
 .jekyll-cache/
-public/
+
+# Hugo build output — never commit this
+/public/
