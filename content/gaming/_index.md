@@ -21,13 +21,18 @@ We are affiliate status, so you can donate to the F@h research efforts, and all 
 | Hades 1                  | Completed                           |
 | Spiderman 1 and 2        | Completed                           |
 | Baldur's Gate 3          | Completed                           |
+| Halo 1: Campaign Evolved | Completed                           |
 | Hades 2                  | In progress                         |
-| Halo 1: Campaign Evolved | In progress                         |
+| Valheim                  | In progress                         |
 | Oblivion Remake          | In progress                         |
 
 ## My reviews and thoughts: 
 
 {{< cards >}}
+  {{< card link="/gaming/valheim/" 
+  title="Valheim"
+  icon="desktop-computer"
+  >}}
   {{< card link="/gaming/baldurs-gate-3/" 
   title="Baldur's Gate 3"
   icon="desktop-computer"
